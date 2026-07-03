@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科技 × AI 每日热点 · 2026-07-03</title>
+<style>
+  :root{
+    --bg:#0B0F1A; --bg-card:rgba(255,255,255,.04); --border:rgba(255,255,255,.08);
+    --text:#E6EAF2; --muted:#8A93A6; --accent:#22D3EE; --accent2:#A78BFA;
+    --grad:linear-gradient(135deg,#22D3EE 0%,#A78BFA 100%);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);background-image:radial-gradient(900px 500px at 80% -10%,rgba(167,139,250,.15),transparent),radial-gradient(700px 400px at 0% 0%,rgba(34,211,238,.12),transparent);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6;padding:24px}
+  .wrap{max-width:1080px;margin:0 auto}
+  header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:22px}
+  .brand{display:flex;align-items:center;gap:14px}
+  .logo{width:46px;height:46px;border-radius:13px;background:var(--grad);display:flex;align-items:center;justify-content:center;font-size:24px;box-shadow:0 8px 24px rgba(34,211,238,.3)}
+  h1{font-size:24px;font-weight:700}
+  .sub{color:var(--muted);font-size:13px}
+  .date-pill{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--bg-card);border:1px solid var(--border);padding:8px 14px;border-radius:999px;font-size:13px;color:var(--muted)}
+  .editorial{background:var(--bg-card);border:1px solid var(--border);backdrop-filter:blur(10px);border-radius:18px;padding:20px 22px;margin-bottom:22px}
+  .editorial h2{font-size:15px;color:var(--accent);margin-bottom:12px;letter-spacing:.5px}
+  .editorial ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+  .editorial li{font-size:15px;padding-left:18px;position:relative}
+  .editorial li::before{content:"▸";position:absolute;left:0;color:var(--accent2)}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .card{background:var(--bg-card);border:1px solid var(--border);backdrop-filter:blur(10px);border-radius:18px;padding:18px 20px;transition:transform .15s,border-color .15s}
+  .card:hover{transform:translateY(-2px);border-color:rgba(34,211,238,.35)}
+  .card h3{font-size:16px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .card ol{list-style:none;counter-reset:rank;display:flex;flex-direction:column;gap:9px}
+  .card li{counter-increment:rank;display:flex;gap:10px;align-items:baseline;font-size:14px}
+  .card li::before{content:counter(rank);flex:0 0 auto;width:20px;height:20px;border-radius:6px;background:rgba(255,255,255,.06);color:var(--muted);font-size:11px;display:flex;align-items:center;justify-content:center;font-family:ui-monospace,monospace}
+  .card a{color:var(--text);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s,color .15s}
+  .card a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+  .score{color:var(--accent);font-size:12px;font-family:ui-monospace,monospace;white-space:nowrap}
+  .extra{color:var(--muted);font-size:12px}
+  .empty{color:var(--muted);font-style:italic;font-size:13px}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:26px;font-family:ui-monospace,monospace}
+  @media (max-width:720px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">🤖</div>
+      <div>
+        <h1>科技 × AI 每日热点</h1>
+        <div class="sub">Daily Tech &amp; AI Digest</div>
+      </div>
+    </div>
+    <div class="date-pill">2026-07-03 周五</div>
+  </header>
+
+  
+  <section class="editorial">
+    <h2>📌 今日要点 · AI 编辑</h2>
+    <ul>
+      
+      <li>Virginia 通过立法禁止地理位置数据销售，加强用户隐私保护</li>
+      
+      <li>V2EX 热议 vibe coding 项目失控问题，AI 辅助编程引发团队管理担忧</li>
+      
+      <li>Podman v6.0.0 发布，容器工具迎来重大版本更新</li>
+      
+      <li>瑞士拥有 25Gbps 互联网而美国没有，引发网络基础设施差距讨论</li>
+      
+      <li>掘金社区分享 AI 开发实践：Claude Code Skills 与 MCP 提升效率、AI 小游戏上线</li>
+      
+    </ul>
+  </section>
+  
+
+  <div class="grid">
+    
+    <section class="card">
+      <h3>Hacker News</h3>
+      
+      <ol>
+        
+        <li>
+          <a href="https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data" target="_blank" rel="noopener">弗吉尼亚州禁止地理位置数据销售</a>
+          <span class="score">▲ 733</span>
+          <span class="extra">· 120 评论</span>
+        </li>
+        
+        <li>
+          <a href="https://blog.podman.io/2026/07/introducing-podman-v6-0-0/" target="_blank" rel="noopener">Podman v6.0.0 发布</a>
+          <span class="score">▲ 505</span>
+          <span class="extra">· 202 评论</span>
+        </li>
+        
+        <li>
+          <a href="https://stefan.schueller.net/posts/the-free-market-lie/" target="_blank" rel="noopener">为什么瑞士有 25Gbps 互联网而美国没有</a>
+          <span class="score">▲ 462</span>
+          <span class="extra">· 305 评论</span>
+        </li>
+        
+        <li>
+          <a href="https://mathstodon.xyz/@iblech/116769502749142438" target="_blank" rel="noopener">自 Linux 6.9 起，LUKS 挂起不再从内存中清除磁盘加密密钥</a>
+          <span class="score">▲ 457</span>
+          <span class="extra">· 200 评论</span>
+        </li>
+        
+        <li>
+          <a href="https://github.com/immich-app/immich/discussions/29439" target="_blank" rel="noopener">Immich 3.0 发布</a>
+          <span class="score">▲ 375</span>
+          <span class="extra">· 182 评论</span>
+        </li>
+        
+      </ol>
+      
+    </section>
+    
+    <section class="card">
+      <h3>GitHub Trending</h3>
+      
+      <ol>
+        
+        <li>
+          <a href="https://github.com/usestrix/strix" target="_blank" rel="noopener">usestrix/strix</a>
+          <span class="score">⭐ 2,137 stars today</span>
+          <span class="extra">· Python</span>
+        </li>
+        
+        <li>
+          <a href="https://github.com/JuliusBrussee/caveman" target="_blank" rel="noopener">JuliusBrussee/caveman</a>
+          <span class="score">⭐ 926 stars today</span>
+          <span class="extra">· JavaScript</span>
+        </li>
+        
+        <li>
+          <a href="https://github.com/msitarzewski/agency-agents" target="_blank" rel="noopener">msitarzewski/agency-agents</a>
+          <span class="score">⭐ 3,032 stars today</span>
+          <span class="extra">· Shell</span>
+        </li>
+        
+        <li>
+          <a href="https://github.com/hasaneyldrm/exercises-dataset" target="_blank" rel="noopener">hasaneyldrm/exercises-dataset</a>
+          <span class="score">⭐ 938 stars today</span>
+          <span class="extra">· HTML</span>
+        </li>
+        
+        <li>
+          <a href="https://github.com/santifer/career-ops" target="_blank" rel="noopener">santifer/career-ops</a>
+          <span class="score">⭐ 372 stars today</span>
+          <span class="extra">· JavaScript</span>
+        </li>
+        
+      </ol>
+      
+    </section>
+    
+    <section class="card">
+      <h3>V2EX</h3>
+      
+      <ol>
+        
+        <li>
+          <a href="https://www.v2ex.com/t/1224558" target="_blank" rel="noopener">公司 vibe coding 的项目，团队已经无法掌控了</a>
+          <span class="score">💬 166</span>
+          <span class="extra">· 程序员</span>
+        </li>
+        
+        <li>
+          <a href="https://www.v2ex.com/t/1224690" target="_blank" rel="noopener">家里亲戚今年高考，求推荐本科专业</a>
+          <span class="score">💬 104</span>
+          <span class="extra">· 教育</span>
+        </li>
+        
+        <li>
+          <a href="https://www.v2ex.com/t/1224653" target="_blank" rel="noopener">滨江仲裁调解员有大病，怎么投诉</a>
+          <span class="score">💬 99</span>
+          <span class="extra">· 杭州</span>
+        </li>
+        
+        <li>
+          <a href="https://www.v2ex.com/t/1224709" target="_blank" rel="noopener">“有个东西，也是我今天才学到的，叫 CDN”</a>
+          <span class="score">💬 93</span>
+          <span class="extra">· 分享发现</span>
+        </li>
+        
+        <li>
+          <a href="https://www.v2ex.com/t/1224640" target="_blank" rel="noopener">TransOne： macOS 原生菜单栏翻译工具</a>
+          <span class="score">💬 82</span>
+          <span class="extra">· 分享创造</span>
+        </li>
+        
+      </ol>
+      
+    </section>
+    
+    <section class="card">
+      <h3>36氪·少数派·虎嗅</h3>
+      
+      <ol>
+        
+        <li>
+          <a href="https://sspai.com/post/111405" target="_blank" rel="noopener">快捷指令｜让 iPhone 用上锤子的「大爆炸」</a>
+          
+          <span class="extra">· 少数派</span>
+        </li>
+        
+        <li>
+          <a href="https://sspai.com/post/111708" target="_blank" rel="noopener">这四个工作习惯，或许也能帮你找到掌控感</a>
+          
+          <span class="extra">· 少数派</span>
+        </li>
+        
+        <li>
+          <a href="https://sspai.com/post/111898" target="_blank" rel="noopener">派早报：大疆发布 DJI Mic Mini 2S 迷你无线麦克风等</a>
+          
+          <span class="extra">· 少数派</span>
+        </li>
+        
+        <li>
+          <a href="https://sspai.com/post/110950" target="_blank" rel="noopener">iOS 剪贴板管理工具 Procut：换个方式收藏碎片化信息</a>
+          
+          <span class="extra">· 少数派</span>
+        </li>
+        
+        <li>
+          <a href="https://sspai.com/post/111069" target="_blank" rel="noopener">共创试读 | 给童年一份礼物：从是什么到为什么，找到合适的掌机</a>
+          
+          <span class="extra">· 少数派</span>
+        </li>
+        
+      </ol>
+      
+    </section>
+    
+    <section class="card">
+      <h3>掘金</h3>
+      
+      <ol>
+        
+        <li>
+          <a href="https://juejin.cn/post/7620060655607857178" target="_blank" rel="noopener">别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！</a>
+          <span class="score">👍 778</span>
+          
+        </li>
+        
+        <li>
+          <a href="https://juejin.cn/post/7635467758865235968" target="_blank" rel="noopener">Codex 穷鬼大救星</a>
+          <span class="score">👍 303</span>
+          
+        </li>
+        
+        <li>
+          <a href="https://juejin.cn/post/7593338828196626472" target="_blank" rel="noopener">小程序上线半年我赚了多少钱？</a>
+          <span class="score">👍 233</span>
+          
+        </li>
+        
+        <li>
+          <a href="https://juejin.cn/post/7641048219231010862" target="_blank" rel="noopener">我用AI做了个微信小游戏-上线了</a>
+          <span class="score">👍 226</span>
+          
+        </li>
+        
+        <li>
+          <a href="https://juejin.cn/post/7551268250888781858" target="_blank" rel="noopener">为什么我们写代码很6，可面试很菜？走心了今天</a>
+          <span class="score">👍 209</span>
+          
+        </li>
+        
+      </ol>
+      
+    </section>
+    
+  </div>
+
+  <footer>数据源 5 · 共 25 条 · 生成于 2026-07-03 · by Claude</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,274 @@
+{
+  "date": "2026-07-03",
+  "weekday": "周五",
+  "editorial": [
+    {
+      "text": "Virginia 通过立法禁止地理位置数据销售，加强用户隐私保护",
+      "refs": [
+        "hackernews:1"
+      ]
+    },
+    {
+      "text": "V2EX 热议 vibe coding 项目失控问题，AI 辅助编程引发团队管理担忧",
+      "refs": [
+        "v2ex:1",
+        "juejin:1",
+        "juejin:4"
+      ]
+    },
+    {
+      "text": "Podman v6.0.0 发布，容器工具迎来重大版本更新",
+      "refs": [
+        "hackernews:2"
+      ]
+    },
+    {
+      "text": "瑞士拥有 25Gbps 互联网而美国没有，引发网络基础设施差距讨论",
+      "refs": [
+        "hackernews:3"
+      ]
+    },
+    {
+      "text": "掘金社区分享 AI 开发实践：Claude Code Skills 与 MCP 提升效率、AI 小游戏上线",
+      "refs": [
+        "juejin:1",
+        "juejin:2",
+        "juejin:4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "key": "hackernews",
+      "label": "Hacker News",
+      "items": [
+        {
+          "title": "弗吉尼亚州禁止地理位置数据销售",
+          "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+          "score_label": "▲ 733",
+          "extra": "120 评论",
+          "source": "hackernews",
+          "source_label": "Hacker News"
+        },
+        {
+          "title": "Podman v6.0.0 发布",
+          "url": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
+          "score_label": "▲ 505",
+          "extra": "202 评论",
+          "source": "hackernews",
+          "source_label": "Hacker News"
+        },
+        {
+          "title": "为什么瑞士有 25Gbps 互联网而美国没有",
+          "url": "https://stefan.schueller.net/posts/the-free-market-lie/",
+          "score_label": "▲ 462",
+          "extra": "305 评论",
+          "source": "hackernews",
+          "source_label": "Hacker News"
+        },
+        {
+          "title": "自 Linux 6.9 起，LUKS 挂起不再从内存中清除磁盘加密密钥",
+          "url": "https://mathstodon.xyz/@iblech/116769502749142438",
+          "score_label": "▲ 457",
+          "extra": "200 评论",
+          "source": "hackernews",
+          "source_label": "Hacker News"
+        },
+        {
+          "title": "Immich 3.0 发布",
+          "url": "https://github.com/immich-app/immich/discussions/29439",
+          "score_label": "▲ 375",
+          "extra": "182 评论",
+          "source": "hackernews",
+          "source_label": "Hacker News"
+        }
+      ]
+    },
+    {
+      "key": "github",
+      "label": "GitHub Trending",
+      "items": [
+        {
+          "title": "usestrix/strix",
+          "url": "https://github.com/usestrix/strix",
+          "score_label": "⭐ 2,137 stars today",
+          "extra": "Python",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "JuliusBrussee/caveman",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "score_label": "⭐ 926 stars today",
+          "extra": "JavaScript",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "msitarzewski/agency-agents",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "score_label": "⭐ 3,032 stars today",
+          "extra": "Shell",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "hasaneyldrm/exercises-dataset",
+          "url": "https://github.com/hasaneyldrm/exercises-dataset",
+          "score_label": "⭐ 938 stars today",
+          "extra": "HTML",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "santifer/career-ops",
+          "url": "https://github.com/santifer/career-ops",
+          "score_label": "⭐ 372 stars today",
+          "extra": "JavaScript",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        }
+      ]
+    },
+    {
+      "key": "v2ex",
+      "label": "V2EX",
+      "items": [
+        {
+          "title": "公司 vibe coding 的项目，团队已经无法掌控了",
+          "url": "https://www.v2ex.com/t/1224558",
+          "score_label": "💬 166",
+          "extra": "程序员",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        },
+        {
+          "title": "家里亲戚今年高考，求推荐本科专业",
+          "url": "https://www.v2ex.com/t/1224690",
+          "score_label": "💬 104",
+          "extra": "教育",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        },
+        {
+          "title": "滨江仲裁调解员有大病，怎么投诉",
+          "url": "https://www.v2ex.com/t/1224653",
+          "score_label": "💬 99",
+          "extra": "杭州",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        },
+        {
+          "title": "“有个东西，也是我今天才学到的，叫 CDN”",
+          "url": "https://www.v2ex.com/t/1224709",
+          "score_label": "💬 93",
+          "extra": "分享发现",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        },
+        {
+          "title": "TransOne： macOS 原生菜单栏翻译工具",
+          "url": "https://www.v2ex.com/t/1224640",
+          "score_label": "💬 82",
+          "extra": "分享创造",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        }
+      ]
+    },
+    {
+      "key": "rss_zh",
+      "label": "36氪·少数派·虎嗅",
+      "items": [
+        {
+          "title": "快捷指令｜让 iPhone 用上锤子的「大爆炸」",
+          "url": "https://sspai.com/post/111405",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "这四个工作习惯，或许也能帮你找到掌控感",
+          "url": "https://sspai.com/post/111708",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "派早报：大疆发布 DJI Mic Mini 2S 迷你无线麦克风等",
+          "url": "https://sspai.com/post/111898",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "iOS 剪贴板管理工具 Procut：换个方式收藏碎片化信息",
+          "url": "https://sspai.com/post/110950",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "共创试读 | 给童年一份礼物：从是什么到为什么，找到合适的掌机",
+          "url": "https://sspai.com/post/111069",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        }
+      ]
+    },
+    {
+      "key": "juejin",
+      "label": "掘金",
+      "items": [
+        {
+          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
+          "url": "https://juejin.cn/post/7620060655607857178",
+          "score_label": "👍 778",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        },
+        {
+          "title": "Codex 穷鬼大救星",
+          "url": "https://juejin.cn/post/7635467758865235968",
+          "score_label": "👍 303",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        },
+        {
+          "title": "小程序上线半年我赚了多少钱？",
+          "url": "https://juejin.cn/post/7593338828196626472",
+          "score_label": "👍 233",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        },
+        {
+          "title": "我用AI做了个微信小游戏-上线了",
+          "url": "https://juejin.cn/post/7641048219231010862",
+          "score_label": "👍 226",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        },
+        {
+          "title": "为什么我们写代码很6，可面试很菜？走心了今天",
+          "url": "https://juejin.cn/post/7551268250888781858",
+          "score_label": "👍 209",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        }
+      ]
+    }
+  ],
+  "source_count": 5,
+  "total": 25
+}
