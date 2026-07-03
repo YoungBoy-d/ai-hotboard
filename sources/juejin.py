@@ -25,16 +25,17 @@ def parse_juejin(data: dict, limit: int = 5,
                  source: str = "juejin", source_label: str = "掘金") -> list[Item]:
     rows = data.get("data", []) or []
     rows = [r for r in rows if r.get("item_type", 2) == 2]  # 仅文章，过滤沸点
-    rows = sorted(
-        rows,
-        key=lambda r: (r.get("content_counter") or {}).get("dig_count", 0) or 0,
-        reverse=True,
-    )
+
+    # 2026 起 API 结构变更：title/article_id/digg_count 嵌套在 item_info.article_info 下
+    def _article(row: dict) -> dict:
+        return (row.get("item_info") or {}).get("article_info") or {}
+
+    rows = sorted(rows, key=lambda r: _article(r).get("digg_count", 0) or 0, reverse=True)
     items: list[Item] = []
     for r in rows[:limit]:
-        info = r.get("article_info") or {}
+        info = _article(r)
         aid = info.get("article_id", "")
-        dig = (r.get("content_counter") or {}).get("dig_count", 0) or 0
+        dig = info.get("digg_count", 0) or 0
         items.append(Item(
             source=source, source_label=source_label, rank=0,
             title=info.get("title", "") or "",
