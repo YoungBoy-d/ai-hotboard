@@ -10,14 +10,15 @@ from feishu import build_card, send_card
 from sources.github_trending import GitHubTrendingFetcher
 from sources.hackernews import HackerNewsFetcher
 from sources.juejin import JuejinFetcher
-from sources.producthunt import ProductHuntFetcher
+# Product Hunt 暂未启用：依赖 RSSHub 公共实例（常无数据），等自建 RSSHub 后加回此行：
+# from sources.producthunt import ProductHuntFetcher
 from sources.rss_zh import RssZhFetcher
 from sources.v2ex import V2EXFetcher
 
 FETCHERS = {
     "hackernews": HackerNewsFetcher,
     "github": GitHubTrendingFetcher,
-    "producthunt": ProductHuntFetcher,
+    # "producthunt": ProductHuntFetcher,  # 暂停用（见 import 注释）
     "v2ex": V2EXFetcher,
     "rss_zh": RssZhFetcher,
     "juejin": JuejinFetcher,
