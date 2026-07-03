@@ -1,0 +1,40 @@
+name: Daily AI Hot Board
+
+on:
+  schedule:
+    - cron: "30 1 * * *"   # UTC 01:30 = 北京时间 09:30
+  workflow_dispatch:         # 支持手动触发
+
+# gh-pages 部署权限
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+      FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+      PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
+      RSSHUB_BASE: ${{ vars.RSSHUB_BASE }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Generate dashboard
+        run: python main.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+
+      - name: Send Feishu card
+        run: python send_card.py
