@@ -1,14 +1,14 @@
 import datetime
 import os
 
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader
 
 from sources.base import Item
 
 TMPL_DIR = os.path.join(os.path.dirname(__file__), "templates")
 _env = Environment(
     loader=FileSystemLoader(TMPL_DIR),
-    autoescape=select_autoescape(["html", "xml"]),
+    autoescape=True,
 )
 _WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 

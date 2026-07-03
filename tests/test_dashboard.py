@@ -34,3 +34,15 @@ def test_render_html_contains_key_sections():
     assert "Hacker News" in html                        # 源标签
     assert "AI Boom" in html                            # 条目标题
     assert "2026-07-03" in html                         # 日期
+
+
+def test_render_html_escapes_unsafe_title():
+    items_by_source = [
+        ("hackernews", "Hacker News",
+         [Item(source="hackernews", source_label="Hacker News", rank=1,
+               title="<script>alert(1)</script>", url="https://x.com")]),
+    ]
+    report = build_report(items_by_source, {"editorial": [], "translations": {}})
+    html = render_html(report)
+    assert "<script>alert(1)</script>" not in html   # must be escaped
+    assert "&lt;script&gt;" in html                    # escaped form present
