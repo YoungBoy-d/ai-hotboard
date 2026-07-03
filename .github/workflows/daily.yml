@@ -1,6 +1,6 @@
 name: Daily AI Hot Board
 
-on:
+"on":
   schedule:
     - cron: "30 1 * * *"   # UTC 01:30 = 北京时间 09:30
   workflow_dispatch:         # 支持手动触发
