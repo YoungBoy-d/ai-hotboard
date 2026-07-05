@@ -1,40 +1,41 @@
 {
-  "date": "2026-07-04",
-  "weekday": "周六",
+  "date": "2026-07-05",
+  "weekday": "周日",
   "editorial": [
     {
-      "text": "Claude Code 安全性引发关注：V2EX 曝阿里因后门风险全面禁用，掘金则发布 32 个 Skills 与 8 个 MCP 提升使用效率",
+      "text": "Cursor 遭大厂全面封禁，开发者热议 AI 编程工具替代方案与真实使用体验",
+      "refs": [
+        "juejin:1",
+        "juejin:5",
+        "github:1"
+      ]
+    },
+    {
+      "text": "数字游民生活方式受关注：宜居城市推荐与长居签证路径成为热议话题",
       "refs": [
         "v2ex:4",
-        "juejin:1"
+        "v2ex:5",
+        "v2ex:2"
       ]
     },
     {
-      "text": "本地大模型与 AI 工具持续火热：Hacker News 分享本地运行 SOTA LLM 指南，掘金作者分享 Cursor 转 Codex 的真实体验",
+      "text": "Linux 系统监控工具 htop/top 输出内容详解引发技术社区关注",
       "refs": [
-        "hackernews:3",
-        "juejin:5"
-      ]
-    },
-    {
-      "text": "GitHub Trending 出现多个新项目，包括 strix、codex-plugin-cc 和 caveman 等",
-      "refs": [
-        "github:1",
-        "github:2",
-        "github:3"
-      ]
-    },
-    {
-      "text": "Hacker News 热议商业与社会话题：Costco 被视为反 Amazon 模式，欧洲议会遭间谍活动曝光",
-      "refs": [
-        "hackernews:1",
         "hackernews:2"
       ]
     },
     {
-      "text": "V2EX 网友感叹第一波 AI 洪峰已过，引发对 AI 发展节奏的讨论",
+      "text": "经典游戏《命令与征服：将军》通过 Fable 原生移植至 macOS 和 iOS 平台",
       "refs": [
-        "v2ex:2"
+        "hackernews:3"
+      ]
+    },
+    {
+      "text": "Chrome DevTools 推出 MCP 插件，多个 AI 编程相关开源项目登上 GitHub 热榜",
+      "refs": [
+        "github:5",
+        "github:3",
+        "github:4"
       ]
     }
   ],
@@ -44,42 +45,42 @@
       "label": "Hacker News",
       "items": [
         {
-          "title": "Costco 是反 Amazon 的存在",
-          "url": "https://phenomenalworld.org/analysis/the-anti-amazon/",
-          "score_label": "▲ 352",
-          "extra": "335 评论",
+          "title": "泄露 YouTube 创作者私密视频",
+          "url": "https://javoriuski.com/post/youtube",
+          "score_label": "▲ 538",
+          "extra": "307 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "针对欧洲议会的间谍活动",
-          "url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
-          "score_label": "▲ 309",
-          "extra": "71 评论",
+          "title": "Linux htop/top 中所有可见内容的详解（2019）",
+          "url": "https://peteris.rocks/blog/htop/",
+          "score_label": "▲ 447",
+          "extra": "55 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "Jamesob 的本地运行 SOTA 大模型指南",
-          "url": "https://github.com/jamesob/local-llm",
-          "score_label": "▲ 306",
-          "extra": "139 评论",
+          "title": "使用 Fable 将《命令与征服：将军》原生移植到 macOS、iPhone、iPad",
+          "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+          "score_label": "▲ 440",
+          "extra": "176 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "Wordgard：ProseMirror 作者打造的浏览器端富文本编辑器",
-          "url": "https://wordgard.net/",
+          "title": "Google Books 或类似平台全部图书扫描数据——20万美元悬赏（2025）",
+          "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
+          "score_label": "▲ 395",
+          "extra": "210 评论",
+          "source": "hackernews",
+          "source_label": "Hacker News"
+        },
+        {
+          "title": "工作区实例或消费者账户之间潜在的会话/缓存泄露",
+          "url": "https://github.com/anthropics/claude-code/issues/74066",
           "score_label": "▲ 282",
-          "extra": "93 评论",
-          "source": "hackernews",
-          "source_label": "Hacker News"
-        },
-        {
-          "title": "工厂不过是房间而已",
-          "url": "https://interconnected.org/home/2026/07/03/factories",
-          "score_label": "▲ 213",
-          "extra": "82 评论",
+          "extra": "129 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         }
@@ -90,17 +91,9 @@
       "label": "GitHub Trending",
       "items": [
         {
-          "title": "usestrix/strix",
-          "url": "https://github.com/usestrix/strix",
-          "score_label": "⭐ 2,803 stars today",
-          "extra": "Python",
-          "source": "github",
-          "source_label": "GitHub Trending"
-        },
-        {
           "title": "openai/codex-plugin-cc",
           "url": "https://github.com/openai/codex-plugin-cc",
-          "score_label": "⭐ 634 stars today",
+          "score_label": "⭐ 718 stars today",
           "extra": "JavaScript",
           "source": "github",
           "source_label": "GitHub Trending"
@@ -108,23 +101,31 @@
         {
           "title": "JuliusBrussee/caveman",
           "url": "https://github.com/JuliusBrussee/caveman",
-          "score_label": "⭐ 2,863 stars today",
+          "score_label": "⭐ 1,089 stars today",
           "extra": "JavaScript",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "elastic/elasticsearch",
-          "url": "https://github.com/elastic/elasticsearch",
-          "score_label": "⭐ 91 stars today",
-          "extra": "Java",
+          "title": "alibaba/page-agent",
+          "url": "https://github.com/alibaba/page-agent",
+          "score_label": "⭐ 742 stars today",
+          "extra": "TypeScript",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "actions/checkout",
-          "url": "https://github.com/actions/checkout",
-          "score_label": "⭐ 129 stars today",
+          "title": "usestrix/strix",
+          "url": "https://github.com/usestrix/strix",
+          "score_label": "⭐ 1,904 stars today",
+          "extra": "Python",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "ChromeDevTools/chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "score_label": "⭐ 304 stars today",
           "extra": "TypeScript",
           "source": "github",
           "source_label": "GitHub Trending"
@@ -136,41 +137,41 @@
       "label": "V2EX",
       "items": [
         {
-          "title": "看《感觉女友很爱去看演唱会，不想让她去怎么办》有感，人生真正的享受是什么",
-          "url": "https://www.v2ex.com/t/1224760",
+          "title": "哎，婚姻的意义是什么",
+          "url": "https://www.v2ex.com/t/1224990",
           "score_label": "💬 89",
           "extra": "生活",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "我预判，第一波 AI 洪峰已过！",
-          "url": "https://www.v2ex.com/t/1224778",
-          "score_label": "💬 73",
-          "extra": "程序员",
+          "title": "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
+          "url": "https://www.v2ex.com/t/1224985",
+          "score_label": "💬 66",
+          "extra": "Claude",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "家里孩子生了，请帮忙取个名字",
-          "url": "https://www.v2ex.com/t/1224777",
-          "score_label": "💬 51",
+          "title": "省到就是赚到？",
+          "url": "https://www.v2ex.com/t/1224937",
+          "score_label": "💬 27",
           "extra": "问与答",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "因存在植入后门风险，阿里内部全面禁用 Claude Code",
-          "url": "https://www.v2ex.com/t/1224766",
-          "score_label": "💬 49",
-          "extra": "问与答",
+          "title": "数字游民 有推荐的宜居城市吗？",
+          "url": "https://www.v2ex.com/t/1225004",
+          "score_label": "💬 26",
+          "extra": "生活",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "暗色模式到底是怎么流行起来的？？",
-          "url": "https://www.v2ex.com/t/1224886",
-          "score_label": "💬 43",
+          "title": "哪些国家/地区可以数字游民转长居签证？",
+          "url": "https://www.v2ex.com/t/1224942",
+          "score_label": "💬 23",
           "extra": "问与答",
           "source": "v2ex",
           "source_label": "V2EX"
@@ -181,6 +182,14 @@
       "key": "rss_zh",
       "label": "36氪·少数派·虎嗅",
       "items": [
+        {
+          "title": "[送码] 聆听用户建议，1Capture 新增多项实用截图功能",
+          "url": "https://sspai.com/post/111645",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
         {
           "title": "住久了没意思（四）：作为最「复合」的空间，客厅要为真实生活让路",
           "url": "https://sspai.com/prime/story/how-to-design-a-rental-living-room",
@@ -212,14 +221,6 @@
           "extra": "少数派",
           "source": "rss_zh",
           "source_label": "36氪·少数派·虎嗅"
-        },
-        {
-          "title": "派早报：大疆发布 DJI Mic Mini 2S 迷你无线麦克风等",
-          "url": "https://sspai.com/post/111898",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "rss_zh",
-          "source_label": "36氪·少数派·虎嗅"
         }
       ]
     },
@@ -228,9 +229,9 @@
       "label": "掘金",
       "items": [
         {
-          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
-          "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 780",
+          "title": "全面封禁 Cursor！又一家大厂出手了",
+          "url": "https://juejin.cn/post/7584110439933100078",
+          "score_label": "👍 683",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
@@ -238,15 +239,15 @@
         {
           "title": "小程序上线半年我赚了多少钱？",
           "url": "https://juejin.cn/post/7593338828196626472",
-          "score_label": "👍 234",
+          "score_label": "👍 239",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
         },
         {
-          "title": "我用AI做了个微信小游戏-上线了",
-          "url": "https://juejin.cn/post/7641048219231010862",
-          "score_label": "👍 226",
+          "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
+          "url": "https://juejin.cn/post/7623217419704909866",
+          "score_label": "👍 218",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
@@ -262,7 +263,7 @@
         {
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 167",
+          "score_label": "👍 168",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
