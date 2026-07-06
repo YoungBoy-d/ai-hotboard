@@ -1,41 +1,42 @@
 {
-  "date": "2026-07-05",
-  "weekday": "周日",
+  "date": "2026-07-06",
+  "weekday": "周一",
   "editorial": [
     {
-      "text": "Cursor 遭大厂全面封禁，开发者热议 AI 编程工具替代方案与真实使用体验",
+      "text": "Claude Code 生态火热：掘金分享 32 个 Skills + 8 个 MCP 提升开发效率，GitHub 上也出现相关技能仓库。",
       "refs": [
         "juejin:1",
-        "juejin:5",
-        "github:1"
+        "github:5",
+        "github:4"
       ]
     },
     {
-      "text": "数字游民生活方式受关注：宜居城市推荐与长居签证路径成为热议话题",
+      "text": "阿里禁用 Claude 模型，掘金报道又一家大厂全面封禁 Cursor，国内大厂对 AI 编码工具态度趋紧。",
       "refs": [
-        "v2ex:4",
-        "v2ex:5",
-        "v2ex:2"
+        "rss_zh:2",
+        "juejin:2"
       ]
     },
     {
-      "text": "Linux 系统监控工具 htop/top 输出内容详解引发技术社区关注",
+      "text": "OpenAI Codex 相关话题受关注：V2EX 出现超低价 Codex API 反代，掘金称其为",
+      ",  穷鬼大救星": ",  0。",
       "refs": [
-        "hackernews:2"
+        "v2ex:1",
+        "juejin:3",
+        "github:2"
       ]
     },
     {
-      "text": "经典游戏《命令与征服：将军》通过 Fable 原生移植至 macOS 和 iOS 平台",
+      "text": "Hacker News 热议游戏所有权问题：核心不在实体 vs 数字，而在用户是否真正拥有。",
       "refs": [
         "hackernews:3"
       ]
     },
     {
-      "text": "Chrome DevTools 推出 MCP 插件，多个 AI 编程相关开源项目登上 GitHub 热榜",
+      "text": "少数派推荐实用工具：FenyiDic 背单词强调释义记忆，1Capture 截图工具新增多项功能并送码。",
       "refs": [
-        "github:5",
-        "github:3",
-        "github:4"
+        "rss_zh:3",
+        "rss_zh:4"
       ]
     }
   ],
@@ -45,42 +46,42 @@
       "label": "Hacker News",
       "items": [
         {
-          "title": "泄露 YouTube 创作者私密视频",
-          "url": "https://javoriuski.com/post/youtube",
-          "score_label": "▲ 538",
-          "extra": "307 评论",
+          "title": "Organic Maps：开源离线地图应用",
+          "url": "https://organicmaps.app/",
+          "score_label": "▲ 876",
+          "extra": "256 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "Linux htop/top 中所有可见内容的详解（2019）",
-          "url": "https://peteris.rocks/blog/htop/",
-          "score_label": "▲ 447",
-          "extra": "55 评论",
+          "title": "OpenPrinter：开源打印机项目",
+          "url": "https://www.opentools.studio/",
+          "score_label": "▲ 610",
+          "extra": "147 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "使用 Fable 将《命令与征服：将军》原生移植到 macOS、iPhone、iPad",
-          "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
-          "score_label": "▲ 440",
-          "extra": "176 评论",
+          "title": "游戏之争不在实体与数字，而在所有权",
+          "url": "https://popcar.bearblog.dev/its-about-ownership/",
+          "score_label": "▲ 377",
+          "extra": "274 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "Google Books 或类似平台全部图书扫描数据——20万美元悬赏（2025）",
-          "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
-          "score_label": "▲ 395",
-          "extra": "210 评论",
+          "title": "Flipper Zero 开发的未来",
+          "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
+          "score_label": "▲ 276",
+          "extra": "113 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "工作区实例或消费者账户之间潜在的会话/缓存泄露",
-          "url": "https://github.com/anthropics/claude-code/issues/74066",
-          "score_label": "▲ 282",
-          "extra": "129 评论",
+          "title": "让电脑当主角",
+          "url": "https://www.starringthecomputer.com/computers.html",
+          "score_label": "▲ 189",
+          "extra": "43 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         }
@@ -91,42 +92,42 @@
       "label": "GitHub Trending",
       "items": [
         {
-          "title": "openai/codex-plugin-cc",
+          "title": "Meetily：Zackriya Solutions 的会议助手",
+          "url": "https://github.com/Zackriya-Solutions/meetily",
+          "score_label": "⭐ 1,409 stars today",
+          "extra": "Rust",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "OpenAI Codex 插件 (CC)",
           "url": "https://github.com/openai/codex-plugin-cc",
-          "score_label": "⭐ 718 stars today",
+          "score_label": "⭐ 1,532 stars today",
           "extra": "JavaScript",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "JuliusBrussee/caveman",
-          "url": "https://github.com/JuliusBrussee/caveman",
-          "score_label": "⭐ 1,089 stars today",
+          "title": "系统提示词泄露合集",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "score_label": "⭐ 981 stars today",
           "extra": "JavaScript",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "alibaba/page-agent",
-          "url": "https://github.com/alibaba/page-agent",
-          "score_label": "⭐ 742 stars today",
-          "extra": "TypeScript",
+          "title": "Taste Skill：品味技能",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "score_label": "⭐ 863 stars today",
+          "extra": "JavaScript",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "usestrix/strix",
-          "url": "https://github.com/usestrix/strix",
-          "score_label": "⭐ 1,904 stars today",
+          "title": "Claude Skills：Claude 技能合集",
+          "url": "https://github.com/alirezarezvani/claude-skills",
+          "score_label": "⭐ 392 stars today",
           "extra": "Python",
-          "source": "github",
-          "source_label": "GitHub Trending"
-        },
-        {
-          "title": "ChromeDevTools/chrome-devtools-mcp",
-          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-          "score_label": "⭐ 304 stars today",
-          "extra": "TypeScript",
           "source": "github",
           "source_label": "GitHub Trending"
         }
@@ -137,42 +138,42 @@
       "label": "V2EX",
       "items": [
         {
-          "title": "哎，婚姻的意义是什么",
-          "url": "https://www.v2ex.com/t/1224990",
-          "score_label": "💬 89",
+          "title": "[新用户送 10 刀] 超低价 Codex API，最低每刀不到 0.05R，纯血 gpt plus 号池反代，可用 gpt5.5， gpt5.4, gpt-image2，稳定好用",
+          "url": "https://www.v2ex.com/t/1225059",
+          "score_label": "💬 229",
+          "extra": "推广",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        },
+        {
+          "title": "琥珀香氛新品来了，盖楼送新品🎁",
+          "url": "https://www.v2ex.com/t/1225157",
+          "score_label": "💬 203",
+          "extra": "推广",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        },
+        {
+          "title": "“万 1 免 5”股票 ETF 大笑脸低佣开户，抽键盘迈从 Ace 68 V2；鼠标迈从 A7 V3 PRO+。 [7.6 日~7.13 日]",
+          "url": "https://www.v2ex.com/t/1225158",
+          "score_label": "💬 88",
+          "extra": "推广",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        },
+        {
+          "title": "我自己也经常看演唱会呀，为什么 v 友对女生看演唱会那么大的仇意？",
+          "url": "https://www.v2ex.com/t/1225167",
+          "score_label": "💬 76",
           "extra": "生活",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "[终极折腾] 走海外拿身份 + 境外友人家里放 Mac mini 远程使用 Claude，这方案有坑吗？",
-          "url": "https://www.v2ex.com/t/1224985",
-          "score_label": "💬 66",
-          "extra": "Claude",
-          "source": "v2ex",
-          "source_label": "V2EX"
-        },
-        {
-          "title": "省到就是赚到？",
-          "url": "https://www.v2ex.com/t/1224937",
-          "score_label": "💬 27",
-          "extra": "问与答",
-          "source": "v2ex",
-          "source_label": "V2EX"
-        },
-        {
-          "title": "数字游民 有推荐的宜居城市吗？",
-          "url": "https://www.v2ex.com/t/1225004",
-          "score_label": "💬 26",
-          "extra": "生活",
-          "source": "v2ex",
-          "source_label": "V2EX"
-        },
-        {
-          "title": "哪些国家/地区可以数字游民转长居签证？",
-          "url": "https://www.v2ex.com/t/1224942",
-          "score_label": "💬 23",
-          "extra": "问与答",
+          "title": "问界 m6 现金优惠能有多少？",
+          "url": "https://www.v2ex.com/t/1225135",
+          "score_label": "💬 65",
+          "extra": "汽车",
           "source": "v2ex",
           "source_label": "V2EX"
         }
@@ -182,6 +183,30 @@
       "key": "rss_zh",
       "label": "36氪·少数派·虎嗅",
       "items": [
+        {
+          "title": "自动给文章术语加百科链接，这个方案一分钟搞定",
+          "url": "https://sspai.com/post/111702",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "派早报：阿里禁用 Claude 模型",
+          "url": "https://sspai.com/post/111973",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "背单词更要背释义，FenyiDic 让你记住「熟悉的陌生人」",
+          "url": "https://sspai.com/post/111632",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
         {
           "title": "[送码] 聆听用户建议，1Capture 新增多项实用截图功能",
           "url": "https://sspai.com/post/111645",
@@ -197,30 +222,6 @@
           "extra": "少数派",
           "source": "rss_zh",
           "source_label": "36氪·少数派·虎嗅"
-        },
-        {
-          "title": "本周看什么 | 最近值得一看的 11 部作品",
-          "url": "https://sspai.com/post/111917",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "rss_zh",
-          "source_label": "36氪·少数派·虎嗅"
-        },
-        {
-          "title": "快捷指令｜让 iPhone 用上锤子的「大爆炸」",
-          "url": "https://sspai.com/post/111405",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "rss_zh",
-          "source_label": "36氪·少数派·虎嗅"
-        },
-        {
-          "title": "这四个工作习惯，或许也能帮你找到掌控感",
-          "url": "https://sspai.com/post/111708",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "rss_zh",
-          "source_label": "36氪·少数派·虎嗅"
         }
       ]
     },
@@ -229,9 +230,25 @@
       "label": "掘金",
       "items": [
         {
+          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
+          "url": "https://juejin.cn/post/7620060655607857178",
+          "score_label": "👍 784",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        },
+        {
           "title": "全面封禁 Cursor！又一家大厂出手了",
           "url": "https://juejin.cn/post/7584110439933100078",
-          "score_label": "👍 683",
+          "score_label": "👍 684",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        },
+        {
+          "title": "Codex 穷鬼大救星",
+          "url": "https://juejin.cn/post/7635467758865235968",
+          "score_label": "👍 307",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
@@ -239,7 +256,7 @@
         {
           "title": "小程序上线半年我赚了多少钱？",
           "url": "https://juejin.cn/post/7593338828196626472",
-          "score_label": "👍 239",
+          "score_label": "👍 241",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
@@ -247,23 +264,7 @@
         {
           "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
           "url": "https://juejin.cn/post/7623217419704909866",
-          "score_label": "👍 218",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金"
-        },
-        {
-          "title": "为什么我们写代码很6，可面试很菜？走心了今天",
-          "url": "https://juejin.cn/post/7551268250888781858",
-          "score_label": "👍 210",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金"
-        },
-        {
-          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
-          "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 168",
+          "score_label": "👍 220",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
