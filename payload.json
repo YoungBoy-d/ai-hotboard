@@ -1,42 +1,44 @@
 {
-  "date": "2026-07-06",
-  "weekday": "周一",
+  "date": "2026-07-07",
+  "weekday": "周二",
   "editorial": [
     {
-      "text": "Claude Code 生态火热：掘金分享 32 个 Skills + 8 个 MCP 提升开发效率，GitHub 上也出现相关技能仓库。",
+      "text": "Xbox 启动史上最大业务重组计划，引发社区热议",
+      "refs": [
+        "hackernews:1",
+        "rss_zh:2"
+      ]
+    },
+    {
+      "text": "AI 编程工具持续火热：Claude Code Skills 实战、Cursor 遭大厂封禁、Codex 低成本方案涌现",
       "refs": [
         "juejin:1",
-        "github:5",
-        "github:4"
+        "juejin:2",
+        "juejin:3"
       ]
     },
     {
-      "text": "阿里禁用 Claude 模型，掘金报道又一家大厂全面封禁 Cursor，国内大厂对 AI 编码工具态度趋紧。",
+      "text": "开源硬件与软件项目受关注：OpenWrt One 路由器、CoMaps 离线地图、Elm 语言迈向 1.0",
       "refs": [
-        "rss_zh:2",
-        "juejin:2"
+        "hackernews:2",
+        "hackernews:3",
+        "hackernews:5"
       ]
     },
     {
-      "text": "OpenAI Codex 相关话题受关注：V2EX 出现超低价 Codex API 反代，掘金称其为",
-      ",  穷鬼大救星": ",  0。",
+      "text": "GitHub 热门项目聚焦 AI Agent 技能与系统提示词泄露",
+      "refs": [
+        "github:1",
+        "github:2",
+        "github:5"
+      ]
+    },
+    {
+      "text": "V2EX 热议家庭网络服务暴露方案及 GPT 中转站推广",
       "refs": [
         "v2ex:1",
-        "juejin:3",
-        "github:2"
-      ]
-    },
-    {
-      "text": "Hacker News 热议游戏所有权问题：核心不在实体 vs 数字，而在用户是否真正拥有。",
-      "refs": [
-        "hackernews:3"
-      ]
-    },
-    {
-      "text": "少数派推荐实用工具：FenyiDic 背单词强调释义记忆，1Capture 截图工具新增多项功能并送码。",
-      "refs": [
-        "rss_zh:3",
-        "rss_zh:4"
+        "v2ex:2",
+        "v2ex:5"
       ]
     }
   ],
@@ -46,42 +48,42 @@
       "label": "Hacker News",
       "items": [
         {
-          "title": "Organic Maps：开源离线地图应用",
-          "url": "https://organicmaps.app/",
-          "score_label": "▲ 876",
-          "extra": "256 评论",
+          "title": "重置 Xbox",
+          "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+          "score_label": "▲ 539",
+          "extra": "546 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "OpenPrinter：开源打印机项目",
-          "url": "https://www.opentools.studio/",
-          "score_label": "▲ 610",
-          "extra": "147 评论",
+          "title": "OpenWrt One – 开源硬件路由器",
+          "url": "https://openwrt.org/toh/openwrt/one",
+          "score_label": "▲ 501",
+          "extra": "203 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "游戏之争不在实体与数字，而在所有权",
-          "url": "https://popcar.bearblog.dev/its-about-ownership/",
-          "score_label": "▲ 377",
-          "extra": "274 评论",
+          "title": "CoMaps – 自由开源离线地图",
+          "url": "https://www.comaps.app/",
+          "score_label": "▲ 391",
+          "extra": "79 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "Flipper Zero 开发的未来",
-          "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
-          "score_label": "▲ 276",
-          "extra": "113 评论",
+          "title": "语言模型中的全局工作空间",
+          "url": "https://www.anthropic.com/research/global-workspace",
+          "score_label": "▲ 319",
+          "extra": "118 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "让电脑当主角",
-          "url": "https://www.starringthecomputer.com/computers.html",
-          "score_label": "▲ 189",
-          "extra": "43 评论",
+          "title": "Elm 1.0 之路",
+          "url": "https://elm-lang.org/news/faster-builds",
+          "score_label": "▲ 314",
+          "extra": "155 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         }
@@ -92,42 +94,42 @@
       "label": "GitHub Trending",
       "items": [
         {
-          "title": "Meetily：Zackriya Solutions 的会议助手",
+          "title": "系统提示词泄露合集",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "score_label": "⭐ 1,378 stars today",
+          "extra": "JavaScript",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "Agent 技能集合",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "score_label": "⭐ 1,112 stars today",
+          "extra": "JavaScript",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "Meetily",
           "url": "https://github.com/Zackriya-Solutions/meetily",
-          "score_label": "⭐ 1,409 stars today",
+          "score_label": "⭐ 2,494 stars today",
           "extra": "Rust",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "OpenAI Codex 插件 (CC)",
-          "url": "https://github.com/openai/codex-plugin-cc",
-          "score_label": "⭐ 1,532 stars today",
-          "extra": "JavaScript",
+          "title": "RuView",
+          "url": "https://github.com/ruvnet/RuView",
+          "score_label": "⭐ 470 stars today",
+          "extra": "Rust",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "系统提示词泄露合集",
-          "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "score_label": "⭐ 981 stars today",
-          "extra": "JavaScript",
-          "source": "github",
-          "source_label": "GitHub Trending"
-        },
-        {
-          "title": "Taste Skill：品味技能",
+          "title": "Taste Skill",
           "url": "https://github.com/Leonxlnx/taste-skill",
-          "score_label": "⭐ 863 stars today",
+          "score_label": "⭐ 1,458 stars today",
           "extra": "JavaScript",
-          "source": "github",
-          "source_label": "GitHub Trending"
-        },
-        {
-          "title": "Claude Skills：Claude 技能合集",
-          "url": "https://github.com/alirezarezvani/claude-skills",
-          "score_label": "⭐ 392 stars today",
-          "extra": "Python",
           "source": "github",
           "source_label": "GitHub Trending"
         }
@@ -138,42 +140,42 @@
       "label": "V2EX",
       "items": [
         {
-          "title": "[新用户送 10 刀] 超低价 Codex API，最低每刀不到 0.05R，纯血 gpt plus 号池反代，可用 gpt5.5， gpt5.4, gpt-image2，稳定好用",
-          "url": "https://www.v2ex.com/t/1225059",
-          "score_label": "💬 229",
+          "title": "继续推广我的 gpt 中转站，注册就送 28.8$余额，已稳定运行俩月了",
+          "url": "https://www.v2ex.com/t/1225338",
+          "score_label": "💬 143",
           "extra": "推广",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "琥珀香氛新品来了，盖楼送新品🎁",
-          "url": "https://www.v2ex.com/t/1225157",
-          "score_label": "💬 203",
+          "title": "「免费 40 刀额度」GPT 纯 PRO 号 自制中转站 无任何开源项目缝合 支持企业对接",
+          "url": "https://www.v2ex.com/t/1225280",
+          "score_label": "💬 130",
           "extra": "推广",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "“万 1 免 5”股票 ETF 大笑脸低佣开户，抽键盘迈从 Ace 68 V2；鼠标迈从 A7 V3 PRO+。 [7.6 日~7.13 日]",
-          "url": "https://www.v2ex.com/t/1225158",
-          "score_label": "💬 88",
-          "extra": "推广",
+          "title": "分享一个极限赶飞机不用等的方法",
+          "url": "https://www.v2ex.com/t/1225334",
+          "score_label": "💬 83",
+          "extra": "旅行",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "我自己也经常看演唱会呀，为什么 v 友对女生看演唱会那么大的仇意？",
-          "url": "https://www.v2ex.com/t/1225167",
-          "score_label": "💬 76",
-          "extra": "生活",
+          "title": "新加坡公司上班第二天被炒鱿鱼",
+          "url": "https://www.v2ex.com/t/1225425",
+          "score_label": "💬 75",
+          "extra": "职场话题",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "问界 m6 现金优惠能有多少？",
-          "url": "https://www.v2ex.com/t/1225135",
-          "score_label": "💬 65",
-          "extra": "汽车",
+          "title": "没有公网 IPv4， IPv6 又是动态的，大家现在怎么低成本暴露家庭服务？",
+          "url": "https://www.v2ex.com/t/1225326",
+          "score_label": "💬 67",
+          "extra": "宽带症候群",
           "source": "v2ex",
           "source_label": "V2EX"
         }
@@ -184,40 +186,40 @@
       "label": "36氪·少数派·虎嗅",
       "items": [
         {
+          "title": "新手日记的「为什么」与「写什么」",
+          "url": "https://sspai.com/post/111655",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "派早报：Xbox 启动史上最大的业务重组计划等",
+          "url": "https://sspai.com/post/112010",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "派评 | 近期值得关注的 App",
+          "url": "https://sspai.com/post/111999",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
+          "title": "iPhone Air 当主力机用了三个多月后，我为什么还是换不掉它",
+          "url": "https://sspai.com/post/111113",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "rss_zh",
+          "source_label": "36氪·少数派·虎嗅"
+        },
+        {
           "title": "自动给文章术语加百科链接，这个方案一分钟搞定",
           "url": "https://sspai.com/post/111702",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "rss_zh",
-          "source_label": "36氪·少数派·虎嗅"
-        },
-        {
-          "title": "派早报：阿里禁用 Claude 模型",
-          "url": "https://sspai.com/post/111973",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "rss_zh",
-          "source_label": "36氪·少数派·虎嗅"
-        },
-        {
-          "title": "背单词更要背释义，FenyiDic 让你记住「熟悉的陌生人」",
-          "url": "https://sspai.com/post/111632",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "rss_zh",
-          "source_label": "36氪·少数派·虎嗅"
-        },
-        {
-          "title": "[送码] 聆听用户建议，1Capture 新增多项实用截图功能",
-          "url": "https://sspai.com/post/111645",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "rss_zh",
-          "source_label": "36氪·少数派·虎嗅"
-        },
-        {
-          "title": "住久了没意思（四）：作为最「复合」的空间，客厅要为真实生活让路",
-          "url": "https://sspai.com/prime/story/how-to-design-a-rental-living-room",
           "score_label": "",
           "extra": "少数派",
           "source": "rss_zh",
@@ -232,7 +234,7 @@
         {
           "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
           "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 784",
+          "score_label": "👍 787",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
@@ -248,7 +250,7 @@
         {
           "title": "Codex 穷鬼大救星",
           "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 307",
+          "score_label": "👍 314",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
@@ -256,15 +258,15 @@
         {
           "title": "小程序上线半年我赚了多少钱？",
           "url": "https://juejin.cn/post/7593338828196626472",
-          "score_label": "👍 241",
+          "score_label": "👍 246",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
         },
         {
-          "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
-          "url": "https://juejin.cn/post/7623217419704909866",
-          "score_label": "👍 220",
+          "title": "我用AI做了个微信小游戏-上线了",
+          "url": "https://juejin.cn/post/7641048219231010862",
+          "score_label": "👍 235",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
