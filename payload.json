@@ -3,39 +3,37 @@
   "weekday": "周三",
   "editorial": [
     {
-      "text": "DeepSeek-R1 开源发布，MIT 协议加持，推理模型竞争进入白热化阶段。",
+      "text": "DeepSeek-R1 开源发布，MIT 协议加持，推理模型迎来新一轮开源浪潮",
       "refs": [
         "hf:2"
       ]
     },
     {
-      "text": "AI 编程工具持续迭代，开发者热议 Cursor 与 Codex 的真实体验差异及 Token 成本压力。",
+      "text": "AI Agent 工具链持续升温：从沙箱、编程技能到系统提示词泄露，Agent 生态加速成型",
       "refs": [
-        "juejin:3",
+        "github:3",
+        "github:4",
+        "github:5"
+      ]
+    },
+    {
+      "text": "AI 编程成本引发企业焦虑，烧 token 比招人还贵成为现实问题",
+      "refs": [
         "juejin:4",
-        "juejin:2"
+        "juejin:1"
       ]
     },
     {
-      "text": "FLUX.1-dev 文生图模型上线 HuggingFace，图像生成领域再添强力开源选手。",
+      "text": "本地化、隐私优先的 AI 应用受追捧：Kokoro TTS 和 Meetily 会议助手均强调本地运行",
       "refs": [
-        "hf:1"
-      ]
-    },
-    {
-      "text": "全双工语音大模型、本地 TTS、隐私优先会议助手——语音 AI 向本地化和实时交互加速演进。",
-      "refs": [
-        "arxiv:5",
         "hackernews:2",
         "github:2"
       ]
     },
     {
-      "text": "AI Agent 基础设施受关注：安全沙箱、系统提示词泄露、自动化求职框架层出不穷。",
+      "text": "3D 理解与生成统一模型 ELSA3D 提出弹性语义锚定机制，推动多模态 3D 基础模型发展",
       "refs": [
-        "github:5",
-        "github:4",
-        "github:1"
+        "arxiv:1"
       ]
     }
   ],
@@ -53,7 +51,7 @@
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Black Forest Labs 推出的文生图模型，基于 diffusers 框架，可直接用于高质量图像生成。license 为 other，商用需注意授权条款。",
+          "summary": "Black Forest Labs 推出的文生图模型，基于 diffusers 框架，采用非标准开源协议。适合图像生成研究和应用开发。",
           "tags": [
             "CV·生成",
             "开源",
@@ -65,13 +63,13 @@
         },
         {
           "key": "hf:2",
-          "title": "DeepSeek-R1 推理模型",
+          "title": "DeepSeek-R1 推理大模型",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
           "score_label": "⬇ 8.6M · 👍 13.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "DeepSeek 发布的推理大模型，采用 MIT 开源协议，支持 transformers 框架加载。对开发者而言是极具性价比的推理能力开源方案。",
+          "summary": "DeepSeek 发布的推理增强大语言模型，采用 MIT 协议完全开源。支持 transformers 框架，对开发者友好，是开源推理模型的重要新选择。",
           "tags": [
             "LLM",
             "开源"
@@ -88,7 +86,7 @@
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Stability AI 的经典文生图模型 SDXL，依然是社区广泛使用的基座模型，openrail++ 协议允许较自由的商用。",
+          "summary": "Stability AI 的经典文生图模型 SDXL 基础版，基于 diffusers，采用 OpenRAIL++ 协议。仍是高质量图像生成的重要基线模型。",
           "tags": [
             "CV·生成",
             "开源",
@@ -106,7 +104,7 @@
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "CompVis 发布的 SD 1.4 版本，文生图领域的元老级模型，社区生态成熟，适合快速原型和微调。",
+          "summary": "CompVis 发布的经典 SD 1.4 版本，文生图领域的老牌模型，社区生态成熟，适合快速原型和微调。",
           "tags": [
             "CV·生成",
             "开源",
@@ -124,7 +122,7 @@
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Meta 发布的 Llama 3 系列 8B 参数版本，适合本地部署和轻量级文本生成任务，llama3 协议对商用有一定限制。",
+          "summary": "Meta 发布的 Llama 3 系列 8B 参数版本，支持文本生成，采用 Llama 3 专属协议。适合轻量级部署和微调场景。",
           "tags": [
             "LLM",
             "开源"
@@ -142,13 +140,13 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "ELSA3D：统一 3D 理解与生成的弹性语义锚定",
+          "title": "ELSA3D：统一 3D 理解与生成的弹性语义锚定方法",
           "url": "http://arxiv.org/abs/2607.06565v1",
           "score_label": "",
           "extra": "cs.CV",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "提出弹性语义锚定机制，解决统一 3D 基础模型中文本与 3D token 交互过于隐式的问题，推动 3D 资产生成与语言推理在同一 backbone 内协同。",
+          "summary": "提出弹性语义锚定机制，解决统一 3D 基础模型中文本与 3D 交互隐式化的问题，推动 3D 资产生成与语言推理在同一 backbone 中协同工作。",
           "tags": [
             "论文",
             "CV",
@@ -160,18 +158,17 @@
         },
         {
           "key": "arxiv:2",
-          "title": "图卷积注意力：从谱视角看图去噪与扩散",
+          "title": "图卷积注意力：从频谱视角看图去噪与扩散",
           "url": "http://arxiv.org/abs/2607.06546v1",
           "score_label": "",
           "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "从谱理论角度重新审视注意力机制在图去噪和图扩散模型中的作用，为理解 graph transformer 的去噪能力提供理论支撑。",
+          "summary": "从频谱理论角度分析注意力机制在图去噪和图扩散模型中的作用，为图 Transformer 的去噪能力提供理论解释。",
           "tags": [
             "论文",
             "ML",
-            "AI",
-            "LLM"
+            "AI"
           ],
           "meta": "作者 · Shervin Khalafi, Igor Krawczuk, Sergio Rozada  ·  📅 2026-07-07  ·  📄 PDF",
           "trend": "",
@@ -179,18 +176,17 @@
         },
         {
           "key": "arxiv:3",
-          "title": "从文化遗产保护视角重新思考印度 AI",
+          "title": "从文化遗产保护视角重新审视印度 AI 发展",
           "url": "http://arxiv.org/abs/2607.06544v1",
           "score_label": "",
           "extra": "cs.AI",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "探讨 AI 进入印度次大陆后对当地语言和文化基础的影响，指出 AI 既是保护文化遗产的机遇也是威胁，呼吁审慎对待 Indic AI 发展。",
+          "summary": "探讨 AI 进入印度次大陆后对当地语言和文化基础的影响，指出 AI 是",
           "tags": [
             "论文",
             "AI",
-            "NLP",
-            "资讯"
+            "NLP"
           ],
           "meta": "作者 · Aparna Madva, Sharath Srivatsa, Srinath Srinivasa  ·  📅 2026-07-07  ·  📄 PDF",
           "trend": "",
@@ -198,17 +194,16 @@
         },
         {
           "key": "arxiv:4",
-          "title": "无金标准条件下对非人类序列的依存句法分析可行性",
+          "title": "非人类序列的依存句法分析可行性研究",
           "url": "http://arxiv.org/abs/2607.06542v1",
           "score_label": "",
           "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "研究在缺乏人工标注金标准的情况下，能否对其他物种的信号序列进行无监督依存句法分析，探索语言结构在非人类通信中的存在性。",
+          "summary": "探索在无金标准情况下对其他物种序列进行无监督依存句法分析的可能性，拓展 NLP 方法在生物学等领域的应用边界。",
           "tags": [
             "论文",
-            "NLP",
-            "LLM"
+            "NLP"
           ],
           "meta": "作者 · Ramon Ferrer-i-Cancho, Catherine Hobaiter, Thore Bergman  ·  📅 2026-07-07  ·  📄 PDF",
           "trend": "",
@@ -222,7 +217,7 @@
           "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "针对全双工语音大模型中模态干扰严重的问题，提出层次化建模方案实现声学/语义模态分离，同时保持语义连贯性，推动实时对话 AI 发展。",
+          "summary": "针对全双工语音大模型中模态干扰严重的问题，提出层次化建模方法实现模态分离和语义连贯，推动自然对话式 AI 发展。",
           "tags": [
             "论文",
             "NLP",
@@ -241,13 +236,13 @@
       "items": [
         {
           "key": "github:1",
-          "title": "AI 驱动的求职框架",
+          "title": "AI 驱动的求职应用框架",
           "url": "https://github.com/MadsLorentzen/ai-job-search",
-          "score_label": "★ 2,514 stars today · ★ 12,635 总",
+          "score_label": "★ 2,514 stars today · ★ 12,703 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "基于 Claude Code 构建的自动化求职工具，可自动评估岗位匹配度、定制简历、撰写求职信并准备面试。开发者可 fork 后填入个人信息使用。",
+          "summary": "基于 Claude Code 构建的求职自动化工具，可自动评估岗位、定制简历、撰写求职信并准备面试。适合求职者提升效率。",
           "tags": [
             "开源",
             "TypeScript",
@@ -262,11 +257,11 @@
           "key": "github:2",
           "title": "Meetily：隐私优先的本地 AI 会议助手",
           "url": "https://github.com/Zackriya-Solutions/meetily",
-          "score_label": "★ 1,777 stars today · ★ 21,215 总",
+          "score_label": "★ 1,777 stars today · ★ 21,229 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "基于 Rust 构建的开源会议记录工具，支持 Whisper/Parakeet 实时转录、说话人分离和 Ollama 本地摘要，全程本地处理无需上云，支持 macOS 和 Windows。",
+          "summary": "基于 Rust 构建的开源会议记录工具，支持本地转录、说话人分离和 Ollama 摘要，无需云端处理，适合对隐私敏感的用户。",
           "tags": [
             "开源",
             "Rust",
@@ -279,13 +274,13 @@
         },
         {
           "key": "github:3",
-          "title": "Agent Skills：AI 编程 Agent 的生产级工程技能集",
+          "title": "AI 编程 Agent 的生产级工程技能集",
           "url": "https://github.com/addyosmani/agent-skills",
-          "score_label": "★ 1,317 stars today · ★ 72,597 总",
+          "score_label": "★ 1,317 stars today · ★ 72,616 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "Addy Osmani 维护的 AI 编程 Agent 技能库，为各类 coding agent 提供可直接使用的工程最佳实践和技能模板。",
+          "summary": "为 AI 编程 Agent 提供的一套生产级工程技能定义，帮助 Agent 更好地完成复杂编码任务，提升 AI 辅助开发的可靠性。",
           "tags": [
             "开源",
             "JavaScript",
@@ -300,11 +295,11 @@
           "key": "github:4",
           "title": "主流 AI 产品系统提示词泄露合集",
           "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "score_label": "★ 1,691 stars today · ★ 53,448 总",
+          "score_label": "★ 1,691 stars today · ★ 53,464 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "收集并持续更新了 Anthropic Claude、OpenAI ChatGPT、Google Gemini、xAI Grok 等主流 AI 产品的系统提示词，对 prompt engineering 和安全研究有参考价值。",
+          "summary": "收集了 Anthropic、OpenAI、Google、xAI 等公司多款 AI 产品的系统提示词，包括 Claude、ChatGPT、Gemini、Grok 等，定期更新。对提示词工程研究有参考价值。",
           "tags": [
             "开源",
             "JavaScript",
@@ -317,13 +312,13 @@
         },
         {
           "key": "github:5",
-          "title": "CubeSandbox：面向 AI Agent 的轻量安全沙箱",
+          "title": "腾讯云 CubeSandbox：AI Agent 轻量安全沙箱",
           "url": "https://github.com/TencentCloud/CubeSandbox",
-          "score_label": "★ 664 stars today · ★ 8,649 总",
+          "score_label": "★ 664 stars today · ★ 8,652 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "腾讯云开源的即时沙箱环境，支持并发、安全隔离和轻量部署，专为 AI Agent 执行不可信代码场景设计。",
+          "summary": "腾讯云开源的 AI Agent 沙箱环境，支持即时启动、并发运行、安全隔离和轻量部署，解决 Agent 执行代码时的安全风险问题。",
           "tags": [
             "开源",
             "Rust",
@@ -344,11 +339,11 @@
           "key": "hackernews:1",
           "title": "Chat Control 1.0 与 2.0 详解",
           "url": "https://fightchatcontrol.eu/chat-control-overview",
-          "score_label": "▲ 628 · 💬 219",
+          "score_label": "▲ 634 · 💬 222",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "解读欧盟 Chat Control 立法提案的内容与影响，涉及在线通信监控和端到端加密的争议，与 AI 隐私和数据安全密切相关。",
+          "summary": "深入解读欧盟 Chat Control 提案的演变，涉及端到端加密监控和隐私权争议，对科技行业和用户隐私有深远影响。",
           "tags": [
             "热议",
             "资讯"
@@ -359,13 +354,13 @@
         },
         {
           "key": "hackernews:2",
-          "title": "Kokoro：本地 CPU 友好高质量 TTS",
+          "title": "Kokoro：本地 CPU 友好的高质量 TTS",
           "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
-          "score_label": "▲ 397 · 💬 78",
+          "score_label": "▲ 399 · 💬 78",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "Kokoro 是一个可在 CPU 上本地运行的高质量文本转语音方案，无需 GPU，适合对延迟和隐私有要求的开发者场景。",
+          "summary": "一款可在 CPU 上本地运行的高质量文本转语音模型，无需 GPU，适合资源受限场景下的语音合成需求。",
           "tags": [
             "语音",
             "开源"
@@ -378,11 +373,11 @@
           "key": "hackernews:3",
           "title": "Davit：Apple Containers 的 UI 工具",
           "url": "https://davit.app",
-          "score_label": "▲ 299 · 💬 68",
+          "score_label": "▲ 302 · 💬 68",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "Show HN 项目，为 Apple 的容器化技术提供可视化操作界面，方便开发者管理本地容器化应用。",
+          "summary": "为 Apple Containers 提供的图形化界面工具，简化容器管理和操作流程。",
           "tags": [
             "工具"
           ],
@@ -394,11 +389,11 @@
           "key": "hackernews:4",
           "title": "Tenda 路由器固件存在隐藏认证后门",
           "url": "https://kb.cert.org/vuls/id/213560",
-          "score_label": "▲ 186 · 💬 55",
+          "score_label": "▲ 192 · 💬 56",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "安全研究发现 Tenda 多款路由器的多个固件版本中存在隐藏认证后门，可能导致未授权访问，提醒用户尽快更新固件。",
+          "summary": "安全研究人员发现 Tenda 多款路由器固件中存在隐藏认证后门，影响多个版本，提醒用户及时检查并更新固件。",
           "tags": [
             "资讯"
           ],
@@ -408,13 +403,13 @@
         },
         {
           "key": "hackernews:5",
-          "title": "Anthropic 向所有付费用户开放 Fable 5 访问",
+          "title": "Fable 5 向所有付费用户开放至 7 月 12 日",
           "url": "https://twitter.com/claudeai/status/2074548242386178258",
-          "score_label": "▲ 181 · 💬 184",
+          "score_label": "▲ 182 · 💬 185",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "Anthropic 宣布将 Fable 5 的使用权限扩展至所有付费计划用户，有效期至 7 月 12 日，降低高级模型的使用门槛。",
+          "summary": "Anthropic 宣布将 Claude Fable 5 的访问权限扩展至所有付费计划用户，截止日期为 7 月 12 日，降低体验门槛。",
           "tags": [
             "热议",
             "LLM",
@@ -439,16 +434,16 @@
       "items": [
         {
           "key": "juejin:1",
-          "title": "面试官问我：“AI 写代码比你快 100 倍，你的价值在哪？”",
-          "url": "https://juejin.cn/post/7629213925721145379",
-          "score_label": "👍 364",
+          "title": "Codex 穷鬼大救星",
+          "url": "https://juejin.cn/post/7635467758865235968",
+          "score_label": "👍 316",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "面试官直击灵魂的提问：AI 写代码又快又准，程序员的价值在哪？文章探讨了 AI 时代开发者核心竞争力的转变——从编码速度转向架构思维、问题定义和系统判断力。",
+          "summary": "分享一套低成本使用 Codex 的工作流方案，通过巧妙组合工具和策略大幅降低 AI 编程成本，适合预算有限的开发者参考。",
           "tags": [
-            "资讯",
-            "Agent"
+            "工具",
+            "变现"
           ],
           "meta": "",
           "trend": "",
@@ -456,13 +451,13 @@
         },
         {
           "key": "juejin:2",
-          "title": "Codex 穷鬼大救星",
-          "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 316",
+          "title": "我用AI做了个微信小游戏-上线了",
+          "url": "https://juejin.cn/post/7641048219231010862",
+          "score_label": "👍 237",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "一套低成本 AI 编程工作流分享，通过合理组合工具链和模型选择，大幅降低 Token 消耗，让个人开发者和小团队也能高效使用 AI 编程。",
+          "summary": "完整记录用 AI 开发微信小游戏的全过程，包括技术栈选择、Prompt 设计、踩坑经验和成本明细，是 AI 辅助游戏开发的实战参考。",
           "tags": [
             "工具",
             "变现"
@@ -479,7 +474,7 @@
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者从 Cursor 切换到 Codex 大半个月后的深度体验对比，认为 Codex 更接近真正的超级 Agent 形态，不只是补全代码而是能自主完成复杂工程任务。",
+          "summary": "作者从 Cursor 切换到 Codex 半个月后的真实体验对比，认为 Codex 更接近超级 Agent 形态，代表 AI 编程工具的下一阶段演进方向。",
           "tags": [
             "Agent",
             "工具"
@@ -496,10 +491,10 @@
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "揭示企业全面拥抱 AI 后面临的 Token 成本困境——烧钱速度超过招人，以 Uber 为例说明大规模部署 AI 编程工具带来的意外财务压力。",
+          "summary": "揭示企业在全面拥抱 AI 后面临的 token 成本问题，烧 token 费用超过人力成本，引发对 AI 部署 ROI 的反思。",
           "tags": [
-            "资讯",
-            "变现"
+            "LLM",
+            "资讯"
           ],
           "meta": "",
           "trend": "",
@@ -513,10 +508,9 @@
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "2026 年技术面试风向已变：面试官不再考手写算法，而是默认你会用 AI，重点考察你如何驾驭 AI、做架构决策和处理 AI 搞不定的复杂问题。",
+          "summary": "分析 2026 年技术面试的变化趋势，面试官不再考察基础手写代码，而是关注候选人如何有效使用 AI 工具解决问题。",
           "tags": [
-            "资讯",
-            "Agent"
+            "资讯"
           ],
           "meta": "",
           "trend": "",
