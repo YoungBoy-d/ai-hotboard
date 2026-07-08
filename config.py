@@ -30,7 +30,7 @@ SOURCES = {
     "arxiv": "arXiv 论文",
     "github": "GitHub AI 仓库",
     "hackernews": "Hacker News",
-    "ai_zh": "机器之心·量子位",
+    "ai_zh": "中文 AI 资讯",
     "juejin": "掘金 AI",
 }
 
