@@ -14,7 +14,14 @@ def test_parse_hn_sorts_by_points_and_falls_back_url():
     }
     items = parse_hn(data, limit=5)
     assert [i.title for i in items] == ["High", "Mid", "Low"]   # 按 points 降序
-    assert items[0].score_label == "▲ 500"
+    assert items[0].score_label == "▲ 500 · 💬 42"               # 点数 + 评论合并
+    assert items[0].extra == ""
     assert items[0].url == "https://news.ycombinator.com/item?id=2"  # 回退
     assert items[1].url == "https://ext.com/3"
-    assert items[0].extra == "42 评论"
+
+
+def test_parse_hn_marks_hot_when_many_comments():
+    data = {"hits": [{"objectID": "9", "title": "x", "points": 50,
+                      "num_comments": 150, "url": "https://ext.com/9"}]}
+    items = parse_hn(data, limit=5)
+    assert "热议" in items[0].tags     # 评论过百标"热议"

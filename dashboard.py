@@ -1,8 +1,10 @@
 import datetime
 import os
+from urllib.parse import urlparse
 
 from jinja2 import Environment, FileSystemLoader
 
+from config import SOURCE_ICONS
 from sources.base import Item
 
 TMPL_DIR = os.path.join(os.path.dirname(__file__), "templates")
@@ -13,14 +15,27 @@ _env = Environment(
 _WEEKDAYS = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 
 
+def _domain(url: str) -> str:
+    net = urlparse(url).netloc
+    if net.startswith("www."):
+        net = net[4:]
+    return net
+
+
 def _item_view(it: Item) -> dict:
     return {
+        "key": it.key,
         "title": it.display_title,
         "url": it.url,
         "score_label": it.score_label,
         "extra": it.extra,
         "source": it.source,
         "source_label": it.source_label,
+        "summary": it.summary,
+        "tags": list(it.tags),
+        "meta": it.meta,
+        "trend": it.trend,
+        "domain": _domain(it.url),
     }
 
 
@@ -32,6 +47,7 @@ def build_report(items_by_source, ai_result: dict,
         sources.append({
             "key": src_key,
             "label": label,
+            "icon": SOURCE_ICONS.get(src_key, "📌"),
             "items": [_item_view(it) for it in src_items],
         })
     return {

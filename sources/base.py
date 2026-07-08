@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 
 @dataclass
@@ -10,8 +10,14 @@ class Item:
     url: str               # 原文链接
     score: int = 0         # 热度数值（用于排序/参考）
     score_label: str = ""  # 热度展示文案，如 "▲ 123"
-    extra: str = ""        # 附加信息（语言/作者/子源等）
+    extra: str = ""        # 附加信息（语言/作者/子源等）—— 飞书卡片复用，保持精简
     title_zh: str = ""     # AI 中文化标题；为空时展示用 title
+    # 档 3 详细字段（网页看板用）：
+    description: str = ""  # 简介/摘要/abstract，喂给 AI 生成解读
+    tags: list = field(default_factory=list)  # 分类标签 chips（规则派生 + AI 补充）
+    meta: str = ""         # 技术参数行（作者·框架·许可·时间，源相关）
+    summary: str = ""      # AI 生成的一句话解读
+    trend: str = ""        # 趋势文案，如 "▲ +380k 本周"
 
     @property
     def key(self) -> str:

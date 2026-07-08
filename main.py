@@ -7,20 +7,19 @@ from ai_summarizer import summarize
 from config import SOURCES, TOP_N, PAGES_BASE_URL
 from dashboard import build_report, render_html
 from feishu import build_card, send_card
+from sources.ai_zh import AiZhFetcher
+from sources.arxiv import ArxivFetcher
 from sources.github_trending import GitHubTrendingFetcher
 from sources.hackernews import HackerNewsFetcher
+from sources.huggingface import HuggingFaceFetcher
 from sources.juejin import JuejinFetcher
-# Product Hunt 暂未启用：依赖 RSSHub 公共实例（常无数据），等自建 RSSHub 后加回此行：
-# from sources.producthunt import ProductHuntFetcher
-from sources.rss_zh import RssZhFetcher
-from sources.v2ex import V2EXFetcher
 
 FETCHERS = {
-    "hackernews": HackerNewsFetcher,
+    "hf": HuggingFaceFetcher,
+    "arxiv": ArxivFetcher,
     "github": GitHubTrendingFetcher,
-    # "producthunt": ProductHuntFetcher,  # 暂停用（见 import 注释）
-    "v2ex": V2EXFetcher,
-    "rss_zh": RssZhFetcher,
+    "hackernews": HackerNewsFetcher,
+    "ai_zh": AiZhFetcher,
     "juejin": JuejinFetcher,
 }
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
@@ -38,7 +37,7 @@ def fetch_all(only: str | None = None) -> dict:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="科技×AI 每日热点看板")
+    parser = argparse.ArgumentParser(description="AI 技术热点每日看板")
     parser.add_argument("--source", default=None, choices=ORDER,
                         help="仅抓取单个源（调试）")
     parser.add_argument("--send", action="store_true",
@@ -53,9 +52,15 @@ def main() -> int:
     all_items = [it for _, _, its in items_by_source for it in its]
     ai = summarize(all_items)
     for it in all_items:
-        zh = ai["translations"].get(it.key)
-        if zh:
-            it.title_zh = zh
+        info = ai["items"].get(it.key) or {}
+        if info.get("zh"):
+            it.title_zh = info["zh"]
+        if info.get("summary"):
+            it.summary = info["summary"]
+        # 合并 AI 给的标签，去重并保留顺序
+        for t in info.get("tags", []):
+            if t not in it.tags:
+                it.tags.append(t)
 
     report = build_report(items_by_source, ai)
 
