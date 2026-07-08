@@ -1,44 +1,41 @@
 {
-  "date": "2026-07-07",
-  "weekday": "周二",
+  "date": "2026-07-08",
+  "weekday": "周三",
   "editorial": [
     {
-      "text": "Xbox 启动史上最大业务重组计划，引发社区热议",
+      "text": "欧盟新规要求所有新车必须配备驾驶员监控摄像头，引发隐私与安全讨论",
       "refs": [
-        "hackernews:1",
-        "rss_zh:2"
+        "hackernews:3"
       ]
     },
     {
-      "text": "AI 编程工具持续火热：Claude Code Skills 实战、Cursor 遭大厂封禁、Codex 低成本方案涌现",
+      "text": "AI 开发工具链持续火热：Claude Code Skills/MCP 实战、Cursor 转 Codex 体验、AI 小游戏上线等话题受关注",
       "refs": [
         "juejin:1",
-        "juejin:2",
-        "juejin:3"
+        "juejin:3",
+        "juejin:4",
+        "github:3"
       ]
     },
     {
-      "text": "开源硬件与软件项目受关注：OpenWrt One 路由器、CoMaps 离线地图、Elm 语言迈向 1.0",
+      "text": "本地化 AI 模型进展：Kokoro 提供 CPU 友好高质量 TTS，Ilya 精选 30 篇 ML 论文以入门友好格式呈现",
       "refs": [
-        "hackernews:2",
-        "hackernews:3",
+        "hackernews:4",
         "hackernews:5"
       ]
     },
     {
-      "text": "GitHub 热门项目聚焦 AI Agent 技能与系统提示词泄露",
+      "text": "国内开发者热议大模型使用政策、DeepSeek 面试争议及银行科技岗去留问题",
       "refs": [
-        "github:1",
-        "github:2",
-        "github:5"
+        "v2ex:3",
+        "v2ex:4",
+        "v2ex:5"
       ]
     },
     {
-      "text": "V2EX 热议家庭网络服务暴露方案及 GPT 中转站推广",
+      "text": "Meta 推出 Muse 图像生成模型，Nothing Ear (3a) 发布，科技硬件与 AI 产品动态更新",
       "refs": [
-        "v2ex:1",
-        "v2ex:2",
-        "v2ex:5"
+        "rss_zh:2"
       ]
     }
   ],
@@ -48,42 +45,42 @@
       "label": "Hacker News",
       "items": [
         {
-          "title": "重置 Xbox",
-          "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
-          "score_label": "▲ 539",
-          "extra": "546 评论",
+          "title": "StreetComplete：一次一个小任务地修复 OpenStreetMap",
+          "url": "https://streetcomplete.app/",
+          "score_label": "▲ 724",
+          "extra": "173 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "OpenWrt One – 开源硬件路由器",
-          "url": "https://openwrt.org/toh/openwrt/one",
-          "score_label": "▲ 501",
-          "extra": "203 评论",
+          "title": "Chat Control 1.0 与 2.0 详解",
+          "url": "https://fightchatcontrol.eu/chat-control-overview",
+          "score_label": "▲ 500",
+          "extra": "167 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "CoMaps – 自由开源离线地图",
-          "url": "https://www.comaps.app/",
-          "score_label": "▲ 391",
-          "extra": "79 评论",
+          "title": "欧盟要求所有新售车辆必须配备驾驶员监控摄像头",
+          "url": "https://allaboutcookies.org/eu-mandatory-distracted-driver-system",
+          "score_label": "▲ 492",
+          "extra": "638 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "语言模型中的全局工作空间",
-          "url": "https://www.anthropic.com/research/global-workspace",
-          "score_label": "▲ 319",
-          "extra": "118 评论",
+          "title": "30papers.com：Ilya 精选 30 篇必读 ML 论文，入门友好格式",
+          "url": "https://30papers.com/",
+          "score_label": "▲ 421",
+          "extra": "68 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         },
         {
-          "title": "Elm 1.0 之路",
-          "url": "https://elm-lang.org/news/faster-builds",
-          "score_label": "▲ 314",
-          "extra": "155 评论",
+          "title": "Kokoro：本地、CPU 友好、高质量的文本转语音方案",
+          "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+          "score_label": "▲ 341",
+          "extra": "72 评论",
           "source": "hackernews",
           "source_label": "Hacker News"
         }
@@ -94,41 +91,41 @@
       "label": "GitHub Trending",
       "items": [
         {
-          "title": "系统提示词泄露合集",
-          "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "score_label": "⭐ 1,378 stars today",
-          "extra": "JavaScript",
+          "title": "ai-job-search：AI 驱动的求职搜索工具",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "score_label": "⭐ 2,514 stars today",
+          "extra": "TypeScript",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "Agent 技能集合",
-          "url": "https://github.com/addyosmani/agent-skills",
-          "score_label": "⭐ 1,112 stars today",
-          "extra": "JavaScript",
-          "source": "github",
-          "source_label": "GitHub Trending"
-        },
-        {
-          "title": "Meetily",
+          "title": "Meetily：开源会议与协作解决方案",
           "url": "https://github.com/Zackriya-Solutions/meetily",
-          "score_label": "⭐ 2,494 stars today",
+          "score_label": "⭐ 1,777 stars today",
           "extra": "Rust",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "RuView",
+          "title": "agent-skills：Addy Osmani 的 AI Agent 技能集合",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "score_label": "⭐ 1,317 stars today",
+          "extra": "JavaScript",
+          "source": "github",
+          "source_label": "GitHub Trending"
+        },
+        {
+          "title": "RuView：代码审查与可视化工具",
           "url": "https://github.com/ruvnet/RuView",
-          "score_label": "⭐ 470 stars today",
+          "score_label": "⭐ 1,129 stars today",
           "extra": "Rust",
           "source": "github",
           "source_label": "GitHub Trending"
         },
         {
-          "title": "Taste Skill",
-          "url": "https://github.com/Leonxlnx/taste-skill",
-          "score_label": "⭐ 1,458 stars today",
+          "title": "system_prompts_leaks：系统提示词泄露合集",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "score_label": "⭐ 1,691 stars today",
           "extra": "JavaScript",
           "source": "github",
           "source_label": "GitHub Trending"
@@ -140,42 +137,42 @@
       "label": "V2EX",
       "items": [
         {
-          "title": "继续推广我的 gpt 中转站，注册就送 28.8$余额，已稳定运行俩月了",
-          "url": "https://www.v2ex.com/t/1225338",
-          "score_label": "💬 143",
+          "title": "同事送了个洗碗机之后回不去了",
+          "url": "https://www.v2ex.com/t/1225553",
+          "score_label": "💬 146",
+          "extra": "生活",
+          "source": "v2ex",
+          "source_label": "V2EX"
+        },
+        {
+          "title": "fcodex 小站开业，评论送 5 额度,倍率低至:0.07x;plus 0.11x;pro 号池倍率 0.25x",
+          "url": "https://www.v2ex.com/t/1225627",
+          "score_label": "💬 127",
           "extra": "推广",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "「免费 40 刀额度」GPT 纯 PRO 号 自制中转站 无任何开源项目缝合 支持企业对接",
-          "url": "https://www.v2ex.com/t/1225280",
-          "score_label": "💬 130",
-          "extra": "推广",
+          "title": "为什么中央政府不管控国人使用外国大模型？",
+          "url": "https://www.v2ex.com/t/1225718",
+          "score_label": "💬 109",
+          "extra": "问与答",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "分享一个极限赶飞机不用等的方法",
-          "url": "https://www.v2ex.com/t/1225334",
-          "score_label": "💬 83",
-          "extra": "旅行",
-          "source": "v2ex",
-          "source_label": "V2EX"
-        },
-        {
-          "title": "新加坡公司上班第二天被炒鱿鱼",
-          "url": "https://www.v2ex.com/t/1225425",
-          "score_label": "💬 75",
+          "title": "华为天才少年吐槽 DeepSeek 面试不规范，程序员的你怎么看？",
+          "url": "https://www.v2ex.com/t/1225610",
+          "score_label": "💬 107",
           "extra": "职场话题",
           "source": "v2ex",
           "source_label": "V2EX"
         },
         {
-          "title": "没有公网 IPv4， IPv6 又是动态的，大家现在怎么低成本暴露家庭服务？",
-          "url": "https://www.v2ex.com/t/1225326",
-          "score_label": "💬 67",
-          "extra": "宽带症候群",
+          "title": "银行科技欲离职求打醒",
+          "url": "https://www.v2ex.com/t/1225545",
+          "score_label": "💬 79",
+          "extra": "职场话题",
           "source": "v2ex",
           "source_label": "V2EX"
         }
@@ -186,40 +183,40 @@
       "label": "36氪·少数派·虎嗅",
       "items": [
         {
-          "title": "新手日记的「为什么」与「写什么」",
-          "url": "https://sspai.com/post/111655",
+          "title": "好的桌面需要设备，更需要灯光：明基×少数派线下店体验空间升级",
+          "url": "https://sspai.com/post/110993",
           "score_label": "",
           "extra": "少数派",
           "source": "rss_zh",
           "source_label": "36氪·少数派·虎嗅"
         },
         {
-          "title": "派早报：Xbox 启动史上最大的业务重组计划等",
-          "url": "https://sspai.com/post/112010",
+          "title": "派早报：Nothing Ear (3a) 发布、Meta 推出 Muse 图像生成模型等",
+          "url": "https://sspai.com/post/112049",
           "score_label": "",
           "extra": "少数派",
           "source": "rss_zh",
           "source_label": "36氪·少数派·虎嗅"
         },
         {
-          "title": "派评 | 近期值得关注的 App",
-          "url": "https://sspai.com/post/111999",
+          "title": "家庭饮品 DIY 指南（二）：常用液体物料推荐",
+          "url": "https://sspai.com/prime/story/home-made-beverages-2",
           "score_label": "",
           "extra": "少数派",
           "source": "rss_zh",
           "source_label": "36氪·少数派·虎嗅"
         },
         {
-          "title": "iPhone Air 当主力机用了三个多月后，我为什么还是换不掉它",
-          "url": "https://sspai.com/post/111113",
+          "title": "社区速递 148 | 派友的全屋智能实操、水月雨布丁耳机与MUJI可调节毛巾枕",
+          "url": "https://sspai.com/post/112017",
           "score_label": "",
           "extra": "少数派",
           "source": "rss_zh",
           "source_label": "36氪·少数派·虎嗅"
         },
         {
-          "title": "自动给文章术语加百科链接，这个方案一分钟搞定",
-          "url": "https://sspai.com/post/111702",
+          "title": "用 Option 给 macOS 操作加点料",
+          "url": "https://sspai.com/post/73385",
           "score_label": "",
           "extra": "少数派",
           "source": "rss_zh",
@@ -234,23 +231,7 @@
         {
           "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
           "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 787",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金"
-        },
-        {
-          "title": "全面封禁 Cursor！又一家大厂出手了",
-          "url": "https://juejin.cn/post/7584110439933100078",
-          "score_label": "👍 684",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金"
-        },
-        {
-          "title": "Codex 穷鬼大救星",
-          "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 314",
+          "score_label": "👍 788",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
@@ -258,7 +239,7 @@
         {
           "title": "小程序上线半年我赚了多少钱？",
           "url": "https://juejin.cn/post/7593338828196626472",
-          "score_label": "👍 246",
+          "score_label": "👍 247",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
@@ -266,7 +247,23 @@
         {
           "title": "我用AI做了个微信小游戏-上线了",
           "url": "https://juejin.cn/post/7641048219231010862",
-          "score_label": "👍 235",
+          "score_label": "👍 236",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        },
+        {
+          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
+          "url": "https://juejin.cn/post/7637856870833635343",
+          "score_label": "👍 181",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金"
+        },
+        {
+          "title": "写给年轻程序员的几点建议-2",
+          "url": "https://juejin.cn/post/7612479947865669675",
+          "score_label": "👍 163",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金"
