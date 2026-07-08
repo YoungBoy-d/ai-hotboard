@@ -1,12 +1,13 @@
 import re
+import time
 
 import feedparser
 import requests
 
-from config import REQUEST_HEADERS, REQUEST_TIMEOUT
+from config import REQUEST_HEADERS
 from sources.base import BaseFetcher, Item
 
-ARXIV_API = "http://export.arxiv.org/api/query"
+ARXIV_API = "https://export.arxiv.org/api/query"
 ARXIV_CATEGORIES = ["cs.AI", "cs.CL", "cs.LG"]
 
 # arXiv 分类 → 友好标签
@@ -27,16 +28,23 @@ class ArxivFetcher(BaseFetcher):
     source_label = "arXiv 论文"
 
     def fetch(self, limit: int = 5) -> list[Item]:
+        # arXiv API 偶发 503/限流/超时：用 HTTPS + 礼貌 UA + 较长超时 + 重试兜底
         query = " OR ".join(f"cat:{c}" for c in ARXIV_CATEGORIES)
-        resp = requests.get(
-            ARXIV_API,
-            params={"search_query": query, "sortBy": "submittedDate",
-                    "sortOrder": "descending", "max_results": max(limit * 4, 30)},
-            headers=REQUEST_HEADERS,
-            timeout=REQUEST_TIMEOUT,
-        )
-        resp.raise_for_status()
-        return parse_arxiv(resp.content, limit, self.source, self.source_label)
+        params = {"search_query": query, "sortBy": "submittedDate",
+                  "sortOrder": "descending", "max_results": max(limit * 4, 20)}
+        headers = {**REQUEST_HEADERS,
+                   "User-Agent": "ai-hotboard/1.0 (daily AI digest; +https://github.com)"}
+        last_exc = None
+        for _ in range(3):  # 最多重试 3 次
+            try:
+                resp = requests.get(ARXIV_API, params=params, headers=headers,
+                                    timeout=25)
+                resp.raise_for_status()
+                return parse_arxiv(resp.content, limit, self.source, self.source_label)
+            except Exception as e:  # noqa: BLE001
+                last_exc = e
+                time.sleep(3)  # arXiv 建议请求间隔 ≥3s
+        raise last_exc
 
 
 def parse_arxiv(content: bytes, limit: int = 5,
