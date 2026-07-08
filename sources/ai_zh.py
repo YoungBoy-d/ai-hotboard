@@ -11,17 +11,19 @@ _WS = re.compile(r"\s+")
 
 
 class AiZhFetcher(BaseFetcher):
-    """中文 AI 媒体（机器之心 / 量子位），经 RSSHub 订阅。
+    """中文 AI 媒体：机器之心（官方 RSS 直连）+ 量子位（经 RSSHub）。
 
-    路由依赖 RSSHUB_BASE；公共实例可能无数据，空源由 safe_fetch 兜底。
+    机器之心用官方 RSS，不依赖 RSSHub，最稳；量子位需 RSSHUB_BASE，
+    公共实例 rsshub.app 常返回 403/限流，建议自建 RSSHub 并设 RSSHUB_BASE。
+    任一子源失败由 safe_fetch 兜底为空。
     """
     source = "ai_zh"
     source_label = "机器之心·量子位"
 
     def _feeds(self) -> list[tuple[str, str]]:
         return [
-            ("机器之心", f"{RSSHUB_BASE}/jiqizhixin/news"),
-            ("量子位", f"{RSSHUB_BASE}/qbitai/articles"),
+            ("机器之心", "https://www.jiqizhixin.com/rss"),
+            ("量子位", f"{RSSHUB_BASE}/qbitai"),
         ]
 
     def fetch(self, limit: int = 5) -> list[Item]:
