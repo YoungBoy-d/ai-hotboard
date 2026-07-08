@@ -3,37 +3,37 @@
   "weekday": "周三",
   "editorial": [
     {
-      "text": "DeepSeek-R1 开源发布，MIT 协议加持，推理模型迎来新一轮开源浪潮",
+      "text": "字节跳动豆包与阿里千问宣布将于2026年7月15日下线智能体功能，用户需提前备份数据。",
       "refs": [
-        "hf:2"
+        "ai_zh:3"
       ]
     },
     {
-      "text": "AI Agent 工具链持续升温：从沙箱、编程技能到系统提示词泄露，Agent 生态加速成型",
+      "text": "微软裁员4800人，游戏业务受重创，高管称AI正在改变工作方式但被裁岗位不会直接被AI取代。",
       "refs": [
-        "github:3",
-        "github:4",
-        "github:5"
+        "ai_zh:1"
       ]
     },
     {
-      "text": "AI 编程成本引发企业焦虑，烧 token 比招人还贵成为现实问题",
+      "text": "开发者热议AI编程工具：Cursor转Codex体验、穷鬼工作流、以及'AI写代码比你快100倍'的面试灵魂拷问。",
       "refs": [
         "juejin:4",
+        "juejin:2",
         "juejin:1"
       ]
     },
     {
-      "text": "本地化、隐私优先的 AI 应用受追捧：Kokoro TTS 和 Meetily 会议助手均强调本地运行",
+      "text": "GitHub热门项目：本地化AI会议助手Meetily、AI Agent沙箱CubeSandbox、以及泄露的各大厂商系统提示词合集。",
       "refs": [
-        "hackernews:2",
-        "github:2"
+        "github:2",
+        "github:5",
+        "github:4"
       ]
     },
     {
-      "text": "3D 理解与生成统一模型 ELSA3D 提出弹性语义锚定机制，推动多模态 3D 基础模型发展",
+      "text": "一篇被指控AI创作的短篇小说赢得英联邦短篇小说奖，引发对AI写作模式识别的广泛讨论。",
       "refs": [
-        "arxiv:1"
+        "ai_zh:2"
       ]
     }
   ],
@@ -51,7 +51,7 @@
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Black Forest Labs 推出的文生图模型，基于 diffusers 框架，采用非标准开源协议。适合图像生成研究和应用开发。",
+          "summary": "Black Forest Labs 推出的文生图模型，基于 diffusers 框架，采用非开源许可证。是当前文生图领域的热门选择之一。",
           "tags": [
             "CV·生成",
             "开源",
@@ -63,13 +63,13 @@
         },
         {
           "key": "hf:2",
-          "title": "DeepSeek-R1 推理大模型",
+          "title": "DeepSeek-R1 文本生成模型",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
           "score_label": "⬇ 8.6M · 👍 13.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "DeepSeek 发布的推理增强大语言模型，采用 MIT 协议完全开源。支持 transformers 框架，对开发者友好，是开源推理模型的重要新选择。",
+          "summary": "DeepSeek 推出的推理增强型大语言模型，MIT 许可证开源。在代码、数学和推理任务上表现突出，是开发者社区关注的重点模型。",
           "tags": [
             "LLM",
             "开源"
@@ -86,7 +86,7 @@
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Stability AI 的经典文生图模型 SDXL 基础版，基于 diffusers，采用 OpenRAIL++ 协议。仍是高质量图像生成的重要基线模型。",
+          "summary": "Stability AI 发布的 SDXL 基础模型，文生图领域的经典之作，基于 diffusers 使用，OpenRail++ 许可证。",
           "tags": [
             "CV·生成",
             "开源",
@@ -98,13 +98,13 @@
         },
         {
           "key": "hf:4",
-          "title": "Stable Diffusion v1-4",
+          "title": "Stable Diffusion v1.4",
           "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
           "score_label": "⬇ 436.1k · 👍 7.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "CompVis 发布的经典 SD 1.4 版本，文生图领域的老牌模型，社区生态成熟，适合快速原型和微调。",
+          "summary": "CompVis 发布的经典文生图模型，SD 系列的早期版本，至今仍被广泛使用和微调，CreativeML OpenRail 许可证。",
           "tags": [
             "CV·生成",
             "开源",
@@ -122,7 +122,7 @@
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Meta 发布的 Llama 3 系列 8B 参数版本，支持文本生成，采用 Llama 3 专属协议。适合轻量级部署和微调场景。",
+          "summary": "Meta 发布的 Llama 3 系列 8B 参数模型，适用于文本生成任务，Llama 3 许可证。是中小规模部署的热门选择。",
           "tags": [
             "LLM",
             "开源"
@@ -137,97 +137,7 @@
       "key": "arxiv",
       "label": "arXiv 论文",
       "icon": "📄",
-      "items": [
-        {
-          "key": "arxiv:1",
-          "title": "ELSA3D：统一 3D 理解与生成的弹性语义锚定方法",
-          "url": "http://arxiv.org/abs/2607.06565v1",
-          "score_label": "",
-          "extra": "cs.CV",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "提出弹性语义锚定机制，解决统一 3D 基础模型中文本与 3D 交互隐式化的问题，推动 3D 资产生成与语言推理在同一 backbone 中协同工作。",
-          "tags": [
-            "论文",
-            "CV",
-            "AI"
-          ],
-          "meta": "作者 · Tianjiao Yu, Xinzhuo Li, Yifan Shen  ·  📅 2026-07-07  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:2",
-          "title": "图卷积注意力：从频谱视角看图去噪与扩散",
-          "url": "http://arxiv.org/abs/2607.06546v1",
-          "score_label": "",
-          "extra": "cs.LG",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "从频谱理论角度分析注意力机制在图去噪和图扩散模型中的作用，为图 Transformer 的去噪能力提供理论解释。",
-          "tags": [
-            "论文",
-            "ML",
-            "AI"
-          ],
-          "meta": "作者 · Shervin Khalafi, Igor Krawczuk, Sergio Rozada  ·  📅 2026-07-07  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "从文化遗产保护视角重新审视印度 AI 发展",
-          "url": "http://arxiv.org/abs/2607.06544v1",
-          "score_label": "",
-          "extra": "cs.AI",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "探讨 AI 进入印度次大陆后对当地语言和文化基础的影响，指出 AI 是",
-          "tags": [
-            "论文",
-            "AI",
-            "NLP"
-          ],
-          "meta": "作者 · Aparna Madva, Sharath Srivatsa, Srinath Srinivasa  ·  📅 2026-07-07  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "非人类序列的依存句法分析可行性研究",
-          "url": "http://arxiv.org/abs/2607.06542v1",
-          "score_label": "",
-          "extra": "cs.CL",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "探索在无金标准情况下对其他物种序列进行无监督依存句法分析的可能性，拓展 NLP 方法在生物学等领域的应用边界。",
-          "tags": [
-            "论文",
-            "NLP"
-          ],
-          "meta": "作者 · Ramon Ferrer-i-Cancho, Catherine Hobaiter, Thore Bergman  ·  📅 2026-07-07  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "层次化声学-语义建模：全双工语音大模型的模态分离与语义连贯",
-          "url": "http://arxiv.org/abs/2607.06540v1",
-          "score_label": "",
-          "extra": "cs.CL",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "针对全双工语音大模型中模态干扰严重的问题，提出层次化建模方法实现模态分离和语义连贯，推动自然对话式 AI 发展。",
-          "tags": [
-            "论文",
-            "NLP",
-            "语音"
-          ],
-          "meta": "作者 · Zhenyu Liu, Yunxin Li, Xuanyu Zhang  ·  📅 2026-07-07  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        }
-      ]
+      "items": []
     },
     {
       "key": "github",
@@ -236,13 +146,13 @@
       "items": [
         {
           "key": "github:1",
-          "title": "AI 驱动的求职应用框架",
+          "title": "AI 求职自动化框架",
           "url": "https://github.com/MadsLorentzen/ai-job-search",
-          "score_label": "★ 2,514 stars today · ★ 12,703 总",
+          "score_label": "★ 2,514 stars today · ★ 12,807 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "基于 Claude Code 构建的求职自动化工具，可自动评估岗位、定制简历、撰写求职信并准备面试。适合求职者提升效率。",
+          "summary": "基于 Claude Code 构建的 AI 求职框架，可自动评估岗位、定制简历、撰写求职信并准备面试。开发者可 fork 后填入个人信息使用。",
           "tags": [
             "开源",
             "TypeScript",
@@ -255,18 +165,17 @@
         },
         {
           "key": "github:2",
-          "title": "Meetily：隐私优先的本地 AI 会议助手",
+          "title": "Meetily 本地化 AI 会议助手",
           "url": "https://github.com/Zackriya-Solutions/meetily",
-          "score_label": "★ 1,777 stars today · ★ 21,229 总",
+          "score_label": "★ 1,777 stars today · ★ 21,257 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "基于 Rust 构建的开源会议记录工具，支持本地转录、说话人分离和 Ollama 摘要，无需云端处理，适合对隐私敏感的用户。",
+          "summary": "隐私优先的开源 AI 会议记录工具，支持实时转录、说话人分离和 Ollama 本地摘要，100% 本地处理无需云端，支持 macOS 和 Windows。",
           "tags": [
             "开源",
             "Rust",
-            "语音",
-            "工具"
+            "语音"
           ],
           "meta": "语言 · Rust",
           "trend": "",
@@ -274,13 +183,13 @@
         },
         {
           "key": "github:3",
-          "title": "AI 编程 Agent 的生产级工程技能集",
+          "title": "AI 编程 Agent 工程技能集",
           "url": "https://github.com/addyosmani/agent-skills",
-          "score_label": "★ 1,317 stars today · ★ 72,616 总",
+          "score_label": "★ 1,317 stars today · ★ 72,637 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "为 AI 编程 Agent 提供的一套生产级工程技能定义，帮助 Agent 更好地完成复杂编码任务，提升 AI 辅助开发的可靠性。",
+          "summary": "为 AI 编程 Agent 提供的生产级工程技能集合，帮助 Agent 更好地完成实际软件工程任务。",
           "tags": [
             "开源",
             "JavaScript",
@@ -293,18 +202,18 @@
         },
         {
           "key": "github:4",
-          "title": "主流 AI 产品系统提示词泄露合集",
+          "title": "各大厂商系统提示词泄露合集",
           "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "score_label": "★ 1,691 stars today · ★ 53,464 总",
+          "score_label": "★ 1,691 stars today · ★ 53,490 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "收集了 Anthropic、OpenAI、Google、xAI 等公司多款 AI 产品的系统提示词，包括 Claude、ChatGPT、Gemini、Grok 等，定期更新。对提示词工程研究有参考价值。",
+          "summary": "收集了 Anthropic、OpenAI、Google、xAI 等公司旗下产品的系统提示词，包括 Claude、ChatGPT、Gemini、Grok 等，定期更新。对研究 Prompt 工程的开发者有参考价值。",
           "tags": [
             "开源",
             "JavaScript",
             "LLM",
-            "资讯"
+            "工具"
           ],
           "meta": "语言 · JavaScript",
           "trend": "",
@@ -312,17 +221,18 @@
         },
         {
           "key": "github:5",
-          "title": "腾讯云 CubeSandbox：AI Agent 轻量安全沙箱",
+          "title": "CubeSandbox AI Agent 沙箱",
           "url": "https://github.com/TencentCloud/CubeSandbox",
-          "score_label": "★ 664 stars today · ★ 8,652 总",
+          "score_label": "★ 664 stars today · ★ 8,660 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "腾讯云开源的 AI Agent 沙箱环境，支持即时启动、并发运行、安全隔离和轻量部署，解决 Agent 执行代码时的安全风险问题。",
+          "summary": "腾讯云推出的轻量级沙箱环境，为 AI Agent 提供即时、并发、安全的执行空间，适合需要代码执行隔离的场景。",
           "tags": [
             "开源",
             "Rust",
-            "Agent"
+            "Agent",
+            "工具"
           ],
           "meta": "语言 · Rust",
           "trend": "",
@@ -337,13 +247,13 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Chat Control 1.0 与 2.0 详解",
+          "title": "Chat Control 1.0 与 2.0 解读",
           "url": "https://fightchatcontrol.eu/chat-control-overview",
-          "score_label": "▲ 634 · 💬 222",
+          "score_label": "▲ 645 · 💬 238",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "深入解读欧盟 Chat Control 提案的演变，涉及端到端加密监控和隐私权争议，对科技行业和用户隐私有深远影响。",
+          "summary": "深入解析欧盟 Chat Control 提案的演变，涉及对加密通信的监控要求，对隐私和 AI 审查有深远影响。",
           "tags": [
             "热议",
             "资讯"
@@ -354,13 +264,13 @@
         },
         {
           "key": "hackernews:2",
-          "title": "Kokoro：本地 CPU 友好的高质量 TTS",
+          "title": "Kokoro：本地 CPU 高质量 TTS",
           "url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
-          "score_label": "▲ 399 · 💬 78",
+          "score_label": "▲ 402 · 💬 78",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "一款可在 CPU 上本地运行的高质量文本转语音模型，无需 GPU，适合资源受限场景下的语音合成需求。",
+          "summary": "一款可在 CPU 上本地运行的高质量文本转语音方案，轻量且效果好，对开发者构建语音应用非常友好。",
           "tags": [
             "语音",
             "开源"
@@ -371,13 +281,13 @@
         },
         {
           "key": "hackernews:3",
-          "title": "Davit：Apple Containers 的 UI 工具",
+          "title": "Davit：Apple Containers UI",
           "url": "https://davit.app",
-          "score_label": "▲ 302 · 💬 68",
+          "score_label": "▲ 307 · 💬 69",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "为 Apple Containers 提供的图形化界面工具，简化容器管理和操作流程。",
+          "summary": "Show HN 项目，为 Apple 容器技术提供图形化界面，方便开发者管理和使用容器化应用。",
           "tags": [
             "工具"
           ],
@@ -387,13 +297,13 @@
         },
         {
           "key": "hackernews:4",
-          "title": "Tenda 路由器固件存在隐藏认证后门",
+          "title": "Tenda 路由器固件隐藏后门",
           "url": "https://kb.cert.org/vuls/id/213560",
-          "score_label": "▲ 192 · 💬 56",
+          "score_label": "▲ 204 · 💬 61",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "安全研究人员发现 Tenda 多款路由器固件中存在隐藏认证后门，影响多个版本，提醒用户及时检查并更新固件。",
+          "summary": "安全研究人员发现 Tenda 多款路由器固件中存在隐藏认证后门，多个版本受影响，提醒用户尽快检查并更新固件。",
           "tags": [
             "资讯"
           ],
@@ -403,13 +313,13 @@
         },
         {
           "key": "hackernews:5",
-          "title": "Fable 5 向所有付费用户开放至 7 月 12 日",
+          "title": "Fable 5 付费计划全面开放至7月12日",
           "url": "https://twitter.com/claudeai/status/2074548242386178258",
-          "score_label": "▲ 182 · 💬 185",
+          "score_label": "▲ 184 · 💬 193",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "Anthropic 宣布将 Claude Fable 5 的访问权限扩展至所有付费计划用户，截止日期为 7 月 12 日，降低体验门槛。",
+          "summary": "Anthropic 宣布将 Fable 5 的访问权限扩展至所有付费计划用户，截止日期为7月12日，降低使用门槛。",
           "tags": [
             "热议",
             "LLM",
@@ -423,9 +333,80 @@
     },
     {
       "key": "ai_zh",
-      "label": "机器之心·量子位",
+      "label": "中文 AI 资讯",
       "icon": "📰",
-      "items": []
+      "items": [
+        {
+          "key": "ai_zh:1",
+          "title": "微软裁员 4800 人，游戏业务深受影响",
+          "url": "https://www.solidot.org/story?sid=84772",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "微软裁员4800人，Xbox游戏业务是重灾区，多个工作室被出售或独立。高管强调AI在改变工作方式，但被裁岗位不会直接被AI替代，员工需持续学习适应变化。",
+          "tags": [
+            "Solidot",
+            "资讯"
+          ],
+          "meta": "📅 2026-07-07",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "被社媒用户指控是 AI 创作的短篇小说赢得英联邦短篇小说奖",
+          "url": "https://www.solidot.org/story?sid=84768",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "一篇短篇小说赢得英联邦奖后被社媒用户指控为AI创作，因其包含典型AI写作模式（如'不是x而是y'结构）。基金会已介入调查，引发对AI生成内容识别的讨论。",
+          "tags": [
+            "Solidot",
+            "资讯",
+            "LLM"
+          ],
+          "meta": "📅 2026-07-06",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "字节跳动和阿里巴巴下线智能体功能",
+          "url": "https://www.solidot.org/story?sid=84763",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "字节跳动豆包和阿里千问宣布将于2026年7月15日下线智能体功能，用户需在10月15日前备份数据。这是国内大厂在智能体方向上的重大战略调整。",
+          "tags": [
+            "Solidot",
+            "Agent",
+            "资讯"
+          ],
+          "meta": "📅 2026-07-06",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
+          "title": "iPhone Air 当主力机用了三个多月后，我为什么还是换不掉它",
+          "url": "https://sspai.com/post/111113",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "作者分享使用 iPhone Air 三个多月后的真实体验，探讨在取舍之间什么才是真正重要的手机体验。",
+          "tags": [
+            "少数派",
+            "资讯"
+          ],
+          "meta": "📅 2026-07-06",
+          "trend": "",
+          "domain": "sspai.com"
+        }
+      ]
     },
     {
       "key": "juejin",
@@ -434,64 +415,13 @@
       "items": [
         {
           "key": "juejin:1",
-          "title": "Codex 穷鬼大救星",
-          "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 316",
+          "title": "面试官问我：“AI 写代码比你快 100 倍，你的价值在哪？”",
+          "url": "https://juejin.cn/post/7629213925721145379",
+          "score_label": "👍 364",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "分享一套低成本使用 Codex 的工作流方案，通过巧妙组合工具和策略大幅降低 AI 编程成本，适合预算有限的开发者参考。",
-          "tags": [
-            "工具",
-            "变现"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:2",
-          "title": "我用AI做了个微信小游戏-上线了",
-          "url": "https://juejin.cn/post/7641048219231010862",
-          "score_label": "👍 237",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "完整记录用 AI 开发微信小游戏的全过程，包括技术栈选择、Prompt 设计、踩坑经验和成本明细，是 AI 辅助游戏开发的实战参考。",
-          "tags": [
-            "工具",
-            "变现"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:3",
-          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
-          "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 182",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "作者从 Cursor 切换到 Codex 半个月后的真实体验对比，认为 Codex 更接近超级 Agent 形态，代表 AI 编程工具的下一阶段演进方向。",
-          "tags": [
-            "Agent",
-            "工具"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:4",
-          "title": "最近公司烧token比招员工还贵，老板干懵了...",
-          "url": "https://juejin.cn/post/7646256871183024128",
-          "score_label": "👍 88",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "揭示企业在全面拥抱 AI 后面临的 token 成本问题，烧 token 费用超过人力成本，引发对 AI 部署 ROI 的反思。",
+          "summary": "面试中被问到'AI写代码比你快100倍，你的价值在哪'，文章探讨了在AI编程时代程序员的核心竞争力应转向架构设计、问题定义和系统思维。",
           "tags": [
             "LLM",
             "资讯"
@@ -501,15 +431,67 @@
           "domain": "juejin.cn"
         },
         {
-          "key": "juejin:5",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 81",
+          "key": "juejin:2",
+          "title": "Codex 穷鬼大救星",
+          "url": "https://juejin.cn/post/7635467758865235968",
+          "score_label": "👍 316",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "分析 2026 年技术面试的变化趋势，面试官不再考察基础手写代码，而是关注候选人如何有效使用 AI 工具解决问题。",
+          "summary": "分享一套低成本使用 AI 编程的工作流，通过巧妙组合工具降低 token 消耗，适合预算有限的开发者参考。",
           "tags": [
+            "工具",
+            "LLM"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:3",
+          "title": "我用AI做了个微信小游戏-上线了",
+          "url": "https://juejin.cn/post/7641048219231010862",
+          "score_label": "👍 238",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "作者完整记录了用 AI 开发微信小游戏的全过程，包括技术栈选择、prompt 设计、踩坑经验和成本明细，已上线可玩。",
+          "tags": [
+            "Agent",
+            "变现"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:4",
+          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
+          "url": "https://juejin.cn/post/7637856870833635343",
+          "score_label": "👍 182",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "作者从 Cursor 切换到 Codex 大半个月后的真实对比感受，认为 Codex 更接近'超级Agent'形态，代表了AI编程工具的下一阶段方向。",
+          "tags": [
+            "Agent",
+            "工具"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:5",
+          "title": "最近公司烧token比招员工还贵，老板干懵了...",
+          "url": "https://juejin.cn/post/7646256871183024128",
+          "score_label": "👍 88",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "不少公司全面拥抱AI后发现token费用比招人还贵，Uber CTO透露超9成工程师高频使用AI编码工具，引发对AI成本可持续性的讨论。",
+          "tags": [
+            "LLM",
             "资讯"
           ],
           "meta": "",
@@ -520,5 +502,5 @@
     }
   ],
   "source_count": 6,
-  "total": 25
+  "total": 24
 }
