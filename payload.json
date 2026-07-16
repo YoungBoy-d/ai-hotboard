@@ -1,38 +1,37 @@
 {
-  "date": "2026-07-15",
-  "weekday": "周三",
+  "date": "2026-07-16",
+  "weekday": "周四",
   "editorial": [
     {
-      "text": "DeepSeek-R1 开源发布，MIT 许可证，文本生成能力强劲，为开源社区注入强心剂。",
+      "text": "DeepSeek-R1 开源发布，采用 MIT 协议，文本生成能力突出，成为 HuggingFace 热门模型之一。",
       "refs": [
         "hf:2"
       ]
     },
     {
-      "text": "AI Agent 研究持续升温：从复杂度感知、端侧部署到自动驾驶仿真，多场景落地加速。",
+      "text": "Claude Code、Cursor、Codex 等 AI 编程工具生态持续火热，社区涌现大量 Skills 和 MCP 配置分享，开发者纷纷探索 Vibe Coding 新范式。",
       "refs": [
-        "arxiv:1",
-        "arxiv:3",
-        "arxiv:4"
-      ]
-    },
-    {
-      "text": "AI 编程工具生态爆发：Claude Code Skills、Codex、Cursor 实战经验频出，Loop Engineering 成为新范式。",
-      "refs": [
+        "github:1",
+        "github:2",
         "juejin:1",
-        "juejin:3",
-        "juejin:4",
-        "github:2"
+        "juejin:5",
+        "hackernews:2"
       ]
     },
     {
-      "text": "AI 对经济与就业的冲击引发关注，Anthropic、Google、OpenAI 高管联署呼吁立即采取行动。",
+      "text": "IBM 业绩暴雷：客户转向囤积 AI 硬件，大型机收入大幅下滑，股价单日跌超 25%。",
       "refs": [
         "ai_zh:2"
       ]
     },
     {
-      "text": "Linus Torvalds 批评 LLM 生成的垃圾补丁，称其造成的生产力损失可能超过收益。",
+      "text": "Linux 内核创始人 Linus 表态不反对使用 AI 工具，反 AI 人士应离开项目。",
+      "refs": [
+        "ai_zh:3"
+      ]
+    },
+    {
+      "text": "Meta 被员工起诉：指控公司使用 AI 系统而非人类经理来决定裁员名单，尤其针对休假员工。",
       "refs": [
         "ai_zh:5"
       ]
@@ -46,13 +45,13 @@
       "items": [
         {
           "key": "hf:1",
-          "title": "FLUX.1-dev 文生图模型",
+          "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
           "score_label": "⬇ 627.3k · 👍 13.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Black Forest Labs 推出的文生图模型，基于 diffusers 框架，采用非开源许可证。适合需要高质量图像生成的开发者。",
+          "summary": "Black Forest Labs 推出的 FLUX.1-dev 文生图模型，基于 diffusers 框架，采用非标准开源协议，是当前图像生成领域的热门选择。",
           "tags": [
             "CV·生成",
             "开源",
@@ -64,13 +63,13 @@
         },
         {
           "key": "hf:2",
-          "title": "DeepSeek-R1 文本生成模型",
+          "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
           "score_label": "⬇ 8.9M · 👍 13.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "DeepSeek 发布的 R1 模型，MIT 许可证，支持文本生成任务。开源友好，适合二次开发和商业应用。",
+          "summary": "DeepSeek-R1 是深度求索发布的推理增强型大语言模型，采用 MIT 宽松协议开源，支持 transformers 框架，对开发者非常友好。",
           "tags": [
             "LLM",
             "开源"
@@ -81,13 +80,13 @@
         },
         {
           "key": "hf:3",
-          "title": "Stable Diffusion XL Base 1.0",
+          "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
           "score_label": "⬇ 1.4M · 👍 7.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Stability AI 的经典文生图模型，基于 diffusers 框架，OpenRAIL++ 许可证。社区广泛使用，生态成熟。",
+          "summary": "Stability AI 发布的 Stable Diffusion XL 1.0 基础版，经典文生图模型，采用 OpenRAIL++ 协议，社区广泛使用。",
           "tags": [
             "CV·生成",
             "开源",
@@ -99,13 +98,13 @@
         },
         {
           "key": "hf:4",
-          "title": "Stable Diffusion v1-4",
+          "title": "CompVis/stable-diffusion-v1-4",
           "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
-          "score_label": "⬇ 457.3k · 👍 7.0k",
+          "score_label": "⬇ 456.0k · 👍 7.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "CompVis 推出的早期 SD 版本，CreativeML OpenRAIL-M 许可证。轻量级文生图方案，适合资源受限场景。",
+          "summary": "CompVis 发布的 Stable Diffusion v1.4，最早期的开源文生图模型之一，奠定了整个 SD 生态的基础。",
           "tags": [
             "CV·生成",
             "开源",
@@ -117,13 +116,13 @@
         },
         {
           "key": "hf:5",
-          "title": "Meta Llama 3 8B",
+          "title": "meta-llama/Meta-Llama-3-8B",
           "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
           "score_label": "⬇ 1.4M · 👍 6.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Meta 发布的 Llama 3 8B 模型，Llama 3 许可证，支持文本生成。中等规模，平衡性能与资源消耗。",
+          "summary": "Meta 发布的 Llama 3 8B 参数模型，适用于文本生成任务，采用 Llama 3 专属许可证，是开源 LLM 的重要选择。",
           "tags": [
             "LLM",
             "开源"
@@ -141,94 +140,91 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "AI Agent 能否感知任务复杂度？",
-          "url": "http://arxiv.org/abs/2607.13034v1",
+          "title": "利用无标签数据实现可泛化的神经群体解码",
+          "url": "http://arxiv.org/abs/2607.14086v1",
           "score_label": "",
-          "extra": "cs.AI",
+          "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "研究指出 LLM Agent 在执行多步骤任务时缺乏复杂度感知，常采用最大上下文优先策略，导致效率低下。对 Agent 设计者而言，需引入复杂度评估机制。",
+          "summary": "提出在脑机接口场景下，通过对神经数据进行 token 化预训练，利用无标签数据提升跨会话解码精度，对神经技术落地有重要意义。",
           "tags": [
             "论文",
-            "AI",
-            "NLP",
-            "Agent"
+            "ML",
+            "q-bio.NC"
           ],
-          "meta": "作者 · Junjie Yin, Xinyu Feng  ·  📅 2026-07-14  ·  📄 PDF",
+          "meta": "作者 · Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo  ·  📅 2026-07-15  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "视频扩散模型的序列性鸿沟",
-          "url": "http://arxiv.org/abs/2607.13031v1",
+          "title": "基于最优传输的线性独立成分分析",
+          "url": "http://arxiv.org/abs/2607.14081v1",
           "score_label": "",
           "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "研究发现标准双向视频扩散模型在因果链延长时性能下降，揭示了视频生成模型在物理推理上的局限。对视频生成研究者有重要参考价值。",
+          "summary": "将最优传输理论引入线性 ICA，用新的方式度量非高斯性来分离混合信号，为信号处理和机器学习提供新的数学工具。",
           "tags": [
             "论文",
             "ML",
-            "CV"
+            "ML"
           ],
-          "meta": "作者 · Jorge Diaz Chao, Konpat Preechakul, Yuxi Liu  ·  📅 2026-07-14  ·  📄 PDF",
+          "meta": "作者 · Ashutosh Jha, Michel Besserve, Simon Buchholz  ·  📅 2026-07-15  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "TerraZero：大规模零样本自动驾驶仿真",
-          "url": "http://arxiv.org/abs/2607.13028v1",
+          "title": "MetaPerch：从元数据学习构建生物声学基础模型",
+          "url": "http://arxiv.org/abs/2607.14072v1",
           "score_label": "",
           "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "提出一种程序化驾驶仿真方法，支持大规模强化学习训练，覆盖真实地图结构和安全关键的长尾场景。对自动驾驶研发有重要意义。",
+          "summary": "利用公民科学平台（如 Xeno-Canto）的元数据（地理、生态信息）辅助训练生物声学基础模型，提升物种检测效果。",
           "tags": [
             "论文",
             "ML",
-            "AI",
-            "Agent"
+            "cs.SD"
           ],
-          "meta": "作者 · Zhouchonghao Wu, Akshay Rangesh, Weixin Li  ·  📅 2026-07-14  ·  📄 PDF",
+          "meta": "作者 · Mustafa Chasmai, Vincent Dumoulin, Jenny Hamer  ·  📅 2026-07-15  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "PalmClaw：手机端原生 Agent 框架",
-          "url": "http://arxiv.org/abs/2607.13027v1",
+          "title": "用 Evo 2 探针筛查宏基因组数据中的生物安全特征",
+          "url": "http://arxiv.org/abs/2607.14070v1",
           "score_label": "",
-          "extra": "cs.CL",
+          "extra": "q-bio.GN",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "针对移动设备设计的 LLM Agent 框架，支持工具调用和任务自动化。填补了手机端 Agent 系统的空白，对移动端 AI 应用开发者有吸引力。",
+          "summary": "探索基因组基础模型 Evo 2 在生物安全筛查中的潜力，通过线性探针和注意力探针分析其表征中包含的生物安全相关信号。",
           "tags": [
             "论文",
-            "NLP",
-            "AI",
-            "Agent"
+            "q-bio.GN",
+            "ML"
           ],
-          "meta": "作者 · Hongru Cai, Yongqi Li, Ran Wei  ·  📅 2026-07-14  ·  📄 PDF",
+          "meta": "作者 · Jeremy Guntoro, Alexander Dack, Dylan Danno  ·  📅 2026-07-15  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "Flow Matching 加速湍流稳态模拟",
-          "url": "http://arxiv.org/abs/2607.13022v1",
+          "title": "Hindcast：通过回放预测市场评估 LLM 预测能力",
+          "url": "http://arxiv.org/abs/2607.14051v1",
           "score_label": "",
-          "extra": "physics.plasm-ph",
+          "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "利用 Flow Matching 方法跳过非线性物理系统的初始瞬态阶段，直接到达统计稳态。对物理仿真和计算流体力学领域有潜在应用价值。",
+          "summary": "提出用回测方式评估 LLM 的预测能力，同时揭示模型检索和上下文泄露两大信息泄漏渠道，对 LLM 评估方法论有重要参考价值。",
           "tags": [
             "论文",
-            "physics.plasm-ph",
-            "ML"
+            "NLP",
+            "LLM"
           ],
-          "meta": "作者 · Gianluca Galletti, Gerald Gutenbrunner, William Hornsby  ·  📅 2026-07-14  ·  📄 PDF",
+          "meta": "作者 · Xiao Ye, Jacob Dineen, Evan Zhu  ·  📅 2026-07-15  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -241,36 +237,37 @@
       "items": [
         {
           "key": "github:1",
-          "title": "awesome-llm-apps：100+ 可运行的 AI Agent 和 RAG 应用",
-          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-          "score_label": "★ 1,106 stars today · ★ 121,068 总",
+          "title": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "score_label": "★ 1,277 stars today · ★ 9,012 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "收录 100 多个可直接克隆、定制和部署的 LLM 应用，涵盖 Agent 和 RAG 场景。开发者可快速找到参考实现。",
+          "summary": "一个反 AI 生成内容（AI slop）的设计技能包，适用于 Claude Code、Cursor 和 Codex，帮助开发者避免生成低质量 AI 代码。",
           "tags": [
             "开源",
-            "Python",
-            "Agent",
-            "RAG"
+            "CSS",
+            "工具",
+            "Agent"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · CSS",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:2",
-          "title": "skills：来自 .claude 目录的实用技能集",
+          "title": "mattpocock/skills",
           "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 1,679 stars today · ★ 170,679 总",
+          "score_label": "★ 2,130 stars today · ★ 172,623 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "Matt Pocock 分享的 Claude Code 技能配置，面向真实工程场景。可提升 Claude Code 的开发效率和代码质量。",
+          "summary": "Matt Pocock 分享的 Claude Code 配置技能集，来自其真实开发目录，面向实战工程师，可直接复用提升 AI 编程效率。",
           "tags": [
             "开源",
             "Shell",
-            "工具"
+            "工具",
+            "Agent"
           ],
           "meta": "语言 · Shell",
           "trend": "",
@@ -278,54 +275,56 @@
         },
         {
           "key": "github:3",
-          "title": "ai-hedge-fund：AI 对冲基金团队",
-          "url": "https://github.com/virattt/ai-hedge-fund",
-          "score_label": "★ 109 stars today · ★ 61,947 总",
+          "title": "moeru-ai/airi",
+          "url": "https://github.com/moeru-ai/airi",
+          "score_label": "★ 110 stars today · ★ 42,600 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "用 AI 构建的对冲基金团队项目，探索 AI 在金融投资领域的应用。对量化交易和 AI 金融感兴趣的开发者可参考。",
+          "summary": "一个自托管的 AI 伴侣项目，支持实时语音聊天、玩 Minecraft 和 Factorio，目标是打造类似 Neuro-sama 的虚拟角色，支持 Web/macOS/Windows。",
           "tags": [
             "开源",
-            "Python",
+            "TypeScript",
             "Agent"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:4",
-          "title": "hallmark：反 AI 生成垃圾的设计技能",
-          "url": "https://github.com/Nutlope/hallmark",
-          "score_label": "★ 1,015 stars today · ★ 6,299 总",
+          "title": "HenryNdubuaku/maths-cs-ai-compendium",
+          "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+          "score_label": "★ 725 stars today · ★ 6,013 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "针对 Claude Code、Cursor 和 Codex 的反 AI-slop 设计技能，帮助开发者避免生成低质量代码。提升 AI 编程输出的可控性。",
+          "summary": "一份数学、计算机和 AI 学习资源汇编，目标是帮助开发者成为高水平的 AI/ML 研究工程师。",
           "tags": [
             "开源",
-            "CSS",
+            "TypeScript",
             "工具"
           ],
-          "meta": "语言 · CSS",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:5",
-          "title": "exercises-dataset：1324 个健身动作数据集",
-          "url": "https://github.com/hasaneyldrm/exercises-dataset",
-          "score_label": "★ 851 stars today · ★ 13,694 总",
+          "title": "Shubhamsaboo/awesome-llm-apps",
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "score_label": "★ 1,236 stars today · ★ 122,063 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "包含动画 GIF、缩略图、肌肉群和器械数据的多语言健身数据集，是 LogPress 应用的数据层。适合健身类应用开发者。",
+          "summary": "收录 100+ 可直接运行的 AI Agent 和 RAG 应用，支持克隆、定制和部署，是 LLM 应用开发者的实用资源库。",
           "tags": [
             "开源",
-            "HTML"
+            "Python",
+            "Agent",
+            "RAG"
           ],
-          "meta": "语言 · HTML",
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         }
@@ -338,89 +337,85 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Bonsai 27B：可在手机上运行的 27B 模型",
-          "url": "https://prismml.com/news/bonsai-27b",
-          "score_label": "▲ 487 · 💬 178",
+          "title": "政府、企业和非营利组织应投资免费开源 AI",
+          "url": "https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf",
+          "score_label": "▲ 124 · 💬 48",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "一款 27B 参数级别的模型，优化后可在手机端运行。端侧大模型的重要进展，对隐私保护和离线场景有重要意义。",
+          "summary": "一篇呼吁各方投资开源 AI 的文章/PDF，认为开源 AI 对公共利益至关重要，不应完全由商业公司主导。",
           "tags": [
-            "热议",
+            "资讯",
+            "开源"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "siegelendowment.org"
+        },
+        {
+          "key": "hackernews:2",
+          "title": "Brainless：模仿 Claude Code/Codex/Grok 风格的 Shadcn 组件",
+          "url": "https://brainless.swerdlow.dev",
+          "score_label": "▲ 113 · 💬 23",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "一套 Shadcn UI 组件库，视觉风格模仿主流 AI 编程工具的界面设计，适合快速搭建类似 AI 工具的前端。",
+          "tags": [
+            "工具"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "brainless.swerdlow.dev"
+        },
+        {
+          "key": "hackernews:3",
+          "title": "用 MikroTik 实现 LLM 网络管理",
+          "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+          "score_label": "▲ 66 · 💬 25",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "探讨如何将 LLM 与 MikroTik 路由器结合，实现网络配置和管理的智能化，是 AI+网络运维的新尝试。",
+          "tags": [
             "LLM",
             "工具"
           ],
           "meta": "",
           "trend": "",
-          "domain": "prismml.com"
-        },
-        {
-          "key": "hackernews:2",
-          "title": "如何让 Claude 不再说 load-bearing",
-          "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-          "score_label": "▲ 460 · 💬 518",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "讨论如何调整 Claude 的输出风格，避免其频繁使用特定词汇。对提示词工程和模型行为控制有参考价值。",
-          "tags": [
-            "热议",
-            "LLM"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "jola.dev"
-        },
-        {
-          "key": "hackernews:3",
-          "title": "我们是否把太多思考外包给了 AI？",
-          "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-          "score_label": "▲ 401 · 💬 401",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "反思人类过度依赖 AI 进行思考的风险，探讨 AI 对认知能力的影响。引发对 AI 使用边界的讨论。",
-          "tags": [
-            "热议",
-            "LLM",
-            "资讯"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "artfish.ai"
+          "domain": "blog.greg.technology"
         },
         {
           "key": "hackernews:4",
-          "title": "最大的 Minecraft 世界：总计 15TB",
-          "url": "https://2b2t.place/1million",
-          "score_label": "▲ 179 · 💬 61",
+          "title": "伦敦游击巴士广告嘲讽 Kylie Jenner 的 Meta 眼镜营销",
+          "url": "https://hyperallergic.com/guerrilla-london-bus-ads-mock-kylie-jenners-meta-glasses-campaign/",
+          "score_label": "▲ 43 · 💬 20",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "展示了一个 15TB 的 Minecraft 世界，引发对大规模数据存储和生成的讨论。与 AI 生成内容和大世界构建相关。",
+          "summary": "一则社会新闻，伦敦出现讽刺 Kylie Jenner 为 Meta AI 眼镜代言的巴士广告，反映公众对科技巨头营销方式的反感。",
           "tags": [
             "资讯"
           ],
           "meta": "",
           "trend": "",
-          "domain": "2b2t.place"
+          "domain": "hyperallergic.com"
         },
         {
           "key": "hackernews:5",
-          "title": "AI 热潮的融资：从现金流到债务",
-          "url": "https://www.bis.org/publ/bisbull120.pdf",
-          "score_label": "▲ 113 · 💬 65",
+          "title": "Tokio/Rayon 陷阱与 Async/Await 为何在并发上失败",
+          "url": "https://pmbanugo.me/blog/why-async-await-complect-concurrency",
+          "score_label": "▲ 17 · 💬 14",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "分析 AI 行业的融资模式，从现金流驱动转向债务驱动。对关注 AI 投资和商业模式的人有参考价值。",
+          "summary": "一篇技术讨论，分析 Rust 生态中 Tokio 和 Rayon 的并发陷阱，以及 async/await 模型在实际并发场景中的局限性。",
           "tags": [
-            "资讯",
-            "变现"
+            "工具"
           ],
           "meta": "",
           "trend": "",
-          "domain": "bis.org"
+          "domain": "pmbanugo.me"
         }
       ]
     },
@@ -431,88 +426,88 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "派早报：Meta 被诉借助 AI 违规裁员、Google 被诉使用版权内容训练 Gemini 模型等",
-          "url": "https://sspai.com/post/112334",
+          "title": "派早报：国行版 Apple Intelligence 完成备案等",
+          "url": "https://sspai.com/post/112373",
           "score_label": "",
           "extra": "少数派",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "报道 Meta 被诉借助 AI 违规裁员、Google 被诉使用版权内容训练 Gemini 模型等事件，以及 Google 图片搜索和 Spotify 语音交互的新功能。反映 AI 法律和产品的最新动态。",
+          "summary": "派早报汇总：国行 Apple Intelligence 完成备案，阿里发布 Qwen-Audio-3.0-Realtime 实时语音模型，腾龙发布新镜头等。",
           "tags": [
             "少数派",
-            "资讯"
+            "资讯",
+            "语音"
           ],
-          "meta": "📅 2026-07-15",
+          "meta": "📅 2026-07-16",
           "trend": "",
           "domain": "sspai.com"
         },
         {
           "key": "ai_zh:2",
-          "title": "AI 公司高管以及经济学家呼吁就 AI 对经济的影响采取行动",
-          "url": "https://www.solidot.org/story?sid=84829",
+          "title": "IBM 称客户倾向于采购 AI 硬件而不是大型机",
+          "url": "https://www.solidot.org/story?sid=84842",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "Anthropic、Google、OpenAI 高管及经济学家联署公开信，呼吁关注 AI 对经济和就业的影响，警告未来 10 年可能出现大规模岗位流失。对政策制定者和从业者有警示意义。",
+          "summary": "IBM 季度业绩不及预期，客户将大型机预算转向 AI 硬件采购，导致大型机及配套软件收入下滑，股价暴跌超 25%。",
           "tags": [
             "Solidot",
             "资讯"
           ],
-          "meta": "📅 2026-07-14",
+          "meta": "📅 2026-07-15",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:3",
-          "title": "iOS / iPadOS 27 Public Beta 公测版来了：升降级指南 & 注意事项",
-          "url": "https://sspai.com/post/112288",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "Apple 推送 iOS/iPadOS 27 Public Beta 公测版，提供升降级指南和注意事项。对苹果生态开发者有参考价值。",
-          "tags": [
-            "少数派",
-            "资讯"
-          ],
-          "meta": "📅 2026-07-14",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "派早报：全球智能手机出货量创 13 年来最低水平等",
-          "url": "https://sspai.com/post/112286",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "报道全球智能手机出货量创 13 年新低，以及少数派征文活动、键盘预售等动态。包含 AI 生图时代信息防伪的讨论。",
-          "tags": [
-            "少数派",
-            "资讯",
-            "CV"
-          ],
-          "meta": "📅 2026-07-14",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "Linus Torvalds 谈 AI 和垃圾补丁",
-          "url": "https://www.solidot.org/story?sid=84816",
+          "title": "Linux 内核不反对使用 AI 工具",
+          "url": "https://www.solidot.org/story?sid=84836",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "Linus Torvalds 在印度开源峰会上批评 LLM 生成的垃圾补丁，称其造成的生产力损失可能超过收益。对 AI 辅助编程的质量控制提出警示。",
+          "summary": "Linus Torvalds 明确表示 Linux 内核项目不反对 AI，AI 是有用的工具，持反 AI 立场的参与者应创建分支或离开。",
           "tags": [
             "Solidot",
             "资讯",
-            "LLM"
+            "开源"
           ],
-          "meta": "📅 2026-07-13",
+          "meta": "📅 2026-07-15",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
+          "title": "微软周二例行安全更新修复了 570 个漏洞",
+          "url": "https://www.solidot.org/story?sid=84835",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "微软 7 月例行更新修复 570 个漏洞，创纪录数量，微软将其归因于 AI 辅助漏洞发现，其中包含 3 个 0day。",
+          "tags": [
+            "Solidot",
+            "资讯"
+          ],
+          "meta": "📅 2026-07-15",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:5",
+          "title": "诉讼指控 Meta 用 AI 而不是人类做出裁员决定",
+          "url": "https://www.solidot.org/story?sid=84833",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "26 名 Meta 员工起诉公司使用 AI 系统决定裁员，评分标准包括员工使用 AI 工具的频率，并针对休假员工，被视为美国首例此类诉讼。",
+          "tags": [
+            "Solidot",
+            "资讯"
+          ],
+          "meta": "📅 2026-07-15",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -527,45 +522,11 @@
           "key": "juejin:1",
           "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
           "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 796",
+          "score_label": "👍 797",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "分享 32 个 Claude Code 技能和 8 个 MCP 服务器的实测效果，帮助开发者提升开发效率。对 Claude Code 用户有直接参考价值。",
-          "tags": [
-            "工具",
-            "LLM"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:2",
-          "title": "Codex 穷鬼大救星",
-          "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 324",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "介绍一套低成本的 Codex 使用工作流，帮助预算有限的开发者高效利用 AI 编程工具。对中小团队和个人开发者实用。",
-          "tags": [
-            "工具",
-            "变现"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:3",
-          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
-          "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 199",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "对比 Cursor 和 Codex 的使用体验，认为 Codex 更接近超级 Agent 形态，代表 AI 编程工具的下一阶段。对工具选型有参考意义。",
+          "summary": "作者分享 32 个 Claude Code Skills 和 8 个 MCP 服务器的实测配置，帮助开发者告别裸用 Claude Code，大幅提升开发效率。",
           "tags": [
             "工具",
             "Agent"
@@ -575,17 +536,50 @@
           "domain": "juejin.cn"
         },
         {
-          "key": "juejin:4",
-          "title": "提示词工程已死，Loop Engineering 称王！保姆级教程 + 项目实战",
-          "url": "https://juejin.cn/post/7651826111047811118",
-          "score_label": "👍 132",
+          "key": "juejin:2",
+          "title": "Codex 穷鬼大救星",
+          "url": "https://juejin.cn/post/7635467758865235968",
+          "score_label": "👍 326",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "提出 Loop Engineering 方法论，用 Claude Code、Codex、Cursor 实战验证效果，替代传统提示词工程。对 AI 编程方法论有创新价值。",
+          "summary": "一套低成本的 Codex 使用工作流，面向预算有限的开发者，通过巧妙组合工具实现高效 AI 编程。",
           "tags": [
             "工具",
-            "LLM"
+            "Agent"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:3",
+          "title": "我用AI做了个微信小游戏-上线了",
+          "url": "https://juejin.cn/post/7641048219231010862",
+          "score_label": "👍 261",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "作者完整记录用 AI 开发微信小游戏并上线的全过程，包括技术栈选择、Prompt 设计、踩坑经验和成本明细。",
+          "tags": [
+            "Agent",
+            "变现"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:4",
+          "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
+          "url": "https://juejin.cn/post/7623217419704909866",
+          "score_label": "👍 241",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "探讨 Vibe Coding 时代 Vue 是否被 React 取代，分析 AI 辅助编程对前端框架生态的影响。",
+          "tags": [
+            "工具"
           ],
           "meta": "",
           "trend": "",
@@ -593,16 +587,16 @@
         },
         {
           "key": "juejin:5",
-          "title": "凌晨睡不着，我给台风巴威写了个追踪网站",
-          "url": "https://juejin.cn/post/7659393583027896330",
-          "score_label": "👍 104",
+          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
+          "url": "https://juejin.cn/post/7637856870833635343",
+          "score_label": "👍 201",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者用 Claude Fable 5 开发台风追踪网站，整合四家气象机构数据。展示 AI 在快速原型开发中的应用潜力。",
+          "summary": "作者从 Cursor 切换到 Codex 半个月后的真实体验，认为 Codex 更接近超级 Agent 形态，代表 AI 编程的下一阶段。",
           "tags": [
-            "工具",
-            "LLM"
+            "Agent",
+            "工具"
           ],
           "meta": "",
           "trend": "",
