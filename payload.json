@@ -1,39 +1,40 @@
 {
-  "date": "2026-07-17",
-  "weekday": "周五",
+  "date": "2026-07-18",
+  "weekday": "周六",
   "editorial": [
     {
-      "text": "DeepSeek 计划年内提交 IPO 申请，估值高达 4800 亿人民币，拟融资 500 亿元，成为国产大模型商业化里程碑。",
+      "text": "DeepSeek 计划年内申请 IPO，估值高达 4800 亿人民币，拟融资 500 亿元",
       "refs": [
-        "ai_zh:3",
-        "hf:2"
+        "hf:2",
+        "ai_zh:4"
       ]
     },
     {
-      "text": "AI 编程工具生态持续升温：Claude Code 技能/MCP 玩法、Cursor 转 Codex 体验、Grok Build 开源但暴露隐私问题，开发者工作流加速重构。",
+      "text": "Grok Build 开源以挽回信任，此前被发现会上传用户完整代码库到云端",
+      "refs": [
+        "ai_zh:2",
+        "github:3"
+      ]
+    },
+    {
+      "text": "图书出版商指控 Google 训练 Gemini 大规模侵犯版权，称其为史上最严重版权侵犯之一",
+      "refs": [
+        "ai_zh:3"
+      ]
+    },
+    {
+      "text": "AI 公司高管加强个人安保，针对 AI 公司高管和网络威胁数量激增",
+      "refs": [
+        "ai_zh:5"
+      ]
+    },
+    {
+      "text": "Claude Code / Codex 生态持续火热，开发者分享 Skills、MCP 配置与穷鬼工作流",
       "refs": [
         "juejin:1",
+        "juejin:2",
         "juejin:4",
-        "ai_zh:1",
-        "github:2"
-      ]
-    },
-    {
-      "text": "Google 被多家出版商指控训练 Gemini 时大规模侵犯版权，AI 训练数据合规争议再升级。",
-      "refs": [
-        "ai_zh:2"
-      ]
-    },
-    {
-      "text": "NotebookLM 升级为 Gemini Notebook，Google 持续将 AI 笔记产品整合进 Gemini 品牌体系。",
-      "refs": [
-        "hackernews:1"
-      ]
-    },
-    {
-      "text": "机器人基础模型突破上下文限制：RoboTTT 将视觉运动上下文扩展至 8K 步，推动长程机器人策略发展。",
-      "refs": [
-        "arxiv:2"
+        "github:3"
       ]
     }
   ],
@@ -45,13 +46,13 @@
       "items": [
         {
           "key": "hf:1",
-          "title": "FLUX.1-dev 文生图模型",
+          "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 605.7k · 👍 13.7k",
+          "score_label": "⬇ 609.8k · 👍 13.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Black Forest Labs 推出的高质量文生图模型，基于 diffusers 框架，采用非标准许可证。适合需要高质量图像生成的开发者。",
+          "summary": "FLUX.1-dev 是 Black Forest Labs 推出的文生图模型，基于 diffusers 框架，属于新一代高质量图像生成模型。",
           "tags": [
             "CV·生成",
             "开源",
@@ -63,13 +64,13 @@
         },
         {
           "key": "hf:2",
-          "title": "DeepSeek-R1 文本生成模型",
+          "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 8.7M · 👍 13.5k",
+          "score_label": "⬇ 8.9M · 👍 13.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "DeepSeek 发布的推理增强型大语言模型，MIT 许可证开源，支持 transformers 框架。是国产开源 LLM 的重要代表，适合研究和商用部署。",
+          "summary": "DeepSeek-R1 是深度求索推出的大语言模型，采用 MIT 许可证开源，支持文本生成，是当前国产开源 LLM 的标杆之一。",
           "tags": [
             "LLM",
             "开源"
@@ -80,13 +81,13 @@
         },
         {
           "key": "hf:3",
-          "title": "Stable Diffusion XL Base 1.0",
+          "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
           "score_label": "⬇ 1.4M · 👍 7.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Stability AI 的经典文生图模型 XL 版本，openrail++ 许可证，仍是社区广泛使用的图像生成基座模型。",
+          "summary": "Stable Diffusion XL 1.0 是 Stability AI 发布的文生图基础模型，在图像质量和分辨率上有显著提升。",
           "tags": [
             "CV·生成",
             "开源",
@@ -98,13 +99,13 @@
         },
         {
           "key": "hf:4",
-          "title": "Stable Diffusion v1-4",
+          "title": "CompVis/stable-diffusion-v1-4",
           "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
-          "score_label": "⬇ 448.4k · 👍 7.0k",
+          "score_label": "⬇ 455.4k · 👍 7.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "CompVis 发布的早期 Stable Diffusion 版本，creativeml-openrail-m 许可证，轻量级文生图模型，适合资源受限场景。",
+          "summary": "Stable Diffusion v1.4 是经典的文生图模型，由 CompVis 发布，是许多图像生成应用的基础。",
           "tags": [
             "CV·生成",
             "开源",
@@ -116,13 +117,13 @@
         },
         {
           "key": "hf:5",
-          "title": "Meta Llama 3 8B",
+          "title": "meta-llama/Meta-Llama-3-8B",
           "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
           "score_label": "⬇ 1.3M · 👍 6.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Meta 发布的 Llama 3 系列 8B 参数模型，llama3 许可证，适合中小规模部署和微调，是当前最流行的开源 LLM 之一。",
+          "summary": "Meta-Llama-3-8B 是 Meta 发布的 8B 参数大语言模型，性能强劲，适合本地部署和微调。",
           "tags": [
             "LLM",
             "开源"
@@ -140,13 +141,13 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "语言模型中的统计自一致性",
+          "title": "语言模型中的统计自一致性：分区、提示与聚合",
           "url": "http://arxiv.org/abs/2607.15277v1",
           "score_label": "",
           "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "论文提出将 in-context learning 理解为条件推断，并推导 LLM 输出应满足的统计自一致性条件。对理解 LLM 推理机制和 prompt 设计有理论价值。",
+          "summary": "本文将在上下文学习解释为条件推断，提出 LLM 输出应满足统计自一致性原则，为理解和改进 prompt 设计提供理论框架。",
           "tags": [
             "论文",
             "NLP",
@@ -158,13 +159,13 @@
         },
         {
           "key": "arxiv:2",
-          "title": "RoboTTT：机器人策略的上下文扩展",
+          "title": "RoboTTT：将机器人策略的上下文扩展到 8K 时间步",
           "url": "http://arxiv.org/abs/2607.15275v1",
           "score_label": "",
           "extra": "cs.RO",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "提出测试时训练机器人策略 RoboTTT，将视觉运动上下文扩展到 8K 时间步，比现有方法提升三个数量级。对长程机器人任务规划意义重大。",
+          "summary": "提出测试时训练机器人策略 RoboTTT，将视觉运动上下文扩展到 8K 时间步，比现有方法高出三个数量级，大幅提升机器人长程任务能力。",
           "tags": [
             "论文",
             "机器人",
@@ -177,17 +178,18 @@
         },
         {
           "key": "arxiv:3",
-          "title": "MeanFlowNFT：将 RL 引入平均速度生成器",
+          "title": "MeanFlowNFT：将前向过程 RL 引入平均速度生成器",
           "url": "http://arxiv.org/abs/2607.15273v1",
           "score_label": "",
           "extra": "cs.CV",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "将强化学习应用于 MeanFlow 生成器（预测时间区间平均速度），实现快速少步采样并与人类偏好对齐。对高效扩散/流模型训练有启发。",
+          "summary": "将强化学习应用于 MeanFlow 生成器，通过预测时间区间上的平均速度实现快速少步采样，提升扩散/流模型的对齐效率。",
           "tags": [
             "论文",
             "CV",
-            "ML"
+            "ML",
+            "LLM"
           ],
           "meta": "作者 · Yushi Huang, Xiangxin Zhou, Jun Zhang  ·  📅 2026-07-16  ·  📄 PDF",
           "trend": "",
@@ -195,13 +197,13 @@
         },
         {
           "key": "arxiv:4",
-          "title": "从论文修订中学习编辑科学图表",
+          "title": "SciDiagramEdit：从论文修订中学习编辑科学图表",
           "url": "http://arxiv.org/abs/2607.15272v1",
           "score_label": "",
           "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "提出 SciDiagramEdit，通过论文修订历史自动学习自然语言指令下的科学图表编辑。可大幅减少科研人员的图表修改时间。",
+          "summary": "提出自动化编辑科研论文图表的方法，支持自然语言指令下的组件重标注、面板重排和样式调整，减轻科研者重复劳动。",
           "tags": [
             "论文",
             "NLP",
@@ -214,13 +216,13 @@
         },
         {
           "key": "arxiv:5",
-          "title": "动态新视角合成的在线神经时空记忆",
+          "title": "在线神经空间时间记忆用于动态新视角合成",
           "url": "http://arxiv.org/abs/2607.15271v1",
           "score_label": "",
           "extra": "cs.CV",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "解决多视角流视频实时新视角合成中长程记忆与实时约束的矛盾，提出在线神经时空记忆方法。对 AR/VR 和自动驾驶场景重建有价值。",
+          "summary": "解决多视角流式视频中新视角合成的实时性与长程记忆矛盾，提出在线 TTT 方法，在严格实时约束下重建被遮挡区域。",
           "tags": [
             "论文",
             "CV",
@@ -239,16 +241,17 @@
       "items": [
         {
           "key": "github:1",
-          "title": "Apache Ossie 语义元数据标准",
-          "url": "https://github.com/apache/ossie",
-          "score_label": "★ 60 stars today · ★ 976 总",
+          "title": "PostHog/posthog",
+          "url": "https://github.com/PostHog/posthog",
+          "score_label": "★ 438 stars today · ★ 36,249 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "Apache 基金会发起的行业规范项目，旨在标准化分析、AI 和 BI 平台间的语义元数据交换，提供厂商中立的单一数据真相源。",
+          "summary": "PostHog 是领先的自驱动产品构建平台，提供 AI 可观测性、分析、会话回放等开发者工具，帮助 Agent 诊断问题并快速修复。",
           "tags": [
             "开源",
             "Python",
+            "Agent",
             "工具"
           ],
           "meta": "语言 · Python",
@@ -257,13 +260,32 @@
         },
         {
           "key": "github:2",
-          "title": "Hallmark：反 AI 生成痕迹设计技能",
-          "url": "https://github.com/Nutlope/hallmark",
-          "score_label": "★ 3,372 stars today · ★ 11,143 总",
+          "title": "HenryNdubuaku/maths-cs-ai-compendium",
+          "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+          "score_label": "★ 200 stars today · ★ 6,691 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "为 Claude Code、Cursor、Codex 等 AI 编程工具设计的反 AI-slop 技能包，帮助开发者生成更自然、高质量的代码输出。",
+          "summary": "一份面向 AI/ML 研究工程师的学习指南，汇总数学、CS 和 AI 核心知识，帮助开发者系统提升研究能力。",
+          "tags": [
+            "开源",
+            "TypeScript",
+            "LLM",
+            "工具"
+          ],
+          "meta": "语言 · TypeScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
+          "title": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "score_label": "★ 1,485 stars today · ★ 12,170 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "一个反 AI 生成垃圾内容的设计技能包，适用于 Claude Code、Cursor 和 Codex，帮助开发者产出更高质量、更有人味的代码和设计。",
           "tags": [
             "开源",
             "CSS",
@@ -275,57 +297,40 @@
           "domain": "github.com"
         },
         {
-          "key": "github:3",
-          "title": "PostHog 自驱动产品平台",
-          "url": "https://github.com/PostHog/posthog",
-          "score_label": "★ 77 stars today · ★ 35,914 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "领先的自驱动产品构建平台，集成 AI 可观测性、分析、会话回放、特性标记等开发者工具，支持通过 Slack/MCP 统一管控。",
-          "tags": [
-            "开源",
-            "Python",
-            "工具",
-            "Agent"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
           "key": "github:4",
-          "title": "Bonsai Demo",
-          "url": "https://github.com/PrismML-Eng/Bonsai-demo",
-          "score_label": "★ 196 stars today · ★ 1,566 总",
+          "title": "github/copilot-sdk",
+          "url": "https://github.com/github/copilot-sdk",
+          "score_label": "★ 233 stars today · ★ 9,819 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "PrismML 的 Bonsai 演示项目，具体功能需查看仓库详情，可能是 ML 模型部署或优化相关 demo。",
+          "summary": "GitHub 官方推出的 Copilot SDK，支持多平台集成 Copilot Agent 到各类应用和服务中，降低 AI 功能接入成本。",
           "tags": [
             "开源",
-            "Shell",
+            "Java",
+            "Agent",
             "工具"
           ],
-          "meta": "语言 · Shell",
+          "meta": "语言 · Java",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:5",
-          "title": "1324 个健身动作数据集",
-          "url": "https://github.com/hasaneyldrm/exercises-dataset",
-          "score_label": "★ 710 stars today · ★ 15,141 总",
+          "title": "anthropics/cwc-workshops",
+          "url": "https://github.com/anthropics/cwc-workshops",
+          "score_label": "★ 45 stars today · ★ 1,616 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "包含 1324 个健身动作的动画 GIF、缩略图、肌肉群/器械数据及 6 语言分步说明，是 LogPress 应用的数据层。适合健身类 AI 应用开发。",
+          "summary": "Anthropic 的 CWC（Claude with Code）工作坊仓库，提供 Claude 代码能力相关的教程和实验材料。",
           "tags": [
             "开源",
-            "HTML",
+            "TypeScript",
+            "Agent",
             "工具"
           ],
-          "meta": "语言 · HTML",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         }
@@ -338,13 +343,13 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "NotebookLM 升级为 Gemini Notebook",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-          "score_label": "▲ 274 · 💬 138",
+          "title": "开源 AI 的现状",
+          "url": "https://stateofopensource.ai/",
+          "score_label": "▲ 395 · 💬 291",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "Google 将 AI 笔记产品 NotebookLM 正式更名为 Gemini Notebook，标志着该产品深度整合进 Gemini 品牌生态。",
+          "summary": "讨论当前开源 AI 生态的发展状况、挑战与机遇，涉及模型开放、社区协作和商业化平衡等议题。",
           "tags": [
             "热议",
             "LLM",
@@ -352,78 +357,74 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "blog.google"
+          "domain": "stateofopensource.ai"
         },
         {
           "key": "hackernews:2",
-          "title": "LLM 批评者是对的，但我还是用",
-          "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
-          "score_label": "▲ 206 · 💬 209",
+          "title": "Kaiser 护士称 AI 和工作场所监控让工作和护理质量变差",
+          "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+          "score_label": "▲ 375 · 💬 251",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "作者承认 LLM 存在诸多问题（幻觉、不可靠等），但分享了自己仍坚持使用 LLM 提升效率的真实经验和心路历程。",
+          "summary": "护士反映 AI 系统和监控工具的引入反而增加了工作负担、降低了护理质量，引发对医疗领域 AI 应用的反思。",
           "tags": [
             "热议",
-            "LLM",
-            "资讯"
+            "资讯",
+            "Agent"
           ],
           "meta": "",
           "trend": "",
-          "domain": "theocharis.dev"
+          "domain": "localnewsmatters.org"
         },
         {
           "key": "hackernews:3",
-          "title": "LM Studio Bionic：开源模型的 AI Agent",
-          "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
-          "score_label": "▲ 190 · 💬 69",
+          "title": "FAA 重新允许波音签署 737 MAX 和 787 适航证书",
+          "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+          "score_label": "▲ 145 · 💬 76",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "LM Studio 推出 Bionic 功能，将本地开源模型升级为可执行任务的 AI Agent，拓展了本地 LLM 的应用边界。",
+          "summary": "美国联邦航空管理局恢复波音公司对 737 MAX 和 787 机型适航证书的签署权限，标志着波音安全审查的重要进展。",
           "tags": [
-            "Agent",
-            "LLM"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "lmstudio.ai"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "100 美元 AI MV：Claude Fable 5 vs GPT-5.6",
-          "url": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-          "score_label": "▲ 178 · 💬 209",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "用 100 美元预算对比 Claude Fable 5 和 GPT-5.6 生成 AI 音乐视频的效果，展示当前多模态生成模型的实际能力与成本。",
-          "tags": [
-            "热议",
-            "CV",
             "资讯"
           ],
           "meta": "",
           "trend": "",
-          "domain": "tryai.dev"
+          "domain": "cnbc.com"
         },
         {
-          "key": "hackernews:5",
-          "title": "用经典机器学习检测 LLM 生成文本",
-          "url": "https://blog.lyc8503.net/en/post/llm-classifier/",
-          "score_label": "▲ 169 · 💬 117",
+          "key": "hackernews:4",
+          "title": "将铁路轨道侧面涂白以减少脱轨",
+          "url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608",
+          "score_label": "▲ 64 · 💬 33",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "探讨用传统机器学习方法（而非深度学习检测器）识别 LLM 生成文本的可行性，为 AI 内容鉴别提供轻量级方案。",
+          "summary": "一种低成本的铁路安全方案：通过在铁轨侧面涂白漆，便于视觉检测轨道缺陷，从而降低脱轨风险。",
           "tags": [
-            "热议",
-            "LLM",
-            "论文"
+            "资讯"
           ],
           "meta": "",
           "trend": "",
-          "domain": "blog.lyc8503.net"
+          "domain": "up.com"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "Npm-scan：npm 生态的现代供应链安全工具",
+          "url": "https://github.com/lateos-ai/npm-scan",
+          "score_label": "▲ 9 · 💬 0",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "针对 npm 生态的供应链安全扫描工具，帮助开发者检测依赖包中的潜在风险和漏洞。",
+          "tags": [
+            "工具",
+            "开源"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "github.com"
         }
       ]
     },
@@ -434,13 +435,30 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "具透 | watchOS 27 公测版一览：动态应用网格、Liquid Glass 微调……",
+          "url": "https://sspai.com/post/112430",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "watchOS 27 公测版发布，新增动态应用网格、Liquid Glass 微调等功能，AI 之外也有诸多值得关注的新特性。",
+          "tags": [
+            "少数派",
+            "资讯"
+          ],
+          "meta": "📅 2026-07-17",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
           "title": "Grok Build 开源，在这之前它被发现会上传用户的完整库",
           "url": "https://www.solidot.org/story?sid=84848",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "xAI 开源 Grok Build 编程智能体，但此前被发现会未经编辑地将用户完整代码库上传至 Google Cloud Storage，隐私问题严重。开源可能是挽回信任的补救措施。",
+          "summary": "xAI 开源 Grok Build 以挽回用户信任，此前该工具被发现会将用户完整代码库上传至 Google Cloud Storage，隐私问题严重。",
           "tags": [
             "Solidot",
             "Agent",
@@ -451,32 +469,14 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:3",
           "title": "图书出版商指控 Google 在训练 Gemini 过程中大规模侵犯版权",
           "url": "https://www.solidot.org/story?sid=84846",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "Hachette、Cengage、Elsevier 等大型出版商指控 Google 训练 Gemini 时未经许可使用数百万版权图书，称其为史上最严重版权侵犯之一。AI 训练数据合规问题持续发酵。",
-          "tags": [
-            "Solidot",
-            "LLM",
-            "资讯"
-          ],
-          "meta": "📅 2026-07-16",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "DeepSeek 计划年内申请 IPO",
-          "url": "https://www.solidot.org/story?sid=84845",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "DeepSeek 计划年内提交 IPO 申请，目标估值 4800 亿人民币，融资 500 亿元。此前已完成首轮 500 亿元融资，梁文锋个人出资 200 亿，腾讯参投。国产大模型商业化进入新阶段。",
+          "summary": "多家大型图书出版商指控 Google 在训练 Gemini 模型时未经许可使用数百万受版权保护的图书，称其为史上最严重的版权侵犯之一。",
           "tags": [
             "Solidot",
             "LLM",
@@ -488,15 +488,16 @@
         },
         {
           "key": "ai_zh:4",
-          "title": "AI 公司高管加强个人安保",
-          "url": "https://www.solidot.org/story?sid=84843",
+          "title": "DeepSeek 计划年内申请 IPO",
+          "url": "https://www.solidot.org/story?sid=84845",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "Sam Altman 住所遭纵火未遂后，Anthropic 员工也被尾随威胁。AI 反对声浪高涨，科技公司高管安保升级，针对 AI 公司高管和网络基础设施的威胁增长七倍。",
+          "summary": "DeepSeek 计划年内提交 IPO 申请，目标融资 500 亿元、估值 4800 亿人民币，拟在上交所科创板上市。",
           "tags": [
             "Solidot",
+            "LLM",
             "资讯"
           ],
           "meta": "📅 2026-07-16",
@@ -505,21 +506,20 @@
         },
         {
           "key": "ai_zh:5",
-          "title": "派早报：国行版 Apple Intelligence 完成备案等",
-          "url": "https://sspai.com/post/112373",
+          "title": "AI 公司高管加强个人安保",
+          "url": "https://www.solidot.org/story?sid=84843",
           "score_label": "",
-          "extra": "少数派",
+          "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "派早报汇总：国行版 Apple Intelligence 完成备案、阿里发布 Qwen-Audio-3.0-Realtime 实时语音模型、腾龙发布新镜头等科技快讯。",
+          "summary": "Sam Altman 住所遭纵火未遂后，Anthropic 高管也被尾随威胁，AI 公司高管纷纷加强个人安保，针对 AI 行业的网络威胁激增七倍。",
           "tags": [
-            "少数派",
-            "语音",
+            "Solidot",
             "资讯"
           ],
           "meta": "📅 2026-07-16",
           "trend": "",
-          "domain": "sspai.com"
+          "domain": "solidot.org"
         }
       ]
     },
@@ -536,7 +536,7 @@
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者分享 32 个 Claude Code 亲测技能和 8 个 MCP 服务器配置，显著提升 AI 辅助编程效率。是 Claude Code 深度用户的实用指南。",
+          "summary": "作者分享 32 个实测可用的 Claude Code Skills 和 8 个 MCP 服务器配置，帮助开发者大幅提升 AI 编程效率。",
           "tags": [
             "Agent",
             "工具"
@@ -549,11 +549,11 @@
           "key": "juejin:2",
           "title": "Codex 穷鬼大救星",
           "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 326",
+          "score_label": "👍 327",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "面向预算有限开发者的 Codex 省钱工作流，分享如何用低成本方式利用 AI 编程工具完成开发任务。",
+          "summary": "一套低成本的 Codex 使用工作流，帮助预算有限的开发者最大化利用 AI 编程工具，被称为'穷鬼大救星'。",
           "tags": [
             "Agent",
             "工具"
@@ -566,11 +566,11 @@
           "key": "juejin:3",
           "title": "我用AI做了个微信小游戏-上线了",
           "url": "https://juejin.cn/post/7641048219231010862",
-          "score_label": "👍 266",
+          "score_label": "👍 268",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "完整记录用 AI 开发微信小游戏并上线的全流程，包括技术栈选择、prompt 设计、踩坑经验和成本明细。适合想用 AI 快速做产品的开发者参考。",
+          "summary": "作者完整记录用 AI 开发微信小游戏并上线的全过程，公开技术栈、prompt 设计、踩坑经验和成本明细。",
           "tags": [
             "Agent",
             "变现"
@@ -583,11 +583,11 @@
           "key": "juejin:4",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 201",
+          "score_label": "👍 205",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者从 Cursor 切换到 Codex 半个月后的真实体验对比，认为 Codex 更接近超级 Agent 形态，代表 AI 编程工具的下一阶段方向。",
+          "summary": "作者对比 Cursor 和 Codex 使用体验，认为 Codex 更接近真正的超级 Agent 形态，代表 AI 编程的下一阶段。",
           "tags": [
             "Agent",
             "工具"
@@ -600,11 +600,11 @@
           "key": "juejin:5",
           "title": "凌晨睡不着，我给台风巴威写了个追踪网站",
           "url": "https://juejin.cn/post/7659393583027896330",
-          "score_label": "👍 108",
+          "score_label": "👍 109",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者凌晨用 Claude Fable 5 开发台风追踪网站，整合四家气象机构路径数据到同一地图。展示了 AI 快速实现个人创意项目的可能性。",
+          "summary": "作者用 Claude Fable 5 开发台风巴威追踪网站，整合四家气象机构数据在地图上可视化，快速实现想法。",
           "tags": [
             "Agent",
             "工具"
