@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 技术热点 · 2026-08-05</title>
+<title>AI 技术热点 · 2026-08-06</title>
 <style>
   :root{
     --bg:#0B0F1A; --bg-card:rgba(255,255,255,.04); --border:rgba(255,255,255,.08);
@@ -72,7 +72,7 @@
         <div class="sub">Daily AI Tech Digest · 模型 / 论文 / 开源 / 社区</div>
       </div>
     </div>
-    <div class="date-pill">2026-08-05 周三</div>
+    <div class="date-pill">2026-08-06 周四</div>
   </header>
 
   
@@ -80,15 +80,13 @@
     <h2>📌 今日要点 · AI 编辑</h2>
     <ul>
       
-      <li>DeepSeek-R1 开源发布，MIT 协议加持，推理模型再迎重磅开源力量<a class="ref" href="#hf:2" title="跳转到条目">🔗</a></li>
+      <li>Google DeepMind 高层大换血：Demis Hassabis 卸任 CEO 转任董事长，Jeff Dean 等核心成员离职创办公益 AI 企业。<a class="ref" href="#hackernews:1" title="跳转到条目">🔗</a></li>
       
-      <li>AI 编程工具生态持续火热：Claude Code Skills、Codex 体验、Cursor 对比成为开发者热议话题<a class="ref" href="#juejin:1" title="跳转到条目">🔗</a></li>
+      <li>AI 编程工具生态持续升温：Skills 成为新焦点，开发者热议 Claude Code、Codex 等 Agent 的最佳实践与工作流标准化。<a class="ref" href="#juejin:1" title="跳转到条目">🔗</a></li>
       
-      <li>AI 对就业市场的冲击开始显现：客服岗位正被大规模自动化替代<a class="ref" href="#ai_zh:3" title="跳转到条目">🔗</a></li>
+      <li>微软内部叫停<a class="ref" href="#ai_zh:3" title="跳转到条目">🔗</a></li>
       
-      <li>多模态大模型扩展与评估方向多篇新论文发布，涵盖并行计算、社会预测、递归自我改进等前沿方向<a class="ref" href="#arxiv:1" title="跳转到条目">🔗</a></li>
-      
-      <li>Mistral 发布 3B 开源多模态审核模型 Shieldstral，Agent 安全与记忆管理工具持续涌现<a class="ref" href="#hackernews:2" title="跳转到条目">🔗</a></li>
+      <li>长时程推理成为研究热点：多篇论文聚焦 Agent 运行时设计、跨技能推理链与程序化数据生成，推动 LLM 向复杂任务迈进。<a class="ref" href="#arxiv:1" title="跳转到条目">🔗</a></li>
       
     </ul>
   </section>
@@ -124,7 +122,7 @@
               <a class="item-title" href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank" rel="noopener">FLUX.1-dev 文生图模型</a>
               <span class="chips"><span class="chip">CV·生成</span><span class="chip">开源</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">Black Forest Labs 推出的文生图模型，基于 diffusers 框架使用，许可证为 other，适合图像生成场景。</div>
+            <div class="item-summary">Black Forest Labs 推出的高质量文生图模型，基于 diffusers 框架，适合图像生成任务。</div>
             <div class="item-meta">作者 · black-forest-labs  ·  框架 · diffusers  ·  许可 · other</div>
             <div class="item-foot">
               <span class="metric">⬇ 546.5k · 👍 14.0k</span>
@@ -138,10 +136,10 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">DeepSeek-R1 推理模型开源</a>
+              <a class="item-title" href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">DeepSeek-R1 推理模型</a>
               <span class="chips"><span class="chip">LLM</span><span class="chip">开源</span></span>
             </div>
-            <div class="item-summary">DeepSeek 发布的推理大模型，采用 MIT 开源协议，支持 transformers 框架进行文本生成，对开发者非常友好。</div>
+            <div class="item-summary">DeepSeek 发布的推理增强型大语言模型，MIT 开源协议，支持文本生成，适合需要深度推理的场景。</div>
             <div class="item-meta">作者 · deepseek-ai  ·  框架 · transformers  ·  许可 · mit</div>
             <div class="item-foot">
               <span class="metric">⬇ 9.9M · 👍 13.5k</span>
@@ -155,13 +153,13 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">Kimi-K3 图文多模态模型</a>
+              <a class="item-title" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">Kimi-K3 多模态模型</a>
               <span class="chips"><span class="chip">image-text-to-text</span><span class="chip">开源</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">月之暗面推出的 image-text-to-text 多模态模型，支持图文理解与生成，基于 transformers 框架。</div>
+            <div class="item-summary">Moonshot AI 推出的图像+文本到文本的多模态模型，支持图文理解与生成任务。</div>
             <div class="item-meta">作者 · moonshotai  ·  框架 · transformers  ·  许可 · other</div>
             <div class="item-foot">
-              <span class="metric">⬇ 1.1M · 👍 10.0k</span>
+              <span class="metric">⬇ 1.1M · 👍 10.1k</span>
               
               <a class="domain" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -175,7 +173,7 @@
               <a class="item-title" href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0" target="_blank" rel="noopener">Stable Diffusion XL Base 1.0</a>
               <span class="chips"><span class="chip">CV·生成</span><span class="chip">开源</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">Stability AI 的经典文生图大模型，SDXL 基座版本，采用 openrail++ 协议，社区广泛使用。</div>
+            <div class="item-summary">Stability AI 的经典文生图模型 SDXL，社区广泛使用，适合高质量图像生成。</div>
             <div class="item-meta">作者 · stabilityai  ·  框架 · diffusers  ·  许可 · openrail++</div>
             <div class="item-foot">
               <span class="metric">⬇ 1.5M · 👍 8.0k</span>
@@ -189,13 +187,13 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/CompVis/stable-diffusion-v1-4" target="_blank" rel="noopener">Stable Diffusion v1-4</a>
+              <a class="item-title" href="https://huggingface.co/CompVis/stable-diffusion-v1-4" target="_blank" rel="noopener">Stable Diffusion v1.4</a>
               <span class="chips"><span class="chip">CV·生成</span><span class="chip">开源</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">CompVis 发布的经典 SD 1.4 版本，文生图领域的里程碑模型，采用 creativeml-openrail-m 协议。</div>
+            <div class="item-summary">CompVis 发布的早期 Stable Diffusion 版本，文生图领域的里程碑模型，社区生态成熟。</div>
             <div class="item-meta">作者 · CompVis  ·  框架 · diffusers  ·  许可 · creativeml-openrail-m</div>
             <div class="item-foot">
-              <span class="metric">⬇ 446.5k · 👍 7.0k</span>
+              <span class="metric">⬇ 446.8k · 👍 7.0k</span>
               
               <a class="domain" href="https://huggingface.co/CompVis/stable-diffusion-v1-4" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -215,15 +213,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.04010v1" target="_blank" rel="noopener">ParVL：多模态大模型的并行扩展与弹性计算分配</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">CV</span><span class="chip">NLP</span><span class="chip">LLM</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.05148v1" target="_blank" rel="noopener">Reasoning Core：面向推理训练的广覆盖程序化数据生成</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">提出并行扩展策略解决 MLLM 扩展时内存和延迟开销过大的问题，突破传统固定计算分配的限制。</div>
-            <div class="item-meta">作者 · Yang Yang, Qinyu Zhao, Mouxiang Chen  ·  📅 2026-08-04  ·  📄 PDF</div>
+            <div class="item-summary">提出 50 个程序化生成器，覆盖数学、逻辑、规划等领域，为 completion-supervised 推理微调提供大规模可验证数据。</div>
+            <div class="item-meta">作者 · Damien Sileo, Valentin Lacombe, Dimitri Kachler  ·  📅 2026-08-05  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.04010v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.05148v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -232,15 +230,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.04009v1" target="_blank" rel="noopener">SocietyBench：预测反事实社会世界演化</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">LLM</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.05144v1" target="_blank" rel="noopener">Argus：面向长时程推理的通用 Agent 运行时</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">AI</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">评估 LLM 对社会事件的理解和预测能力，补充了当前只关注任务完成的评测盲区。</div>
-            <div class="item-meta">作者 · Zhenran Wang, Zhonghan Bian, Jinsong Li  ·  📅 2026-08-04  ·  📄 PDF</div>
+            <div class="item-summary">提出持久化、自进化的 Agent 运行时架构，能在证据支持时坚持当前策略、在发现失败时灵活转向，解决长链推理的鲁棒性问题。</div>
+            <div class="item-meta">作者 · Boxiu Li, Zimo Wen, Yijia Fan  ·  📅 2026-08-05  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.04009v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.05144v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -249,15 +247,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.04008v1" target="_blank" rel="noopener">WorldCup Arena：无泄漏的前沿 LLM 实时预测评估</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">LLM</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.05141v1" target="_blank" rel="noopener">OctoLong：跨仓库代码上下文增强长上下文建模</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">AI</span><span class="chip">ML</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">用正在进行的锦标赛做前瞻性评测，避免答案泄露和记忆化问题，是 LLM 评估方法的重要创新。</div>
-            <div class="item-meta">作者 · Zhenran Wang, Zhonghan Bian, Jinsong Li  ·  📅 2026-08-04  ·  📄 PDF</div>
+            <div class="item-summary">通过在跨仓库代码语料上进行中期训练，提升语言模型的长上下文理解能力，服务于 Agent 工作流和自改进场景。</div>
+            <div class="item-meta">作者 · Indraneil Paul, Falko Helm, Goran Glavaš  ·  📅 2026-08-05  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.04008v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.05141v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -266,15 +264,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.04007v1" target="_blank" rel="noopener">TurnSight：工具集成推理的回合级事后自蒸馏</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">AI</span><span class="chip">Agent</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.05139v1" target="_blank" rel="noopener">Skill-Native LLM：用技能熵基准评测长时程推理</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">ML</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">解决长程工具调用场景下强化学习信用分配粒度不足的问题，通过回合级自蒸馏提升推理质量。</div>
-            <div class="item-meta">作者 · Changle Qu, Sunhao Dai, Hengyi Cai  ·  📅 2026-08-04  ·  📄 PDF</div>
+            <div class="item-summary">提出</div>
+            <div class="item-meta">作者 · Yinghui He, Ling Yang, Jiarui Liu  ·  📅 2026-08-05  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.04007v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.05139v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -283,15 +281,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.04003v1" target="_blank" rel="noopener">PAST-Bench：个人 Agent 递归自我改进基础能力评测</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">Agent</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.05138v1" target="_blank" rel="noopener">为 Nemotron 模型适配现代希腊语检索与生成</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">eess.AS</span><span class="chip">AI</span><span class="chip">RAG</span></span>
             </div>
-            <div class="item-summary">为个人 AI Agent 设计基准，评估其将历史经验转化为未来更好行为的能力，推动 Agent 持续学习研究。</div>
-            <div class="item-meta">作者 · Shuhan Xue, Zixin Ding, Yichen Shen  ·  📅 2026-08-04  ·  📄 PDF</div>
+            <div class="item-summary">针对现代希腊语在专业领域（法律、金融、医疗）的 RAG 需求，完成语料挖掘、检索适配和生成落地的端到端工作。</div>
+            <div class="item-meta">作者 · Ayoub Kirouane, Christos Petrocheilos  ·  📅 2026-08-05  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.04003v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.05138v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -309,15 +307,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/TencentCloud/TencentDB-Agent-Memory" target="_blank" rel="noopener">TencentDB Agent Memory：团队级 Agent 记忆中枢</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">TypeScript</span><span class="chip">Agent</span><span class="chip">RAG</span></span>
+              <a class="item-title" href="https://github.com/huangruiteng/loopx" target="_blank" rel="noopener">LoopX：轻量级 Agent 循环工程内核</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">Python</span><span class="chip">Agent</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">腾讯开源的 Agent 记忆管理方案，将对话、文档、代码转化为四种可复用记忆资产，支持跨 Agent 共享。</div>
-            <div class="item-meta">语言 · TypeScript</div>
+            <div class="item-summary">为长时间运行的 AI Agent 团队提供状态管理内核，支持持久目标、配额感知唤醒、可执行 TODO 和可验证交接，兼容 Codex/Claude Code 等。</div>
+            <div class="item-meta">语言 · Python</div>
             <div class="item-foot">
-              <span class="metric">★ 1,111 stars today · ★ 13,989 总</span>
+              <span class="metric">★ 326 stars today · ★ 2,322 总</span>
               
-              <a class="domain" href="https://github.com/TencentCloud/TencentDB-Agent-Memory" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/huangruiteng/loopx" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -326,15 +324,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/zhaoxuya520/reverse-skill" target="_blank" rel="noopener">reverse-skill：逆向/安全技能路由包</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">PowerShell</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/TencentCloud/TencentDB-Agent-Memory" target="_blank" rel="noopener">TencentDB Agent Memory：团队级 Agent 记忆中枢</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">TypeScript</span><span class="chip">Agent</span><span class="chip">RAG</span></span>
             </div>
-            <div class="item-summary">面向 AI 编程客户端的安全技能包，支持自动路由、按需工具链启动和经验库自进化，适配 Claude Code/Cursor 等。</div>
-            <div class="item-meta">语言 · PowerShell</div>
+            <div class="item-summary">将对话、文档、代码转化为四类可复用记忆资产（聊天记忆、技能、LLM-Wiki、代码图谱），支持跨 Agent 和框架共享。</div>
+            <div class="item-meta">语言 · TypeScript</div>
             <div class="item-foot">
-              <span class="metric">★ 2,297 stars today · ★ 18,199 总</span>
+              <span class="metric">★ 1,892 stars today · ★ 15,252 总</span>
               
-              <a class="domain" href="https://github.com/zhaoxuya520/reverse-skill" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/TencentCloud/TencentDB-Agent-Memory" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -343,15 +341,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/uber/ADR" target="_blank" rel="noopener">Uber ADR：企业级 AI Agent 安全框架</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Python</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/esengine/DeepSeek-Reasonix" target="_blank" rel="noopener">DeepSeek-Reasonix：终端原生 DeepSeek 编程 Agent</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">Go</span><span class="chip">Agent</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">Uber 内部部署的 Agent 安全方案，提供可观测性、安全基准测试和威胁检测能力。</div>
-            <div class="item-meta">语言 · Python</div>
+            <div class="item-summary">专为 DeepSeek 模型优化的终端编程 Agent，围绕 prefix-cache 稳定性设计，可长时间后台运行。</div>
+            <div class="item-meta">语言 · Go</div>
             <div class="item-foot">
-              <span class="metric">★ 148 stars today · ★ 747 总</span>
+              <span class="metric">★ 747 stars today · ★ 31,790 总</span>
               
-              <a class="domain" href="https://github.com/uber/ADR" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/esengine/DeepSeek-Reasonix" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -360,15 +358,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/microsoft/generative-ai-for-beginners" target="_blank" rel="noopener">微软生成式 AI 入门课程</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Jupyter Notebook</span><span class="chip">LLM</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">agent-skills：生产级 AI 编程 Agent 技能包</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">JavaScript</span><span class="chip">Agent</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">21 节课从零开始学习生成式 AI 开发，适合初学者快速上手。</div>
-            <div class="item-meta">语言 · Jupyter Notebook</div>
+            <div class="item-summary">Addy Osmani 维护的 AI 编程 Agent 技能集合，提供标准化工程实践模块，让 Agent 按流程交付代码。</div>
+            <div class="item-meta">语言 · JavaScript</div>
             <div class="item-foot">
-              <span class="metric">★ 783 stars today · ★ 116,370 总</span>
+              <span class="metric">★ 226 stars today · ★ 82,079 总</span>
               
-              <a class="domain" href="https://github.com/microsoft/generative-ai-for-beginners" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -377,15 +375,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/lyogavin/airllm" target="_blank" rel="noopener">AirLLM：单卡 4GB 跑 70B 模型推理</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Jupyter Notebook</span><span class="chip">LLM</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/tailwindlabs/tailwindcss" target="_blank" rel="noopener">Tailwind CSS：实用优先的 CSS 框架</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">TypeScript</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">让 70B 参数大模型在单张 4GB 显存 GPU 上完成推理，极大降低大模型本地部署门槛。</div>
-            <div class="item-meta">语言 · Jupyter Notebook</div>
+            <div class="item-summary">经典的原子化 CSS 框架，用于快速 UI 开发，本次上榜或因 AI 编程工具频繁生成 Tailwind 代码。</div>
+            <div class="item-meta">语言 · TypeScript</div>
             <div class="item-foot">
-              <span class="metric">★ 1,711 stars today · ★ 28,524 总</span>
+              <span class="metric">★ 408 stars today · ★ 96,918 总</span>
               
-              <a class="domain" href="https://github.com/lyogavin/airllm" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/tailwindlabs/tailwindcss" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -403,15 +401,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf" target="_blank" rel="noopener">《会有温柔的雨》1950 年经典科幻短篇</a>
+              <a class="item-title" href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/" target="_blank" rel="noopener">Google DeepMind 高层巨变：Hassabis 卸任 CEO，Jeff Dean 离职</a>
               <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">Ray Bradbury 的经典科幻短篇，讲述核战后自动化房屋继续运转的故事，探讨技术与人类文明的关系。</div>
+            <div class="item-summary">DeepMind CEO Demis Hassabis 转任董事长兼首席科学家，Jeff Dean 等核心成员离开 Google 创办公益 AI 企业，标志 Google AI 战略重大调整。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 362 · 💬 386</span>
+              <span class="metric">▲ 547 · 💬 623</span>
               
-              <a class="domain" href="https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf" target="_blank" rel="noopener">🔗 users.wpi.edu</a>
+              <a class="domain" href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/" target="_blank" rel="noopener">🔗 blog.google</a>
             </div>
           </div>
         </li>
@@ -420,15 +418,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://mistral.ai/news/shieldstral/" target="_blank" rel="noopener">Mistral 发布 Shieldstral 3B 多模态审核模型</a>
-              <span class="chips"><span class="chip">LLM</span><span class="chip">开源</span></span>
+              <a class="item-title" href="https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt" target="_blank" rel="noopener">观点：LLM 无法</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">LLM</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">Mistral 推出的 3B 开源权重多模态内容审核模型，用于安全过滤和有害内容检测。</div>
+            
             
             <div class="item-foot">
-              <span class="metric">▲ 343 · 💬 82</span>
+              <span class="metric">▲ 256 · 💬 173</span>
               
-              <a class="domain" href="https://mistral.ai/news/shieldstral/" target="_blank" rel="noopener">🔗 mistral.ai</a>
+              <a class="domain" href="https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt" target="_blank" rel="noopener">🔗 openreview.net</a>
             </div>
           </div>
         </li>
@@ -437,15 +435,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml" target="_blank" rel="noopener">Oxide Computer 融资 4.45 亿美元</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency" target="_blank" rel="noopener">用便宜 100 倍的开源模型在检索任务上击败 GPT-5.6 Sol</a>
+              <span class="chips"><span class="chip">RAG</span><span class="chip">开源</span></span>
             </div>
-            <div class="item-summary">硬件初创公司 Oxide Computer 完成大额融资，聚焦下一代计算基础设施。</div>
+            <div class="item-summary">社区分享如何用低成本开源模型在 RAG 检索场景达到甚至超越 GPT-5.6 Sol 的效果，对降本增效有参考价值。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 223 · 💬 111</span>
+              <span class="metric">▲ 251 · 💬 63</span>
               
-              <a class="domain" href="https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml" target="_blank" rel="noopener">🔗 sec.gov</a>
+              <a class="domain" href="https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency" target="_blank" rel="noopener">🔗 neon.com</a>
             </div>
           </div>
         </li>
@@ -454,15 +452,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/" target="_blank" rel="noopener">国际刑警：AI 驱动非洲超半数网络犯罪</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://blog.fogus.me/llm/born-against.html" target="_blank" rel="noopener">Born Against：为什么业余编程社区抵制 LLM</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">报告显示 AI 技术正被大量用于非洲网络诈骗和犯罪活动，AI 安全治理刻不容缓。</div>
+            <div class="item-summary">探讨 hobby 编程社区对 AI 编程工具的抵触情绪，反映开发者群体对 AI 替代编程的焦虑与反思。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 168 · 💬 122</span>
+              <span class="metric">▲ 170 · 💬 166</span>
               
-              <a class="domain" href="https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/" target="_blank" rel="noopener">🔗 africanews.com</a>
+              <a class="domain" href="https://blog.fogus.me/llm/born-against.html" target="_blank" rel="noopener">🔗 blog.fogus.me</a>
             </div>
           </div>
         </li>
@@ -471,15 +469,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://queue.acm.org/detail.cfm?id=3807963" target="_blank" rel="noopener">软件工程与生成式 AI 的八大迷思</a>
-              <span class="chips"><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project" target="_blank" rel="noopener">纳什维尔动用征收权阻止动物园旁建数据中心</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">文章梳理了业界对 AI 辅助软件开发的常见误解，帮助开发者理性看待 AI 编程能力边界。</div>
+            <div class="item-summary">地方政府动用土地征收权阻止 AI 数据中心选址，反映 AI 基础设施扩张与社区利益的冲突。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 124 · 💬 81</span>
+              <span class="metric">▲ 116 · 💬 103</span>
               
-              <a class="domain" href="https://queue.acm.org/detail.cfm?id=3807963" target="_blank" rel="noopener">🔗 queue.acm.org</a>
+              <a class="domain" href="https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project" target="_blank" rel="noopener">🔗 costar.com</a>
             </div>
           </div>
         </li>
@@ -489,7 +487,7 @@
     </section>
     
     <section class="card" id="src-ai_zh">
-      <h3><span>📰</span> 中文 AI 资讯<span class="count">4 条</span></h3>
+      <h3><span>📰</span> 中文 AI 资讯<span class="count">5 条</span></h3>
       
       <ol class="items">
         
@@ -497,15 +495,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=85003" target="_blank" rel="noopener">淡水螺新种以神兽帝江命名</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://sspai.com/post/113110" target="_blank" rel="noopener">派早报：华为发布尊界 MPV 及多款新品等</a>
+              <span class="chips"><span class="chip">少数派</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">云南发现洞穴新种蜗牛，以《山海经》神兽帝江命名，完全失去眼睛，高度适应无光环境。</div>
-            <div class="item-meta">📅 2026-08-04</div>
+            <div class="item-summary">华为发布尊界 MPV 等多款新品，英伟达 Alpamayo 2 Super AI 开放商用，NVM Express 更新规范集等科技资讯汇总。</div>
+            <div class="item-meta">📅 2026-08-06</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://www.solidot.org/story?sid=85003" target="_blank" rel="noopener">🔗 solidot.org</a>
+              <a class="domain" href="https://sspai.com/post/113110" target="_blank" rel="noopener">🔗 sspai.com</a>
             </div>
           </div>
         </li>
@@ -514,15 +512,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://sspai.com/post/113053" target="_blank" rel="noopener">派早报：MiniMax H3 开源、Qwen3.8-Max 发布等</a>
-              <span class="chips"><span class="chip">少数派</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://www.solidot.org/story?sid=85019" target="_blank" rel="noopener">Google DeepMind CEO Demis Hassabis 卸任</a>
+              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">少数派早报汇总：MiniMax H3 开源、Qwen3.8-Max 发布等 AI 领域近期动态。</div>
-            <div class="item-meta">📅 2026-08-04</div>
+            <div class="item-summary">Google DeepMind 领导层重组，Demis Hassabis 卸任 CEO 转任首席科学家兼董事长，Jeff Dean 等四位核心成员离职创办公益 AI 企业。</div>
+            <div class="item-meta">📅 2026-08-05</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://sspai.com/post/113053" target="_blank" rel="noopener">🔗 sspai.com</a>
+              <a class="domain" href="https://www.solidot.org/story?sid=85019" target="_blank" rel="noopener">🔗 solidot.org</a>
             </div>
           </div>
         </li>
@@ -531,15 +529,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=84994" target="_blank" rel="noopener">AI 开始大幅减少客服岗位</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span><span class="chip">Agent</span></span>
+              <a class="item-title" href="https://www.solidot.org/story?sid=85018" target="_blank" rel="noopener">微软要求工程师不要最大化 AI Token 使用</a>
+              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">澳大利亚联邦银行、微软、Uber 等企业正大规模用 AI 替代人工客服，预计到 2030 年近半客服岗位受影响。</div>
-            <div class="item-meta">📅 2026-08-03</div>
+            <div class="item-summary">微软内部发邮件要求工程师不要以最大化 AI Token 使用量为目标，应关注业务成果，避免 token 费用失控。</div>
+            <div class="item-meta">📅 2026-08-05</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://www.solidot.org/story?sid=84994" target="_blank" rel="noopener">🔗 solidot.org</a>
+              <a class="domain" href="https://www.solidot.org/story?sid=85018" target="_blank" rel="noopener">🔗 solidot.org</a>
             </div>
           </div>
         </li>
@@ -548,15 +546,32 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=84988" target="_blank" rel="noopener">AI 通过错误的推理得到正确的结果？</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">LLM</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://www.solidot.org/story?sid=85017" target="_blank" rel="noopener">AI 监督远程考试变成灾难，数万学生必须重考</a>
+              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">Quanta 文章探讨 LLM 推理的真实性：思维链可能只是&#39;自言自语&#39;而非严谨推理，模型常通过错误推理得到正确答案。</div>
-            <div class="item-meta">📅 2026-08-03</div>
+            <div class="item-summary">墨西哥 UNAM 大学首次远程考试因 AI 监督失效导致高分异常激增，近 16 万考生中数万人需重考。</div>
+            <div class="item-meta">📅 2026-08-05</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://www.solidot.org/story?sid=84988" target="_blank" rel="noopener">🔗 solidot.org</a>
+              <a class="domain" href="https://www.solidot.org/story?sid=85017" target="_blank" rel="noopener">🔗 solidot.org</a>
+            </div>
+          </div>
+        </li>
+        
+        <li class="item" id="ai_zh:5">
+          <div class="rank">5</div>
+          <div class="body">
+            <div class="item-head">
+              <a class="item-title" href="https://www.solidot.org/story?sid=85012" target="_blank" rel="noopener">美国据报将豁免中国开放权重模型</a>
+              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span><span class="chip">开源</span></span>
+            </div>
+            <div class="item-summary">据报道特朗普政府新 AI 安全框架将豁免中国开放权重模型的安全测试要求，OpenAI、Google 等巨头已获通报。</div>
+            <div class="item-meta">📅 2026-08-05</div>
+            <div class="item-foot">
+              
+              
+              <a class="domain" href="https://www.solidot.org/story?sid=85012" target="_blank" rel="noopener">🔗 solidot.org</a>
             </div>
           </div>
         </li>
@@ -577,10 +592,10 @@
               <a class="item-title" href="https://juejin.cn/post/7620060655607857178" target="_blank" rel="noopener">别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！</a>
               <span class="chips"><span class="chip">工具</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">作者分享 32 个 Claude Code Skills 和 8 个 MCP 服务器的实测配置，大幅提升 AI 编程效率。</div>
+            <div class="item-summary">作者分享 32 个 Claude Code Skills 和 8 个 MCP 服务器的实测配置，帮助开发者大幅提升 AI 编程效率。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 818</span>
+              <span class="metric">👍 820</span>
               
               <a class="domain" href="https://juejin.cn/post/7620060655607857178" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -594,10 +609,10 @@
               <a class="item-title" href="https://juejin.cn/post/7637856870833635343" target="_blank" rel="noopener">Cursor 转 Codex 大半个月，聊聊我的真实感受</a>
               <span class="chips"><span class="chip">工具</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">开发者从 Cursor 转向 Codex 的真实体验：Codex 更接近超级 Agent 形态，不只是编程助手。</div>
+            <div class="item-summary">作者从 Cursor 切换到 Codex 半个月后的真实体验，认为 Codex 更接近</div>
             
             <div class="item-foot">
-              <span class="metric">👍 320</span>
+              <span class="metric">👍 323</span>
               
               <a class="domain" href="https://juejin.cn/post/7637856870833635343" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -609,12 +624,12 @@
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://juejin.cn/post/7655245911811784750" target="_blank" rel="noopener">面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”</a>
-              <span class="chips"><span class="chip">资讯</span></span>
+              <span class="chips"><span class="chip">资讯</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">2026 年技术面试已默认候选人会用 AI，面试官更关注 AI 协作能力而非手写代码能力。</div>
+            <div class="item-summary">讨论 2026 年技术面试的变化：面试官默认你会用 AI，更关注如何与 AI 协作而非手写代码能力。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 216</span>
+              <span class="metric">👍 221</span>
               
               <a class="domain" href="https://juejin.cn/post/7655245911811784750" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -628,10 +643,10 @@
               <a class="item-title" href="https://juejin.cn/post/7660712622825144374" target="_blank" rel="noopener">2026编程圈很火的10个Skills</a>
               <span class="chips"><span class="chip">工具</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">盘点 2026 年编程圈最火的 10 个 AI 编程 Skills，即让 AI 按标准化流程交付代码的技能包。</div>
+            <div class="item-summary">盘点 2026 年编程圈最火的 10 个 AI Skills，介绍如何将 AI 编程助手从</div>
             
             <div class="item-foot">
-              <span class="metric">👍 86</span>
+              <span class="metric">👍 88</span>
               
               <a class="domain" href="https://juejin.cn/post/7660712622825144374" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -645,10 +660,10 @@
               <a class="item-title" href="https://juejin.cn/post/7654140424869855282" target="_blank" rel="noopener">Codex 最佳实践（超级长文）：先搞懂 AI，再用好 AI</a>
               <span class="chips"><span class="chip">工具</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">Codex 长文最佳实践：先理解 AI 的工作机制，才能用好 AI 工具，避免效果不稳定和对话跑偏。</div>
+            <div class="item-summary">Codex 超级长文最佳实践，从理解 AI 原理到掌握提示技巧，解决模型不稳定、对话跑偏等常见问题。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 78</span>
+              <span class="metric">👍 79</span>
               
               <a class="domain" href="https://juejin.cn/post/7654140424869855282" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -661,7 +676,7 @@
     
   </div>
 
-  <footer>数据源 6 · 共 29 条 · 生成于 2026-08-05 · by Claude</footer>
+  <footer>数据源 6 · 共 30 条 · 生成于 2026-08-06 · by Claude</footer>
 </div>
 </body>
 </html>
