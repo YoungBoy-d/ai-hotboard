@@ -1,41 +1,45 @@
 {
-  "date": "2026-08-19",
-  "weekday": "周三",
+  "date": "2026-08-20",
+  "weekday": "周四",
   "editorial": [
     {
-      "text": "Anthropic CEO Dario Amodei 指出公众对 AI 的抵触根源在于信任危机，而非技术风险警告本身。",
+      "text": "OpenAI Codex 与 Claude Code 等 AI 编程 Agent 工具持续升温，开发者社区围绕 Skills、MCP 和穷鬼工作流展开热烈实践与对比。",
+      "refs": [
+        "juejin:1",
+        "juejin:2",
+        "juejin:3",
+        "github:4",
+        "github:5"
+      ]
+    },
+    {
+      "text": "苹果被曝正在研发带摄像头的 AirPods，结合 Visual Intelligence 实现环境识别与 Siri 增强交互。",
       "refs": [
         "ai_zh:4"
       ]
     },
     {
-      "text": "苹果正在研发配备摄像头的 AirPods，支持 Visual Intelligence 目标识别，Siri 可回答佩戴者周围环境问题。",
+      "text": "AI 热潮推高 HBM 内存产能需求，导致消费级 DDR5 内存价格 12 个月内暴涨 500%。",
       "refs": [
         "ai_zh:2"
       ]
     },
     {
-      "text": "掘金社区热议 AI 编程工具实践：Claude Code Skills + MCP 配置、Codex 工作流、Cursor 转 Codex 体验分享。",
+      "text": "学术界聚焦 Agent 自我进化与长上下文推理：SPADE 提出自适应环境自我对弈，ADEPT 推进机器人灵巧操作 sim-to-real 迁移。",
       "refs": [
-        "juejin:1",
-        "juejin:2",
-        "juejin:3"
+        "arxiv:1",
+        "arxiv:2",
+        "arxiv:3"
       ]
     },
     {
-      "text": "HuggingFace 热门模型更新：FLUX.1-dev、DeepSeek-R1、Qwen3.8-27B、Kimi-K3 等多模态与生成模型上榜。",
+      "text": "HuggingFace 热门模型涵盖 FLUX.1-dev 文生图、DeepSeek-R1 文本生成及 Qwen3.8-27B 多模态，开源生态持续活跃。",
       "refs": [
         "hf:1",
         "hf:2",
         "hf:3",
-        "hf:4"
-      ]
-    },
-    {
-      "text": "GitHub 多个 Agent 记忆与上下文管理项目受关注，包括 OpenViking、ai-memory 等解决长期记忆与跨 Agent 协作问题。",
-      "refs": [
-        "github:3",
-        "github:4"
+        "hf:4",
+        "hf:5"
       ]
     }
   ],
@@ -49,11 +53,11 @@
           "key": "hf:1",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 585.9k · 👍 14.2k",
+          "score_label": "⬇ 594.9k · 👍 14.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "FLUX.1-dev 是 Black Forest Labs 推出的文生图模型，基于 diffusers 框架，适合高质量图像生成任务。",
+          "summary": "Black Forest Labs 发布的 FLUX.1-dev 文生图模型，基于 diffusers 框架，许可证为 other，适合图像生成研究与二次开发。",
           "tags": [
             "CV·生成",
             "开源",
@@ -67,11 +71,11 @@
           "key": "hf:2",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 7.2M · 👍 13.6k",
+          "score_label": "⬇ 6.9M · 👍 13.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "DeepSeek-R1 是 DeepSeek 推出的文本生成大模型，采用 MIT 开源协议，适合对话、推理等场景。",
+          "summary": "DeepSeek-R1 是 DeepSeek 推出的文本生成大模型，采用 MIT 许可证，支持 transformers 框架，适合对话与推理任务。",
           "tags": [
             "LLM",
             "开源"
@@ -84,11 +88,11 @@
           "key": "hf:3",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 665.5k · 👍 11.2k",
+          "score_label": "⬇ 1.0M · 👍 11.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Qwen3.8-27B 是通义千问团队推出的多模态模型，支持图文输入输出，Apache 2.0 协议开源。",
+          "summary": "Qwen3.8-27B 是通义千问团队发布的多模态模型，支持图文输入到文本输出，Apache 2.0 许可证，适合视觉问答等场景。",
           "tags": [
             "image-text-to-text",
             "开源",
@@ -103,11 +107,11 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 2.2M · 👍 10.8k",
+          "score_label": "⬇ 2.3M · 👍 10.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Kimi-K3 是月之暗面推出的图文多模态模型，基于 transformers 框架，支持图像理解与生成。",
+          "summary": "Kimi-K3 是月之暗面推出的 image-text-to-text 多模态模型，基于 transformers，许可证为 other，面向图文理解任务。",
           "tags": [
             "image-text-to-text",
             "开源",
@@ -122,11 +126,11 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 1.6M · 👍 8.0k",
+          "score_label": "⬇ 1.6M · 👍 8.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Stable Diffusion XL 是 Stability AI 的经典文生图模型，1.0 基础版，OpenRAIL++ 协议。",
+          "summary": "Stable Diffusion XL Base 1.0 是 Stability AI 的经典文生图模型，采用 OpenRAIL++ 许可证，广泛用于图像生成与微调。",
           "tags": [
             "CV·生成",
             "开源",
@@ -145,93 +149,97 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation",
-          "url": "http://arxiv.org/abs/2608.18076v1",
+          "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+          "url": "http://arxiv.org/abs/2608.19197v1",
           "score_label": "",
-          "extra": "cs.CV",
+          "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "论文探讨如何从数据设计角度提升通用图像生成模型能力，提出以能力为中心的数据构建方法，解决多任务数据协同优化问题。",
+          "summary": "SPADE 提出让语言 Agent 在自适应合成环境中通过自我对弈持续生成多样化目标，解决传统训练环境池目标分布固定的问题，推动 Agent 自我进化。",
           "tags": [
             "论文",
-            "CV",
-            "AI"
+            "NLP",
+            "AI",
+            "Agent",
+            "LLM"
           ],
-          "meta": "作者 · Xingjian Wang, Zhao Wang, Taihang Hu  ·  📅 2026-08-18  ·  📄 PDF",
+          "meta": "作者 · Bo Liu, Simon Yu, Yiding Jiang  ·  📅 2026-08-19  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "Multi-Agent AI System for Radiology Report Structuring and Quality Assurance with Independent Radiologist Evaluation",
-          "url": "http://arxiv.org/abs/2608.18072v1",
+          "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+          "url": "http://arxiv.org/abs/2608.19182v1",
           "score_label": "",
-          "extra": "cs.CL",
+          "extra": "cs.RO",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "论文开发了一个多 Agent AI 系统用于放射科报告结构化与质控，经放射科医生独立评估验证有效性。",
+          "summary": "ADEPT 是一个大规模强化学习框架，通过预训练与后训练实现高自由度机器人从仿真到现实的灵巧操作迁移，支持长时程视觉-触觉任务。",
           "tags": [
             "论文",
-            "NLP",
-            "Agent"
+            "机器人",
+            "AI",
+            "Agent",
+            "CV"
           ],
-          "meta": "作者 · Iryna Hartsock, Cesar Lam, Christopher Otteni  ·  📅 2026-08-18  ·  📄 PDF",
+          "meta": "作者 · Jayjun Lee, Jessica Yin, Asif Rana  ·  📅 2026-08-19  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
-          "url": "http://arxiv.org/abs/2608.18066v1",
+          "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+          "url": "http://arxiv.org/abs/2608.19181v1",
           "score_label": "",
-          "extra": "cs.AI",
+          "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "论文研究基于记忆的自我改进 Agent 的脆弱性，发现任务顺序、方差和欠规范会显著影响其可靠性。",
+          "summary": "论文指出长上下文 on-policy 蒸馏中 token 级教师指导易导致局部合理但全局不一致的输出，提出组校准方法提升学生模型对分布式证据的捕捉能力。",
           "tags": [
             "论文",
+            "ML",
             "AI",
-            "NLP",
-            "Agent"
+            "LLM"
           ],
-          "meta": "作者 · Qinyuan Ye, Yu Li, Yada Pruksachatkun  ·  📅 2026-08-18  ·  📄 PDF",
+          "meta": "作者 · Zhu Zhang, Jixun Wang, Xiaoang Xu  ·  📅 2026-08-19  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "TokEval: A Tokenizer Evaluation Suite",
-          "url": "http://arxiv.org/abs/2608.18062v1",
+          "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+          "url": "http://arxiv.org/abs/2608.19174v1",
           "score_label": "",
-          "extra": "cs.CL",
+          "extra": "cs.SD",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "论文提出 TokEval 分词器评估套件，系统分析分词器设计选择对下游任务性能的影响。",
+          "summary": "技术报告介绍 AES AIMLA 2025 声音查询挑战赛冠军方案，结合冻结 CED 编码器的对比学习与联合对比-三元组微调策略，用语音模仿检索音效。",
           "tags": [
             "论文",
-            "NLP",
-            "ML",
-            "LLM"
+            "cs.SD",
+            "AI",
+            "语音"
           ],
-          "meta": "作者 · Clara Meister  ·  📅 2026-08-18  ·  📄 PDF",
+          "meta": "作者 · Aditya Bhattacharjee, Christos Plachouras, Sungkyun Chang  ·  📅 2026-08-19  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "The concentration game: Bayesian updating, regret, and information",
-          "url": "http://arxiv.org/abs/2608.18061v1",
+          "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
+          "url": "http://arxiv.org/abs/2608.19171v1",
           "score_label": "",
           "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "论文研究零和重复博弈中的贝叶斯更新与 regret 分析，提供浓度现象的变分形式统一框架。",
+          "summary": "Lévy Attention 为不规则采样时间序列的连续时间注意力层引入随机公式，实现单次前向传播即可输出预测不确定性，填补深度学习时序模型置信度空白。",
           "tags": [
             "论文",
             "ML",
-            "cs.GT"
+            "LLM"
           ],
-          "meta": "作者 · Akshay Balsubramani  ·  📅 2026-08-18  ·  📄 PDF",
+          "meta": "作者 · Sotirios P. Chatzis, Loukas Papadoulas  ·  📅 2026-08-19  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -246,11 +254,11 @@
           "key": "github:1",
           "title": "harry0703/MoneyPrinterTurbo",
           "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-          "score_label": "★ 2,304 stars today · ★ 108,716 总",
+          "score_label": "★ 2,221 stars today · ★ 110,950 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "MoneyPrinterTurbo 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频，适合内容创作者快速产出。",
+          "summary": "MoneyPrinterTurbo 利用 AI 大模型与自动化工作流，根据主题或关键词一键生成高清短视频，适合内容创作者快速产出视频素材。",
           "tags": [
             "开源",
             "Python",
@@ -263,13 +271,32 @@
         },
         {
           "key": "github:2",
-          "title": "chaitanyagiri/munder-difflin",
-          "url": "https://github.com/chaitanyagiri/munder-difflin",
-          "score_label": "★ 306 stars today · ★ 2,107 总",
+          "title": "volcengine/OpenViking",
+          "url": "https://github.com/volcengine/OpenViking",
+          "score_label": "★ 804 stars today · ★ 30,289 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "munder-difflin 是一个本地多 Agent 协作框架，支持多个 Agent 协同完成任务。",
+          "summary": "OpenViking 是火山引擎开源的自进化上下文数据库，统一 Agent 记忆、知识 RAG 与技能管理，为 AI Agent 提供持久化与检索增强能力。",
+          "tags": [
+            "开源",
+            "Python",
+            "Agent",
+            "RAG"
+          ],
+          "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
+          "title": "chaitanyagiri/munder-difflin",
+          "url": "https://github.com/chaitanyagiri/munder-difflin",
+          "score_label": "★ 795 stars today · ★ 2,734 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "munder-difflin 是一个本地多 Agent 协作框架（harness），支持多个 AI Agent 在本地环境中协同执行任务。",
           "tags": [
             "开源",
             "TypeScript",
@@ -280,52 +307,14 @@
           "domain": "github.com"
         },
         {
-          "key": "github:3",
-          "title": "akitaonrails/ai-memory",
-          "url": "https://github.com/akitaonrails/ai-memory",
-          "score_label": "★ 648 stars today · ★ 2,784 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "ai-memory 为 Agent 编码 CLI 提供长期记忆解决方案，支持不同 Agent 厂商之间的上下文交接。",
-          "tags": [
-            "开源",
-            "Rust",
-            "Agent",
-            "RAG"
-          ],
-          "meta": "语言 · Rust",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
           "key": "github:4",
-          "title": "volcengine/OpenViking",
-          "url": "https://github.com/volcengine/OpenViking",
-          "score_label": "★ 213 stars today · ★ 29,483 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "OpenViking 是火山引擎推出的自进化上下文数据库，统一 Agent 记忆、知识 RAG 和技能管理。",
-          "tags": [
-            "开源",
-            "Python",
-            "Agent",
-            "RAG"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:5",
           "title": "mukul975/Anthropic-Cybersecurity-Skills",
           "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-          "score_label": "★ 730 stars today · ★ 29,249 总",
+          "score_label": "★ 766 stars today · ★ 29,884 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "Anthropic-Cybersecurity-Skills 提供 817 个结构化网络安全技能，映射到 MITRE ATT&CK 等 6 大框架，支持 Claude Code、Copilot 等 20+ 平台。",
+          "summary": "收录 817 个结构化网络安全技能，映射到 MITRE ATT&CK、NIST CSF 2.0 等 6 大框架，兼容 Claude Code、Copilot、Cursor 等 20+ 平台，提升 AI Agent 安全能力。",
           "tags": [
             "开源",
             "Python",
@@ -333,6 +322,25 @@
             "工具"
           ],
           "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:5",
+          "title": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "score_label": "★ 1,894 stars today · ★ 223,942 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "Matt Pocock 分享其 .agents 目录中的实战 Skills，面向真实工程师场景，可直接用于提升 AI 编程助手的专业能力。",
+          "tags": [
+            "开源",
+            "Shell",
+            "Agent",
+            "工具"
+          ],
+          "meta": "语言 · Shell",
           "trend": "",
           "domain": "github.com"
         }
@@ -345,86 +353,91 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Universal health coverage could save $1T and 114k lives a year: study",
-          "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
-          "score_label": "▲ 735 · 💬 805",
+          "title": "A joke domain purchase turned in geopolitical warfare",
+          "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+          "score_label": "▲ 771 · 💬 118",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "研究指出全民医保覆盖每年可节省 1 万亿美元并挽救 11.4 万生命。",
+          "summary": "一个玩笑性质的域名购买行为意外演变为地缘政治冲突事件，引发对域名系统与网络主权的讨论。",
           "tags": [
             "热议",
             "资讯"
           ],
           "meta": "",
           "trend": "",
-          "domain": "ysph.yale.edu"
+          "domain": "sprocketfox.io"
         },
         {
           "key": "hackernews:2",
-          "title": "Using the railway network as a flatbed scanner",
-          "url": "https://philo.gay/linecam/",
-          "score_label": "▲ 409 · 💬 65",
+          "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+          "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+          "score_label": "▲ 309 · 💬 130",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "创意项目：利用铁路网络作为平板扫描仪进行地理信息采集。",
+          "summary": "Google 在某些源代码管理中用 Google Drive 替代了 Git 标签进行版本获取，引发开发者对代码管理方式变更的关注。",
           "tags": [
-            "资讯"
+            "热议",
+            "资讯",
+            "工具"
           ],
           "meta": "",
           "trend": "",
-          "domain": "philo.gay"
+          "domain": "grapheneos.social"
         },
         {
           "key": "hackernews:3",
-          "title": "AI usage patterns in software teams",
-          "url": "https://linear.app/data",
-          "score_label": "▲ 49 · 💬 23",
+          "title": "Air Theremin – A browser theremin you play by waving at your webcam",
+          "url": "https://theremin.bizibah.com/",
+          "score_label": "▲ 250 · 💬 86",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "讨论软件团队中 AI 的使用模式，分析 AI 工具如何改变开发流程。",
+          "summary": "Air Theremin 是一款浏览器端特雷门琴应用，用户通过摄像头挥手动作即可演奏，结合 WebRTC 与手势识别技术。",
           "tags": [
+            "工具",
+            "CV"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "theremin.bizibah.com"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "Mathematics in the age of AI",
+          "url": "https://arxiv.org/abs/2608.16753",
+          "score_label": "▲ 124 · 💬 132",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "探讨 AI 时代数学研究与教育的变革，思考大模型对数学证明、推理及人类数学思维的影响。",
+          "tags": [
+            "热议",
             "资讯",
             "LLM"
           ],
           "meta": "",
           "trend": "",
-          "domain": "linear.app"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "Show HN: Interactive, animated architecture of any HuggingFace models",
-          "url": "https://modelmap.cc",
-          "score_label": "▲ 35 · 💬 5",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "Show HN 项目：交互式可视化任意 HuggingFace 模型的架构，支持动画展示。",
-          "tags": [
-            "工具",
-            "开源"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "modelmap.cc"
+          "domain": "arxiv.org"
         },
         {
           "key": "hackernews:5",
-          "title": "Npm-scan: Modern supply chain security for the npm ecosystem",
-          "url": "https://github.com/lateos-ai/npm-scan",
-          "score_label": "▲ 9 · 💬 0",
+          "title": "Extensible Software in the age of LLMs",
+          "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+          "score_label": "▲ 113 · 💬 50",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "Npm-scan 提供 npm 生态系统的现代供应链安全扫描工具。",
+          "summary": "讨论 LLM 时代软件架构的可扩展性设计，思考如何让软件系统更好地适应 AI 驱动的开发与交互模式。",
           "tags": [
-            "工具"
+            "资讯",
+            "LLM",
+            "Agent"
           ],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "jeremymorrell.dev"
         }
       ]
     },
@@ -435,13 +448,47 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "派早报：石头发布 A30 Pro Steam 3.0 洗地机、Framework 升级 Laptop 12 笔记本",
+          "url": "https://sspai.com/post/113638",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "派早报汇总：石头发布 A30 Pro Steam 3.0 洗地机、Framework 升级 Laptop 12、哈浮 VERSA 飞行口袋云台相机发布，以及 OpenAI 回应 Codex 用户误删文件问题。",
+          "tags": [
+            "少数派",
+            "资讯"
+          ],
+          "meta": "📅 2026-08-20",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "DDR5 内存条价格在 12 个月内上涨 500%",
+          "url": "https://www.solidot.org/story?sid=85133",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "因 AI 热潮推动厂商将产能转向 HBM 内存，消费级 DDR5 内存供应短缺，过去 12 个月价格暴涨 500%，128GB 套装售价达 3399 美元。",
+          "tags": [
+            "Solidot",
+            "资讯"
+          ],
+          "meta": "📅 2026-08-19",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "派早报：iQOO 发布手机新品、闪极举行 Loomos AI 眼镜发布会等",
           "url": "https://sspai.com/post/113607",
           "score_label": "",
           "extra": "少数派",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "派早报汇总：iQOO 发布手机新品、闪极举行 Loomos AI 眼镜发布会、Spotify 上线播放列表备注功能等。",
+          "summary": "派早报汇总：iQOO 发布手机新品、闪极举行 Loomos AI 眼镜发布会、Spotify 上线播放列表备注功能、Windows Server 2022 即将结束主流更新。",
           "tags": [
             "少数派",
             "资讯"
@@ -451,14 +498,14 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "苹果开发配备摄像头的耳机 AirPods",
           "url": "https://www.solidot.org/story?sid=85128",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "苹果正在研发配备摄像头的 AirPods，支持 Visual Intelligence 目标识别，Siri 可回答佩戴者周围环境问题。",
+          "summary": "苹果正在研发配备摄像头的 AirPods（代号 B790），摄像头可辅助 Visual Intelligence 进行目标识别，Siri 将能回答佩戴者周围环境问题并记录信息。",
           "tags": [
             "Solidot",
             "资讯",
@@ -469,56 +516,22 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:5",
           "title": "社区速递 154 | AI 代码助手大乱斗、租房电钻组合与神奇实体卡片故事机",
           "url": "https://sspai.com/post/113593",
           "score_label": "",
           "extra": "少数派",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "少数派社区速递 154 期：AI 代码助手对比、租房电钻组合、神奇实体卡片故事机等内容。",
+          "summary": "少数派社区速递第 154 期，涵盖 AI 代码助手对比、租房电钻组合与神奇实体卡片故事机等内容，重启 Matrix 周报并增加社区投稿展示。",
           "tags": [
             "少数派",
-            "资讯"
+            "资讯",
+            "工具"
           ],
           "meta": "📅 2026-08-18",
           "trend": "",
           "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "Anthropic CEO 称对 AI 的抵触根源在于信任危机",
-          "url": "https://www.solidot.org/story?sid=85122",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "Anthropic CEO Dario Amodei 表示公众对 AI 的抵触根源在于信任危机，而非 AI 风险警告本身。",
-          "tags": [
-            "Solidot",
-            "资讯",
-            "LLM"
-          ],
-          "meta": "📅 2026-08-18",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "Web 开发者不再重视 Web 标准",
-          "url": "https://www.solidot.org/story?sid=85121",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "法国开发者检查 5000 个主流网站发现近九成未遵循 Web 标准，开发者对 Web 标准重视度下降。",
-          "tags": [
-            "Solidot",
-            "资讯"
-          ],
-          "meta": "📅 2026-08-18",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -531,14 +544,14 @@
           "key": "juejin:1",
           "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
           "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 829",
+          "score_label": "👍 830",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者分享 32 个 Claude Code Skills 和 8 个 MCP 服务器配置，实测可大幅提升开发效率。",
+          "summary": "作者亲测 32 个 Claude Code Skills 与 8 个 MCP 服务器，分享安装配置与使用效果，帮助开发者大幅提升 AI 编程效率。",
           "tags": [
             "工具",
-            "LLM"
+            "Agent"
           ],
           "meta": "",
           "trend": "",
@@ -548,11 +561,11 @@
           "key": "juejin:2",
           "title": "Codex 穷鬼大救星",
           "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 378",
+          "score_label": "👍 381",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者分享低成本 AI 编程工作流，利用 Codex 等工具构建'穷鬼'开发方案。",
+          "summary": "针对 Codex 调用成本高的问题，作者分享一套低成本 AI 编程工作流，通过组合工具与策略实现穷鬼友好的开发模式。",
           "tags": [
             "工具",
             "变现"
@@ -565,12 +578,13 @@
           "key": "juejin:3",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 349",
+          "score_label": "👍 352",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者从 Cursor 转用 Codex 半个月，认为 Codex 更接近超级 Agent 形态，代表 AI 编程下一阶段。",
+          "summary": "作者从 Cursor 转向 Codex 使用大半个月后的真实体验对比，认为 Codex 更接近超级 Agent 形态，代表 AI 编程工具的下一阶段方向。",
           "tags": [
+            "工具",
             "Agent",
             "LLM"
           ],
@@ -582,14 +596,14 @@
           "key": "juejin:4",
           "title": "我用AI做了个微信小游戏-上线了",
           "url": "https://juejin.cn/post/7641048219231010862",
-          "score_label": "👍 324",
+          "score_label": "👍 326",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者用 AI 开发微信小游戏并上线，公开技术栈、prompt、踩坑清单和成本明细。",
+          "summary": "作者完整记录使用 AI 开发微信小游戏并上线的全过程，公开技术栈、prompt 设计、踩坑清单与成本明细，为 AI 变现提供参考。",
           "tags": [
-            "工具",
-            "变现"
+            "变现",
+            "工具"
           ],
           "meta": "",
           "trend": "",
@@ -599,11 +613,11 @@
           "key": "juejin:5",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 277",
+          "score_label": "👍 278",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "讨论 2026 年技术面试变化：AI 能写 80% 代码后，面试官更关注开发者如何与 AI 协作。",
+          "summary": "文章分析 2026 年技术面试的变化：面试官默认候选人会使用 AI，关注点从手写代码转向 AI 协作能力与工程判断力。",
           "tags": [
             "资讯",
             "LLM"
