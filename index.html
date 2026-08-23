@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 技术热点 · 2026-08-22</title>
+<title>AI 技术热点 · 2026-08-23</title>
 <style>
   :root{
     --bg:#0B0F1A; --bg-card:rgba(255,255,255,.04); --border:rgba(255,255,255,.08);
@@ -72,7 +72,7 @@
         <div class="sub">Daily AI Tech Digest · 模型 / 论文 / 开源 / 社区</div>
       </div>
     </div>
-    <div class="date-pill">2026-08-22 周六</div>
+    <div class="date-pill">2026-08-23 周日</div>
   </header>
 
   
@@ -80,15 +80,15 @@
     <h2>📌 今日要点 · AI 编辑</h2>
     <ul>
       
-      <li>Stripe 以 75 亿美元收购 AI 初创公司 OpenRouter，刷新 AI 基础设施领域并购纪录<a class="ref" href="#ai_zh:3" title="跳转到条目">🔗</a></li>
+      <li>OpenAI Codex 成为开发者圈热议焦点，从终端 Agent 到工作流实践引发广泛讨论与对比评测<a class="ref" href="#github:1" title="跳转到条目">🔗</a></li>
       
-      <li>DeepSeek-R1 开源模型与 FLUX.1-dev 图像模型登上 HuggingFace 热门榜<a class="ref" href="#hf:1" title="跳转到条目">🔗</a></li>
+      <li>HuggingFace 热门模型更新：FLUX.1-dev 文生图、DeepSeek-R1 文本生成、Qwen3.8 与 Kimi-K3 多模态模型齐登场<a class="ref" href="#hf:1" title="跳转到条目">🔗</a></li>
       
-      <li>AI 记录员捏造患者病史引发医疗 AI 可靠性担忧，算法推送愤怒内容研究登上中文资讯<a class="ref" href="#ai_zh:2" title="跳转到条目">🔗</a></li>
+      <li>AI 医疗记录员捏造患者服用迷幻蘑菇经历，暴露 AI 辅助医疗的幻觉风险与信任危机<a class="ref" href="#ai_zh:3" title="跳转到条目">🔗</a></li>
       
-      <li>掘金社区热议 Codex 与 Cursor 对比，开发者开始反思 AI 编程工具的成本与价值<a class="ref" href="#juejin:2" title="跳转到条目">🔗</a></li>
+      <li>LLM 安全与可控性研究持续深入：选择性遗忘基准、置信度估计、信息流理论等论文涌现<a class="ref" href="#arxiv:1" title="跳转到条目">🔗</a></li>
       
-      <li>Hacker News 讨论 AI 提升作业成绩却拉低考试分数的研究，引发 AI 教育效果反思<a class="ref" href="#hackernews:4" title="跳转到条目">🔗</a></li>
+      <li>企业 AI 成本飙升引关注：烧 token 比招员工还贵，开发者探索低成本工作流与订阅共享方案<a class="ref" href="#juejin:5" title="跳转到条目">🔗</a></li>
       
     </ul>
   </section>
@@ -121,13 +121,13 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank" rel="noopener">black-forest-labs/FLUX.1-dev</a>
+              <a class="item-title" href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank" rel="noopener">FLUX.1-dev 文生图模型</a>
               <span class="chips"><span class="chip">CV·生成</span><span class="chip">开源</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">Black Forest Labs 发布的 FLUX.1-dev 文生图模型，基于 diffusers 框架，采用非标准许可证，是当前开源图像生成领域的热门选择。</div>
+            <div class="item-summary">Black Forest Labs 推出的高质量文生图模型，基于 diffusers 框架，适合图像生成任务，许可证为 other 需注意商用限制。</div>
             <div class="item-meta">作者 · black-forest-labs  ·  框架 · diffusers  ·  许可 · other</div>
             <div class="item-foot">
-              <span class="metric">⬇ 620.0k · 👍 14.2k</span>
+              <span class="metric">⬇ 631.3k · 👍 14.2k</span>
               
               <a class="domain" href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -138,13 +138,13 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">deepseek-ai/DeepSeek-R1</a>
+              <a class="item-title" href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">DeepSeek-R1 文本生成模型</a>
               <span class="chips"><span class="chip">LLM</span><span class="chip">开源</span></span>
             </div>
-            <div class="item-summary">DeepSeek 发布的 R1 文本生成模型，采用 MIT 开源协议，基于 transformers 框架，适合开发者本地部署和二次开发。</div>
+            <div class="item-summary">DeepSeek 发布的推理增强型大语言模型，MIT 开源许可，适合文本生成和推理任务，对开发者友好可商用。</div>
             <div class="item-meta">作者 · deepseek-ai  ·  框架 · transformers  ·  许可 · mit</div>
             <div class="item-foot">
-              <span class="metric">⬇ 5.9M · 👍 13.6k</span>
+              <span class="metric">⬇ 5.6M · 👍 13.6k</span>
               
               <a class="domain" href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -155,13 +155,13 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">Qwen/Qwen3.8-27B</a>
+              <a class="item-title" href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">Qwen3.8-27B 多模态模型</a>
               <span class="chips"><span class="chip">image-text-to-text</span><span class="chip">开源</span><span class="chip">LLM</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">Qwen 团队发布的 Qwen3.8-27B 多模态模型，支持图文输入到文本输出，采用 Apache 2.0 开源协议。</div>
+            <div class="item-summary">通义千问推出的 27B 参数图文多模态模型，支持 image-text-to-text 任务，Apache 2.0 开源许可，适合多模态应用开发。</div>
             <div class="item-meta">作者 · Qwen  ·  框架 · transformers  ·  许可 · apache-2.0</div>
             <div class="item-foot">
-              <span class="metric">⬇ 1.7M · 👍 12.0k</span>
+              <span class="metric">⬇ 2.1M · 👍 12.2k</span>
               
               <a class="domain" href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -172,13 +172,13 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">moonshotai/Kimi-K3</a>
+              <a class="item-title" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">Kimi-K3 多模态模型</a>
               <span class="chips"><span class="chip">image-text-to-text</span><span class="chip">开源</span><span class="chip">LLM</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">月之暗面发布的 Kimi-K3 多模态模型，支持图文理解，采用非标准许可证，适合企业级多模态应用。</div>
+            <div class="item-summary">月之暗面发布的图文多模态模型，支持 image-text-to-text 任务，许可证为 other，适合多模态理解和生成场景。</div>
             <div class="item-meta">作者 · moonshotai  ·  框架 · transformers  ·  许可 · other</div>
             <div class="item-foot">
-              <span class="metric">⬇ 2.4M · 👍 10.9k</span>
+              <span class="metric">⬇ 2.6M · 👍 10.9k</span>
               
               <a class="domain" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -189,10 +189,10 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0" target="_blank" rel="noopener">stabilityai/stable-diffusion-xl-base-1.0</a>
+              <a class="item-title" href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0" target="_blank" rel="noopener">Stable Diffusion XL Base 1.0</a>
               <span class="chips"><span class="chip">CV·生成</span><span class="chip">开源</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">Stability AI 发布的 Stable Diffusion XL 基础版 1.0 文生图模型，采用 OpenRAIL++ 许可证，是经典开源图像生成模型。</div>
+            <div class="item-summary">Stability AI 的经典文生图模型 SDXL 基础版，openrail++ 许可，社区生态成熟，仍是图像生成的重要基线。</div>
             <div class="item-meta">作者 · stabilityai  ·  框架 · diffusers  ·  许可 · openrail++</div>
             <div class="item-foot">
               <span class="metric">⬇ 1.6M · 👍 8.1k</span>
@@ -215,10 +215,10 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.20337v1" target="_blank" rel="noopener">Information on trajectories: martingales and random times</a>
+              <a class="item-title" href="http://arxiv.org/abs/2608.20337v1" target="_blank" rel="noopener">轨迹信息：鞅与随机时间</a>
               <span class="chips"><span class="chip">论文</span><span class="chip">math.PR</span><span class="chip">cs.IT</span></span>
             </div>
-            <div class="item-summary">研究轨迹路径上的信息流与鞅理论，推导出精确变分恒等式，可恢复从 Ville 到 PAC-Bayes 的经典浓度不等式。</div>
+            <div class="item-summary">从信息流角度研究非负鞅在轨迹路径空间上的性质，推导出精确变分恒等式，统一了从 Ville 到 PAC-Bayes 的经典浓度不等式。</div>
             <div class="item-meta">作者 · Akshay Balsubramani  ·  📅 2026-08-20  ·  📄 PDF</div>
             <div class="item-foot">
               
@@ -232,10 +232,10 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.20338v1" target="_blank" rel="noopener">ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models</a>
+              <a class="item-title" href="http://arxiv.org/abs/2608.20338v1" target="_blank" rel="noopener">ConceptGuard：LLM 上下文敏感遗忘基准</a>
               <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">提出 ConceptGuard 基准，评估大语言模型在上下文敏感场景下的知识遗忘能力，填补现有 unlearning 评估方法的不足。</div>
+            <div class="item-summary">针对大模型选择性遗忘（unlearning）能力提出新基准，解决现有方法在 forget/retain 集合评估上的不足，对 AI 安全治理意义重大。</div>
             <div class="item-meta">作者 · Sahil Kale, Ian Harris  ·  📅 2026-08-20  ·  📄 PDF</div>
             <div class="item-foot">
               
@@ -249,10 +249,10 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.20331v1" target="_blank" rel="noopener">G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation</a>
+              <a class="item-title" href="http://arxiv.org/abs/2608.20331v1" target="_blank" rel="noopener">G-CARL：面向患者的医疗报告解读</a>
               <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">AI</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">提出 G-CARL 方法，结合循证医学事实与患者沟通语境，提升医疗报告个性化解读的准确性与可读性。</div>
+            <div class="item-summary">提出基于清单对齐的奖励学习方法，兼顾医学事实准确性和患者沟通语境，推动医疗视觉-语言任务向个性化方向发展。</div>
             <div class="item-meta">作者 · Shiao Xie, Siyu Chen, Jianwei Lv  ·  📅 2026-08-20  ·  📄 PDF</div>
             <div class="item-foot">
               
@@ -266,10 +266,10 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.20326v1" target="_blank" rel="noopener">$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval</a>
+              <a class="item-title" href="http://arxiv.org/abs/2608.20326v1" target="_blank" rel="noopener">TCP_α：音乐信息检索的置信度估计</a>
               <span class="chips"><span class="chip">论文</span><span class="chip">eess.AS</span><span class="chip">ML</span></span>
             </div>
-            <div class="item-summary">提出 TCP_α 方法，通过边际控制实现深度神经网络置信度估计，解决音乐信息检索中模型过度自信的问题。</div>
+            <div class="item-summary">针对深度网络过度自信问题，提出边际控制的置信度估计方法，通过轻量辅助头提升预测可信度判断，适用于音乐检索场景。</div>
             <div class="item-meta">作者 · Parampreet Singh, Anushka Singh, Sumit Kumar  ·  📅 2026-08-20  ·  📄 PDF</div>
             <div class="item-foot">
               
@@ -283,10 +283,10 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.20322v1" target="_blank" rel="noopener">A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection</a>
+              <a class="item-title" href="http://arxiv.org/abs/2608.20322v1" target="_blank" rel="noopener">FMCW/IR-UWB/Wi-Fi 雷达卧室监测对比</a>
               <span class="chips"><span class="chip">论文</span><span class="chip">ML</span></span>
             </div>
-            <div class="item-summary">对比天花板安装的 FMCW、IR-UWB 和 Wi-Fi 雷达在卧室人体活动监测与睡眠中断检测中的表现，为无接触健康监测提供技术选型参考。</div>
+            <div class="item-summary">在相同条件下对比三种射频传感技术在卧室人体活动监测和睡眠中断检测中的表现，为非接触式健康监护技术选型提供参考。</div>
             <div class="item-meta">作者 · Anton Lambrecht, Reda El Hail, Xianjun Jiao  ·  📅 2026-08-20  ·  📄 PDF</div>
             <div class="item-foot">
               
@@ -309,15 +309,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">mattpocock/skills</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Shell</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/openai/codex" target="_blank" rel="noopener">OpenAI Codex 终端编程 Agent</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">Rust</span><span class="chip">Agent</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">Matt Pocock 分享的个人 AI Agent 技能目录，面向实战工程师的 Agent 开发经验与模板。</div>
-            <div class="item-meta">语言 · Shell</div>
+            <div class="item-summary">OpenAI 官方推出的轻量级编程 Agent，直接在终端运行，可自主完成代码编写、调试等任务，标志着 AI 编程从助手向 Agent 形态演进。</div>
+            <div class="item-meta">语言 · Rust</div>
             <div class="item-foot">
-              <span class="metric">★ 3,362 stars today · ★ 229,655 总</span>
+              <span class="metric">★ 1,544 stars today · ★ 113,570 总</span>
               
-              <a class="domain" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/openai/codex" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -326,15 +326,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noopener">harry0703/MoneyPrinterTurbo</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Python</span><span class="chip">工具</span><span class="chip">变现</span></span>
+              <a class="item-title" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">Skills：实战工程师技能集</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">Shell</span><span class="chip">Agent</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频的开源工具。</div>
-            <div class="item-meta">语言 · Python</div>
+            <div class="item-summary">Matt Pocock 分享的 .agents 目录中的技能配置，为 AI 编程 Agent 提供可复用的工程实践技能模板。</div>
+            <div class="item-meta">语言 · Shell</div>
             <div class="item-foot">
-              <span class="metric">★ 1,201 stars today · ★ 113,986 总</span>
+              <span class="metric">★ 2,683 stars today · ★ 232,198 总</span>
               
-              <a class="domain" href="https://github.com/harry0703/MoneyPrinterTurbo" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/mattpocock/skills" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -343,15 +343,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/PostHog/posthog" target="_blank" rel="noopener">PostHog/posthog</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Python</span><span class="chip">工具</span><span class="chip">Agent</span></span>
+              <a class="item-title" href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">ECC：Agent 性能优化系统</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">JavaScript</span><span class="chip">Agent</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">PostHog 是一个自驱动产品构建平台，提供 AI 可观测性、分析、会话回放等开发者工具，支持从 Slack 等多端操控。</div>
-            <div class="item-meta">语言 · Python</div>
+            <div class="item-summary">面向 Claude Code、Codex、Cursor 等 AI 编程工具的 Agent 调优框架，涵盖技能、记忆、安全和研究驱动开发，提升 Agent 执行效率。</div>
+            <div class="item-meta">语言 · JavaScript</div>
             <div class="item-foot">
-              <span class="metric">★ 335 stars today · ★ 38,308 总</span>
+              <span class="metric">★ 411 stars today · ★ 242,199 总</span>
               
-              <a class="domain" href="https://github.com/PostHog/posthog" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -360,15 +360,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/santifer/career-ops" target="_blank" rel="noopener">santifer/career-ops</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">JavaScript</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/Wei-Shaw/sub2api" target="_blank" rel="noopener">Sub2API：多模型订阅统一中转服务</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">Go</span><span class="chip">工具</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">开源 AI 求职工具，可扫描招聘网站、用结构化评分评估职位、定制简历并追踪申请，支持本地运行。</div>
-            <div class="item-meta">语言 · JavaScript</div>
+            <div class="item-summary">开源中转工具，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入，支持拼车共享分摊成本，降低多模型使用门槛。</div>
+            <div class="item-meta">语言 · Go</div>
             <div class="item-foot">
-              <span class="metric">★ 921 stars today · ★ 67,479 总</span>
+              <span class="metric">★ 278 stars today · ★ 38,810 总</span>
               
-              <a class="domain" href="https://github.com/santifer/career-ops" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/Wei-Shaw/sub2api" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -377,15 +377,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">affaan-m/ECC</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">JavaScript</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/n8n-io/n8n" target="_blank" rel="noopener">n8n：公平代码工作流自动化平台</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">TypeScript</span><span class="chip">Agent</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">Agent 性能优化系统，整合技能、本能、记忆、安全等模块，支持 Claude Code、Cursor 等多种 AI 编程工具。</div>
-            <div class="item-meta">语言 · JavaScript</div>
+            <div class="item-summary">支持可视化搭建与自定义代码的工作流自动化平台，内置 AI 能力，400+ 集成，可自托管或云端部署，适合构建 AI 驱动的业务流程。</div>
+            <div class="item-meta">语言 · TypeScript</div>
             <div class="item-foot">
-              <span class="metric">★ 357 stars today · ★ 241,815 总</span>
+              <span class="metric">★ 149 stars today · ★ 201,847 总</span>
               
-              <a class="domain" href="https://github.com/affaan-m/ECC" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/n8n-io/n8n" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -403,15 +403,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://kagi.com/changelog#11296" target="_blank" rel="noopener">Kagi added a setting for removing paywalled links from search results</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917" target="_blank" rel="noopener">为什么你的本地 LLM 感觉比实际更笨</a>
+              <span class="chips"><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">Kagi 搜索引擎新增设置，允许用户从搜索结果中移除付费墙链接，提升搜索体验。</div>
+            <div class="item-summary">探讨本地部署 LLM 时用户体验与模型实际能力之间的落差，可能涉及提示词、推理参数配置、量化损失等因素。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 1023 · 💬 346</span>
+              <span class="metric">▲ 197 · 💬 67</span>
               
-              <a class="domain" href="https://kagi.com/changelog#11296" target="_blank" rel="noopener">🔗 kagi.com</a>
+              <a class="domain" href="https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917" target="_blank" rel="noopener">🔗 forum.level1techs.com</a>
             </div>
           </div>
         </li>
@@ -420,15 +420,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://api-docs.deepseek.com/guides/vision/" target="_blank" rel="noopener">DeepSeek-v4-flash-vision-exp</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">LLM</span><span class="chip">CV</span></span>
+              <a class="item-title" href="https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/" target="_blank" rel="noopener">用 Codex 一周 vs Claude 的体验对比</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">Agent</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">DeepSeek 发布 v4-flash-vision-exp 视觉模型实验版本，引发社区关注。</div>
+            <div class="item-summary">开发者分享从 Claude 切换到 OpenAI Codex 一周的真实体验，对比两者在编程任务中的表现差异和适用场景。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 470 · 💬 144</span>
+              <span class="metric">▲ 136 · 💬 148</span>
               
-              <a class="domain" href="https://api-docs.deepseek.com/guides/vision/" target="_blank" rel="noopener">🔗 api-docs.deepseek.com</a>
+              <a class="domain" href="https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/" target="_blank" rel="noopener">🔗 allaboutcoding.ghinda.com</a>
             </div>
           </div>
         </li>
@@ -437,15 +437,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://cymerys.com/w/im-becoming-ai-blind" target="_blank" rel="noopener">I&#39;m becoming AI-blind</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/" target="_blank" rel="noopener">德州学生揭发 rogue AI 黑客攻击</a>
+              <span class="chips"><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">用户分享自己逐渐对 AI 内容产生麻木感的经历，引发关于 AI 信息过载的讨论。</div>
+            <div class="item-summary">一名德州学生发现并举报了一次 AI 驱动的黑客攻击尝试，引发对 AI 安全和恶意利用的关注。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 278 · 💬 288</span>
+              <span class="metric">▲ 113 · 💬 43</span>
               
-              <a class="domain" href="https://cymerys.com/w/im-becoming-ai-blind" target="_blank" rel="noopener">🔗 cymerys.com</a>
+              <a class="domain" href="https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/" target="_blank" rel="noopener">🔗 reuters.com</a>
             </div>
           </div>
         </li>
@@ -454,15 +454,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning" target="_blank" rel="noopener">AI boosted homework scores, then exam scores dropped: study</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://ozbrain.com" target="_blank" rel="noopener">OzBrain：Agent 与团队的共享知识库</a>
+              <span class="chips"><span class="chip">Agent</span><span class="chip">RAG</span></span>
             </div>
-            <div class="item-summary">研究显示 AI 辅助提升了学生作业成绩，但考试成绩反而下降，引发对 AI 教育效果的反思。</div>
+            <div class="item-summary">Show HN 项目，为 AI Agent 和团队提供共享大脑/知识库，促进知识在人与 Agent 之间的流转和复用。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 242 · 💬 293</span>
+              <span class="metric">▲ 79 · 💬 47</span>
               
-              <a class="domain" href="https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning" target="_blank" rel="noopener">🔗 economist.com</a>
+              <a class="domain" href="https://ozbrain.com" target="_blank" rel="noopener">🔗 ozbrain.com</a>
             </div>
           </div>
         </li>
@@ -471,15 +471,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/adnanakil/nobuzz/blob/main/README.md" target="_blank" rel="noopener">Claudette: Make Claude stop talking like a BuzzFeed article</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">LLM</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://www.primeintellect.ai/research/nanogpt-speedrun" target="_blank" rel="noopener">NanoGPT 速度冲刺前沿</a>
+              <span class="chips"><span class="chip">LLM</span><span class="chip">开源</span></span>
             </div>
-            <div class="item-summary">Claudette 工具旨在让 Claude 停止像 BuzzFeed 文章一样说话，改善 AI 生成内容的风格问题。</div>
+            <div class="item-summary">社区围绕 NanoGPT 训练速度展开优化竞赛，探索 GPT 训练的极致性能调优方案。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 209 · 💬 147</span>
+              <span class="metric">▲ 52 · 💬 16</span>
               
-              <a class="domain" href="https://github.com/adnanakil/nobuzz/blob/main/README.md" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://www.primeintellect.ai/research/nanogpt-speedrun" target="_blank" rel="noopener">🔗 primeintellect.ai</a>
             </div>
           </div>
         </li>
@@ -489,7 +489,7 @@
     </section>
     
     <section class="card" id="src-ai_zh">
-      <h3><span>📰</span> 中文 AI 资讯<span class="count">5 条</span></h3>
+      <h3><span>📰</span> 中文 AI 资讯<span class="count">4 条</span></h3>
       
       <ol class="items">
         
@@ -497,10 +497,27 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
+              <a class="item-title" href="https://sspai.com/post/113675" target="_blank" rel="noopener">线下活动｜Echoes Remain：迈克尔杰克逊 68 周年诞辰唱片展</a>
+              <span class="chips"><span class="chip">少数派</span><span class="chip">资讯</span></span>
+            </div>
+            <div class="item-summary">少数派广州店举办迈克尔·杰克逊 68 周年诞辰唱片展，面向数码和音乐爱好者的线下活动。</div>
+            <div class="item-meta">📅 2026-08-22</div>
+            <div class="item-foot">
+              
+              
+              <a class="domain" href="https://sspai.com/post/113675" target="_blank" rel="noopener">🔗 sspai.com</a>
+            </div>
+          </div>
+        </li>
+        
+        <li class="item" id="ai_zh:2">
+          <div class="rank">2</div>
+          <div class="body">
+            <div class="item-head">
               <a class="item-title" href="https://www.solidot.org/story?sid=85158" target="_blank" rel="noopener">微软调查部分用户在安装 Windows 11 八月安全更新后遭遇游戏崩溃的报告</a>
               <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">微软正在调查 Windows 11 八月安全更新导致部分游戏崩溃的问题，受影响游戏包括《ARC Raiders》等。</div>
+            <div class="item-summary">微软调查 Windows 11 八月安全更新导致部分游戏崩溃的问题，受影响游戏包括《ARC Raiders》等，可能出现异常关闭或设备重启。</div>
             <div class="item-meta">📅 2026-08-21</div>
             <div class="item-foot">
               
@@ -510,14 +527,14 @@
           </div>
         </li>
         
-        <li class="item" id="ai_zh:2">
-          <div class="rank">2</div>
+        <li class="item" id="ai_zh:3">
+          <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://www.solidot.org/story?sid=85148" target="_blank" rel="noopener">AI 记录员捏造了患者服用迷幻蘑菇的经历</a>
               <span class="chips"><span class="chip">Solidot</span><span class="chip">LLM</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">AI 医疗记录员捏造患者服用迷幻蘑菇的病史，暴露出医疗 AI 幻觉问题的严重性与潜在风险。</div>
+            <div class="item-summary">AI 医疗记录员在就诊记录中捏造患者服用迷幻蘑菇的经历，暴露 AI 辅助医疗中幻觉问题的严重性和潜在危害，引发对 AI 医疗应用可靠性的担忧。</div>
             <div class="item-meta">📅 2026-08-20</div>
             <div class="item-foot">
               
@@ -527,42 +544,8 @@
           </div>
         </li>
         
-        <li class="item" id="ai_zh:3">
-          <div class="rank">3</div>
-          <div class="body">
-            <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=85144" target="_blank" rel="noopener">Stripe 以 75 亿美元收购 OpenRouter</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span><span class="chip">变现</span></span>
-            </div>
-            <div class="item-summary">Stripe 以 75 亿美元收购 AI 初创公司 OpenRouter，后者提供统一 API 接口，估值从 13 亿飙升至收购价。</div>
-            <div class="item-meta">📅 2026-08-20</div>
-            <div class="item-foot">
-              
-              
-              <a class="domain" href="https://www.solidot.org/story?sid=85144" target="_blank" rel="noopener">🔗 solidot.org</a>
-            </div>
-          </div>
-        </li>
-        
         <li class="item" id="ai_zh:4">
           <div class="rank">4</div>
-          <div class="body">
-            <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=85143" target="_blank" rel="noopener">X 算法向民主党用户推送更多激发愤怒的内容</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span></span>
-            </div>
-            <div class="item-summary">PNAS 研究揭示 X 算法向民主党用户推送更多激发愤怒的内容，社媒算法优化参与度但加剧信息极化。</div>
-            <div class="item-meta">📅 2026-08-20</div>
-            <div class="item-foot">
-              
-              
-              <a class="domain" href="https://www.solidot.org/story?sid=85143" target="_blank" rel="noopener">🔗 solidot.org</a>
-            </div>
-          </div>
-        </li>
-        
-        <li class="item" id="ai_zh:5">
-          <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://sspai.com/post/113638" target="_blank" rel="noopener">派早报：石头发布 A30 Pro Steam 3.0 洗地机、Framework 升级 Laptop 12 笔记本</a>
@@ -592,12 +575,12 @@
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://juejin.cn/post/7635467758865235968" target="_blank" rel="noopener">Codex 穷鬼大救星</a>
-              <span class="chips"><span class="chip">工具</span><span class="chip">变现</span></span>
+              <span class="chips"><span class="chip">工具</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">分享一套低成本使用 Codex 的工作流方案，帮助开发者在 AI 编程中控制 token 消耗成本。</div>
+            <div class="item-summary">分享低成本使用 Codex 的工作流方案，通过技巧组合降低 AI 编程的 token 消耗成本，适合预算有限的开发者。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 386</span>
+              <span class="metric">👍 388</span>
               
               <a class="domain" href="https://juejin.cn/post/7635467758865235968" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -609,12 +592,12 @@
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://juejin.cn/post/7637856870833635343" target="_blank" rel="noopener">Cursor 转 Codex 大半个月，聊聊我的真实感受</a>
-              <span class="chips"><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <span class="chips"><span class="chip">Agent</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">作者从 Cursor 切换到 Codex 半个月后的真实体验，认为 Codex 更接近超级 Agent 的下一阶段形态。</div>
+            <div class="item-summary">开发者分享从 Cursor 转到 Codex 半个月的心得，认为 Codex 更接近真正的超级 Agent 形态，代表 AI 编程的下一阶段方向。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 354</span>
+              <span class="metric">👍 355</span>
               
               <a class="domain" href="https://juejin.cn/post/7637856870833635343" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -628,7 +611,7 @@
               <a class="item-title" href="https://juejin.cn/post/7641048219231010862" target="_blank" rel="noopener">我用AI做了个微信小游戏-上线了</a>
               <span class="chips"><span class="chip">Agent</span><span class="chip">变现</span></span>
             </div>
-            <div class="item-summary">完整记录使用 AI 开发微信小游戏的全流程，包括技术栈、prompt 设计、踩坑经验和成本明细。</div>
+            <div class="item-summary">完整记录用 AI 开发微信小游戏并上线的全流程，包括技术栈选择、prompt 设计、踩坑经验和成本明细，具有实操参考价值。</div>
             
             <div class="item-foot">
               <span class="metric">👍 327</span>
@@ -642,15 +625,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://juejin.cn/post/7655245911811784750" target="_blank" rel="noopener">面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”</a>
-              <span class="chips"><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://juejin.cn/post/7667503991685857290" target="_blank" rel="noopener">2026 了，前端转 AI 全栈我是这么学的 😍😍😍</a>
+              <span class="chips"><span class="chip">LLM</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">探讨 2026 年技术面试新趋势，面试官不再考手写代码，而是关注候选人如何有效使用 AI 工具。</div>
+            <div class="item-summary">前端开发者分享转型 AI 全栈的学习路径，回应&#39;前端已死&#39;的行业焦虑，探讨前端工程师在 AI 时代的定位和发展方向。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 283</span>
+              <span class="metric">👍 187</span>
               
-              <a class="domain" href="https://juejin.cn/post/7655245911811784750" target="_blank" rel="noopener">🔗 juejin.cn</a>
+              <a class="domain" href="https://juejin.cn/post/7667503991685857290" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
           </div>
         </li>
@@ -660,9 +643,9 @@
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://juejin.cn/post/7646256871183024128" target="_blank" rel="noopener">最近公司烧token比招员工还贵，老板干懵了...</a>
-              <span class="chips"><span class="chip">资讯</span><span class="chip">变现</span></span>
+              <span class="chips"><span class="chip">LLM</span><span class="chip">变现</span></span>
             </div>
-            <div class="item-summary">公司全面拥抱 AI 后发现 token 消耗成本超过招聘员工，Uber CTO 透露九成工程师高频使用 AI 编程工具。</div>
+            <div class="item-summary">反映企业全面拥抱 AI 后 token 成本飙升的现实问题，烧 token 比招员工还贵，引发对 AI 投入产出比的反思。</div>
             
             <div class="item-foot">
               <span class="metric">👍 134</span>
@@ -678,7 +661,7 @@
     
   </div>
 
-  <footer>数据源 6 · 共 30 条 · 生成于 2026-08-22 · by Claude</footer>
+  <footer>数据源 6 · 共 29 条 · 生成于 2026-08-23 · by Claude</footer>
 </div>
 </body>
 </html>
