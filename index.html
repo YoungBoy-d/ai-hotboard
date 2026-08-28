@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 技术热点 · 2026-08-27</title>
+<title>AI 技术热点 · 2026-08-28</title>
 <style>
   :root{
     --bg:#0B0F1A; --bg-card:rgba(255,255,255,.04); --border:rgba(255,255,255,.08);
@@ -72,7 +72,7 @@
         <div class="sub">Daily AI Tech Digest · 模型 / 论文 / 开源 / 社区</div>
       </div>
     </div>
-    <div class="date-pill">2026-08-27 周四</div>
+    <div class="date-pill">2026-08-28 周五</div>
   </header>
 
   
@@ -80,13 +80,15 @@
     <h2>📌 今日要点 · AI 编辑</h2>
     <ul>
       
-      <li>英伟达同意以约 129 亿美元收购 Hugging Face，AI 开源生态迎来里程碑式整合。<a class="ref" href="#hackernews:1" title="跳转到条目">🔗</a></li>
+      <li>Nvidia 传出以 130 亿美元收购 Hugging Face，AI 开源生态或迎重大整合<a class="ref" href="#hackernews:1" title="跳转到条目">🔗</a></li>
       
-      <li>月之暗面 Kimi K3 模型正与微软、亚马逊、Google 洽谈云托管收益分成，中国大模型出海进入新阶段。<a class="ref" href="#ai_zh:5" title="跳转到条目">🔗</a></li>
+      <li>Claude Code 生态持续升温：官方插件目录发布，社区 Skills/MCP 实战分享涌现<a class="ref" href="#github:3" title="跳转到条目">🔗</a></li>
       
-      <li>Claude Code、Codex、Pi 等 AI 编程 Agent 生态持续升温，Skills 与 MCP 成为开发者效率提升的关键。<a class="ref" href="#github:4" title="跳转到条目">🔗</a></li>
+      <li>推理时扩展与测试时训练成为 LLM 新范式：CritICL、TTPO 等论文探索不依赖标注的后训练路径<a class="ref" href="#arxiv:1" title="跳转到条目">🔗</a></li>
       
-      <li>视觉推理与多模态持续学习成为学术热点，VBVR-Pro、MU-CPT 等论文推动 MLLM 从理解走向原生推理。<a class="ref" href="#arxiv:1" title="跳转到条目">🔗</a></li>
+      <li>AI 编程工具竞争白热化：Cursor vs Codex 真实体验对比，JetBrains 发布 Go 现代编码指南助力 AI Agent<a class="ref" href="#juejin:2" title="跳转到条目">🔗</a></li>
+      
+      <li>AI 热引发硬件连锁反应：Google 要求 Android 应用降低内存占用，IBM 推出 2nm 双指令集大型机处理器<a class="ref" href="#ai_zh:4" title="跳转到条目">🔗</a></li>
       
     </ul>
   </section>
@@ -119,13 +121,13 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank" rel="noopener">FLUX.1-dev 文生图模型</a>
+              <a class="item-title" href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank" rel="noopener">black-forest-labs/FLUX.1-dev</a>
               <span class="chips"><span class="chip">CV·生成</span><span class="chip">开源</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">Black Forest Labs 推出的高质量文生图模型，基于 diffusers，适合本地部署和二次开发。</div>
+            <div class="item-summary">Black Forest Labs 发布的 FLUX.1-dev 文生图模型，基于 diffusers 框架，采用非完全开源许可证。代表当前开源文生图领域的顶级水平。</div>
             <div class="item-meta">作者 · black-forest-labs  ·  框架 · diffusers  ·  许可 · other</div>
             <div class="item-foot">
-              <span class="metric">⬇ 670.4k · 👍 14.3k</span>
+              <span class="metric">⬇ 647.5k · 👍 14.3k</span>
               
               <a class="domain" href="https://huggingface.co/black-forest-labs/FLUX.1-dev" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -136,13 +138,13 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">DeepSeek-R1 推理模型</a>
+              <a class="item-title" href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">deepseek-ai/DeepSeek-R1</a>
               <span class="chips"><span class="chip">LLM</span><span class="chip">开源</span></span>
             </div>
-            <div class="item-summary">DeepSeek 发布的推理增强型大语言模型，MIT 协议开源，适合文本生成与推理任务。</div>
+            <div class="item-summary">DeepSeek 发布的 R1 文本生成模型，MIT 许可证完全开源，支持 transformers 框架。以强推理能力著称，是开源 LLM 的重要里程碑。</div>
             <div class="item-meta">作者 · deepseek-ai  ·  框架 · transformers  ·  许可 · mit</div>
             <div class="item-foot">
-              <span class="metric">⬇ 3.9M · 👍 13.6k</span>
+              <span class="metric">⬇ 3.3M · 👍 13.6k</span>
               
               <a class="domain" href="https://huggingface.co/deepseek-ai/DeepSeek-R1" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -153,13 +155,13 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">Qwen3.8-27B 多模态模型</a>
+              <a class="item-title" href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">Qwen/Qwen3.8-27B</a>
               <span class="chips"><span class="chip">image-text-to-text</span><span class="chip">开源</span><span class="chip">LLM</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">通义千问 27B 参数的图文多模态模型，Apache 2.0 协议，支持图像理解与文本生成。</div>
+            <div class="item-summary">Qwen 团队发布的 27B 多模态模型，支持图文输入到文本输出，Apache 2.0 开源许可。适合需要视觉理解能力的开发者部署。</div>
             <div class="item-meta">作者 · Qwen  ·  框架 · transformers  ·  许可 · apache-2.0</div>
             <div class="item-foot">
-              <span class="metric">⬇ 3.5M · 👍 13.0k</span>
+              <span class="metric">⬇ 3.5M · 👍 13.1k</span>
               
               <a class="domain" href="https://huggingface.co/Qwen/Qwen3.8-27B" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -170,13 +172,13 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">Kimi K3 多模态模型</a>
-              <span class="chips"><span class="chip">image-text-to-text</span><span class="chip">开源</span><span class="chip">LLM</span><span class="chip">CV</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">moonshotai/Kimi-K3</a>
+              <span class="chips"><span class="chip">image-text-to-text</span><span class="chip">开源</span><span class="chip">LLM</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">月之暗面推出的图文多模态大模型，正在与海外云厂商洽谈托管分成，国际化步伐加快。</div>
+            <div class="item-summary">月之暗面 Kimi 团队发布的 K3 多模态模型，支持图文理解，许可证为 other（非完全开源）。代表国内多模态大模型的新进展。</div>
             <div class="item-meta">作者 · moonshotai  ·  框架 · transformers  ·  许可 · other</div>
             <div class="item-foot">
-              <span class="metric">⬇ 2.8M · 👍 11.0k</span>
+              <span class="metric">⬇ 2.7M · 👍 11.1k</span>
               
               <a class="domain" href="https://huggingface.co/moonshotai/Kimi-K3" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -187,13 +189,13 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0" target="_blank" rel="noopener">Stable Diffusion XL 1.0</a>
+              <a class="item-title" href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0" target="_blank" rel="noopener">stabilityai/stable-diffusion-xl-base-1.0</a>
               <span class="chips"><span class="chip">CV·生成</span><span class="chip">开源</span><span class="chip">CV</span></span>
             </div>
-            <div class="item-summary">Stability AI 的经典文生图基座模型，OpenRail++ 协议，社区生态成熟。</div>
+            <div class="item-summary">Stability AI 的经典 SDXL 1.0 文生图模型，OpenRAIL++ 许可证，仍是社区广泛使用的基线模型。</div>
             <div class="item-meta">作者 · stabilityai  ·  框架 · diffusers  ·  许可 · openrail++</div>
             <div class="item-foot">
-              <span class="metric">⬇ 1.6M · 👍 8.1k</span>
+              <span class="metric">⬇ 1.5M · 👍 8.1k</span>
               
               <a class="domain" href="https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0" target="_blank" rel="noopener">🔗 huggingface.co</a>
             </div>
@@ -213,15 +215,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.26105v1" target="_blank" rel="noopener">VBVR-Pro：原生视觉推理套件</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">CV</span><span class="chip">AI</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.27455v1" target="_blank" rel="noopener">CritICL：推理时弱到强泛化</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">提出将视觉状态（图像/视频）作为推理的一等介质，而非仅作为语言推理的输入或输出，推动视觉原生推理的可扩展与可验证研究。</div>
-            <div class="item-meta">作者 · Junxiang Xu, Ruisi Wang, Fanyi Pu  ·  📅 2026-08-26  ·  📄 PDF</div>
+            <div class="item-summary">提出 CritICL 方法，利用小模型的失败模式在推理时实现弱到强泛化，无需重复生成或外部验证。对降低 LLM 推理成本有重要意义。</div>
+            <div class="item-meta">作者 · Yufan Wu, Yinghui He, Zhengyi Hu  ·  📅 2026-08-27  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.26105v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.27455v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -230,15 +232,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.26095v1" target="_blank" rel="noopener">多模态无监督持续后训练框架</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">CV</span><span class="chip">AI</span><span class="chip">LLM</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.27454v1" target="_blank" rel="noopener">WikiSkill：将 Agent 经验编译为持久知识</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">AI</span><span class="chip">NLP</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">让已部署的多模态大模型能从流式无标签数据中持续进化，解决传统方法统一优化目标 token 的局限。</div>
-            <div class="item-meta">作者 · Kaichen Li, Zhilin Zhu, Jianhao Huang  ·  📅 2026-08-26  ·  📄 PDF</div>
+            <div class="item-summary">提出将 Agent 交互经验自动提炼为可复用技能库的方法，让 AI Agent 能通过积累知识持续进化。对构建长期自主 Agent 有启发。</div>
+            <div class="item-meta">作者 · Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng  ·  📅 2026-08-27  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.26095v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.27454v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -247,15 +249,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.26094v1" target="_blank" rel="noopener">MyoMechanix：基于生物力学的动作质量评估</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">CV</span><span class="chip">AI</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.27449v1" target="_blank" rel="noopener">SWE-Prime：更少轨迹，更好性能</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">cs.SE</span><span class="chip">AI</span><span class="chip">Agent</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">引入肌肉力学等生理信号，突破传统仅依赖 RGB/姿态的动作质量评估方法，实现更细粒度的运动指导。</div>
-            <div class="item-meta">作者 · Hao Yin, Paritosh Parmar, Lijun Gu  ·  📅 2026-08-26  ·  📄 PDF</div>
+            <div class="item-summary">指出仅用成功轨迹做 SFT 不够，提出筛选高质量轨迹的方法，用更少数据提升 LLM 解决真实软件问题的能力。对代码 Agent 训练有指导价值。</div>
+            <div class="item-meta">作者 · Dewu Zheng, Ruizhe Ye, Yanlin Wang  ·  📅 2026-08-27  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.26094v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.27449v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -264,15 +266,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.26093v1" target="_blank" rel="noopener">Agentic Autoresearch：让 Agent 自主设计无线资源管理算法</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">ML</span><span class="chip">cs.IT</span><span class="chip">Agent</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.27448v1" target="_blank" rel="noopener">TTPO：测试时策略优化</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">NLP</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">将机器学习算法的架构、损失函数、训练流程全部交给自主 Agent 设计，重新定义研究者角色。</div>
-            <div class="item-meta">作者 · Ahmad Khan, Akram Bin Sediq, Sara Azadegi Naeini  ·  📅 2026-08-26  ·  📄 PDF</div>
+            <div class="item-summary">提出测试时策略优化方法，摆脱对 ground-truth 标签的依赖，让 LLM 在推理阶段也能自我优化。为数学推理等任务提供新范式。</div>
+            <div class="item-meta">作者 · Aozhe Wang, Zhengxi Lu, Jianze Wang  ·  📅 2026-08-27  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.26093v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.27448v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -281,15 +283,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="http://arxiv.org/abs/2608.26091v1" target="_blank" rel="noopener">PlanSightRAG：面向建筑规范图纸的视觉优先 RAG</a>
-              <span class="chips"><span class="chip">论文</span><span class="chip">cs.IR</span><span class="chip">NLP</span><span class="chip">RAG</span><span class="chip">CV</span></span>
+              <a class="item-title" href="http://arxiv.org/abs/2608.27442v1" target="_blank" rel="noopener">MCR-Bench：从静态到动态的代码审查基准</a>
+              <span class="chips"><span class="chip">论文</span><span class="chip">cs.SE</span><span class="chip">AI</span><span class="chip">LLM</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">针对土木工程 2D 图纸合规检查，提出视觉优先的多模态 RAG 方法，保留几何与布局信息，替代传统 OCR 方案。</div>
-            <div class="item-meta">作者 · Nabaraj Subedi, Shuvo Dip Datta, Ahmed Abdelaty  ·  📅 2026-08-26  ·  📄 PDF</div>
+            <div class="item-summary">构建模拟真实开发者-审查者迭代交互的代码审查基准，弥补现有 LLM 代码审查评测的不足。对评估 AI 辅助代码审查工具更贴近实际。</div>
+            <div class="item-meta">作者 · Dewu Zheng, Yanlin Wang, Xiwen Wang  ·  📅 2026-08-27  ·  📄 PDF</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="http://arxiv.org/abs/2608.26091v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
+              <a class="domain" href="http://arxiv.org/abs/2608.27442v1" target="_blank" rel="noopener">🔗 arxiv.org</a>
             </div>
           </div>
         </li>
@@ -307,15 +309,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" rel="noopener">GPT-Image2 工业级提示词引擎</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">JavaScript</span><span class="chip">工具</span><span class="chip">CV</span></span>
+              <a class="item-title" href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener">Archify：Agent 生成美观架构图</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">JavaScript</span><span class="chip">工具</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">530+ 案例逆向工程 + 20+ 工业级模板，把 GPT-Image2 的 prompt 当代码管理，适合图像生成工程化落地。</div>
+            <div class="item-summary">一个 Agent 技能，可生成包含架构图、流程图、时序图等的自包含 HTML，带动画和清晰导出。让 AI 输出可视化更专业。</div>
             <div class="item-meta">语言 · JavaScript</div>
             <div class="item-foot">
-              <span class="metric">★ 4,050 stars today · ★ 22,444 总</span>
+              <span class="metric">★ 4,561 stars today · ★ 25,588 总</span>
               
-              <a class="domain" href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -324,15 +326,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener">Archify：Agent 驱动的架构图生成技能</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">JavaScript</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener">Scientific Agent Skills：科研 Agent 技能库</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">Python</span><span class="chip">Agent</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">让 AI Agent 生成美观、可验证的架构图/流程图/时序图，输出自包含 HTML，支持动效与清晰导出。</div>
-            <div class="item-meta">语言 · JavaScript</div>
+            <div class="item-summary">面向科学研究的 Agent 技能库，覆盖生物、化学、医学等领域，兼容 Cursor/Claude Code 等。让 AI Agent 具备专业科研能力。</div>
+            <div class="item-meta">语言 · Python</div>
             <div class="item-foot">
-              <span class="metric">★ 1,035 stars today · ★ 20,874 总</span>
+              <span class="metric">★ 720 stars today · ★ 35,796 总</span>
               
-              <a class="domain" href="https://github.com/tt-a1i/archify" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -341,15 +343,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/JetBrains/go-modern-guidelines" target="_blank" rel="noopener">JetBrains Go 现代编码指南</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Go</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener">Claude 官方插件目录</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">Python</span><span class="chip">工具</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">JetBrains 官方出品，帮助 AI 编程 Agent 写出符合现代 Go 规范的代码。</div>
-            <div class="item-meta">语言 · Go</div>
+            <div class="item-summary">Anthropic 官方维护的 Claude Code 插件目录，提供高质量、经过审核的插件。标志着 Claude Code 生态走向规范化。</div>
+            <div class="item-meta">语言 · Python</div>
             <div class="item-foot">
-              <span class="metric">★ 314 stars today · ★ 1,841 总</span>
+              <span class="metric">★ 457 stars today · ★ 34,858 总</span>
               
-              <a class="domain" href="https://github.com/JetBrains/go-modern-guidelines" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -358,15 +360,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener">Claude Code 官方插件目录</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Python</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" rel="noopener">GitNexus：零服务器代码知识图谱</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">TypeScript</span><span class="chip">工具</span><span class="chip">RAG</span></span>
             </div>
-            <div class="item-summary">Anthropic 官方维护的高质量 Claude Code 插件集合，方便开发者扩展 Agent 能力。</div>
-            <div class="item-meta">语言 · Python</div>
+            <div class="item-summary">纯浏览器端运行的代码知识图谱工具，支持导入 Git 仓库并生成可交互图谱，内置 Graph RAG Agent。对理解大型代码库非常实用。</div>
+            <div class="item-meta">语言 · TypeScript</div>
             <div class="item-foot">
-              <span class="metric">★ 308 stars today · ★ 34,499 总</span>
+              <span class="metric">★ 189 stars today · ★ 46,029 总</span>
               
-              <a class="domain" href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/abhigyanpatwari/GitNexus" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -375,15 +377,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener">Scientific Agent Skills：科研 Agent 技能库</a>
-              <span class="chips"><span class="chip">开源</span><span class="chip">Python</span><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://github.com/JetBrains/go-modern-guidelines" target="_blank" rel="noopener">JetBrains Go 现代编码指南</a>
+              <span class="chips"><span class="chip">开源</span><span class="chip">Go</span><span class="chip">工具</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">163 个即用科研技能 + 100+ 科学数据库，覆盖生物/化学/医学/药物发现，兼容 Cursor、Claude Code 等主流 Agent。</div>
-            <div class="item-meta">语言 · Python</div>
+            <div class="item-summary">JetBrains 发布的 Go 语言现代编码规范，专门帮助 AI 编程 Agent 写出符合当代最佳实践的 Go 代码。提升 AI 生成代码质量。</div>
+            <div class="item-meta">语言 · Go</div>
             <div class="item-foot">
-              <span class="metric">★ 138 stars today · ★ 34,999 总</span>
+              <span class="metric">★ 574 stars today · ★ 2,440 总</span>
               
-              <a class="domain" href="https://github.com/K-Dense-AI/scientific-agent-skills" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://github.com/JetBrains/go-modern-guidelines" target="_blank" rel="noopener">🔗 github.com</a>
             </div>
           </div>
         </li>
@@ -401,13 +403,13 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8" target="_blank" rel="noopener">英伟达 130 亿美元收购 Hugging Face</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span><span class="chip">开源</span></span>
+              <a class="item-title" href="https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8" target="_blank" rel="noopener">Nvidia 拟 130 亿美元收购 Hugging Face</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">AI 硬件巨头与开源模型社区的最大规模整合，对开源生态、GPU 算力分配和模型分发格局影响深远。</div>
+            <div class="item-summary">传闻 Nvidia 将以 130 亿美元收购 AI 开源社区 Hugging Face，若属实将是 AI 领域最大收购案之一，可能重塑开源模型生态格局。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 1245 · 💬 544</span>
+              <span class="metric">▲ 1914 · 💬 888</span>
               
               <a class="domain" href="https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8" target="_blank" rel="noopener">🔗 businessinsider.com</a>
             </div>
@@ -418,15 +420,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/SenteLabsAI/OpenExecutive" target="_blank" rel="noopener">CEO 裁掉开发者换 AI，开发者开源了 AI CEO</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">Agent</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://louisabraham.github.io/load-bearing/" target="_blank" rel="noopener">Show HN：Claude 的承重词汇表</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">LLM</span><span class="chip">工具</span></span>
             </div>
-            <div class="item-summary">讽刺性事件：公司用 AI 替代程序员后，程序员社区反手开源了一个 AI CEO，引发关于 AI 替代边界的讨论。</div>
+            <div class="item-summary">探讨 Claude 模型中某些关键词汇对输出质量的显著影响，揭示 prompt 工程中词汇选择的微妙重要性。对 Claude 用户有实用参考价值。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 668 · 💬 437</span>
+              <span class="metric">▲ 584 · 💬 285</span>
               
-              <a class="domain" href="https://github.com/SenteLabsAI/OpenExecutive" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://louisabraham.github.io/load-bearing/" target="_blank" rel="noopener">🔗 louisabraham.github.io</a>
             </div>
           </div>
         </li>
@@ -435,15 +437,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://github.com/tailscale/tailcat" target="_blank" rel="noopener">Tailcat：基于 Tailscale 数据平面的 netcat</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make" target="_blank" rel="noopener">动荡的 AI 时代已到来</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">把经典网络调试工具 netcat 跑在 Tailscale 的安全组网上，简化跨设备/跨网络的调试与数据传输。</div>
+            <div class="item-summary">讨论当前 AI 行业的不确定性与快速变化，包括技术路线竞争、商业化挑战和监管压力。反映行业从业者的普遍焦虑。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 590 · 💬 106</span>
+              <span class="metric">▲ 328 · 💬 579</span>
               
-              <a class="domain" href="https://github.com/tailscale/tailcat" target="_blank" rel="noopener">🔗 github.com</a>
+              <a class="domain" href="https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make" target="_blank" rel="noopener">🔗 gatesnotes.com</a>
             </div>
           </div>
         </li>
@@ -452,15 +454,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make" target="_blank" rel="noopener">动荡的 AI 时代已到来</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/" target="_blank" rel="noopener">Gemini-3.5-Transcribe</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">语音</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">评论文章，认为 AI 技术、商业与监管正进入快速变化与不确定并存的新阶段。</div>
+            <div class="item-summary">Google 发布的 Gemini 3.5 转录模型相关消息，可能涉及语音转文本能力的升级。值得关注语音 AI 领域的开发者。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 273 · 💬 261</span>
+              <span class="metric">▲ 319 · 💬 105</span>
               
-              <a class="domain" href="https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make" target="_blank" rel="noopener">🔗 gatesnotes.com</a>
+              <a class="domain" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/" target="_blank" rel="noopener">🔗 blog.google</a>
             </div>
           </div>
         </li>
@@ -469,15 +471,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" target="_blank" rel="noopener">Hugging Face 事件与未来之路</a>
-              <span class="chips"><span class="chip">热议</span><span class="chip">资讯</span><span class="chip">开源</span></span>
+              <a class="item-title" href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/" target="_blank" rel="noopener">Gemini Omni 1.1 Flash</a>
+              <span class="chips"><span class="chip">热议</span><span class="chip">LLM</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">围绕 HF 收购事件的深度讨论，分析开源模型社区在资本与算力巨头夹击下的出路。</div>
+            <div class="item-summary">Google 发布 Gemini Omni 1.1 Flash 多模态模型，强调速度和多模态融合能力。对需要低延迟多模态推理的应用场景有重要意义。</div>
             
             <div class="item-foot">
-              <span class="metric">▲ 267 · 💬 353</span>
+              <span class="metric">▲ 280 · 💬 203</span>
               
-              <a class="domain" href="https://openai.com/index/hugging-face-incident-and-the-road-ahead/" target="_blank" rel="noopener">🔗 openai.com</a>
+              <a class="domain" href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/" target="_blank" rel="noopener">🔗 blog.google</a>
             </div>
           </div>
         </li>
@@ -495,15 +497,15 @@
           <div class="rank">1</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=85211" target="_blank" rel="noopener">LibreOffice 26.8 释出</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">工具</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://www.solidot.org/story?sid=85221" target="_blank" rel="noopener">IBM 推出双指令集处理器</a>
+              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">LibreOffice 26.8 明确拒绝集成生成式 AI，强调本地运行与隐私保护，主打双向文本处理改进。</div>
-            <div class="item-meta">📅 2026-08-27</div>
+            <div class="item-summary">IBM 在 Hot Chips 2026 发布全球首款双指令集处理器，采用 2nm 工艺，集成 AI 推理加速器，面向大型机交易场景。标志着传统企业级芯片拥抱 Arm 生态和 AI 推理。</div>
+            <div class="item-meta">📅 2026-08-28</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://www.solidot.org/story?sid=85211" target="_blank" rel="noopener">🔗 solidot.org</a>
+              <a class="domain" href="https://www.solidot.org/story?sid=85221" target="_blank" rel="noopener">🔗 solidot.org</a>
             </div>
           </div>
         </li>
@@ -512,15 +514,15 @@
           <div class="rank">2</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=85206" target="_blank" rel="noopener">英伟达同意以 129 亿美元收购 Hugging Face</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span><span class="chip">开源</span></span>
+              <a class="item-title" href="https://www.solidot.org/story?sid=85220" target="_blank" rel="noopener">法国法庭认定辐射与空乘罹患乳腺癌相关</a>
+              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">英伟达 129 亿美元收购 Hugging Face 的中文报道，交易仍在敲定中，凸显算力巨头对开源模型生态的布局。</div>
-            <div class="item-meta">📅 2026-08-27</div>
+            <div class="item-summary">法国法院首次认定宇宙辐射是空姐罹患乳腺癌的职业因素，可能为类似诉讼开创先例。与 AI 无直接关系，但反映高空职业健康风险。</div>
+            <div class="item-meta">📅 2026-08-28</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://www.solidot.org/story?sid=85206" target="_blank" rel="noopener">🔗 solidot.org</a>
+              <a class="domain" href="https://www.solidot.org/story?sid=85220" target="_blank" rel="noopener">🔗 solidot.org</a>
             </div>
           </div>
         </li>
@@ -529,15 +531,15 @@
           <div class="rank">3</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://sspai.com/post/113873" target="_blank" rel="noopener">派早报：Apple 调整妙控键盘的键帽符号、闪迪推出宝可梦纪念款产品等</a>
-              <span class="chips"><span class="chip">少数派</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://www.solidot.org/story?sid=85219" target="_blank" rel="noopener">Haiku R1/beta6 释出</a>
+              <span class="chips"><span class="chip">Solidot</span><span class="chip">开源</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">科技早报合集：OpenAI 推出 ChatGPT Admin 插件，Commodore 推出赛博朋克主题复古电脑等。</div>
-            <div class="item-meta">📅 2026-08-26</div>
+            <div class="item-summary">开源 BeOS 继任者 Haiku 发布 R1/beta6，主要改进功能和稳定性。对操作系统爱好者和复古计算社区有意义。</div>
+            <div class="item-meta">📅 2026-08-28</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://sspai.com/post/113873" target="_blank" rel="noopener">🔗 sspai.com</a>
+              <a class="domain" href="https://www.solidot.org/story?sid=85219" target="_blank" rel="noopener">🔗 solidot.org</a>
             </div>
           </div>
         </li>
@@ -546,15 +548,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=85204" target="_blank" rel="noopener">澳大利亚是地球最安全的地方</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://www.solidot.org/story?sid=85218" target="_blank" rel="noopener">Google 要求 Android 应用开发商降低内存占用</a>
+              <span class="chips"><span class="chip">Solidot</span><span class="chip">资讯</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">研究称澳大利亚是应对全球性灾难（含 AI 风险）最安全的地区，引发对 AI 长期风险与地理韧性的讨论。</div>
-            <div class="item-meta">📅 2026-08-26</div>
+            <div class="item-summary">因 AI 热潮导致内存短缺，Google 要求 Android 开发者优化代码降低内存占用。开发者需关注内存优化，AI 对硬件供应链的影响已传导到应用层。</div>
+            <div class="item-meta">📅 2026-08-28</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://www.solidot.org/story?sid=85204" target="_blank" rel="noopener">🔗 solidot.org</a>
+              <a class="domain" href="https://www.solidot.org/story?sid=85218" target="_blank" rel="noopener">🔗 solidot.org</a>
             </div>
           </div>
         </li>
@@ -563,15 +565,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://www.solidot.org/story?sid=85201" target="_blank" rel="noopener">月之暗面与微软、亚马逊和 Google 协商收益分成协议</a>
-              <span class="chips"><span class="chip">Solidot</span><span class="chip">LLM</span><span class="chip">资讯</span><span class="chip">变现</span></span>
+              <a class="item-title" href="https://sspai.com/post/113909" target="_blank" rel="noopener">桌面升级，灯也要跟着进化：明基 iScreenBar 与 ScreenBar Max 体验</a>
+              <span class="chips"><span class="chip">少数派</span><span class="chip">资讯</span></span>
             </div>
-            <div class="item-summary">月之暗面正与美三大云厂商洽谈 Kimi K3 托管分成，若达成将是中国 AI 模型出海的重要里程碑。</div>
-            <div class="item-meta">📅 2026-08-26</div>
+            <div class="item-summary">明基发布新一代屏幕挂灯 iScreenBar 和 ScreenBar Max，延续非对称光路设计。与 AI 无直接关系，属于桌面硬件产品更新。</div>
+            <div class="item-meta">📅 2026-08-28</div>
             <div class="item-foot">
               
               
-              <a class="domain" href="https://www.solidot.org/story?sid=85201" target="_blank" rel="noopener">🔗 solidot.org</a>
+              <a class="domain" href="https://sspai.com/post/113909" target="_blank" rel="noopener">🔗 sspai.com</a>
             </div>
           </div>
         </li>
@@ -590,12 +592,12 @@
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://juejin.cn/post/7620060655607857178" target="_blank" rel="noopener">别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！</a>
-              <span class="chips"><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <span class="chips"><span class="chip">工具</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">作者实测 32 个 Claude Code Skills + 8 个 MCP 服务器，分享如何把 Claude Code 从裸用升级为高效开发环境。</div>
+            <div class="item-summary">作者实测 32 个 Claude Code Skills 和 8 个 MCP 服务器，分享安装配置经验。对想充分利用 Claude Code 生态的开发者有直接参考价值。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 836</span>
+              <span class="metric">👍 837</span>
               
               <a class="domain" href="https://juejin.cn/post/7620060655607857178" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -607,12 +609,12 @@
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://juejin.cn/post/7637856870833635343" target="_blank" rel="noopener">Cursor 转 Codex 大半个月，聊聊我的真实感受</a>
-              <span class="chips"><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <span class="chips"><span class="chip">工具</span><span class="chip">Agent</span></span>
             </div>
-            <div class="item-summary">从 Cursor 切换到 Codex 的真实体验：Codex 更接近“超级 Agent”形态，而不仅是编程助手。</div>
+            <div class="item-summary">作者从 Cursor 切换到 Codex 半月后的真实对比，认为 Codex 更接近超级 Agent 形态。反映 AI 编程工具从辅助向自主 Agent 演进的趋势。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 367</span>
+              <span class="metric">👍 368</span>
               
               <a class="domain" href="https://juejin.cn/post/7637856870833635343" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
@@ -624,9 +626,9 @@
           <div class="body">
             <div class="item-head">
               <a class="item-title" href="https://juejin.cn/post/7641048219231010862" target="_blank" rel="noopener">我用AI做了个微信小游戏-上线了</a>
-              <span class="chips"><span class="chip">Agent</span><span class="chip">变现</span></span>
+              <span class="chips"><span class="chip">工具</span><span class="chip">变现</span></span>
             </div>
-            <div class="item-summary">完整记录用 AI 开发并上线微信小游戏的全流程，含技术栈、prompt、踩坑与成本，适合想落地 AI 应用的开发者。</div>
+            <div class="item-summary">作者用 AI 从零开发微信小游戏并上线的全流程记录，包含技术栈、prompt、踩坑和成本。为想用 AI 做独立开发的开发者提供实操参考。</div>
             
             <div class="item-foot">
               <span class="metric">👍 334</span>
@@ -640,15 +642,15 @@
           <div class="rank">4</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://juejin.cn/post/7655245911811784750" target="_blank" rel="noopener">面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”</a>
-              <span class="chips"><span class="chip">LLM</span><span class="chip">资讯</span></span>
+              <a class="item-title" href="https://juejin.cn/post/7654140424869855282" target="_blank" rel="noopener">Codex 最佳实践（超级长文）：先搞懂 AI，再用好 AI</a>
+              <span class="chips"><span class="chip">工具</span><span class="chip">LLM</span></span>
             </div>
-            <div class="item-summary">2026 年面试已默认你会用 AI，面试官更关注系统思维与 AI 协作能力，而非手写底层代码。</div>
+            <div class="item-summary">深入讲解 Codex 使用最佳实践，涵盖 prompt 技巧、上下文管理和工具选择。帮助开发者从&#39;会用 AI&#39;进阶到&#39;用好 AI&#39;。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 308</span>
+              <span class="metric">👍 95</span>
               
-              <a class="domain" href="https://juejin.cn/post/7655245911811784750" target="_blank" rel="noopener">🔗 juejin.cn</a>
+              <a class="domain" href="https://juejin.cn/post/7654140424869855282" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
           </div>
         </li>
@@ -657,15 +659,15 @@
           <div class="rank">5</div>
           <div class="body">
             <div class="item-head">
-              <a class="item-title" href="https://juejin.cn/post/7673855455463800847" target="_blank" rel="noopener">为什么越来越多人用 Pi ？ - 苏三说技术</a>
-              <span class="chips"><span class="chip">Agent</span><span class="chip">工具</span></span>
+              <a class="item-title" href="https://juejin.cn/post/7659709059810705462" target="_blank" rel="noopener">三年了，为什么 AI 应用还没爆发？</a>
+              <span class="chips"><span class="chip">资讯</span><span class="chip">变现</span></span>
             </div>
-            <div class="item-summary">Pi 作为新一代 AI 编程工具在开发者中快速走红，与 Claude Code、Codex、Cursor 形成竞争格局。</div>
+            <div class="item-summary">分析 AI 应用迟迟未爆发的原因，结合 meta 算力过剩传闻讨论 AI 行业前景。对关注 AI 商业化和投资方向的读者有参考价值。</div>
             
             <div class="item-foot">
-              <span class="metric">👍 122</span>
+              <span class="metric">👍 94</span>
               
-              <a class="domain" href="https://juejin.cn/post/7673855455463800847" target="_blank" rel="noopener">🔗 juejin.cn</a>
+              <a class="domain" href="https://juejin.cn/post/7659709059810705462" target="_blank" rel="noopener">🔗 juejin.cn</a>
             </div>
           </div>
         </li>
@@ -676,7 +678,7 @@
     
   </div>
 
-  <footer>数据源 6 · 共 30 条 · 生成于 2026-08-27 · by Claude</footer>
+  <footer>数据源 6 · 共 30 条 · 生成于 2026-08-28 · by Claude</footer>
 </div>
 </body>
 </html>

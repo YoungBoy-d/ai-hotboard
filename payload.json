@@ -1,38 +1,46 @@
 {
-  "date": "2026-08-27",
-  "weekday": "周四",
+  "date": "2026-08-28",
+  "weekday": "周五",
   "editorial": [
     {
-      "text": "英伟达同意以约 129 亿美元收购 Hugging Face，AI 开源生态迎来里程碑式整合。",
+      "text": "Nvidia 传出以 130 亿美元收购 Hugging Face，AI 开源生态或迎重大整合",
       "refs": [
         "hackernews:1",
-        "ai_zh:2",
-        "hackernews:5"
+        "hf:1",
+        "hf:2",
+        "hf:3",
+        "hf:4",
+        "hf:5"
       ]
     },
     {
-      "text": "月之暗面 Kimi K3 模型正与微软、亚马逊、Google 洽谈云托管收益分成，中国大模型出海进入新阶段。",
+      "text": "Claude Code 生态持续升温：官方插件目录发布，社区 Skills/MCP 实战分享涌现",
       "refs": [
-        "ai_zh:5",
-        "hf:4"
-      ]
-    },
-    {
-      "text": "Claude Code、Codex、Pi 等 AI 编程 Agent 生态持续升温，Skills 与 MCP 成为开发者效率提升的关键。",
-      "refs": [
-        "github:4",
-        "github:5",
+        "github:3",
         "juejin:1",
-        "juejin:2",
-        "juejin:5"
+        "hackernews:2"
       ]
     },
     {
-      "text": "视觉推理与多模态持续学习成为学术热点，VBVR-Pro、MU-CPT 等论文推动 MLLM 从理解走向原生推理。",
+      "text": "推理时扩展与测试时训练成为 LLM 新范式：CritICL、TTPO 等论文探索不依赖标注的后训练路径",
       "refs": [
         "arxiv:1",
-        "arxiv:2",
-        "arxiv:5"
+        "arxiv:4"
+      ]
+    },
+    {
+      "text": "AI 编程工具竞争白热化：Cursor vs Codex 真实体验对比，JetBrains 发布 Go 现代编码指南助力 AI Agent",
+      "refs": [
+        "juejin:2",
+        "github:5",
+        "juejin:4"
+      ]
+    },
+    {
+      "text": "AI 热引发硬件连锁反应：Google 要求 Android 应用降低内存占用，IBM 推出 2nm 双指令集大型机处理器",
+      "refs": [
+        "ai_zh:4",
+        "ai_zh:1"
       ]
     }
   ],
@@ -44,13 +52,13 @@
       "items": [
         {
           "key": "hf:1",
-          "title": "FLUX.1-dev 文生图模型",
+          "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 670.4k · 👍 14.3k",
+          "score_label": "⬇ 647.5k · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Black Forest Labs 推出的高质量文生图模型，基于 diffusers，适合本地部署和二次开发。",
+          "summary": "Black Forest Labs 发布的 FLUX.1-dev 文生图模型，基于 diffusers 框架，采用非完全开源许可证。代表当前开源文生图领域的顶级水平。",
           "tags": [
             "CV·生成",
             "开源",
@@ -62,13 +70,13 @@
         },
         {
           "key": "hf:2",
-          "title": "DeepSeek-R1 推理模型",
+          "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 3.9M · 👍 13.6k",
+          "score_label": "⬇ 3.3M · 👍 13.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "DeepSeek 发布的推理增强型大语言模型，MIT 协议开源，适合文本生成与推理任务。",
+          "summary": "DeepSeek 发布的 R1 文本生成模型，MIT 许可证完全开源，支持 transformers 框架。以强推理能力著称，是开源 LLM 的重要里程碑。",
           "tags": [
             "LLM",
             "开源"
@@ -79,13 +87,13 @@
         },
         {
           "key": "hf:3",
-          "title": "Qwen3.8-27B 多模态模型",
+          "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 3.5M · 👍 13.0k",
+          "score_label": "⬇ 3.5M · 👍 13.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "通义千问 27B 参数的图文多模态模型，Apache 2.0 协议，支持图像理解与文本生成。",
+          "summary": "Qwen 团队发布的 27B 多模态模型，支持图文输入到文本输出，Apache 2.0 开源许可。适合需要视觉理解能力的开发者部署。",
           "tags": [
             "image-text-to-text",
             "开源",
@@ -98,19 +106,18 @@
         },
         {
           "key": "hf:4",
-          "title": "Kimi K3 多模态模型",
+          "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 2.8M · 👍 11.0k",
+          "score_label": "⬇ 2.7M · 👍 11.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "月之暗面推出的图文多模态大模型，正在与海外云厂商洽谈托管分成，国际化步伐加快。",
+          "summary": "月之暗面 Kimi 团队发布的 K3 多模态模型，支持图文理解，许可证为 other（非完全开源）。代表国内多模态大模型的新进展。",
           "tags": [
             "image-text-to-text",
             "开源",
             "LLM",
-            "CV",
-            "资讯"
+            "CV"
           ],
           "meta": "作者 · moonshotai  ·  框架 · transformers  ·  许可 · other",
           "trend": "",
@@ -118,13 +125,13 @@
         },
         {
           "key": "hf:5",
-          "title": "Stable Diffusion XL 1.0",
+          "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 1.6M · 👍 8.1k",
+          "score_label": "⬇ 1.5M · 👍 8.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
-          "summary": "Stability AI 的经典文生图基座模型，OpenRail++ 协议，社区生态成熟。",
+          "summary": "Stability AI 的经典 SDXL 1.0 文生图模型，OpenRAIL++ 许可证，仍是社区广泛使用的基线模型。",
           "tags": [
             "CV·生成",
             "开源",
@@ -143,95 +150,96 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "VBVR-Pro：原生视觉推理套件",
-          "url": "http://arxiv.org/abs/2608.26105v1",
+          "title": "CritICL：推理时弱到强泛化",
+          "url": "http://arxiv.org/abs/2608.27455v1",
           "score_label": "",
-          "extra": "cs.CV",
+          "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "提出将视觉状态（图像/视频）作为推理的一等介质，而非仅作为语言推理的输入或输出，推动视觉原生推理的可扩展与可验证研究。",
+          "summary": "提出 CritICL 方法，利用小模型的失败模式在推理时实现弱到强泛化，无需重复生成或外部验证。对降低 LLM 推理成本有重要意义。",
           "tags": [
             "论文",
-            "CV",
-            "AI"
+            "NLP",
+            "LLM"
           ],
-          "meta": "作者 · Junxiang Xu, Ruisi Wang, Fanyi Pu  ·  📅 2026-08-26  ·  📄 PDF",
+          "meta": "作者 · Yufan Wu, Yinghui He, Zhengyi Hu  ·  📅 2026-08-27  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "多模态无监督持续后训练框架",
-          "url": "http://arxiv.org/abs/2608.26095v1",
+          "title": "WikiSkill：将 Agent 经验编译为持久知识",
+          "url": "http://arxiv.org/abs/2608.27454v1",
           "score_label": "",
-          "extra": "cs.CV",
+          "extra": "cs.AI",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "让已部署的多模态大模型能从流式无标签数据中持续进化，解决传统方法统一优化目标 token 的局限。",
+          "summary": "提出将 Agent 交互经验自动提炼为可复用技能库的方法，让 AI Agent 能通过积累知识持续进化。对构建长期自主 Agent 有启发。",
           "tags": [
             "论文",
-            "CV",
             "AI",
-            "LLM"
+            "NLP",
+            "Agent"
           ],
-          "meta": "作者 · Kaichen Li, Zhilin Zhu, Jianhao Huang  ·  📅 2026-08-26  ·  📄 PDF",
+          "meta": "作者 · Liyan Tang, Cyrus Rashtchian, Chun-Sung Ferng  ·  📅 2026-08-27  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "MyoMechanix：基于生物力学的动作质量评估",
-          "url": "http://arxiv.org/abs/2608.26094v1",
+          "title": "SWE-Prime：更少轨迹，更好性能",
+          "url": "http://arxiv.org/abs/2608.27449v1",
           "score_label": "",
-          "extra": "cs.CV",
+          "extra": "cs.SE",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "引入肌肉力学等生理信号，突破传统仅依赖 RGB/姿态的动作质量评估方法，实现更细粒度的运动指导。",
+          "summary": "指出仅用成功轨迹做 SFT 不够，提出筛选高质量轨迹的方法，用更少数据提升 LLM 解决真实软件问题的能力。对代码 Agent 训练有指导价值。",
           "tags": [
             "论文",
-            "CV",
-            "AI"
+            "cs.SE",
+            "AI",
+            "Agent",
+            "LLM"
           ],
-          "meta": "作者 · Hao Yin, Paritosh Parmar, Lijun Gu  ·  📅 2026-08-26  ·  📄 PDF",
+          "meta": "作者 · Dewu Zheng, Ruizhe Ye, Yanlin Wang  ·  📅 2026-08-27  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "Agentic Autoresearch：让 Agent 自主设计无线资源管理算法",
-          "url": "http://arxiv.org/abs/2608.26093v1",
+          "title": "TTPO：测试时策略优化",
+          "url": "http://arxiv.org/abs/2608.27448v1",
           "score_label": "",
-          "extra": "cs.LG",
+          "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "将机器学习算法的架构、损失函数、训练流程全部交给自主 Agent 设计，重新定义研究者角色。",
+          "summary": "提出测试时策略优化方法，摆脱对 ground-truth 标签的依赖，让 LLM 在推理阶段也能自我优化。为数学推理等任务提供新范式。",
           "tags": [
             "论文",
-            "ML",
-            "cs.IT",
-            "Agent"
+            "NLP",
+            "LLM"
           ],
-          "meta": "作者 · Ahmad Khan, Akram Bin Sediq, Sara Azadegi Naeini  ·  📅 2026-08-26  ·  📄 PDF",
+          "meta": "作者 · Aozhe Wang, Zhengxi Lu, Jianze Wang  ·  📅 2026-08-27  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "PlanSightRAG：面向建筑规范图纸的视觉优先 RAG",
-          "url": "http://arxiv.org/abs/2608.26091v1",
+          "title": "MCR-Bench：从静态到动态的代码审查基准",
+          "url": "http://arxiv.org/abs/2608.27442v1",
           "score_label": "",
-          "extra": "cs.IR",
+          "extra": "cs.SE",
           "source": "arxiv",
           "source_label": "arXiv 论文",
-          "summary": "针对土木工程 2D 图纸合规检查，提出视觉优先的多模态 RAG 方法，保留几何与布局信息，替代传统 OCR 方案。",
+          "summary": "构建模拟真实开发者-审查者迭代交互的代码审查基准，弥补现有 LLM 代码审查评测的不足。对评估 AI 辅助代码审查工具更贴近实际。",
           "tags": [
             "论文",
-            "cs.IR",
-            "NLP",
-            "RAG",
-            "CV"
+            "cs.SE",
+            "AI",
+            "LLM",
+            "工具"
           ],
-          "meta": "作者 · Nabaraj Subedi, Shuvo Dip Datta, Ahmed Abdelaty  ·  📅 2026-08-26  ·  📄 PDF",
+          "meta": "作者 · Dewu Zheng, Yanlin Wang, Xiwen Wang  ·  📅 2026-08-27  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -244,18 +252,18 @@
       "items": [
         {
           "key": "github:1",
-          "title": "GPT-Image2 工业级提示词引擎",
-          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-          "score_label": "★ 4,050 stars today · ★ 22,444 总",
+          "title": "Archify：Agent 生成美观架构图",
+          "url": "https://github.com/tt-a1i/archify",
+          "score_label": "★ 4,561 stars today · ★ 25,588 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "530+ 案例逆向工程 + 20+ 工业级模板，把 GPT-Image2 的 prompt 当代码管理，适合图像生成工程化落地。",
+          "summary": "一个 Agent 技能，可生成包含架构图、流程图、时序图等的自包含 HTML，带动画和清晰导出。让 AI 输出可视化更专业。",
           "tags": [
             "开源",
             "JavaScript",
             "工具",
-            "CV"
+            "Agent"
           ],
           "meta": "语言 · JavaScript",
           "trend": "",
@@ -263,77 +271,77 @@
         },
         {
           "key": "github:2",
-          "title": "Archify：Agent 驱动的架构图生成技能",
-          "url": "https://github.com/tt-a1i/archify",
-          "score_label": "★ 1,035 stars today · ★ 20,874 总",
+          "title": "Scientific Agent Skills：科研 Agent 技能库",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "score_label": "★ 720 stars today · ★ 35,796 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "让 AI Agent 生成美观、可验证的架构图/流程图/时序图，输出自包含 HTML，支持动效与清晰导出。",
+          "summary": "面向科学研究的 Agent 技能库，覆盖生物、化学、医学等领域，兼容 Cursor/Claude Code 等。让 AI Agent 具备专业科研能力。",
           "tags": [
             "开源",
-            "JavaScript",
+            "Python",
             "Agent",
             "工具"
           ],
-          "meta": "语言 · JavaScript",
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:3",
-          "title": "JetBrains Go 现代编码指南",
-          "url": "https://github.com/JetBrains/go-modern-guidelines",
-          "score_label": "★ 314 stars today · ★ 1,841 总",
+          "title": "Claude 官方插件目录",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "score_label": "★ 457 stars today · ★ 34,858 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "JetBrains 官方出品，帮助 AI 编程 Agent 写出符合现代 Go 规范的代码。",
+          "summary": "Anthropic 官方维护的 Claude Code 插件目录，提供高质量、经过审核的插件。标志着 Claude Code 生态走向规范化。",
           "tags": [
             "开源",
-            "Go",
-            "Agent",
-            "工具"
+            "Python",
+            "工具",
+            "Agent"
           ],
-          "meta": "语言 · Go",
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:4",
-          "title": "Claude Code 官方插件目录",
-          "url": "https://github.com/anthropics/claude-plugins-official",
-          "score_label": "★ 308 stars today · ★ 34,499 总",
+          "title": "GitNexus：零服务器代码知识图谱",
+          "url": "https://github.com/abhigyanpatwari/GitNexus",
+          "score_label": "★ 189 stars today · ★ 46,029 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "Anthropic 官方维护的高质量 Claude Code 插件集合，方便开发者扩展 Agent 能力。",
+          "summary": "纯浏览器端运行的代码知识图谱工具，支持导入 Git 仓库并生成可交互图谱，内置 Graph RAG Agent。对理解大型代码库非常实用。",
           "tags": [
             "开源",
-            "Python",
-            "Agent",
-            "工具"
+            "TypeScript",
+            "工具",
+            "RAG"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:5",
-          "title": "Scientific Agent Skills：科研 Agent 技能库",
-          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "score_label": "★ 138 stars today · ★ 34,999 总",
+          "title": "JetBrains Go 现代编码指南",
+          "url": "https://github.com/JetBrains/go-modern-guidelines",
+          "score_label": "★ 574 stars today · ★ 2,440 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
-          "summary": "163 个即用科研技能 + 100+ 科学数据库，覆盖生物/化学/医学/药物发现，兼容 Cursor、Claude Code 等主流 Agent。",
+          "summary": "JetBrains 发布的 Go 语言现代编码规范，专门帮助 AI 编程 Agent 写出符合当代最佳实践的 Go 代码。提升 AI 生成代码质量。",
           "tags": [
             "开源",
-            "Python",
-            "Agent",
-            "工具"
+            "Go",
+            "工具",
+            "LLM"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · Go",
           "trend": "",
           "domain": "github.com"
         }
@@ -346,17 +354,16 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "英伟达 130 亿美元收购 Hugging Face",
+          "title": "Nvidia 拟 130 亿美元收购 Hugging Face",
           "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-          "score_label": "▲ 1245 · 💬 544",
+          "score_label": "▲ 1914 · 💬 888",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "AI 硬件巨头与开源模型社区的最大规模整合，对开源生态、GPU 算力分配和模型分发格局影响深远。",
+          "summary": "传闻 Nvidia 将以 130 亿美元收购 AI 开源社区 Hugging Face，若属实将是 AI 领域最大收购案之一，可能重塑开源模型生态格局。",
           "tags": [
             "热议",
-            "资讯",
-            "开源"
+            "资讯"
           ],
           "meta": "",
           "trend": "",
@@ -364,48 +371,31 @@
         },
         {
           "key": "hackernews:2",
-          "title": "CEO 裁掉开发者换 AI，开发者开源了 AI CEO",
-          "url": "https://github.com/SenteLabsAI/OpenExecutive",
-          "score_label": "▲ 668 · 💬 437",
+          "title": "Show HN：Claude 的承重词汇表",
+          "url": "https://louisabraham.github.io/load-bearing/",
+          "score_label": "▲ 584 · 💬 285",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "讽刺性事件：公司用 AI 替代程序员后，程序员社区反手开源了一个 AI CEO，引发关于 AI 替代边界的讨论。",
+          "summary": "探讨 Claude 模型中某些关键词汇对输出质量的显著影响，揭示 prompt 工程中词汇选择的微妙重要性。对 Claude 用户有实用参考价值。",
           "tags": [
             "热议",
-            "Agent",
-            "资讯"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "hackernews:3",
-          "title": "Tailcat：基于 Tailscale 数据平面的 netcat",
-          "url": "https://github.com/tailscale/tailcat",
-          "score_label": "▲ 590 · 💬 106",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "把经典网络调试工具 netcat 跑在 Tailscale 的安全组网上，简化跨设备/跨网络的调试与数据传输。",
-          "tags": [
-            "热议",
+            "LLM",
             "工具"
           ],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "louisabraham.github.io"
         },
         {
-          "key": "hackernews:4",
+          "key": "hackernews:3",
           "title": "动荡的 AI 时代已到来",
           "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-          "score_label": "▲ 273 · 💬 261",
+          "score_label": "▲ 328 · 💬 579",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "评论文章，认为 AI 技术、商业与监管正进入快速变化与不确定并存的新阶段。",
+          "summary": "讨论当前 AI 行业的不确定性与快速变化，包括技术路线竞争、商业化挑战和监管压力。反映行业从业者的普遍焦虑。",
           "tags": [
             "热议",
             "资讯"
@@ -415,22 +405,40 @@
           "domain": "gatesnotes.com"
         },
         {
-          "key": "hackernews:5",
-          "title": "Hugging Face 事件与未来之路",
-          "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
-          "score_label": "▲ 267 · 💬 353",
+          "key": "hackernews:4",
+          "title": "Gemini-3.5-Transcribe",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+          "score_label": "▲ 319 · 💬 105",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
-          "summary": "围绕 HF 收购事件的深度讨论，分析开源模型社区在资本与算力巨头夹击下的出路。",
+          "summary": "Google 发布的 Gemini 3.5 转录模型相关消息，可能涉及语音转文本能力的升级。值得关注语音 AI 领域的开发者。",
           "tags": [
             "热议",
-            "资讯",
-            "开源"
+            "语音",
+            "资讯"
           ],
           "meta": "",
           "trend": "",
-          "domain": "openai.com"
+          "domain": "blog.google"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "Gemini Omni 1.1 Flash",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+          "score_label": "▲ 280 · 💬 203",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "Google 发布 Gemini Omni 1.1 Flash 多模态模型，强调速度和多模态融合能力。对需要低延迟多模态推理的应用场景有重要意义。",
+          "tags": [
+            "热议",
+            "LLM",
+            "资讯"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "blog.google"
         }
       ]
     },
@@ -441,92 +449,90 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "LibreOffice 26.8 释出",
-          "url": "https://www.solidot.org/story?sid=85211",
+          "title": "IBM 推出双指令集处理器",
+          "url": "https://www.solidot.org/story?sid=85221",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "LibreOffice 26.8 明确拒绝集成生成式 AI，强调本地运行与隐私保护，主打双向文本处理改进。",
+          "summary": "IBM 在 Hot Chips 2026 发布全球首款双指令集处理器，采用 2nm 工艺，集成 AI 推理加速器，面向大型机交易场景。标志着传统企业级芯片拥抱 Arm 生态和 AI 推理。",
           "tags": [
             "Solidot",
-            "工具",
             "资讯"
           ],
-          "meta": "📅 2026-08-27",
+          "meta": "📅 2026-08-28",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:2",
-          "title": "英伟达同意以 129 亿美元收购 Hugging Face",
-          "url": "https://www.solidot.org/story?sid=85206",
+          "title": "法国法庭认定辐射与空乘罹患乳腺癌相关",
+          "url": "https://www.solidot.org/story?sid=85220",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "英伟达 129 亿美元收购 Hugging Face 的中文报道，交易仍在敲定中，凸显算力巨头对开源模型生态的布局。",
+          "summary": "法国法院首次认定宇宙辐射是空姐罹患乳腺癌的职业因素，可能为类似诉讼开创先例。与 AI 无直接关系，但反映高空职业健康风险。",
           "tags": [
             "Solidot",
-            "资讯",
-            "开源"
+            "资讯"
           ],
-          "meta": "📅 2026-08-27",
+          "meta": "📅 2026-08-28",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:3",
-          "title": "派早报：Apple 调整妙控键盘的键帽符号、闪迪推出宝可梦纪念款产品等",
-          "url": "https://sspai.com/post/113873",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "科技早报合集：OpenAI 推出 ChatGPT Admin 插件，Commodore 推出赛博朋克主题复古电脑等。",
-          "tags": [
-            "少数派",
-            "资讯"
-          ],
-          "meta": "📅 2026-08-26",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "澳大利亚是地球最安全的地方",
-          "url": "https://www.solidot.org/story?sid=85204",
+          "title": "Haiku R1/beta6 释出",
+          "url": "https://www.solidot.org/story?sid=85219",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "研究称澳大利亚是应对全球性灾难（含 AI 风险）最安全的地区，引发对 AI 长期风险与地理韧性的讨论。",
+          "summary": "开源 BeOS 继任者 Haiku 发布 R1/beta6，主要改进功能和稳定性。对操作系统爱好者和复古计算社区有意义。",
           "tags": [
             "Solidot",
+            "开源",
             "资讯"
           ],
-          "meta": "📅 2026-08-26",
+          "meta": "📅 2026-08-28",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
+          "title": "Google 要求 Android 应用开发商降低内存占用",
+          "url": "https://www.solidot.org/story?sid=85218",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "因 AI 热潮导致内存短缺，Google 要求 Android 开发者优化代码降低内存占用。开发者需关注内存优化，AI 对硬件供应链的影响已传导到应用层。",
+          "tags": [
+            "Solidot",
+            "资讯",
+            "LLM"
+          ],
+          "meta": "📅 2026-08-28",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:5",
-          "title": "月之暗面与微软、亚马逊和 Google 协商收益分成协议",
-          "url": "https://www.solidot.org/story?sid=85201",
+          "title": "桌面升级，灯也要跟着进化：明基 iScreenBar 与 ScreenBar Max 体验",
+          "url": "https://sspai.com/post/113909",
           "score_label": "",
-          "extra": "Solidot",
+          "extra": "少数派",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
-          "summary": "月之暗面正与美三大云厂商洽谈 Kimi K3 托管分成，若达成将是中国 AI 模型出海的重要里程碑。",
+          "summary": "明基发布新一代屏幕挂灯 iScreenBar 和 ScreenBar Max，延续非对称光路设计。与 AI 无直接关系，属于桌面硬件产品更新。",
           "tags": [
-            "Solidot",
-            "LLM",
-            "资讯",
-            "变现"
+            "少数派",
+            "资讯"
           ],
-          "meta": "📅 2026-08-26",
+          "meta": "📅 2026-08-28",
           "trend": "",
-          "domain": "solidot.org"
+          "domain": "sspai.com"
         }
       ]
     },
@@ -539,14 +545,14 @@
           "key": "juejin:1",
           "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
           "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 836",
+          "score_label": "👍 837",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "作者实测 32 个 Claude Code Skills + 8 个 MCP 服务器，分享如何把 Claude Code 从裸用升级为高效开发环境。",
+          "summary": "作者实测 32 个 Claude Code Skills 和 8 个 MCP 服务器，分享安装配置经验。对想充分利用 Claude Code 生态的开发者有直接参考价值。",
           "tags": [
-            "Agent",
-            "工具"
+            "工具",
+            "Agent"
           ],
           "meta": "",
           "trend": "",
@@ -556,14 +562,14 @@
           "key": "juejin:2",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 367",
+          "score_label": "👍 368",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "从 Cursor 切换到 Codex 的真实体验：Codex 更接近“超级 Agent”形态，而不仅是编程助手。",
+          "summary": "作者从 Cursor 切换到 Codex 半月后的真实对比，认为 Codex 更接近超级 Agent 形态。反映 AI 编程工具从辅助向自主 Agent 演进的趋势。",
           "tags": [
-            "Agent",
-            "工具"
+            "工具",
+            "Agent"
           ],
           "meta": "",
           "trend": "",
@@ -577,9 +583,9 @@
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "完整记录用 AI 开发并上线微信小游戏的全流程，含技术栈、prompt、踩坑与成本，适合想落地 AI 应用的开发者。",
+          "summary": "作者用 AI 从零开发微信小游戏并上线的全流程记录，包含技术栈、prompt、踩坑和成本。为想用 AI 做独立开发的开发者提供实操参考。",
           "tags": [
-            "Agent",
+            "工具",
             "变现"
           ],
           "meta": "",
@@ -588,16 +594,16 @@
         },
         {
           "key": "juejin:4",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 308",
+          "title": "Codex 最佳实践（超级长文）：先搞懂 AI，再用好 AI",
+          "url": "https://juejin.cn/post/7654140424869855282",
+          "score_label": "👍 95",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "2026 年面试已默认你会用 AI，面试官更关注系统思维与 AI 协作能力，而非手写底层代码。",
+          "summary": "深入讲解 Codex 使用最佳实践，涵盖 prompt 技巧、上下文管理和工具选择。帮助开发者从'会用 AI'进阶到'用好 AI'。",
           "tags": [
-            "LLM",
-            "资讯"
+            "工具",
+            "LLM"
           ],
           "meta": "",
           "trend": "",
@@ -605,16 +611,16 @@
         },
         {
           "key": "juejin:5",
-          "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
-          "url": "https://juejin.cn/post/7673855455463800847",
-          "score_label": "👍 122",
+          "title": "三年了，为什么 AI 应用还没爆发？",
+          "url": "https://juejin.cn/post/7659709059810705462",
+          "score_label": "👍 94",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
-          "summary": "Pi 作为新一代 AI 编程工具在开发者中快速走红，与 Claude Code、Codex、Cursor 形成竞争格局。",
+          "summary": "分析 AI 应用迟迟未爆发的原因，结合 meta 算力过剩传闻讨论 AI 行业前景。对关注 AI 商业化和投资方向的读者有参考价值。",
           "tags": [
-            "Agent",
-            "工具"
+            "资讯",
+            "变现"
           ],
           "meta": "",
           "trend": "",
