@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-05",
-  "weekday": "周六",
+  "date": "2026-09-06",
+  "weekday": "周日",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 741.1k · 👍 14.5k",
+          "score_label": "⬇ 751.8k · 👍 14.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 5.7M · 👍 14.0k",
+          "score_label": "⬇ 6.0M · 👍 14.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 880.0k · 👍 13.6k",
+          "score_label": "⬇ 838.8k · 👍 13.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -201,7 +201,7 @@
           "key": "github:1",
           "title": "mattpocock/skills",
           "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 2,758 stars today · ★ 250,773 总",
+          "score_label": "★ 2,692 stars today · ★ 253,034 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -216,9 +216,9 @@
         },
         {
           "key": "github:2",
-          "title": "DietrichGebert/ponytail",
-          "url": "https://github.com/DietrichGebert/ponytail",
-          "score_label": "★ 1,679 stars today · ★ 126,522 总",
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "score_label": "★ 1,314 stars today · ★ 250,165 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -233,9 +233,9 @@
         },
         {
           "key": "github:3",
-          "title": "affaan-m/ECC",
-          "url": "https://github.com/affaan-m/ECC",
-          "score_label": "★ 1,135 stars today · ★ 248,716 总",
+          "title": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "score_label": "★ 2,845 stars today · ★ 128,236 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -252,7 +252,7 @@
           "key": "github:4",
           "title": "anthropics/skills",
           "url": "https://github.com/anthropics/skills",
-          "score_label": "★ 511 stars today · ★ 174,219 总",
+          "score_label": "★ 475 stars today · ★ 174,641 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -267,18 +267,18 @@
         },
         {
           "key": "github:5",
-          "title": "blader/humanizer",
-          "url": "https://github.com/blader/humanizer",
-          "score_label": "★ 1,130 stars today · ★ 42,889 总",
+          "title": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "score_label": "★ 855 stars today · ★ 31,837 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Python"
+            "HTML"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · HTML",
           "trend": "",
           "domain": "github.com"
         }
@@ -293,7 +293,7 @@
           "key": "hackernews:1",
           "title": "Discovery of a new OpenAI agent message board",
           "url": "https://collusion.wiki/",
-          "score_label": "▲ 1594 · 💬 1255",
+          "score_label": "▲ 2157 · 💬 1530",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -309,7 +309,7 @@
           "key": "hackernews:2",
           "title": "Can AI design circuit boards yet?",
           "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
-          "score_label": "▲ 215 · 💬 134",
+          "score_label": "▲ 400 · 💬 213",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -323,9 +323,9 @@
         },
         {
           "key": "hackernews:3",
-          "title": "GPT-6 Astra on OpenRouter",
-          "url": "https://openrouter.ai/openai/gpt-6-astra",
-          "score_label": "▲ 173 · 💬 90",
+          "title": "Chrome again exempts Google from user site data settings",
+          "url": "https://lapcatsoftware.com/articles/2026/9/1.html",
+          "score_label": "▲ 248 · 💬 38",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -333,27 +333,29 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "openrouter.ai"
+          "domain": "lapcatsoftware.com"
         },
         {
           "key": "hackernews:4",
-          "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
-          "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
-          "score_label": "▲ 107 · 💬 30",
+          "title": "LLMs as a Cognitive Virus",
+          "url": "https://arxiv.org/abs/2609.03344",
+          "score_label": "▲ 240 · 💬 184",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "arxiv.org"
         },
         {
           "key": "hackernews:5",
-          "title": "Government Rails Site Hit Hours After CVE Patch",
-          "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
-          "score_label": "▲ 83 · 💬 25",
+          "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+          "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/",
+          "score_label": "▲ 155 · 💬 29",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -361,7 +363,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "rietta.com"
+          "domain": "sofiabelen.github.io"
         }
       ]
     },
@@ -372,6 +374,22 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "F-Droid 考虑采用与 Debian 相同的 AI 政策",
+          "url": "https://www.solidot.org/story?sid=85294",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-05",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
           "title": "英伟达发布开源工具将闲置算力连成个人数据中心",
           "url": "https://www.solidot.org/story?sid=85284",
           "score_label": "",
@@ -387,7 +405,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:3",
           "title": "四大 AI 模型同时下线",
           "url": "https://www.solidot.org/story?sid=85283",
           "score_label": "",
@@ -403,7 +421,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:4",
           "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等",
           "url": "https://sspai.com/post/114164",
           "score_label": "",
@@ -419,25 +437,9 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:4",
+          "key": "ai_zh:5",
           "title": "纽约市禁止八年级以下公立学校学生使用生成式 AI",
           "url": "https://www.solidot.org/story?sid=85281",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-03",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "人体不同组织的结构衰老呈现三种模式",
-          "url": "https://www.solidot.org/story?sid=85272",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -461,7 +463,7 @@
           "key": "juejin:1",
           "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
           "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 841",
+          "score_label": "👍 842",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -473,20 +475,6 @@
         },
         {
           "key": "juejin:2",
-          "title": "Codex 穷鬼大救星",
-          "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 400",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:3",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
           "score_label": "👍 390",
@@ -500,7 +488,7 @@
           "domain": "juejin.cn"
         },
         {
-          "key": "juejin:4",
+          "key": "juejin:3",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
           "score_label": "👍 345",
@@ -514,10 +502,24 @@
           "domain": "juejin.cn"
         },
         {
+          "key": "juejin:4",
+          "title": "2026 了，前端转 AI 全栈我是这么学的 😍😍😍",
+          "url": "https://juejin.cn/post/7667503991685857290",
+          "score_label": "👍 242",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
           "key": "juejin:5",
-          "title": "我用AI做了个微信小游戏-上线了",
-          "url": "https://juejin.cn/post/7641048219231010862",
-          "score_label": "👍 344",
+          "title": "最近公司烧token比招员工还贵，老板干懵了...",
+          "url": "https://juejin.cn/post/7646256871183024128",
+          "score_label": "👍 163",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
