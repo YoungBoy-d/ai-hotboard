@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-07",
-  "weekday": "周一",
+  "date": "2026-09-08",
+  "weekday": "周二",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 760.6k · 👍 14.5k",
+          "score_label": "⬇ 774.3k · 👍 14.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.2M · 👍 14.2k",
+          "score_label": "⬇ 6.4M · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 789.6k · 👍 13.6k",
+          "score_label": "⬇ 792.9k · 👍 13.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 2.5M · 👍 11.2k",
+          "score_label": "⬇ 2.4M · 👍 11.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -198,9 +198,26 @@
       "items": [
         {
           "key": "github:1",
-          "title": "affaan-m/ECC",
-          "url": "https://github.com/affaan-m/ECC",
-          "score_label": "★ 1,485 stars today · ★ 251,802 总",
+          "title": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "score_label": "★ 96 stars today · ★ 21,023 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "TypeScript"
+          ],
+          "meta": "语言 · TypeScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:2",
+          "title": "jo-inc/camofox-browser",
+          "url": "https://github.com/jo-inc/camofox-browser",
+          "score_label": "★ 135 stars today · ★ 9,940 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -214,61 +231,44 @@
           "domain": "github.com"
         },
         {
-          "key": "github:2",
-          "title": "mattpocock/skills",
-          "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 2,207 stars today · ★ 255,097 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Shell"
-          ],
-          "meta": "语言 · Shell",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
           "key": "github:3",
-          "title": "cathrynlavery/diagram-design",
-          "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 620 stars today · ★ 32,682 总",
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "score_label": "★ 1,897 stars today · ★ 253,158 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "HTML"
+            "JavaScript"
           ],
-          "meta": "语言 · HTML",
+          "meta": "语言 · JavaScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:4",
-          "title": "openai/skills",
-          "url": "https://github.com/openai/skills",
-          "score_label": "★ 46 stars today · ★ 25,699 总",
+          "title": "coreyhaines31/marketingskills",
+          "url": "https://github.com/coreyhaines31/marketingskills",
+          "score_label": "★ 580 stars today · ★ 48,305 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Python"
+            "JavaScript"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · JavaScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:5",
-          "title": "blader/humanizer",
-          "url": "https://github.com/blader/humanizer",
-          "score_label": "★ 748 stars today · ★ 44,525 总",
+          "title": "The-Swarm-Corporation/AutoHedge",
+          "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+          "score_label": "★ 517 stars today · ★ 5,365 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -290,23 +290,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Research acceleration: The view inside OpenAI",
-          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-          "score_label": "▲ 149 · 💬 97",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "openai.com"
-        },
-        {
-          "key": "hackernews:2",
-          "title": "Harnessing the Universal Geometry of Embeddings",
-          "url": "https://arxiv.org/abs/2505.12540",
-          "score_label": "▲ 65 · 💬 24",
+          "title": "Trusting-Trust Attack against an Entire Linux Distribution",
+          "url": "https://arxiv.org/abs/2607.24888",
+          "score_label": "▲ 189 · 💬 40",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -317,10 +303,10 @@
           "domain": "arxiv.org"
         },
         {
-          "key": "hackernews:3",
-          "title": "Reverse engineering the storage format for an undocumented database",
-          "url": "https://blog.glazer.ee/posts/converting-cronos/",
-          "score_label": "▲ 41 · 💬 3",
+          "key": "hackernews:2",
+          "title": "Show HN: Jigsaw Haiku",
+          "url": "https://jigsawhaiku.com/",
+          "score_label": "▲ 79 · 💬 27",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -328,13 +314,27 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "blog.glazer.ee"
+          "domain": "jigsawhaiku.com"
+        },
+        {
+          "key": "hackernews:3",
+          "title": "There's a new \"Google Jail\" for independent wikis",
+          "url": "https://weirdgloop.org/blog/google-jail",
+          "score_label": "▲ 24 · 💬 3",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "weirdgloop.org"
         },
         {
           "key": "hackernews:4",
-          "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
-          "url": "https://github.com/Staatsgeheim/MathKernel",
-          "score_label": "▲ 29 · 💬 5",
+          "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+          "score_label": "▲ 20 · 💬 3",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -342,13 +342,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "mistral.ai"
         },
         {
           "key": "hackernews:5",
-          "title": "I refused to train the AI that could replace me",
-          "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement/",
-          "score_label": "▲ 19 · 💬 2",
+          "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+          "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+          "score_label": "▲ 18 · 💬 9",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -356,7 +356,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "restofworld.org"
+          "domain": "newsroom.arm.com"
         }
       ]
     },
@@ -367,6 +367,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "派早报：华为举办 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会等",
+          "url": "https://sspai.com/post/114307",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-09-08",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "内存短缺将继续推动消费电子产品价格上涨",
+          "url": "https://www.solidot.org/story?sid=85302",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-07",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "派早报：微软公布 Project Zenith 计划、F-Droid 拟效仿 Debian 制定生成式 AI 使用政策",
           "url": "https://sspai.com/post/114250",
           "score_label": "",
@@ -382,7 +414,7 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "F-Droid 考虑采用与 Debian 相同的 AI 政策",
           "url": "https://www.solidot.org/story?sid=85294",
           "score_label": "",
@@ -396,38 +428,6 @@
           "meta": "📅 2026-09-05",
           "trend": "",
           "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "英伟达发布开源工具将闲置算力连成个人数据中心",
-          "url": "https://www.solidot.org/story?sid=85284",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-04",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "四大 AI 模型同时下线",
-          "url": "https://www.solidot.org/story?sid=85283",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-04",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -438,9 +438,9 @@
       "items": [
         {
           "key": "juejin:1",
-          "title": "Codex 穷鬼大救星",
-          "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 401",
+          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
+          "url": "https://juejin.cn/post/7620060655607857178",
+          "score_label": "👍 843",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -452,9 +452,9 @@
         },
         {
           "key": "juejin:2",
-          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
-          "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 392",
+          "title": "Codex 穷鬼大救星",
+          "url": "https://juejin.cn/post/7635467758865235968",
+          "score_label": "👍 402",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -466,9 +466,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 348",
+          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
+          "url": "https://juejin.cn/post/7637856870833635343",
+          "score_label": "👍 395",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -480,9 +480,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
-          "url": "https://juejin.cn/post/7623217419704909866",
-          "score_label": "👍 297",
+          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
+          "url": "https://juejin.cn/post/7655245911811784750",
+          "score_label": "👍 354",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -494,9 +494,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "最近公司烧token比招员工还贵，老板干懵了...",
-          "url": "https://juejin.cn/post/7646256871183024128",
-          "score_label": "👍 165",
+          "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
+          "url": "https://juejin.cn/post/7623217419704909866",
+          "score_label": "👍 296",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
