@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-10",
-  "weekday": "周四",
+  "date": "2026-09-11",
+  "weekday": "周五",
   "editorial": [],
   "sources": [
     {
@@ -10,26 +10,9 @@
       "items": [
         {
           "key": "hf:1",
-          "title": "black-forest-labs/FLUX.1-dev",
-          "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 790.6k · 👍 14.6k",
-          "extra": "",
-          "source": "hf",
-          "source_label": "HuggingFace 模型",
-          "summary": "",
-          "tags": [
-            "CV·生成",
-            "开源"
-          ],
-          "meta": "作者 · black-forest-labs  ·  框架 · diffusers  ·  许可 · other",
-          "trend": "",
-          "domain": "huggingface.co"
-        },
-        {
-          "key": "hf:2",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.7M · 👍 14.5k",
+          "score_label": "⬇ 7.3M · 👍 14.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -43,10 +26,27 @@
           "domain": "huggingface.co"
         },
         {
+          "key": "hf:2",
+          "title": "black-forest-labs/FLUX.1-dev",
+          "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+          "score_label": "⬇ 807.8k · 👍 14.6k",
+          "extra": "",
+          "source": "hf",
+          "source_label": "HuggingFace 模型",
+          "summary": "",
+          "tags": [
+            "CV·生成",
+            "开源"
+          ],
+          "meta": "作者 · black-forest-labs  ·  框架 · diffusers  ·  许可 · other",
+          "trend": "",
+          "domain": "huggingface.co"
+        },
+        {
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 776.7k · 👍 13.6k",
+          "score_label": "⬇ 709.3k · 👍 13.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 2.4M · 👍 11.3k",
+          "score_label": "⬇ 2.3M · 👍 11.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 1.9M · 👍 8.1k",
+          "score_label": "⬇ 2.1M · 👍 8.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,43 +102,26 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications",
-          "url": "http://arxiv.org/abs/2609.10539v1",
+          "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+          "url": "http://arxiv.org/abs/2609.11923v1",
           "score_label": "",
-          "extra": "cs.CL",
+          "extra": "cs.DC",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "NLP"
+            "cs.DC",
+            "AI"
           ],
-          "meta": "作者 · Yiling Ma, Yilun Zhao, Sihong Wu  ·  📅 2026-09-09  ·  📄 PDF",
+          "meta": "作者 · Boning Li, Longbo Huang  ·  📅 2026-09-10  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "Likelihood-free inference with nuisance parameters through normalizing flows",
-          "url": "http://arxiv.org/abs/2609.10534v1",
-          "score_label": "",
-          "extra": "stat.ME",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "stat.ME",
-            "ML"
-          ],
-          "meta": "作者 · Phil Assheton  ·  📅 2026-09-09  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "A positive resolution of the gap-entropy conjecture",
-          "url": "http://arxiv.org/abs/2609.10529v1",
+          "title": "General Quantification of Covariate and Concept Shifts",
+          "url": "http://arxiv.org/abs/2609.11918v1",
           "score_label": "",
           "extra": "cs.LG",
           "source": "arxiv",
@@ -147,45 +130,62 @@
           "tags": [
             "论文",
             "ML",
-            "ML"
+            "AI"
           ],
-          "meta": "作者 · P. M. Aronow, Nathan Kallus, Patrick Lopatto  ·  📅 2026-09-09  ·  📄 PDF",
+          "meta": "作者 · Hongbo Chen, Li Charlie Xia  ·  📅 2026-09-10  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:3",
+          "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+          "url": "http://arxiv.org/abs/2609.11917v1",
+          "score_label": "",
+          "extra": "cs.LG",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "ML",
+            "NLP"
+          ],
+          "meta": "作者 · Atindra Jha, Margaret Li, Jure Leskovec  ·  📅 2026-09-10  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarch",
-          "url": "http://arxiv.org/abs/2609.10525v1",
+          "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
+          "url": "http://arxiv.org/abs/2609.11916v1",
           "score_label": "",
-          "extra": "cs.FL",
+          "extra": "cs.AI",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "cs.FL",
-            "ML"
+            "AI"
           ],
-          "meta": "作者 · Xiaoyu Li, Andi Han, Jiaojiao Jiang  ·  📅 2026-09-09  ·  📄 PDF",
+          "meta": "作者 · William Zhou, Mayukha Siripuram, Xiao Yan  ·  📅 2026-09-10  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-          "url": "http://arxiv.org/abs/2609.10522v1",
+          "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+          "url": "http://arxiv.org/abs/2609.11915v1",
           "score_label": "",
-          "extra": "cs.RO",
+          "extra": "stat.ML",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "机器人",
+            "ML",
             "AI"
           ],
-          "meta": "作者 · Yanzhe Chen, Zechen Bai, Zhijun Cao  ·  📅 2026-09-09  ·  📄 PDF",
+          "meta": "作者 · Masahiro Kato, Daiki Honma, Taka Kato  ·  📅 2026-09-10  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -198,9 +198,9 @@
       "items": [
         {
           "key": "github:1",
-          "title": "Tencent/teamai-cli",
-          "url": "https://github.com/Tencent/teamai-cli",
-          "score_label": "★ 556 stars today · ★ 3,246 总",
+          "title": "alsk1992/CloddsBot",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "score_label": "★ 277 stars today · ★ 1,802 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -215,9 +215,9 @@
         },
         {
           "key": "github:2",
-          "title": "pascalorg/editor",
-          "url": "https://github.com/pascalorg/editor",
-          "score_label": "★ 107 stars today · ★ 23,078 总",
+          "title": "Tencent/teamai-cli",
+          "url": "https://github.com/Tencent/teamai-cli",
+          "score_label": "★ 841 stars today · ★ 3,956 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -232,9 +232,26 @@
         },
         {
           "key": "github:3",
+          "title": "AlexsJones/llmfit",
+          "url": "https://github.com/AlexsJones/llmfit",
+          "score_label": "★ 258 stars today · ★ 35,855 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Rust"
+          ],
+          "meta": "语言 · Rust",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:4",
           "title": "cathrynlavery/diagram-design",
           "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 2,249 stars today · ★ 36,899 总",
+          "score_label": "★ 1,294 stars today · ★ 38,001 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -248,27 +265,10 @@
           "domain": "github.com"
         },
         {
-          "key": "github:4",
-          "title": "TauricResearch/TradingAgents",
-          "url": "https://github.com/TauricResearch/TradingAgents",
-          "score_label": "★ 367 stars today · ★ 104,164 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
           "key": "github:5",
-          "title": "openai/plugins",
-          "url": "https://github.com/openai/plugins",
-          "score_label": "★ 498 stars today · ★ 6,282 总",
+          "title": "freestylefly/awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+          "score_label": "★ 962 stars today · ★ 31,055 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -290,9 +290,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Shopify acquires Tailwind",
-          "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-          "score_label": "▲ 976 · 💬 383",
+          "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+          "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+          "score_label": "▲ 770 · 💬 709",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -302,13 +302,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "tailwindcss.com"
+          "domain": "mathstodon.xyz"
         },
         {
           "key": "hackernews:2",
-          "title": "AirPods 5",
-          "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
-          "score_label": "▲ 427 · 💬 334",
+          "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+          "url": "https://cognition.com/blog/swe-2",
+          "score_label": "▲ 397 · 💬 165",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -318,13 +318,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "apple.com"
+          "domain": "cognition.com"
         },
         {
           "key": "hackernews:3",
-          "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-          "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-          "score_label": "▲ 387 · 💬 132",
+          "title": "OpenAI Agents API",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "score_label": "▲ 209 · 💬 126",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -334,27 +334,29 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "magazine.sebastianraschka.com"
+          "domain": "developers.openai.com"
         },
         {
           "key": "hackernews:4",
-          "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
-          "url": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
-          "score_label": "▲ 200 · 💬 78",
+          "title": "Detecting and countering misuse of AI: September 2026",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "score_label": "▲ 110 · 💬 182",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "gist.github.com"
+          "domain": "anthropic.com"
         },
         {
           "key": "hackernews:5",
-          "title": "Understanding the recent DDoS attack against Read the Docs",
-          "url": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/",
-          "score_label": "▲ 180 · 💬 59",
+          "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+          "url": "https://system76.com/workstations/thelio-mira-ai",
+          "score_label": "▲ 77 · 💬 52",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -362,7 +364,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "about.readthedocs.com"
+          "domain": "system76.com"
         }
       ]
     },
@@ -373,6 +375,70 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "派早报：商务部回应美国 AI 蒸馏指控",
+          "url": "https://sspai.com/post/114439",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-09-10",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "OpenAI 声称解决了 Navier-Stokes 问题，但引发了利用未发布成果的争议",
+          "url": "https://www.solidot.org/story?sid=85339",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-10",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "微软九月例行更新修复近千个 Bug",
+          "url": "https://www.solidot.org/story?sid=85338",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-10",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
+          "title": "苹果推出折叠屏手机 iPhone Duo",
+          "url": "https://www.solidot.org/story?sid=85335",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-10",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:5",
           "title": "一图流 | 一张图带你看完 2026 Apple 秋季发布会",
           "url": "https://sspai.com/post/114393",
           "score_label": "",
@@ -386,70 +452,6 @@
           "meta": "📅 2026-09-09",
           "trend": "",
           "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:2",
-          "title": "可以「折」的 iPhone 正式亮相：Apple 发布会看点回顾",
-          "url": "https://sspai.com/post/114392",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-09-09",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "屏幕使用时长导致学生阅读得分大幅下降",
-          "url": "https://www.solidot.org/story?sid=85333",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-09",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "NVIDIA 创业企业展示半程活动10月苏州举行，30家科创企业路演+投资人对接",
-          "url": "https://www.solidot.org/story?sid=85330",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-09",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "美国政府指控中国公司系统性蒸馏美国 AI 模型",
-          "url": "https://www.solidot.org/story?sid=85329",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-09",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -462,7 +464,7 @@
           "key": "juejin:1",
           "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
           "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 846",
+          "score_label": "👍 847",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -476,7 +478,7 @@
           "key": "juejin:2",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 415",
+          "score_label": "👍 426",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -490,7 +492,7 @@
           "key": "juejin:3",
           "title": "Codex 穷鬼大救星",
           "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 403",
+          "score_label": "👍 404",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -504,7 +506,7 @@
           "key": "juejin:4",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 366",
+          "score_label": "👍 373",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
