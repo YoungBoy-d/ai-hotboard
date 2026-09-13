@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-12",
-  "weekday": "周六",
+  "date": "2026-09-13",
+  "weekday": "周日",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.6M · 👍 14.8k",
+          "score_label": "⬇ 7.7M · 👍 14.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 834.9k · 👍 14.6k",
+          "score_label": "⬇ 831.0k · 👍 14.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 670.9k · 👍 13.6k",
+          "score_label": "⬇ 682.1k · 👍 13.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 2.2M · 👍 8.1k",
+          "score_label": "⬇ 2.3M · 👍 8.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -99,97 +99,7 @@
       "key": "arxiv",
       "label": "arXiv 论文",
       "icon": "📄",
-      "items": [
-        {
-          "key": "arxiv:1",
-          "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
-          "url": "http://arxiv.org/abs/2609.11923v1",
-          "score_label": "",
-          "extra": "cs.DC",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "cs.DC",
-            "AI"
-          ],
-          "meta": "作者 · Boning Li, Longbo Huang  ·  📅 2026-09-10  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:2",
-          "title": "General Quantification of Covariate and Concept Shifts",
-          "url": "http://arxiv.org/abs/2609.11918v1",
-          "score_label": "",
-          "extra": "cs.LG",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "ML",
-            "AI"
-          ],
-          "meta": "作者 · Hongbo Chen, Li Charlie Xia  ·  📅 2026-09-10  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
-          "url": "http://arxiv.org/abs/2609.11917v1",
-          "score_label": "",
-          "extra": "cs.LG",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "ML",
-            "NLP"
-          ],
-          "meta": "作者 · Atindra Jha, Margaret Li, Jure Leskovec  ·  📅 2026-09-10  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
-          "url": "http://arxiv.org/abs/2609.11916v1",
-          "score_label": "",
-          "extra": "cs.AI",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "AI"
-          ],
-          "meta": "作者 · William Zhou, Mayukha Siripuram, Xiao Yan  ·  📅 2026-09-10  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
-          "url": "http://arxiv.org/abs/2609.11915v1",
-          "score_label": "",
-          "extra": "stat.ML",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "ML",
-            "AI"
-          ],
-          "meta": "作者 · Masahiro Kato, Daiki Honma, Taka Kato  ·  📅 2026-09-10  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        }
-      ]
+      "items": []
     },
     {
       "key": "github",
@@ -200,7 +110,7 @@
           "key": "github:1",
           "title": "melgarafael/DeskcommCRM",
           "url": "https://github.com/melgarafael/DeskcommCRM",
-          "score_label": "★ 152 stars today · ★ 1,450 总",
+          "score_label": "★ 504 stars today · ★ 1,901 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -215,9 +125,26 @@
         },
         {
           "key": "github:2",
-          "title": "vastsa/PI-Desktop",
-          "url": "https://github.com/vastsa/PI-Desktop",
-          "score_label": "★ 552 stars today · ★ 2,870 总",
+          "title": "asgeirtj/system_prompts_leaks",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "score_label": "★ 217 stars today · ★ 65,568 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "JavaScript"
+          ],
+          "meta": "语言 · JavaScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
+          "title": "alsk1992/CloddsBot",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "score_label": "★ 376 stars today · ★ 2,572 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -231,10 +158,27 @@
           "domain": "github.com"
         },
         {
-          "key": "github:3",
+          "key": "github:4",
+          "title": "Shubhamsaboo/awesome-llm-apps",
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "score_label": "★ 230 stars today · ★ 137,727 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Python"
+          ],
+          "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:5",
           "title": "armory3d/armorpaint",
           "url": "https://github.com/armory3d/armorpaint",
-          "score_label": "★ 350 stars today · ★ 4,775 总",
+          "score_label": "★ 237 stars today · ★ 4,942 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -244,40 +188,6 @@
             "C"
           ],
           "meta": "语言 · C",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
-          "title": "alsk1992/CloddsBot",
-          "url": "https://github.com/alsk1992/CloddsBot",
-          "score_label": "★ 626 stars today · ★ 2,234 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "TypeScript"
-          ],
-          "meta": "语言 · TypeScript",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:5",
-          "title": "nashsu/llm_wiki",
-          "url": "https://github.com/nashsu/llm_wiki",
-          "score_label": "★ 647 stars today · ★ 18,854 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "TypeScript"
-          ],
-          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         }
@@ -290,9 +200,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "A misalignment of AI in mathematics",
-          "url": "https://mathandai.org/",
-          "score_label": "▲ 799 · 💬 793",
+          "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+          "score_label": "▲ 488 · 💬 385",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -302,13 +212,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "mathandai.org"
+          "domain": "tomshardware.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Claude is only available to people over 18 years",
-          "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-          "score_label": "▲ 615 · 💬 621",
+          "title": "Nvidia is the central bank of AI",
+          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+          "score_label": "▲ 444 · 💬 313",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -318,13 +228,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "support.claude.com"
+          "domain": "economist.com"
         },
         {
           "key": "hackernews:3",
-          "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
-          "url": "https://www.rubyhack.ai/",
-          "score_label": "▲ 548 · 💬 317",
+          "title": "Everyone should slow down AI development except for me",
+          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+          "score_label": "▲ 342 · 💬 189",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -334,35 +244,39 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "rubyhack.ai"
+          "domain": "xeiaso.net"
         },
         {
           "key": "hackernews:4",
-          "title": "A Design Space Exploration of Async/Await",
-          "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
-          "score_label": "▲ 223 · 💬 48",
+          "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+          "url": "https://withspecific.com/benchmarks/real-swe",
+          "score_label": "▲ 197 · 💬 105",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "cel.cs.brown.edu"
+          "domain": "withspecific.com"
         },
         {
           "key": "hackernews:5",
-          "title": "Litelm: LiteLLM Without the Bloat",
-          "url": "https://github.com/kennethwolters/litelm",
-          "score_label": "▲ 117 · 💬 39",
+          "title": "I fixed a tractor using John Deere's self-repair service. Farmers aren't sold",
+          "url": "https://www.wired.com/story/i-fixed-a-tractor-john-deere-self-repair-service/",
+          "score_label": "▲ 121 · 💬 124",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "wired.com"
         }
       ]
     },
@@ -373,6 +287,22 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "与 AI 搏斗失败后重新开始找工作：经验分享与半可靠避雷指南",
+          "url": "https://sspai.com/post/114461",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-09-12",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
           "title": "Google 购买芬兰一核电站一半的发电量",
           "url": "https://www.solidot.org/story?sid=85347",
           "score_label": "",
@@ -388,7 +318,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:3",
           "title": "中国留学生因 AI 制作深度伪造色情被判刑",
           "url": "https://www.solidot.org/story?sid=85343",
           "score_label": "",
@@ -404,7 +334,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:4",
           "title": "派早报：商务部回应美国 AI 蒸馏指控",
           "url": "https://sspai.com/post/114439",
           "score_label": "",
@@ -420,25 +350,9 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:4",
+          "key": "ai_zh:5",
           "title": "OpenAI 声称解决了 Navier-Stokes 问题，但引发了利用未发布成果的争议",
           "url": "https://www.solidot.org/story?sid=85339",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-10",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "微软九月例行更新修复近千个 Bug",
-          "url": "https://www.solidot.org/story?sid=85338",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -462,7 +376,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 429",
+          "score_label": "👍 432",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -490,7 +404,7 @@
           "key": "juejin:3",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 375",
+          "score_label": "👍 377",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -504,7 +418,7 @@
           "key": "juejin:4",
           "title": "我用AI做了个微信小游戏-上线了",
           "url": "https://juejin.cn/post/7641048219231010862",
-          "score_label": "👍 351",
+          "score_label": "👍 352",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -532,5 +446,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 25
 }
