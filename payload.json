@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-14",
-  "weekday": "周一",
+  "date": "2026-09-15",
+  "weekday": "周二",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.8M · 👍 15.0k",
+          "score_label": "⬇ 7.7M · 👍 15.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 823.0k · 👍 14.7k",
+          "score_label": "⬇ 815.0k · 👍 14.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 648.8k · 👍 14.2k",
+          "score_label": "⬇ 661.7k · 👍 14.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 2.2M · 👍 11.3k",
+          "score_label": "⬇ 2.2M · 👍 11.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 2.4M · 👍 8.2k",
+          "score_label": "⬇ 2.5M · 👍 8.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -99,94 +99,7 @@
       "key": "arxiv",
       "label": "arXiv 论文",
       "icon": "📄",
-      "items": [
-        {
-          "key": "arxiv:1",
-          "title": "Type Diversity Enables Transformers to Generalise Compositionally",
-          "url": "http://arxiv.org/abs/2609.13144v1",
-          "score_label": "",
-          "extra": "cs.CL",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "NLP"
-          ],
-          "meta": "作者 · Anssi Moisio, Mathias Creutz, Mikko Kurimo  ·  📅 2026-09-11  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:2",
-          "title": "SAS: Simple Attention Sparsification via End-to-End Optimization of Context Ranking",
-          "url": "http://arxiv.org/abs/2609.13141v1",
-          "score_label": "",
-          "extra": "cs.CL",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "NLP"
-          ],
-          "meta": "作者 · Zhiwei Li, Lei Zhu, Hao Gu  ·  📅 2026-09-11  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
-          "url": "http://arxiv.org/abs/2609.13134v1",
-          "score_label": "",
-          "extra": "cs.AI",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "AI"
-          ],
-          "meta": "作者 · Arya Tschand, Yaosheng Fu, Vikram Sharma Mailthody  ·  📅 2026-09-11  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "A Hybrid LSTM-XGBoost Framework for Multi-Horizon Stock Return Prediction Across Diversified Equity Portfolios",
-          "url": "http://arxiv.org/abs/2609.13125v1",
-          "score_label": "",
-          "extra": "cs.AI",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "AI"
-          ],
-          "meta": "作者 · Seif ElDein Mostafa, Yahia Ahmed, Farah Datwish  ·  📅 2026-09-11  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "CMA-OT: Hierarchical Expert Supervision for Dance-to-Music Generation",
-          "url": "http://arxiv.org/abs/2609.13118v1",
-          "score_label": "",
-          "extra": "cs.AI",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "AI",
-            "cs.SD"
-          ],
-          "meta": "作者 · Jinting Wang, Chenxing Li, Dong Yu  ·  📅 2026-09-11  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        }
-      ]
+      "items": []
     },
     {
       "key": "github",
@@ -197,7 +110,7 @@
           "key": "github:1",
           "title": "JustVugg/colibri",
           "url": "https://github.com/JustVugg/colibri",
-          "score_label": "★ 868 stars today · ★ 30,365 总",
+          "score_label": "★ 2,173 stars today · ★ 32,500 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -212,43 +125,43 @@
         },
         {
           "key": "github:2",
-          "title": "tech-leads-club/agent-skills",
-          "url": "https://github.com/tech-leads-club/agent-skills",
-          "score_label": "★ 265 stars today · ★ 5,797 总",
+          "title": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "score_label": "★ 1,571 stars today · ★ 26,382 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "Go"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · Go",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:3",
-          "title": "melgarafael/DeskcommCRM",
-          "url": "https://github.com/melgarafael/DeskcommCRM",
-          "score_label": "★ 432 stars today · ★ 2,335 总",
+          "title": "multimodal-art-projection/YuE",
+          "url": "https://github.com/multimodal-art-projection/YuE",
+          "score_label": "★ 559 stars today · ★ 8,605 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "Python"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:4",
-          "title": "calesthio/OpenMontage",
-          "url": "https://github.com/calesthio/OpenMontage",
-          "score_label": "★ 380 stars today · ★ 58,712 总",
+          "title": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "score_label": "★ 651 stars today · ★ 81,590 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -265,7 +178,7 @@
           "key": "github:5",
           "title": "asgeirtj/system_prompts_leaks",
           "url": "https://github.com/asgeirtj/system_prompts_leaks",
-          "score_label": "★ 706 stars today · ★ 66,268 总",
+          "score_label": "★ 764 stars today · ★ 66,962 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -287,9 +200,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "The case against JPEG XL",
-          "url": "https://giannirosato.com/blog/post/case-against-jxl/",
-          "score_label": "▲ 104 · 💬 124",
+          "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+          "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+          "score_label": "▲ 423 · 💬 342",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -299,27 +212,29 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "giannirosato.com"
+          "domain": "tenderlovemaking.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Open-source AI and open models reading list",
-          "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-          "score_label": "▲ 82 · 💬 9",
+          "title": "People who can't picture anything are rewriting the science of imagination",
+          "url": "https://dailyneuron.com/aphantasia-mental-imagery-brain-network/",
+          "score_label": "▲ 143 · 💬 203",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "interconnects.ai"
+          "domain": "dailyneuron.com"
         },
         {
           "key": "hackernews:3",
-          "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
-          "url": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
-          "score_label": "▲ 76 · 💬 18",
+          "title": "Ex-FTC boss Khan: break out the handcuffs for AI CEOs, citing 1934 precedent",
+          "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+          "score_label": "▲ 125 · 💬 57",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -327,13 +242,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "aprilnea.me"
+          "domain": "theregister.com"
         },
         {
           "key": "hackernews:4",
-          "title": "“Chilling” warning or overreaction? AI bioweapons report divides experts",
-          "url": "https://www.science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
-          "score_label": "▲ 25 · 💬 10",
+          "title": "Why don't machine learning research agents overfit?",
+          "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+          "score_label": "▲ 119 · 💬 66",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -341,13 +256,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "science.org"
+          "domain": "amazon.science"
         },
         {
           "key": "hackernews:5",
-          "title": "Who gets to define the rules for AI?",
-          "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
-          "score_label": "▲ 16 · 💬 11",
+          "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+          "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+          "score_label": "▲ 86 · 💬 24",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -355,7 +270,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "cohere.com"
+          "domain": "nathannaveen.dev"
         }
       ]
     },
@@ -366,6 +281,70 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "律师在谋杀案中捏造了证词，他将此归咎于 ChatGPT",
+          "url": "https://www.solidot.org/story?sid=85372",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-14",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "Excel AI 辅助工作流横评：数据分析高手还是照葫芦画瓢？",
+          "url": "https://sspai.com/prime/story/ai-assisted-spreadsheeting-a-survey",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-09-14",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "AI 时代隐晦式安全已死",
+          "url": "https://www.solidot.org/story?sid=85370",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-14",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
+          "title": "微信蠕虫事件敲响 AI 安全警钟",
+          "url": "https://www.solidot.org/story?sid=85369",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-14",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:5",
           "title": "派早报：美国 AI 高管呼吁放缓研发，特朗普反对",
           "url": "https://sspai.com/post/114539",
           "score_label": "",
@@ -379,70 +358,6 @@
           "meta": "📅 2026-09-13",
           "trend": "",
           "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:2",
-          "title": "Matt Mullenweg 据报道恢复了对 Automattic 的控制",
-          "url": "https://www.solidot.org/story?sid=85365",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-13",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "墨西哥毒贩涉足加密货币挖矿",
-          "url": "https://www.solidot.org/story?sid=85361",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-12",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "克雷数学研究所就 Navier-Stokes 问题发表公开声明",
-          "url": "https://www.solidot.org/story?sid=85359",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-12",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "25 名菲尔茨奖得主发表公开信批评 AI 公司",
-          "url": "https://www.solidot.org/story?sid=85358",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-12",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -455,7 +370,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 434",
+          "score_label": "👍 438",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -467,9 +382,9 @@
         },
         {
           "key": "juejin:2",
-          "title": "Codex 穷鬼大救星",
-          "url": "https://juejin.cn/post/7635467758865235968",
-          "score_label": "👍 405",
+          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
+          "url": "https://juejin.cn/post/7655245911811784750",
+          "score_label": "👍 386",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -481,9 +396,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 381",
+          "title": "阿里一面，我霸气反问：你说你们在做Agent项目，说说langchain、muti-agent、a2a这些你们都是怎么做的？面试官一直在擦汗。。",
+          "url": "https://juejin.cn/post/7657453685375369267",
+          "score_label": "👍 336",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -511,7 +426,7 @@
           "key": "juejin:5",
           "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
           "url": "https://juejin.cn/post/7673855455463800847",
-          "score_label": "👍 188",
+          "score_label": "👍 192",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -525,5 +440,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 25
 }
