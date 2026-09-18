@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-17",
-  "weekday": "周四",
+  "date": "2026-09-18",
+  "weekday": "周五",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.7M · 👍 15.4k",
+          "score_label": "⬇ 7.5M · 👍 15.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 807.0k · 👍 14.8k",
+          "score_label": "⬇ 798.3k · 👍 14.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 708.6k · 👍 14.2k",
+          "score_label": "⬇ 741.0k · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 2.7M · 👍 8.2k",
+          "score_label": "⬇ 2.8M · 👍 8.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,62 +102,8 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
-          "url": "http://arxiv.org/abs/2609.19145v1",
-          "score_label": "",
-          "extra": "cs.CL",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "NLP",
-            "AI"
-          ],
-          "meta": "作者 · Ahmetcan Yavuz, Clara Meister, Tiago Pimentel  ·  📅 2026-09-16  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:2",
-          "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
-          "url": "http://arxiv.org/abs/2609.19144v1",
-          "score_label": "",
-          "extra": "cs.CL",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "NLP",
-            "AI"
-          ],
-          "meta": "作者 · Peter Chen, Xi Chen, Wotao Yin  ·  📅 2026-09-16  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
-          "url": "http://arxiv.org/abs/2609.19143v1",
-          "score_label": "",
-          "extra": "cs.CV",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "CV",
-            "NLP"
-          ],
-          "meta": "作者 · Sara Pieri, Evangelos Kazakos, Shizhe Chen  ·  📅 2026-09-16  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
-          "url": "http://arxiv.org/abs/2609.19137v1",
+          "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+          "url": "http://arxiv.org/abs/2609.20822v1",
           "score_label": "",
           "extra": "cs.RO",
           "source": "arxiv",
@@ -168,24 +114,79 @@
             "机器人",
             "AI"
           ],
-          "meta": "作者 · Guanhua Ji, Tianyu Li, Dayoon Suh  ·  📅 2026-09-16  ·  📄 PDF",
+          "meta": "作者 · Bingxin Xu, Yuzhang Shang, Zhen Dong  ·  📅 2026-09-17  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
-          "key": "arxiv:5",
-          "title": "Exponential Hardness of Off-Policy Evaluation under History-Dependent Logging",
-          "url": "http://arxiv.org/abs/2609.19135v1",
+          "key": "arxiv:2",
+          "title": "Embedding Models Measure in Peculiar Ways",
+          "url": "http://arxiv.org/abs/2609.20821v1",
           "score_label": "",
-          "extra": "cs.LG",
+          "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
+            "NLP",
             "ML"
           ],
-          "meta": "作者 · Pranaya Jajoo  ·  📅 2026-09-16  ·  📄 PDF",
+          "meta": "作者 · Juri Opitz, Andrianos Michail  ·  📅 2026-09-17  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:3",
+          "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+          "url": "http://arxiv.org/abs/2609.20820v1",
+          "score_label": "",
+          "extra": "cs.RO",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "机器人",
+            "AI"
+          ],
+          "meta": "作者 · Nitish Dashora, Douglas Chen, Idan Shenfeld  ·  📅 2026-09-17  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:4",
+          "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+          "url": "http://arxiv.org/abs/2609.20817v1",
+          "score_label": "",
+          "extra": "cs.CV",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "CV",
+            "AI"
+          ],
+          "meta": "作者 · Kevin Qu, Tao Sun, Massimiliano Viola  ·  📅 2026-09-17  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:5",
+          "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+          "url": "http://arxiv.org/abs/2609.20816v1",
+          "score_label": "",
+          "extra": "cs.CV",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "CV",
+            "AI"
+          ],
+          "meta": "作者 · Ji Xie, Dewei Zhou, Xinyu Huang  ·  📅 2026-09-17  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -200,7 +201,7 @@
           "key": "github:1",
           "title": "alibaba/open-code-review",
           "url": "https://github.com/alibaba/open-code-review",
-          "score_label": "★ 3,231 stars today · ★ 32,678 总",
+          "score_label": "★ 3,286 stars today · ★ 35,448 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -215,26 +216,26 @@
         },
         {
           "key": "github:2",
-          "title": "JustVugg/colibri",
-          "url": "https://github.com/JustVugg/colibri",
-          "score_label": "★ 1,546 stars today · ★ 35,192 总",
+          "title": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "score_label": "★ 680 stars today · ★ 95,990 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "C"
+            "JavaScript"
           ],
-          "meta": "语言 · C",
+          "meta": "语言 · JavaScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:3",
-          "title": "jamiepine/voicebox",
-          "url": "https://github.com/jamiepine/voicebox",
-          "score_label": "★ 417 stars today · ★ 54,543 总",
+          "title": "Tencent/BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill",
+          "score_label": "★ 1,302 stars today · ★ 4,521 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -249,26 +250,9 @@
         },
         {
           "key": "github:4",
-          "title": "anthropics/knowledge-work-plugins",
-          "url": "https://github.com/anthropics/knowledge-work-plugins",
-          "score_label": "★ 110 stars today · ★ 24,360 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:5",
           "title": "anthropics/claude-code",
           "url": "https://github.com/anthropics/claude-code",
-          "score_label": "★ 165 stars today · ★ 145,649 总",
+          "score_label": "★ 538 stars today · ★ 145,951 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -278,6 +262,23 @@
             "TypeScript"
           ],
           "meta": "语言 · TypeScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:5",
+          "title": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "score_label": "★ 287 stars today · ★ 24,635 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Python"
+          ],
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         }
@@ -290,51 +291,57 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Training a 4B model to produce 81% faster query plans than Postgres",
-          "url": "https://rohanbansal.com/qorl",
-          "score_label": "▲ 486 · 💬 96",
+          "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+          "url": "https://bend-lang.com/",
+          "score_label": "▲ 395 · 💬 194",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "rohanbansal.com"
+          "domain": "bend-lang.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Xiaomi Mimo 2.6 live post-training dashboard",
-          "url": "https://mimo.xiaomi.com/rl/",
-          "score_label": "▲ 376 · 💬 93",
+          "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+          "url": "https://prismml.com/news/bonsai-2-27b",
+          "score_label": "▲ 348 · 💬 113",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "mimo.xiaomi.com"
+          "domain": "prismml.com"
         },
         {
           "key": "hackernews:3",
-          "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
-          "url": "https://arxiv.org/abs/2609.16338",
-          "score_label": "▲ 179 · 💬 25",
+          "title": "The American Religion of Self-Storage Facilities",
+          "url": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+          "score_label": "▲ 222 · 💬 365",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "arxiv.org"
+          "domain": "newyorker.com"
         },
         {
           "key": "hackernews:4",
-          "title": "OpenSpec – A lightweight and configurable AI spec framework",
-          "url": "https://openspec.dev/",
-          "score_label": "▲ 120 · 💬 46",
+          "title": "Hacking OpenAI",
+          "url": "https://www.hacktron.ai/blog/hacking-openai",
+          "score_label": "▲ 203 · 💬 55",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -342,13 +349,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "openspec.dev"
+          "domain": "hacktron.ai"
         },
         {
           "key": "hackernews:5",
-          "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
-          "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
-          "score_label": "▲ 98 · 💬 7",
+          "title": "Qwen 3.8 Omni Flash",
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+          "score_label": "▲ 136 · 💬 32",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -356,7 +363,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "zartbot.github.io"
+          "domain": "qwen.ai"
         }
       ]
     },
@@ -367,6 +374,54 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "派早报：欧盟拟禁止 13 岁以下儿童使用社交媒体等",
+          "url": "https://sspai.com/post/114699",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-09-18",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "今年上线的微短剧逾九成是 AI 剧",
+          "url": "https://www.solidot.org/story?sid=85408",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-17",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "人脑类器官在小鼠体内形成神经网络",
+          "url": "https://www.solidot.org/story?sid=85405",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-17",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
           "title": "派早报：佳能发布 EOS R8 Mark II、GPT-5.5 即将下线等",
           "url": "https://sspai.com/post/114658",
           "score_label": "",
@@ -382,7 +437,7 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:5",
           "title": "Mistral 与 Mozilla 合作推出 Firefox Smart Window",
           "url": "https://www.solidot.org/story?sid=85395",
           "score_label": "",
@@ -396,54 +451,6 @@
           "meta": "📅 2026-09-16",
           "trend": "",
           "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "Mozilla 报告称中国开放权重模型与美国前沿模型仅相差 4.4 个月",
-          "url": "https://www.solidot.org/story?sid=85394",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-16",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "时光机器遭遇大规模机器流量",
-          "url": "https://www.solidot.org/story?sid=85392",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-16",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "F-Droid 上的应用有多少是在 AI 帮助下编写的？",
-          "url": "https://www.solidot.org/story?sid=85385",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-15",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -454,9 +461,9 @@
       "items": [
         {
           "key": "juejin:1",
-          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
-          "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 854",
+          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
+          "url": "https://juejin.cn/post/7637856870833635343",
+          "score_label": "👍 455",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -468,9 +475,9 @@
         },
         {
           "key": "juejin:2",
-          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
-          "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 453",
+          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
+          "url": "https://juejin.cn/post/7655245911811784750",
+          "score_label": "👍 396",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -482,20 +489,6 @@
         },
         {
           "key": "juejin:3",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 390",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:4",
           "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
           "url": "https://juejin.cn/post/7623217419704909866",
           "score_label": "👍 300",
@@ -509,10 +502,24 @@
           "domain": "juejin.cn"
         },
         {
-          "key": "juejin:5",
+          "key": "juejin:4",
           "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
           "url": "https://juejin.cn/post/7673855455463800847",
-          "score_label": "👍 202",
+          "score_label": "👍 205",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:5",
+          "title": "最近公司烧token比招员工还贵，老板干懵了...",
+          "url": "https://juejin.cn/post/7646256871183024128",
+          "score_label": "👍 192",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
