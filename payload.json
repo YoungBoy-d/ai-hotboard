@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-18",
-  "weekday": "周五",
+  "date": "2026-09-19",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.5M · 👍 15.6k",
+          "score_label": "⬇ 7.4M · 👍 15.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 798.3k · 👍 14.8k",
+          "score_label": "⬇ 782.1k · 👍 14.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 741.0k · 👍 14.3k",
+          "score_label": "⬇ 746.6k · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 2.8M · 👍 8.2k",
+          "score_label": "⬇ 2.9M · 👍 8.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -199,43 +199,9 @@
       "items": [
         {
           "key": "github:1",
-          "title": "alibaba/open-code-review",
-          "url": "https://github.com/alibaba/open-code-review",
-          "score_label": "★ 3,286 stars today · ★ 35,448 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Go"
-          ],
-          "meta": "语言 · Go",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:2",
-          "title": "addyosmani/agent-skills",
-          "url": "https://github.com/addyosmani/agent-skills",
-          "score_label": "★ 680 stars today · ★ 95,990 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "JavaScript"
-          ],
-          "meta": "语言 · JavaScript",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:3",
-          "title": "Tencent/BrowserSkill",
-          "url": "https://github.com/Tencent/BrowserSkill",
-          "score_label": "★ 1,302 stars today · ★ 4,521 总",
+          "title": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "score_label": "★ 444 stars today · ★ 146,399 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -249,10 +215,44 @@
           "domain": "github.com"
         },
         {
+          "key": "github:2",
+          "title": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "score_label": "★ 2,704 stars today · ★ 36,895 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Go"
+          ],
+          "meta": "语言 · Go",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "score_label": "★ 958 stars today · ★ 262,228 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "JavaScript"
+          ],
+          "meta": "语言 · JavaScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
           "key": "github:4",
-          "title": "anthropics/claude-code",
-          "url": "https://github.com/anthropics/claude-code",
-          "score_label": "★ 538 stars today · ★ 145,951 总",
+          "title": "Tencent/BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill",
+          "score_label": "★ 1,306 stars today · ★ 5,448 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -267,18 +267,18 @@
         },
         {
           "key": "github:5",
-          "title": "anthropics/knowledge-work-plugins",
-          "url": "https://github.com/anthropics/knowledge-work-plugins",
-          "score_label": "★ 287 stars today · ★ 24,635 总",
+          "title": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "score_label": "★ 675 stars today · ★ 96,519 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Python"
+            "JavaScript"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · JavaScript",
           "trend": "",
           "domain": "github.com"
         }
@@ -291,9 +291,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
-          "url": "https://bend-lang.com/",
-          "score_label": "▲ 395 · 💬 194",
+          "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+          "url": "https://code.claude.com/docs/en/changelog",
+          "score_label": "▲ 605 · 💬 214",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,13 +303,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "bend-lang.com"
+          "domain": "code.claude.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
-          "url": "https://prismml.com/news/bonsai-2-27b",
-          "score_label": "▲ 348 · 💬 113",
+          "title": "How to Write with an LLM",
+          "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+          "score_label": "▲ 459 · 💬 308",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -319,29 +319,27 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "prismml.com"
+          "domain": "sockpuppet.org"
         },
         {
           "key": "hackernews:3",
-          "title": "The American Religion of Self-Storage Facilities",
-          "url": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
-          "score_label": "▲ 222 · 💬 365",
+          "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+          "url": "https://cactuscompute.com/needle",
+          "score_label": "▲ 189 · 💬 82",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "newyorker.com"
+          "domain": "cactuscompute.com"
         },
         {
           "key": "hackernews:4",
-          "title": "Hacking OpenAI",
-          "url": "https://www.hacktron.ai/blog/hacking-openai",
-          "score_label": "▲ 203 · 💬 55",
+          "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+          "url": "https://spectrum.ieee.org/llms-for-chip-design",
+          "score_label": "▲ 98 · 💬 74",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -349,13 +347,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "hacktron.ai"
+          "domain": "spectrum.ieee.org"
         },
         {
           "key": "hackernews:5",
-          "title": "Qwen 3.8 Omni Flash",
-          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-          "score_label": "▲ 136 · 💬 32",
+          "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+          "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+          "score_label": "▲ 94 · 💬 11",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -363,7 +361,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "qwen.ai"
+          "domain": "scmp.com"
         }
       ]
     },
@@ -374,24 +372,8 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "派早报：欧盟拟禁止 13 岁以下儿童使用社交媒体等",
-          "url": "https://sspai.com/post/114699",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-09-18",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:2",
-          "title": "今年上线的微短剧逾九成是 AI 剧",
-          "url": "https://www.solidot.org/story?sid=85408",
+          "title": "微软高管称 AI 的训练数据是人类历史上最大规模的劳动盗窃",
+          "url": "https://www.solidot.org/story?sid=85423",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -400,14 +382,30 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-09-17",
+          "meta": "📅 2026-09-18",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "85% 的日本游戏开发者在工作中使用生成式 AI",
+          "url": "https://www.solidot.org/story?sid=85422",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-18",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:3",
-          "title": "人脑类器官在小鼠体内形成神经网络",
-          "url": "https://www.solidot.org/story?sid=85405",
+          "title": "安全研究人员利用 Claude 成功入侵 OpenAI",
+          "url": "https://www.solidot.org/story?sid=85421",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -416,30 +414,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-09-17",
+          "meta": "📅 2026-09-18",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:4",
-          "title": "派早报：佳能发布 EOS R8 Mark II、GPT-5.5 即将下线等",
-          "url": "https://sspai.com/post/114658",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-09-17",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "Mistral 与 Mozilla 合作推出 Firefox Smart Window",
-          "url": "https://www.solidot.org/story?sid=85395",
+          "title": "美国政府网站使用了阿里巴巴的千问模型",
+          "url": "https://www.solidot.org/story?sid=85417",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -448,7 +430,23 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-09-16",
+          "meta": "📅 2026-09-18",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:5",
+          "title": "NASA 和 IBM 开源月球模型",
+          "url": "https://www.solidot.org/story?sid=85415",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-18",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -463,7 +461,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 455",
+          "score_label": "👍 460",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -477,7 +475,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 396",
+          "score_label": "👍 400",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -505,7 +503,7 @@
           "key": "juejin:4",
           "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
           "url": "https://juejin.cn/post/7673855455463800847",
-          "score_label": "👍 205",
+          "score_label": "👍 211",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -519,7 +517,7 @@
           "key": "juejin:5",
           "title": "最近公司烧token比招员工还贵，老板干懵了...",
           "url": "https://juejin.cn/post/7646256871183024128",
-          "score_label": "👍 192",
+          "score_label": "👍 193",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
