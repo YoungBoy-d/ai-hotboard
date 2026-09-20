@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-19",
-  "weekday": "周六",
+  "date": "2026-09-20",
+  "weekday": "周日",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.4M · 👍 15.7k",
+          "score_label": "⬇ 7.4M · 👍 15.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 782.1k · 👍 14.8k",
+          "score_label": "⬇ 764.7k · 👍 14.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 746.6k · 👍 14.3k",
+          "score_label": "⬇ 760.3k · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 2.2M · 👍 11.4k",
+          "score_label": "⬇ 2.1M · 👍 11.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 2.9M · 👍 8.2k",
+          "score_label": "⬇ 3.0M · 👍 8.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -199,43 +199,26 @@
       "items": [
         {
           "key": "github:1",
-          "title": "anthropics/claude-code",
-          "url": "https://github.com/anthropics/claude-code",
-          "score_label": "★ 444 stars today · ★ 146,399 总",
+          "title": "trycua/cua",
+          "url": "https://github.com/trycua/cua",
+          "score_label": "★ 859 stars today · ★ 24,665 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "HTML"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · HTML",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:2",
-          "title": "alibaba/open-code-review",
-          "url": "https://github.com/alibaba/open-code-review",
-          "score_label": "★ 2,704 stars today · ★ 36,895 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Go"
-          ],
-          "meta": "语言 · Go",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:3",
-          "title": "affaan-m/ECC",
-          "url": "https://github.com/affaan-m/ECC",
-          "score_label": "★ 958 stars today · ★ 262,228 总",
+          "title": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "score_label": "★ 556 stars today · ★ 97,213 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -249,10 +232,27 @@
           "domain": "github.com"
         },
         {
+          "key": "github:3",
+          "title": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "score_label": "★ 483 stars today · ★ 146,809 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "TypeScript"
+          ],
+          "meta": "语言 · TypeScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
           "key": "github:4",
-          "title": "Tencent/BrowserSkill",
-          "url": "https://github.com/Tencent/BrowserSkill",
-          "score_label": "★ 1,306 stars today · ★ 5,448 总",
+          "title": "Open-Dev-Society/OpenStock",
+          "url": "https://github.com/Open-Dev-Society/OpenStock",
+          "score_label": "★ 472 stars today · ★ 16,263 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -267,18 +267,18 @@
         },
         {
           "key": "github:5",
-          "title": "addyosmani/agent-skills",
-          "url": "https://github.com/addyosmani/agent-skills",
-          "score_label": "★ 675 stars today · ★ 96,519 总",
+          "title": "higgsfield-ai/higgsfield",
+          "url": "https://github.com/higgsfield-ai/higgsfield",
+          "score_label": "★ 196 stars today · ★ 5,048 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "JavaScript"
+            "Jupyter Notebook"
           ],
-          "meta": "语言 · JavaScript",
+          "meta": "语言 · Jupyter Notebook",
           "trend": "",
           "domain": "github.com"
         }
@@ -291,9 +291,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
-          "url": "https://code.claude.com/docs/en/changelog",
-          "score_label": "▲ 605 · 💬 214",
+          "title": "AI-generated posters don’t have to be horrible",
+          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+          "score_label": "▲ 1507 · 💬 810",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,13 +303,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "code.claude.com"
+          "domain": "john.hartnup.uk"
         },
         {
           "key": "hackernews:2",
           "title": "How to Write with an LLM",
           "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-          "score_label": "▲ 459 · 💬 308",
+          "score_label": "▲ 662 · 💬 385",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -323,9 +323,9 @@
         },
         {
           "key": "hackernews:3",
-          "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
-          "url": "https://cactuscompute.com/needle",
-          "score_label": "▲ 189 · 💬 82",
+          "title": "Google AI Studio fakes data deletion. VRP auto-banned me in 60s for reporting it",
+          "url": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
+          "score_label": "▲ 16 · 💬 0",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -333,35 +333,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "cactuscompute.com"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-          "url": "https://spectrum.ieee.org/llms-for-chip-design",
-          "score_label": "▲ 98 · 💬 74",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "spectrum.ieee.org"
-        },
-        {
-          "key": "hackernews:5",
-          "title": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
-          "url": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
-          "score_label": "▲ 94 · 💬 11",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "scmp.com"
+          "domain": "medium.com"
         }
       ]
     },
@@ -372,7 +344,7 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "微软高管称 AI 的训练数据是人类历史上最大规模的劳动盗窃",
+          "title": "微软高管称 AI 的训练数据是人类历史上最大规模的劳动成果盗窃",
           "url": "https://www.solidot.org/story?sid=85423",
           "score_label": "",
           "extra": "Solidot",
@@ -461,7 +433,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 460",
+          "score_label": "👍 465",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -475,7 +447,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 400",
+          "score_label": "👍 409",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -487,9 +459,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
-          "url": "https://juejin.cn/post/7623217419704909866",
-          "score_label": "👍 300",
+          "title": "2026 了，前端转 AI 全栈我是这么学的 😍😍😍",
+          "url": "https://juejin.cn/post/7667503991685857290",
+          "score_label": "👍 293",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -503,7 +475,7 @@
           "key": "juejin:4",
           "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
           "url": "https://juejin.cn/post/7673855455463800847",
-          "score_label": "👍 211",
+          "score_label": "👍 213",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -517,7 +489,7 @@
           "key": "juejin:5",
           "title": "最近公司烧token比招员工还贵，老板干懵了...",
           "url": "https://juejin.cn/post/7646256871183024128",
-          "score_label": "👍 193",
+          "score_label": "👍 195",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -531,5 +503,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 28
 }
