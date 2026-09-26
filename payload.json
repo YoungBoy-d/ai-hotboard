@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-25",
-  "weekday": "周五",
+  "date": "2026-09-26",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.8M · 👍 16.2k",
+          "score_label": "⬇ 6.6M · 👍 16.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 710.9k · 👍 15.0k",
+          "score_label": "⬇ 700.6k · 👍 15.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 822.6k · 👍 14.3k",
+          "score_label": "⬇ 808.4k · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 1.8M · 👍 11.5k",
+          "score_label": "⬇ 1.7M · 👍 11.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 3.5M · 👍 8.2k",
+          "score_label": "⬇ 3.6M · 👍 8.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -198,26 +198,9 @@
       "items": [
         {
           "key": "github:1",
-          "title": "rohitg00/ai-engineering-from-scratch",
-          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-          "score_label": "★ 347 stars today · ★ 56,809 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:2",
-          "title": "dream-num/univer",
-          "url": "https://github.com/dream-num/univer",
-          "score_label": "★ 1,082 stars today · ★ 17,960 总",
+          "title": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "score_label": "★ 2,109 stars today · ★ 85,387 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -231,10 +214,10 @@
           "domain": "github.com"
         },
         {
-          "key": "github:3",
-          "title": "NVIDIA/Model-Optimizer",
-          "url": "https://github.com/NVIDIA/Model-Optimizer",
-          "score_label": "★ 44 stars today · ★ 4,156 总",
+          "key": "github:2",
+          "title": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "score_label": "★ 83 stars today · ★ 36,984 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -244,31 +227,48 @@
             "Python"
           ],
           "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
+          "title": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "score_label": "★ 583 stars today · ★ 269,831 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Shell"
+          ],
+          "meta": "语言 · Shell",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:4",
-          "title": "anthropics/financial-services",
-          "url": "https://github.com/anthropics/financial-services",
-          "score_label": "★ 509 stars today · ★ 37,424 总",
+          "title": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "score_label": "★ 1,050 stars today · ★ 18,793 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Python"
+            "TypeScript"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:5",
-          "title": "strands-agents/harness-sdk",
-          "url": "https://github.com/strands-agents/harness-sdk",
-          "score_label": "★ 455 stars today · ★ 8,328 总",
+          "title": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "score_label": "★ 189 stars today · ★ 178,405 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -290,9 +290,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Rails World 2026 Opening Keynote [video]",
-          "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
-          "score_label": "▲ 295 · 💬 318",
+          "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+          "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+          "score_label": "▲ 427 · 💬 740",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -302,13 +302,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "youtube.com"
+          "domain": "cnbc.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Opus 5.5 is good at explainer videos",
-          "url": "https://launchvideo.io",
-          "score_label": "▲ 198 · 💬 110",
+          "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+          "url": "https://ollaya.dev/",
+          "score_label": "▲ 396 · 💬 108",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -318,27 +318,29 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "launchvideo.io"
+          "domain": "ollaya.dev"
         },
         {
           "key": "hackernews:3",
-          "title": "Show HN: Koi.rest – watch some fish and regain your balance",
-          "url": "https://koi.rest",
-          "score_label": "▲ 160 · 💬 41",
+          "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+          "url": "https://swarmtraces.org/",
+          "score_label": "▲ 366 · 💬 220",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "koi.rest"
+          "domain": "swarmtraces.org"
         },
         {
           "key": "hackernews:4",
-          "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-          "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-          "score_label": "▲ 104 · 💬 19",
+          "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
+          "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
+          "score_label": "▲ 135 · 💬 51",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -346,13 +348,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "resobscura.substack.com"
+          "domain": "jezebel.com"
         },
         {
           "key": "hackernews:5",
-          "title": "Security auditing in the age of (good enough) AI",
-          "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/",
-          "score_label": "▲ 83 · 💬 12",
+          "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+          "score_label": "▲ 108 · 💬 97",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -360,7 +362,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "blog.trailofbits.com"
+          "domain": "bloomberg.com"
         }
       ]
     },
@@ -371,6 +373,22 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "中国各地推动 AI 视频产业化",
+          "url": "https://www.solidot.org/story?sid=85475",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-25",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
           "title": "部分三星智能冰箱在升级固件之后停止工作",
           "url": "https://www.solidot.org/story?sid=85472",
           "score_label": "",
@@ -386,7 +404,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:3",
           "title": "微软放弃封禁 Microslop",
           "url": "https://www.solidot.org/story?sid=85471",
           "score_label": "",
@@ -402,7 +420,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:4",
           "title": "派早报：小米召开秋季新品发布会、千问发布 Qwen-Audio-3.1系列模型等",
           "url": "https://sspai.com/post/114913",
           "score_label": "",
@@ -418,25 +436,9 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:4",
+          "key": "ai_zh:5",
           "title": "不要被 AI 炒作愚弄",
           "url": "https://www.solidot.org/story?sid=85466",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-23",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "英国准备施压 Google 向 Android 和 Chrome 用户展示 AI 助手选择屏",
-          "url": "https://www.solidot.org/story?sid=85465",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -460,7 +462,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 480",
+          "score_label": "👍 483",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -486,20 +488,6 @@
         },
         {
           "key": "juejin:3",
-          "title": "2026 了，前端转 AI 全栈我是这么学的 😍😍😍",
-          "url": "https://juejin.cn/post/7667503991685857290",
-          "score_label": "👍 314",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:4",
           "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
           "url": "https://juejin.cn/post/7623217419704909866",
           "score_label": "👍 303",
@@ -513,10 +501,24 @@
           "domain": "juejin.cn"
         },
         {
-          "key": "juejin:5",
+          "key": "juejin:4",
           "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
           "url": "https://juejin.cn/post/7673855455463800847",
-          "score_label": "👍 227",
+          "score_label": "👍 229",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:5",
+          "title": "2026编程圈很火的10个Skills",
+          "url": "https://juejin.cn/post/7660712622825144374",
+          "score_label": "👍 158",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
