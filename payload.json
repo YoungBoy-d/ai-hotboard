@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-27",
-  "weekday": "周日",
+  "date": "2026-09-28",
+  "weekday": "周一",
   "editorial": [],
   "sources": [
     {
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 692.3k · 👍 15.1k",
+          "score_label": "⬇ 681.9k · 👍 15.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 857.6k · 👍 14.3k",
+          "score_label": "⬇ 895.3k · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 1.7M · 👍 11.5k",
+          "score_label": "⬇ 1.6M · 👍 11.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 3.6M · 👍 8.2k",
+          "score_label": "⬇ 3.7M · 👍 8.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,26 +102,8 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "LLM Agents Can Easily Tamper With Their Own Traces",
-          "url": "http://arxiv.org/abs/2609.30266v1",
-          "score_label": "",
-          "extra": "cs.CR",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "cs.CR",
-            "AI"
-          ],
-          "meta": "作者 · Jeremy Qin, David Schmotz, Derck Prinzhorn  ·  📅 2026-09-24  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:2",
-          "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
-          "url": "http://arxiv.org/abs/2609.30264v1",
+          "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+          "url": "http://arxiv.org/abs/2609.31619v1",
           "score_label": "",
           "extra": "cs.AI",
           "source": "arxiv",
@@ -130,16 +112,70 @@
           "tags": [
             "论文",
             "AI",
-            "机器人"
+            "NLP"
           ],
-          "meta": "作者 · Jiabin Qiu, Zixuan Chen, Hongye Cao  ·  📅 2026-09-24  ·  📄 PDF",
+          "meta": "作者 · Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe  ·  📅 2026-09-25  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:2",
+          "title": "Gap-free Differentially Private PCA for Gaussian Data",
+          "url": "http://arxiv.org/abs/2609.31614v1",
+          "score_label": "",
+          "extra": "cs.DS",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "cs.DS",
+            "ML"
+          ],
+          "meta": "作者 · Alina Ene, Huy L. Nguyen  ·  📅 2026-09-25  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
-          "url": "http://arxiv.org/abs/2609.30258v1",
+          "title": "First-Order Stationarity of Reverse Diffusions",
+          "url": "http://arxiv.org/abs/2609.31612v1",
+          "score_label": "",
+          "extra": "stat.ML",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "ML",
+            "ML"
+          ],
+          "meta": "作者 · Zhifeng Chen, Chenyang Jiang, Yazhen Wang  ·  📅 2026-09-25  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:4",
+          "title": "Statistical attribute alignment for black-box generative AI via output post-processing",
+          "url": "http://arxiv.org/abs/2609.31607v1",
+          "score_label": "",
+          "extra": "stat.ME",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "stat.ME",
+            "AI"
+          ],
+          "meta": "作者 · Kevin Jiang, Morgane Austern, Edgar Dobriban  ·  📅 2026-09-25  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:5",
+          "title": "User Model Extraction via Belief Self-Distillation",
+          "url": "http://arxiv.org/abs/2609.31603v1",
           "score_label": "",
           "extra": "cs.LG",
           "source": "arxiv",
@@ -147,45 +183,10 @@
           "summary": "",
           "tags": [
             "论文",
-            "ML"
+            "ML",
+            "NLP"
           ],
-          "meta": "作者 · Sudip Bhujel, Shanghao Shi, Ruiquan Huang  ·  📅 2026-09-24  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "Agentic Detection of Online Conspiracies",
-          "url": "http://arxiv.org/abs/2609.30250v1",
-          "score_label": "",
-          "extra": "cs.CL",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "NLP",
-            "ML"
-          ],
-          "meta": "作者 · Lior Biton, Oren Tsur  ·  📅 2026-09-24  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "RAPID: Robot Agentic Programming from Demonstrations",
-          "url": "http://arxiv.org/abs/2609.30249v1",
-          "score_label": "",
-          "extra": "cs.RO",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "机器人",
-            "AI"
-          ],
-          "meta": "作者 · Yuyao Liu, Jiayuan Mao, David Hsu  ·  📅 2026-09-24  ·  📄 PDF",
+          "meta": "作者 · Ali Holmov, Yiran Huang, Kirill Bykov  ·  📅 2026-09-25  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -200,7 +201,7 @@
           "key": "github:1",
           "title": "paperclipai/paperclip",
           "url": "https://github.com/paperclipai/paperclip",
-          "score_label": "★ 2,608 stars today · ★ 87,885 总",
+          "score_label": "★ 2,401 stars today · ★ 90,820 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -215,9 +216,9 @@
         },
         {
           "key": "github:2",
-          "title": "NVIDIA/Model-Optimizer",
-          "url": "https://github.com/NVIDIA/Model-Optimizer",
-          "score_label": "★ 357 stars today · ★ 4,819 总",
+          "title": "rohitg00/ai-engineering-from-scratch",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "score_label": "★ 790 stars today · ★ 59,746 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -232,9 +233,9 @@
         },
         {
           "key": "github:3",
-          "title": "dream-num/univer",
-          "url": "https://github.com/dream-num/univer",
-          "score_label": "★ 849 stars today · ★ 19,715 总",
+          "title": "mvschwarz/openrig",
+          "url": "https://github.com/mvschwarz/openrig",
+          "score_label": "★ 114 stars today · ★ 1,187 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -249,35 +250,35 @@
         },
         {
           "key": "github:4",
-          "title": "tensorflow/tensorflow",
-          "url": "https://github.com/tensorflow/tensorflow",
-          "score_label": "★ 46 stars today · ★ 200,497 总",
+          "title": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "score_label": "★ 895 stars today · ★ 20,790 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "C++"
+            "TypeScript"
           ],
-          "meta": "语言 · C++",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:5",
-          "title": "rohitg00/ai-engineering-from-scratch",
-          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-          "score_label": "★ 827 stars today · ★ 58,542 总",
+          "title": "willfaust/Madeira",
+          "url": "https://github.com/willfaust/Madeira",
+          "score_label": "★ 83 stars today · ★ 884 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Python"
+            "C"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · C",
           "trend": "",
           "domain": "github.com"
         }
@@ -290,9 +291,23 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "DeepSeek Elastic Compute (DSec)",
-          "url": "https://arxiv.org/abs/2609.22978",
-          "score_label": "▲ 222 · 💬 74",
+          "title": "Fragment of oldest known peace treaty found in Turkey",
+          "url": "https://www.livescience.com/archaeology/ancient-egyptians/we-have-found-traces-of-peace-thousands-of-years-old-fragment-of-worlds-oldest-known-peace-treaty-found-in-turkey",
+          "score_label": "▲ 82 · 💬 10",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "livescience.com"
+        },
+        {
+          "key": "hackernews:2",
+          "title": "Thinking fast and slow in AI: The role of metacognition (2021)",
+          "url": "https://arxiv.org/abs/2110.01834",
+          "score_label": "▲ 64 · 💬 9",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,42 +318,10 @@
           "domain": "arxiv.org"
         },
         {
-          "key": "hackernews:2",
-          "title": "How to keep enjoying programming in a world of LLMs",
-          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-          "score_label": "▲ 197 · 💬 247",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "discourse.haskell.org"
-        },
-        {
           "key": "hackernews:3",
-          "title": "How I changed teaching after AI managed to do all my homework assignments",
-          "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
-          "score_label": "▲ 176 · 💬 165",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "thelastsoftwareengineer.substack.com"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
-          "url": "https://www.movingimagearchive.com/",
-          "score_label": "▲ 150 · 💬 26",
+          "title": "TabPFN and TabICL vs. tuned XGBoost: the model that doesn't train won 14/14",
+          "url": "https://efraingaray.com/en/blog/tabpfn-vs-xgboost/",
+          "score_label": "▲ 16 · 💬 9",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -346,21 +329,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "movingimagearchive.com"
-        },
-        {
-          "key": "hackernews:5",
-          "title": "Evolving programming languages in the AI era",
-          "url": "https://dashbit.co/blog/evolving-ai-era",
-          "score_label": "▲ 79 · 💬 48",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "dashbit.co"
+          "domain": "efraingaray.com"
         }
       ]
     },
@@ -371,6 +340,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "派早报：OpenAI 称与苹果合作效果不佳",
+          "url": "https://sspai.com/post/115079",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-09-27",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "龙芯 CPU 的原子加指令偶尔会丢失",
+          "url": "https://www.solidot.org/story?sid=85484",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-09-27",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "中国各地推动 AI 视频产业化",
           "url": "https://www.solidot.org/story?sid=85475",
           "score_label": "",
@@ -382,38 +383,6 @@
             "Solidot"
           ],
           "meta": "📅 2026-09-25",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:2",
-          "title": "部分三星智能冰箱在升级固件之后停止工作",
-          "url": "https://www.solidot.org/story?sid=85472",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-24",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "微软放弃封禁 Microslop",
-          "url": "https://www.solidot.org/story?sid=85471",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-09-24",
           "trend": "",
           "domain": "solidot.org"
         },
@@ -444,7 +413,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 488",
+          "score_label": "👍 492",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -458,7 +427,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 433",
+          "score_label": "👍 439",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -470,9 +439,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
-          "url": "https://juejin.cn/post/7623217419704909866",
-          "score_label": "👍 303",
+          "title": "阿里一面，我霸气反问：你说你们在做Agent项目，说说langchain、muti-agent、a2a这些你们都是怎么做的？面试官一直在擦汗。。",
+          "url": "https://juejin.cn/post/7657453685375369267",
+          "score_label": "👍 397",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -484,9 +453,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
-          "url": "https://juejin.cn/post/7673855455463800847",
-          "score_label": "👍 234",
+          "title": "2026 了，前端转 AI 全栈我是这么学的 😍😍😍",
+          "url": "https://juejin.cn/post/7667503991685857290",
+          "score_label": "👍 314",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -498,9 +467,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "2026编程圈很火的10个Skills",
-          "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 158",
+          "title": "Vibe Coding 时代：Vue 消失了还是 React 太强？",
+          "url": "https://juejin.cn/post/7623217419704909866",
+          "score_label": "👍 305",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -514,5 +483,5 @@
     }
   ],
   "source_count": 6,
-  "total": 29
+  "total": 27
 }
