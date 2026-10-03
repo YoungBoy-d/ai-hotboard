@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "weekday": "周五",
+  "date": "2026-10-03",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.0M · 👍 16.7k",
+          "score_label": "⬇ 6.9M · 👍 16.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 699.2k · 👍 15.3k",
+          "score_label": "⬇ 709.5k · 👍 15.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 932.0k · 👍 14.3k",
+          "score_label": "⬇ 968.9k · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 1.3M · 👍 11.6k",
+          "score_label": "⬇ 1.2M · 👍 11.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 4.1M · 👍 8.3k",
+          "score_label": "⬇ 4.2M · 👍 8.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -199,9 +199,26 @@
       "items": [
         {
           "key": "github:1",
+          "title": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "score_label": "★ 696 stars today · ★ 88,998 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Python"
+          ],
+          "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:2",
           "title": "DietrichGebert/ponytail",
           "url": "https://github.com/DietrichGebert/ponytail",
-          "score_label": "★ 1,194 stars today · ★ 150,874 总",
+          "score_label": "★ 1,435 stars today · ★ 152,066 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -215,10 +232,27 @@
           "domain": "github.com"
         },
         {
-          "key": "github:2",
+          "key": "github:3",
+          "title": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "score_label": "★ 722 stars today · ★ 74,486 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "JavaScript"
+          ],
+          "meta": "语言 · JavaScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:4",
           "title": "mattpocock/skills",
           "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 883 stars today · ★ 274,134 总",
+          "score_label": "★ 955 stars today · ★ 274,859 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -232,10 +266,10 @@
           "domain": "github.com"
         },
         {
-          "key": "github:3",
+          "key": "github:5",
           "title": "NVIDIA/OpenShell",
           "url": "https://github.com/NVIDIA/OpenShell",
-          "score_label": "★ 2,456 stars today · ★ 14,139 总",
+          "score_label": "★ 594 stars today · ★ 14,516 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -245,40 +279,6 @@
             "Rust"
           ],
           "meta": "语言 · Rust",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
-          "title": "mvschwarz/openrig",
-          "url": "https://github.com/mvschwarz/openrig",
-          "score_label": "★ 642 stars today · ★ 3,874 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "TypeScript"
-          ],
-          "meta": "语言 · TypeScript",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:5",
-          "title": "mksglu/context-mode",
-          "url": "https://github.com/mksglu/context-mode",
-          "score_label": "★ 362 stars today · ★ 24,856 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "TypeScript"
-          ],
-          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         }
@@ -291,53 +291,23 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
-          "url": "https://blog.cloudflare.com/clef-decision-models/",
-          "score_label": "▲ 483 · 💬 173",
+          "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+          "url": "https://stillwet.art/",
+          "score_label": "▲ 254 · 💬 78",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "blog.cloudflare.com"
+          "domain": "stillwet.art"
         },
         {
           "key": "hackernews:2",
-          "title": "DeepSeek Harness",
-          "url": "https://www.deepseek.com/en/harness/",
-          "score_label": "▲ 166 · 💬 65",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "deepseek.com"
-        },
-        {
-          "key": "hackernews:3",
-          "title": "Context Language Models",
-          "url": "https://arxiv.org/abs/2609.37725",
-          "score_label": "▲ 139 · 💬 29",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "Vote on which of Hacker News' challenges for AI have been met",
-          "url": "https://stoppels.ch/goalposts/",
-          "score_label": "▲ 131 · 💬 127",
+          "title": "Sites in ChatGPT",
+          "url": "https://chatgpt.com/features/sites/",
+          "score_label": "▲ 250 · 💬 241",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -347,7 +317,49 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "stoppels.ch"
+          "domain": "chatgpt.com"
+        },
+        {
+          "key": "hackernews:3",
+          "title": "Loss of cell identity drives human aging: Two new papers",
+          "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+          "score_label": "▲ 221 · 💬 65",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "erictopol.substack.com"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "score_label": "▲ 221 · 💬 58",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "youtube.com"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "From the creator of Redis; run LLM locally with ds4",
+          "url": "https://dwarfstar.sh/",
+          "score_label": "▲ 209 · 💬 56",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "dwarfstar.sh"
         }
       ]
     },
@@ -447,7 +459,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 500",
+          "score_label": "👍 501",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -461,7 +473,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 452",
+          "score_label": "👍 453",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -487,9 +499,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "三年了，为什么 AI 应用还没爆发？",
-          "url": "https://juejin.cn/post/7659709059810705462",
-          "score_label": "👍 159",
+          "title": "从codex转战workbuddy使用一周的感受",
+          "url": "https://juejin.cn/post/7684460980934049807",
+          "score_label": "👍 129",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -501,9 +513,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "被吹上天的 JWT，为什么主流网站一个都不用",
-          "url": "https://juejin.cn/post/7684261460002701338",
-          "score_label": "👍 140",
+          "title": "天天 AI Coding 的你，如果出去面试，你的竞争力是什么？",
+          "url": "https://juejin.cn/post/7670094721701445672",
+          "score_label": "👍 96",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -517,5 +529,5 @@
     }
   ],
   "source_count": 6,
-  "total": 29
+  "total": 30
 }
