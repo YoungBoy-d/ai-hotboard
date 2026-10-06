@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-05",
-  "weekday": "周一",
+  "date": "2026-10-06",
+  "weekday": "周二",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.8M · 👍 17.0k",
+          "score_label": "⬇ 6.8M · 👍 17.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 706.9k · 👍 15.4k",
+          "score_label": "⬇ 699.5k · 👍 15.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 1.0M · 👍 14.3k",
+          "score_label": "⬇ 1.1M · 👍 14.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "stabilityai/stable-diffusion-xl-base-1.0",
           "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-          "score_label": "⬇ 4.3M · 👍 8.3k",
+          "score_label": "⬇ 4.4M · 👍 8.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,8 +102,8 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
-          "url": "http://arxiv.org/abs/2610.03717v1",
+          "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+          "url": "http://arxiv.org/abs/2610.06852v1",
           "score_label": "",
           "extra": "cs.CV",
           "source": "arxiv",
@@ -114,14 +114,49 @@
             "CV",
             "AI"
           ],
-          "meta": "作者 · Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan  ·  📅 2026-10-02  ·  📄 PDF",
+          "meta": "作者 · Shih-Chen Tseng, Chih-Hsuan Chen, Ryan Yang  ·  📅 2026-10-05  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
-          "url": "http://arxiv.org/abs/2610.03715v1",
+          "title": "Base Models Can Reason By Taking a Cue From Training Data",
+          "url": "http://arxiv.org/abs/2610.06851v1",
+          "score_label": "",
+          "extra": "cs.LG",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "ML",
+            "AI"
+          ],
+          "meta": "作者 · Sophie L. Wang, Amil Dravid, Rulin Shao  ·  📅 2026-10-05  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:3",
+          "title": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
+          "url": "http://arxiv.org/abs/2610.06846v1",
+          "score_label": "",
+          "extra": "cs.AI",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "AI"
+          ],
+          "meta": "作者 · Haojin Deng, Zhiping Lin, Yimin Yang  ·  📅 2026-10-05  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:4",
+          "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+          "url": "http://arxiv.org/abs/2610.06844v1",
           "score_label": "",
           "extra": "cs.CV",
           "source": "arxiv",
@@ -132,50 +167,14 @@
             "CV",
             "AI"
           ],
-          "meta": "作者 · Ruihong Shen, Žiga Kovačič, Peter Kulits  ·  📅 2026-10-02  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
-          "url": "http://arxiv.org/abs/2610.03713v1",
-          "score_label": "",
-          "extra": "cs.LG",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "ML",
-            "AI"
-          ],
-          "meta": "作者 · Nishit Anand, Ramani Duraiswami, Dinesh Manocha  ·  📅 2026-10-02  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "RNADyn: A Benchmark for Generating and Understanding RNA Dynamics",
-          "url": "http://arxiv.org/abs/2610.03712v1",
-          "score_label": "",
-          "extra": "cs.LG",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "ML",
-            "physics.bio-ph"
-          ],
-          "meta": "作者 · Yiming Huang, Lennart Bastian, Hanqun Cao  ·  📅 2026-10-02  ·  📄 PDF",
+          "meta": "作者 · Omer Dahary, Etai Sella, Hadar Averbuch-Elor  ·  📅 2026-10-05  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
-          "url": "http://arxiv.org/abs/2610.03710v1",
+          "title": "Recursive Video In-Context Learning for Agentic Robot",
+          "url": "http://arxiv.org/abs/2610.06843v1",
           "score_label": "",
           "extra": "cs.RO",
           "source": "arxiv",
@@ -186,7 +185,7 @@
             "机器人",
             "AI"
           ],
-          "meta": "作者 · Kush Hari, Justin Kerr, Nidhya Shivakumar  ·  📅 2026-10-02  ·  📄 PDF",
+          "meta": "作者 · Wenrui Bao, Xinxin Liu, Bingxin Xu  ·  📅 2026-10-05  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -199,43 +198,60 @@
       "items": [
         {
           "key": "github:1",
-          "title": "pbakaus/impeccable",
-          "url": "https://github.com/pbakaus/impeccable",
-          "score_label": "★ 1,171 stars today · ★ 76,542 总",
+          "title": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "score_label": "★ 534 stars today · ★ 96,758 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "JavaScript"
+            "TypeScript"
           ],
-          "meta": "语言 · JavaScript",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:2",
-          "title": "coreyhaines31/marketingskills",
-          "url": "https://github.com/coreyhaines31/marketingskills",
-          "score_label": "★ 197 stars today · ★ 53,203 总",
+          "title": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "score_label": "★ 1,155 stars today · ★ 92,163 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "JavaScript"
+            "Python"
           ],
-          "meta": "语言 · JavaScript",
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:3",
-          "title": "DietrichGebert/ponytail",
-          "url": "https://github.com/DietrichGebert/ponytail",
-          "score_label": "★ 1,894 stars today · ★ 155,235 总",
+          "title": "calesthio/OpenMontage",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "score_label": "★ 742 stars today · ★ 64,287 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Python"
+          ],
+          "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:4",
+          "title": "DuarteSantos8/openGym",
+          "url": "https://github.com/DuarteSantos8/openGym",
+          "score_label": "★ 1,433 stars today · ★ 4,595 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -249,36 +265,19 @@
           "domain": "github.com"
         },
         {
-          "key": "github:4",
-          "title": "Panniantong/Agent-Reach",
-          "url": "https://github.com/Panniantong/Agent-Reach",
-          "score_label": "★ 980 stars today · ★ 91,193 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
           "key": "github:5",
-          "title": "calesthio/OpenMontage",
-          "url": "https://github.com/calesthio/OpenMontage",
-          "score_label": "★ 245 stars today · ★ 63,395 总",
+          "title": "msitarzewski/agency-agents",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "score_label": "★ 744 stars today · ★ 157,444 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Python"
+            "Shell"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · Shell",
           "trend": "",
           "domain": "github.com"
         }
@@ -291,9 +290,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-          "url": "https://github.com/Niko1221/Strata",
-          "score_label": "▲ 742 · 💬 333",
+          "title": "Anthropic reported diary entry to police, woman faces felony charge",
+          "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+          "score_label": "▲ 699 · 💬 537",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,13 +302,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "techspot.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
-          "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
-          "score_label": "▲ 179 · 💬 117",
+          "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+          "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+          "score_label": "▲ 396 · 💬 293",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -319,13 +318,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "motorsport.com"
+          "domain": "niemanlab.org"
         },
         {
           "key": "hackernews:3",
-          "title": "How to scale intent, quality, and artistry with AI [video]",
-          "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
-          "score_label": "▲ 75 · 💬 25",
+          "title": "Dust: Pretraining Transformers Without Backpropagation",
+          "url": "https://qlabs.sh/research/dust",
+          "score_label": "▲ 160 · 💬 37",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -333,13 +332,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "youtube.com"
+          "domain": "qlabs.sh"
         },
         {
           "key": "hackernews:4",
-          "title": "Homa: The end of TCP for AI clusters [video]",
-          "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
-          "score_label": "▲ 70 · 💬 35",
+          "title": "Linux containers in 500 lines of code (2016)",
+          "url": "https://blog.lizzie.io/linux-containers-in-500-loc.html",
+          "score_label": "▲ 120 · 💬 25",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -347,13 +346,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "youtube.com"
+          "domain": "blog.lizzie.io"
         },
         {
           "key": "hackernews:5",
-          "title": "All I wanted was a custom domain email",
-          "url": "https://jacobg.co/emails-at-jacobg-co/",
-          "score_label": "▲ 59 · 💬 82",
+          "title": "An algorithmic failure beneath the secret ballot",
+          "url": "https://blog.citp.princeton.edu/2026/08/03/an-algorithmic-failure-beneath-the-secret-ballot/",
+          "score_label": "▲ 70 · 💬 37",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -361,7 +360,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "jacobg.co"
+          "domain": "blog.citp.princeton.edu"
         }
       ]
     },
@@ -372,6 +371,54 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "因涌入大量 AI 报告 Google 冻结其 Bug 悬赏计划",
+          "url": "https://www.solidot.org/story?sid=85538",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-05",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "AI 聊天机器人会成为意识形态回音室",
+          "url": "https://www.solidot.org/story?sid=85534",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-04",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "Google 测试太空 AI 数据中心",
+          "url": "https://www.solidot.org/story?sid=85532",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-03",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
           "title": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
           "url": "https://sspai.com/post/114945",
           "score_label": "",
@@ -387,7 +434,7 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:5",
           "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等",
           "url": "https://sspai.com/post/115197",
           "score_label": "",
@@ -413,7 +460,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 506",
+          "score_label": "👍 508",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -427,7 +474,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 461",
+          "score_label": "👍 467",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -441,7 +488,7 @@
           "key": "juejin:3",
           "title": "2026编程圈很火的10个Skills",
           "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 166",
+          "score_label": "👍 168",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -453,9 +500,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "被吹上天的 JWT，为什么主流网站一个都不用",
-          "url": "https://juejin.cn/post/7684261460002701338",
-          "score_label": "👍 144",
+          "title": "三年了，为什么 AI 应用还没爆发？",
+          "url": "https://juejin.cn/post/7659709059810705462",
+          "score_label": "👍 161",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -467,9 +514,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "从codex转战workbuddy使用一周的感受",
-          "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 135",
+          "title": "被吹上天的 JWT，为什么主流网站一个都不用",
+          "url": "https://juejin.cn/post/7684261460002701338",
+          "score_label": "👍 150",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -483,5 +530,5 @@
     }
   ],
   "source_count": 6,
-  "total": 27
+  "total": 30
 }
