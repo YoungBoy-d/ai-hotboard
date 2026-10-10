@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-09",
-  "weekday": "周五",
+  "date": "2026-10-10",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.8M · 👍 17.3k",
+          "score_label": "⬇ 6.8M · 👍 17.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 699.7k · 👍 15.5k",
+          "score_label": "⬇ 692.2k · 👍 15.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "meta-llama/Llama-3.1-8B-Instruct",
           "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-          "score_label": "⬇ 6.2M · 👍 8.3k",
+          "score_label": "⬇ 6.1M · 👍 8.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -198,26 +198,9 @@
       "items": [
         {
           "key": "github:1",
-          "title": "cathrynlavery/diagram-design",
-          "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 1,160 stars today · ★ 46,928 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "HTML"
-          ],
-          "meta": "语言 · HTML",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:2",
           "title": "mattpocock/skills",
           "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 1,774 stars today · ★ 281,582 总",
+          "score_label": "★ 1,687 stars today · ★ 283,239 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -231,19 +214,36 @@
           "domain": "github.com"
         },
         {
-          "key": "github:3",
-          "title": "thedotmack/claude-mem",
-          "url": "https://github.com/thedotmack/claude-mem",
-          "score_label": "★ 670 stars today · ★ 98,732 总",
+          "key": "github:2",
+          "title": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "score_label": "★ 1,739 stars today · ★ 48,233 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "HTML"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · HTML",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
+          "title": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "score_label": "★ 326 stars today · ★ 45,536 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Go"
+          ],
+          "meta": "语言 · Go",
           "trend": "",
           "domain": "github.com"
         },
@@ -251,7 +251,24 @@
           "key": "github:4",
           "title": "anthropics/knowledge-work-plugins",
           "url": "https://github.com/anthropics/knowledge-work-plugins",
-          "score_label": "★ 392 stars today · ★ 27,859 总",
+          "score_label": "★ 709 stars today · ★ 28,444 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Python"
+          ],
+          "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:5",
+          "title": "BerriAI/litellm",
+          "url": "https://github.com/BerriAI/litellm",
+          "score_label": "★ 95 stars today · ★ 60,801 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -273,9 +290,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
-          "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-          "score_label": "▲ 649 · 💬 506",
+          "title": "Typesafe AI raises $870M at $7.5B",
+          "url": "https://typesafe.ai/blog/series-ai",
+          "score_label": "▲ 343 · 💬 249",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -285,13 +302,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "dgt.is"
+          "domain": "typesafe.ai"
         },
         {
           "key": "hackernews:2",
-          "title": "OpenAI withdraws three mathematical results",
-          "url": "https://twitter.com/danintheory/status/2108065033070789090",
-          "score_label": "▲ 293 · 💬 567",
+          "title": "Anthropic AI model submits false tip on unsolved Philly murder",
+          "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+          "score_label": "▲ 152 · 💬 112",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -301,13 +318,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "twitter.com"
+          "domain": "nbcphiladelphia.com"
         },
         {
           "key": "hackernews:3",
-          "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-          "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-          "score_label": "▲ 157 · 💬 68",
+          "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+          "score_label": "▲ 137 · 💬 71",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -315,13 +332,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "reddit.com"
+          "domain": "jessewaites.com"
         },
         {
           "key": "hackernews:4",
-          "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
-          "url": "https://openrouter.ai/stepfun/step-5-preview",
-          "score_label": "▲ 125 · 💬 30",
+          "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+          "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+          "score_label": "▲ 89 · 💬 17",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -329,13 +346,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "openrouter.ai"
+          "domain": "terrytao.wordpress.com"
         },
         {
           "key": "hackernews:5",
-          "title": "AI-ready biological data: $1.8B global commitment",
-          "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-          "score_label": "▲ 113 · 💬 17",
+          "title": "Can you use autoregressive diffusion to generate market data?",
+          "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+          "score_label": "▲ 64 · 💬 23",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -343,7 +360,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "biohub.org"
+          "domain": "blog.janestreet.com"
         }
       ]
     },
@@ -354,6 +371,54 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "人类愿意向女性形象的 AI 智能体支付的报酬低于男性形象智能体",
+          "url": "https://www.solidot.org/story?sid=85566",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-09",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "为何大型犬衰老速度更快",
+          "url": "https://www.solidot.org/story?sid=85563",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-09",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "SpaceX 呼吁在轨卫星加强协调",
+          "url": "https://www.solidot.org/story?sid=85560",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-09",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
           "title": "派早报：英伟达 RTX Spark 新品一览、Anthropic 发布 Claude Haiku 5.5 模型等",
           "url": "https://sspai.com/post/115532",
           "score_label": "",
@@ -369,57 +434,9 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:5",
           "title": "Manus 成功融资逾 5 亿美元",
           "url": "https://www.solidot.org/story?sid=85554",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-08",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "美国男子因利用 AI 生成音乐和机器人账号欺诈播放被判 18 个月",
-          "url": "https://www.solidot.org/story?sid=85551",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-08",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "黑客利用 AI 攻击韩国银行",
-          "url": "https://www.solidot.org/story?sid=85546",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-08",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "陶哲轩认为数学 2.0 时代应降低解决难题的核心地位",
-          "url": "https://www.solidot.org/story?sid=85545",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -443,7 +460,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 517",
+          "score_label": "👍 519",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -457,7 +474,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 484",
+          "score_label": "👍 491",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -471,7 +488,7 @@
           "key": "juejin:3",
           "title": "2026 了，前端转 AI 全栈我是这么学的 😍😍😍",
           "url": "https://juejin.cn/post/7667503991685857290",
-          "score_label": "👍 340",
+          "score_label": "👍 346",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -483,9 +500,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "2026编程圈很火的10个Skills",
-          "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 173",
+          "title": "高级前端开发职业规划（2026—2035）",
+          "url": "https://juejin.cn/post/7674794074013024310",
+          "score_label": "👍 291",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -497,9 +514,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "三年了，为什么 AI 应用还没爆发？",
-          "url": "https://juejin.cn/post/7659709059810705462",
-          "score_label": "👍 166",
+          "title": "2026编程圈很火的10个Skills",
+          "url": "https://juejin.cn/post/7660712622825144374",
+          "score_label": "👍 177",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -513,5 +530,5 @@
     }
   ],
   "source_count": 6,
-  "total": 29
+  "total": 30
 }
