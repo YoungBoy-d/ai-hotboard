@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-11",
-  "weekday": "周日",
+  "date": "2026-10-12",
+  "weekday": "周一",
   "editorial": [],
   "sources": [
     {
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 661.6k · 👍 15.5k",
+          "score_label": "⬇ 658.7k · 👍 15.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 1.2M · 👍 11.7k",
+          "score_label": "⬇ 1.1M · 👍 11.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "meta-llama/Llama-3.1-8B-Instruct",
           "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-          "score_label": "⬇ 6.0M · 👍 8.3k",
+          "score_label": "⬇ 5.9M · 👍 8.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,79 +102,8 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "CSF: Contextual Safety Filtering for Motion Generators",
-          "url": "http://arxiv.org/abs/2610.12467v1",
-          "score_label": "",
-          "extra": "cs.RO",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "机器人",
-            "ML"
-          ],
-          "meta": "作者 · Lizhi Yang, Yiling Hou, Yao Tang  ·  📅 2026-10-08  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:2",
-          "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
-          "url": "http://arxiv.org/abs/2610.12466v1",
-          "score_label": "",
-          "extra": "cs.AI",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "AI"
-          ],
-          "meta": "作者 · Drew T. Nguyen, William Fithian  ·  📅 2026-10-08  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-          "url": "http://arxiv.org/abs/2610.12465v1",
-          "score_label": "",
-          "extra": "cs.RO",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "机器人",
-            "ML"
-          ],
-          "meta": "作者 · Octi Zhang, Mateo Guaman Castro, Patrick Yin  ·  📅 2026-10-08  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-          "url": "http://arxiv.org/abs/2610.12463v1",
-          "score_label": "",
-          "extra": "cs.CR",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "cs.CR",
-            "AI"
-          ],
-          "meta": "作者 · Abbas Raftari  ·  📅 2026-10-08  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "BrickBench: Evaluating Agentic Brick Design",
-          "url": "http://arxiv.org/abs/2610.12452v1",
+          "title": "Can Language Models Play the Wikipedia Game?",
+          "url": "http://arxiv.org/abs/2610.13948v1",
           "score_label": "",
           "extra": "cs.AI",
           "source": "arxiv",
@@ -183,9 +112,81 @@
           "tags": [
             "论文",
             "AI",
-            "CV"
+            "cs.IR"
           ],
-          "meta": "作者 · Peter Kulits, Yiqing Xu, R. Kenny Jones  ·  📅 2026-10-08  ·  📄 PDF",
+          "meta": "作者 · Alexander Hickey, Joanna Knight, James Bishop  ·  📅 2026-10-09  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:2",
+          "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+          "url": "http://arxiv.org/abs/2610.13935v1",
+          "score_label": "",
+          "extra": "cs.CV",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "CV",
+            "AI"
+          ],
+          "meta": "作者 · Bhanu Tokas, Rahul Nair, Rockwell Jackson  ·  📅 2026-10-09  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:3",
+          "title": "Constructive Bounds for the Topological Expressivity of Neural Networks",
+          "url": "http://arxiv.org/abs/2610.13931v1",
+          "score_label": "",
+          "extra": "math.AT",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "math.AT",
+            "ML"
+          ],
+          "meta": "作者 · Kosio Beshkov  ·  📅 2026-10-09  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:4",
+          "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+          "url": "http://arxiv.org/abs/2610.13928v1",
+          "score_label": "",
+          "extra": "cs.LG",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "ML",
+            "cs.CR"
+          ],
+          "meta": "作者 · Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas  ·  📅 2026-10-09  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:5",
+          "title": "KL Before and After Mixing: A Round-Complexity Separation in Parallel Sampling",
+          "url": "http://arxiv.org/abs/2610.13924v1",
+          "score_label": "",
+          "extra": "cs.LG",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "ML",
+            "cs.IT"
+          ],
+          "meta": "作者 · Tianyi Wu  ·  📅 2026-10-09  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -200,7 +201,7 @@
           "key": "github:1",
           "title": "cathrynlavery/diagram-design",
           "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 1,190 stars today · ★ 49,273 总",
+          "score_label": "★ 1,083 stars today · ★ 51,100 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -215,60 +216,9 @@
         },
         {
           "key": "github:2",
-          "title": "mksglu/context-mode",
-          "url": "https://github.com/mksglu/context-mode",
-          "score_label": "★ 178 stars today · ★ 26,462 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "TypeScript"
-          ],
-          "meta": "语言 · TypeScript",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:3",
-          "title": "mattpocock/skills",
-          "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 1,736 stars today · ★ 284,933 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Shell"
-          ],
-          "meta": "语言 · Shell",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
-          "title": "tensorflow/tensorflow",
-          "url": "https://github.com/tensorflow/tensorflow",
-          "score_label": "★ 26 stars today · ★ 200,797 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "C++"
-          ],
-          "meta": "语言 · C++",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:5",
-          "title": "hugohe3/ppt-master",
-          "url": "https://github.com/hugohe3/ppt-master",
-          "score_label": "★ 461 stars today · ★ 59,796 总",
+          "title": "pytorch/pytorch",
+          "url": "https://github.com/pytorch/pytorch",
+          "score_label": "★ 315 stars today · ★ 104,651 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -278,6 +228,23 @@
             "Python"
           ],
           "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
+          "title": "lyogavin/airllm",
+          "url": "https://github.com/lyogavin/airllm",
+          "score_label": "★ 548 stars today · ★ 36,799 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Jupyter Notebook"
+          ],
+          "meta": "语言 · Jupyter Notebook",
           "trend": "",
           "domain": "github.com"
         }
@@ -290,9 +257,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Grieving the loss of details",
-          "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
-          "score_label": "▲ 416 · 💬 327",
+          "title": "The gap in shared understanding of LLM capability is widening",
+          "url": "https://twitter.com/karpathy/status/2109361546505966046",
+          "score_label": "▲ 418 · 💬 587",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -302,29 +269,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "purplesyringa.moe"
+          "domain": "twitter.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-          "url": "https://github.com/rociiu/talorys",
-          "score_label": "▲ 280 · 💬 130",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "hackernews:3",
-          "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-          "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-          "score_label": "▲ 183 · 💬 41",
+          "title": "Every US Electrical Outlet Explained [video]",
+          "url": "https://www.youtube.com/watch?v=n_1wzYQwnts",
+          "score_label": "▲ 19 · 💬 18",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -332,39 +283,35 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "blogs.windows.com"
+          "domain": "youtube.com"
+        },
+        {
+          "key": "hackernews:3",
+          "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+          "url": "https://github.com/SaarthurR/atticus-mac",
+          "score_label": "▲ 8 · 💬 0",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "github.com"
         },
         {
           "key": "hackernews:4",
-          "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-          "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-          "score_label": "▲ 157 · 💬 101",
+          "title": "AI-Built Torrent Site Looks Inside Downloads to Catch Fakes and Malware",
+          "url": "https://torrentfreak.com/ai-built-torrent-site-looks-inside-downloads-to-catch-fakes-and-malware/",
+          "score_label": "▲ 6 · 💬 1",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "ft.com"
-        },
-        {
-          "key": "hackernews:5",
-          "title": "Food processing influences metabolism and brain activity",
-          "url": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
-          "score_label": "▲ 137 · 💬 110",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "news.vt.edu"
+          "domain": "torrentfreak.com"
         }
       ]
     },
@@ -375,6 +322,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "微软在 Qwen 模型基础上推出决策模型 Microsoft-Decision-1",
+          "url": "https://www.solidot.org/story?sid=85584",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-12",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "派早报：工信部等就进一步加强汽车产品创新设计管理征求意见",
+          "url": "https://sspai.com/post/115845",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-10-11",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "使用 AI 十分钟就会削弱你挑战难题的意志力",
           "url": "https://www.solidot.org/story?sid=85575",
           "score_label": "",
@@ -390,7 +369,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "DDR4 内存条再次回归",
           "url": "https://www.solidot.org/story?sid=85574",
           "score_label": "",
@@ -406,7 +385,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:5",
           "title": "全球 PC 出货量三季度暴跌逾 20%",
           "url": "https://www.solidot.org/story?sid=85572",
           "score_label": "",
@@ -418,38 +397,6 @@
             "Solidot"
           ],
           "meta": "📅 2026-10-10",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "人类愿意向女性形象的 AI 智能体支付的报酬低于男性形象智能体",
-          "url": "https://www.solidot.org/story?sid=85566",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-09",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "为何大型犬衰老速度更快",
-          "url": "https://www.solidot.org/story?sid=85563",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-09",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -464,7 +411,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 520",
+          "score_label": "👍 524",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -478,7 +425,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 491",
+          "score_label": "👍 497",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -492,7 +439,7 @@
           "key": "juejin:3",
           "title": "2026编程圈很火的10个Skills",
           "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 179",
+          "score_label": "👍 180",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -506,7 +453,7 @@
           "key": "juejin:4",
           "title": "三年了，为什么 AI 应用还没爆发？",
           "url": "https://juejin.cn/post/7659709059810705462",
-          "score_label": "👍 169",
+          "score_label": "👍 168",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -534,5 +481,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 27
 }
