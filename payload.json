@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-12",
-  "weekday": "周一",
+  "date": "2026-10-13",
+  "weekday": "周二",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.8M · 👍 17.5k",
+          "score_label": "⬇ 6.9M · 👍 17.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 658.7k · 👍 15.5k",
+          "score_label": "⬇ 646.8k · 👍 15.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 1.1M · 👍 14.3k",
+          "score_label": "⬇ 1.1M · 👍 14.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "meta-llama/Llama-3.1-8B-Instruct",
           "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-          "score_label": "⬇ 5.9M · 👍 8.4k",
+          "score_label": "⬇ 5.8M · 👍 8.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -199,26 +199,26 @@
       "items": [
         {
           "key": "github:1",
-          "title": "cathrynlavery/diagram-design",
-          "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 1,083 stars today · ★ 51,100 总",
+          "title": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "score_label": "★ 246 stars today · ★ 27,587 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "HTML"
+            "TypeScript"
           ],
-          "meta": "语言 · HTML",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:2",
-          "title": "pytorch/pytorch",
-          "url": "https://github.com/pytorch/pytorch",
-          "score_label": "★ 315 stars today · ★ 104,651 总",
+          "title": "open-webui/open-webui",
+          "url": "https://github.com/open-webui/open-webui",
+          "score_label": "★ 157 stars today · ★ 155,369 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -233,9 +233,26 @@
         },
         {
           "key": "github:3",
+          "title": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "score_label": "★ 2,081 stars today · ★ 53,121 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "HTML"
+          ],
+          "meta": "语言 · HTML",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:4",
           "title": "lyogavin/airllm",
           "url": "https://github.com/lyogavin/airllm",
-          "score_label": "★ 548 stars today · ★ 36,799 总",
+          "score_label": "★ 879 stars today · ★ 37,807 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -245,6 +262,23 @@
             "Jupyter Notebook"
           ],
           "meta": "语言 · Jupyter Notebook",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:5",
+          "title": "microsoft/BitNet",
+          "url": "https://github.com/microsoft/BitNet",
+          "score_label": "★ 97 stars today · ★ 41,038 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "C++"
+          ],
+          "meta": "语言 · C++",
           "trend": "",
           "domain": "github.com"
         }
@@ -257,9 +291,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "The gap in shared understanding of LLM capability is widening",
-          "url": "https://twitter.com/karpathy/status/2109361546505966046",
-          "score_label": "▲ 418 · 💬 587",
+          "title": "AI is a tool and using it well takes skill",
+          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+          "score_label": "▲ 372 · 💬 291",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -269,13 +303,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "twitter.com"
+          "domain": "yyhh.org"
         },
         {
           "key": "hackernews:2",
-          "title": "Every US Electrical Outlet Explained [video]",
-          "url": "https://www.youtube.com/watch?v=n_1wzYQwnts",
-          "score_label": "▲ 19 · 💬 18",
+          "title": "AI models can provably hide arbitrary capabilities",
+          "url": "https://arxiv.org/abs/2610.13928",
+          "score_label": "▲ 182 · 💬 95",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -283,13 +317,41 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "youtube.com"
+          "domain": "arxiv.org"
         },
         {
           "key": "hackernews:3",
-          "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
-          "url": "https://github.com/SaarthurR/atticus-mac",
-          "score_label": "▲ 8 · 💬 0",
+          "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+          "url": "https://taylor.town/kk-ai-2026",
+          "score_label": "▲ 181 · 💬 66",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "taylor.town"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+          "score_label": "▲ 178 · 💬 80",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "intel.com"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+          "url": "https://github.com/prabanta-dev/janas",
+          "score_label": "▲ 117 · 💬 36",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -298,20 +360,6 @@
           "meta": "",
           "trend": "",
           "domain": "github.com"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "AI-Built Torrent Site Looks Inside Downloads to Catch Fakes and Malware",
-          "url": "https://torrentfreak.com/ai-built-torrent-site-looks-inside-downloads-to-catch-fakes-and-malware/",
-          "score_label": "▲ 6 · 💬 1",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "torrentfreak.com"
         }
       ]
     },
@@ -322,8 +370,40 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "微软在 Qwen 模型基础上推出决策模型 Microsoft-Decision-1",
-          "url": "https://www.solidot.org/story?sid=85584",
+          "title": "黑客加热联网的超市冰箱，导致食物变质和设备起火",
+          "url": "https://www.solidot.org/story?sid=85593",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-13",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "派早报：一加发布一加 16，Google 推出 Fitbit Edge 等",
+          "url": "https://sspai.com/post/116033",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-10-13",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "美国核反应堆开始整合 AI 助手",
+          "url": "https://www.solidot.org/story?sid=85592",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -337,41 +417,9 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
-          "title": "派早报：工信部等就进一步加强汽车产品创新设计管理征求意见",
-          "url": "https://sspai.com/post/115845",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-10-11",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "使用 AI 十分钟就会削弱你挑战难题的意志力",
-          "url": "https://www.solidot.org/story?sid=85575",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-10",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
           "key": "ai_zh:4",
-          "title": "DDR4 内存条再次回归",
-          "url": "https://www.solidot.org/story?sid=85574",
+          "title": "AI 编程智能体生成了更多代码，但并没有生成更多软件",
+          "url": "https://www.solidot.org/story?sid=85589",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -380,14 +428,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-10",
+          "meta": "📅 2026-10-12",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:5",
-          "title": "全球 PC 出货量三季度暴跌逾 20%",
-          "url": "https://www.solidot.org/story?sid=85572",
+          "title": "固态硬盘价格一年翻了两番",
+          "url": "https://www.solidot.org/story?sid=85586",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -396,7 +444,7 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-10",
+          "meta": "📅 2026-10-12",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -411,7 +459,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 524",
+          "score_label": "👍 528",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -425,7 +473,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 497",
+          "score_label": "👍 501",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -439,7 +487,7 @@
           "key": "juejin:3",
           "title": "2026编程圈很火的10个Skills",
           "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 180",
+          "score_label": "👍 181",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -453,7 +501,7 @@
           "key": "juejin:4",
           "title": "三年了，为什么 AI 应用还没爆发？",
           "url": "https://juejin.cn/post/7659709059810705462",
-          "score_label": "👍 168",
+          "score_label": "👍 170",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -467,7 +515,7 @@
           "key": "juejin:5",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 143",
+          "score_label": "👍 147",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -481,5 +529,5 @@
     }
   ],
   "source_count": 6,
-  "total": 27
+  "total": 30
 }
