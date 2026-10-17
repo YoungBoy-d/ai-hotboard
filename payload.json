@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-16",
-  "weekday": "周五",
+  "date": "2026-10-17",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.4M · 👍 17.8k",
+          "score_label": "⬇ 7.5M · 👍 17.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 648.3k · 👍 15.6k",
+          "score_label": "⬇ 646.0k · 👍 15.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "meta-llama/Llama-3.1-8B-Instruct",
           "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-          "score_label": "⬇ 5.9M · 👍 8.4k",
+          "score_label": "⬇ 5.8M · 👍 8.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -99,97 +99,7 @@
       "key": "arxiv",
       "label": "arXiv 论文",
       "icon": "📄",
-      "items": [
-        {
-          "key": "arxiv:1",
-          "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
-          "url": "http://arxiv.org/abs/2610.22372v1",
-          "score_label": "",
-          "extra": "cs.RO",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "机器人",
-            "AI"
-          ],
-          "meta": "作者 · Zhixu Li, Keqian Tang, Litian Gong  ·  📅 2026-10-15  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:2",
-          "title": "Discovering state-of-the-art quantum circuits with large language models",
-          "url": "http://arxiv.org/abs/2610.22367v1",
-          "score_label": "",
-          "extra": "quant-ph",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "quant-ph",
-            "AI"
-          ],
-          "meta": "作者 · Andi Gu, Alek H. Kemeny, Susanne F. Yelin  ·  📅 2026-10-15  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
-          "url": "http://arxiv.org/abs/2610.22364v1",
-          "score_label": "",
-          "extra": "cs.RO",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "机器人",
-            "AI"
-          ],
-          "meta": "作者 · Chenyuan Zhou, Yining Hong, Huang Huang  ·  📅 2026-10-15  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
-          "url": "http://arxiv.org/abs/2610.22362v1",
-          "score_label": "",
-          "extra": "cs.RO",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "机器人",
-            "AI"
-          ],
-          "meta": "作者 · Tianjiao Yu, Zhilin Ou, Yifan Shen  ·  📅 2026-10-15  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "PathFM: Fast Generative Forecasting of Multivariate Trajectories",
-          "url": "http://arxiv.org/abs/2610.22358v1",
-          "score_label": "",
-          "extra": "cs.LG",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "ML"
-          ],
-          "meta": "作者 · Jiachen Yao, Xiyuan Zhang, Annan Yu  ·  📅 2026-10-15  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        }
-      ]
+      "items": []
     },
     {
       "key": "github",
@@ -200,7 +110,7 @@
           "key": "github:1",
           "title": "anthropics/claude-plugins-official",
           "url": "https://github.com/anthropics/claude-plugins-official",
-          "score_label": "★ 307 stars today · ★ 39,402 总",
+          "score_label": "★ 1,552 stars today · ★ 40,814 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -217,7 +127,7 @@
           "key": "github:2",
           "title": "K-Dense-AI/scientific-agent-skills",
           "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "score_label": "★ 1,091 stars today · ★ 50,751 总",
+          "score_label": "★ 1,158 stars today · ★ 51,676 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -232,18 +142,18 @@
         },
         {
           "key": "github:3",
-          "title": "ruvnet/ruflo",
-          "url": "https://github.com/ruvnet/ruflo",
-          "score_label": "★ 147 stars today · ★ 75,263 总",
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "score_label": "★ 1,057 stars today · ★ 281,674 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "JavaScript"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · JavaScript",
           "trend": "",
           "domain": "github.com"
         },
@@ -251,7 +161,7 @@
           "key": "github:4",
           "title": "mksglu/context-mode",
           "url": "https://github.com/mksglu/context-mode",
-          "score_label": "★ 904 stars today · ★ 29,894 总",
+          "score_label": "★ 449 stars today · ★ 30,303 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -266,18 +176,18 @@
         },
         {
           "key": "github:5",
-          "title": "affaan-m/ECC",
-          "url": "https://github.com/affaan-m/ECC",
-          "score_label": "★ 1,013 stars today · ★ 280,605 总",
+          "title": "ruvnet/ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "score_label": "★ 672 stars today · ★ 75,719 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "JavaScript"
+            "TypeScript"
           ],
-          "meta": "语言 · JavaScript",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         }
@@ -290,9 +200,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Neural networks are clean",
-          "url": "https://already-clean.goodfire.com/",
-          "score_label": "▲ 601 · 💬 224",
+          "title": "Claude reveals ECDSA curve origins",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+          "score_label": "▲ 789 · 💬 297",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -302,13 +212,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "already-clean.goodfire.com"
+          "domain": "anthropic.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Using AI to reverse engineer hardware",
-          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-          "score_label": "▲ 157 · 💬 136",
+          "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+          "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+          "score_label": "▲ 456 · 💬 393",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -318,13 +228,29 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "blogs.gnome.org"
+          "domain": "mercor.com"
         },
         {
           "key": "hackernews:3",
-          "title": "BeBox is a Haiku application that emulates Be Inc.'s BeBox",
-          "url": "https://github.com/johnrash/bebox",
-          "score_label": "▲ 41 · 💬 11",
+          "title": "How the Claude Code team does code review",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+          "score_label": "▲ 292 · 💬 272",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "claude.dev"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "score_label": "▲ 243 · 💬 62",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -333,6 +259,20 @@
           "meta": "",
           "trend": "",
           "domain": "github.com"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "You could have invented transformers from memory",
+          "url": "https://alexwang.ai/posts/associative-memory/",
+          "score_label": "▲ 213 · 💬 59",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "alexwang.ai"
         }
       ]
     },
@@ -343,6 +283,22 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "Meta 发布其开放权重模型 Muse Spark Open",
+          "url": "https://www.solidot.org/story?sid=85634",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-16",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
           "title": "派早报：Apple 智能国行 Beta 版本将于本月晚些时候上线测试版本",
           "url": "https://sspai.com/post/116355",
           "score_label": "",
@@ -358,7 +314,7 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:3",
           "title": "美国银行雇佣千名合同工修复 AI 工具发现的软件漏洞",
           "url": "https://www.solidot.org/story?sid=85625",
           "score_label": "",
@@ -374,7 +330,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:4",
           "title": "美国科技巨头警告欧洲推行数据主权将带来逾千亿欧元的成本",
           "url": "https://www.solidot.org/story?sid=85622",
           "score_label": "",
@@ -390,7 +346,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:4",
+          "key": "ai_zh:5",
           "title": "顺应变化，重申标准：《少数派创作手册》修订说明",
           "url": "https://sspai.com/post/116181",
           "score_label": "",
@@ -404,22 +360,6 @@
           "meta": "📅 2026-10-15",
           "trend": "",
           "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "美国八个州起诉 OpenAI 称 ChatGPT 伤害年轻用户",
-          "url": "https://www.solidot.org/story?sid=85616",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-15",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -432,7 +372,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 537",
+          "score_label": "👍 538",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -446,7 +386,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 509",
+          "score_label": "👍 515",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -458,9 +398,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "被吹上天的 JWT，为什么主流网站一个都不用",
-          "url": "https://juejin.cn/post/7684261460002701338",
-          "score_label": "👍 209",
+          "title": "三年了，为什么 AI 应用还没爆发？",
+          "url": "https://juejin.cn/post/7659709059810705462",
+          "score_label": "👍 173",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -474,7 +414,7 @@
           "key": "juejin:4",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 158",
+          "score_label": "👍 159",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -486,9 +426,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "为什么不推荐走Agent开发？",
-          "url": "https://juejin.cn/post/7683457864929329204",
-          "score_label": "👍 102",
+          "title": "AI会让程序员失业吗？200年前的手工织工已经给出了答案",
+          "url": "https://juejin.cn/post/7685276242113019938",
+          "score_label": "👍 117",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -502,5 +442,5 @@
     }
   ],
   "source_count": 6,
-  "total": 28
+  "total": 25
 }
