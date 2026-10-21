@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "weekday": "周二",
+  "date": "2026-10-21",
+  "weekday": "周三",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.5M · 👍 18.0k",
+          "score_label": "⬇ 7.6M · 👍 18.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 647.2k · 👍 15.7k",
+          "score_label": "⬇ 648.1k · 👍 15.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 1.0M · 👍 11.8k",
+          "score_label": "⬇ 998.3k · 👍 11.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -78,18 +78,18 @@
         },
         {
           "key": "hf:5",
-          "title": "meta-llama/Llama-3.1-8B-Instruct",
-          "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-          "score_label": "⬇ 5.5M · 👍 8.5k",
+          "title": "Lightricks/LTX-2.5",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5",
+          "score_label": "⬇ 2.0M · 👍 8.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
           "summary": "",
           "tags": [
-            "LLM",
+            "image-to-video",
             "开源"
           ],
-          "meta": "作者 · meta-llama  ·  框架 · transformers  ·  许可 · llama3.1",
+          "meta": "作者 · Lightricks  ·  框架 · diffusion-single-file  ·  许可 · other",
           "trend": "",
           "domain": "huggingface.co"
         }
@@ -102,80 +102,62 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "Text-to-Image Generative Modeling Without Language Pretraining",
-          "url": "http://arxiv.org/abs/2610.26863v1",
+          "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
+          "url": "http://arxiv.org/abs/2610.28632v1",
           "score_label": "",
-          "extra": "cs.LG",
+          "extra": "cs.CV",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "ML",
-            "CV"
+            "CV",
+            "AI"
           ],
-          "meta": "作者 · Keshigeyan Chandrasegaran, Yue Zhao, Armin W. Thomas  ·  📅 2026-10-19  ·  📄 PDF",
+          "meta": "作者 · Noam Rotstein, Yoad Tewel, Chen Tessler  ·  📅 2026-10-20  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
-          "url": "http://arxiv.org/abs/2610.26860v1",
+          "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+          "url": "http://arxiv.org/abs/2610.28629v1",
           "score_label": "",
-          "extra": "cs.CL",
+          "extra": "cond-mat.mtrl-sci",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "NLP",
-            "AI"
+            "cond-mat.mtrl-sci",
+            "cond-mat.mes-hall"
           ],
-          "meta": "作者 · Yu Zhou, Cheng-Fu Yang, Rui Sun  ·  📅 2026-10-19  ·  📄 PDF",
+          "meta": "作者 · Yazhuo Liu, Kunqing Ding, Xiaoguo Gong  ·  📅 2026-10-20  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "Can It Actually Work? Synthesizing Functional CAD Mechanisms",
-          "url": "http://arxiv.org/abs/2610.26861v1",
+          "title": "Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking",
+          "url": "http://arxiv.org/abs/2610.28628v1",
           "score_label": "",
-          "extra": "cs.CV",
+          "extra": "cs.RO",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "CV",
-            "NLP"
+            "机器人",
+            "CV"
           ],
-          "meta": "作者 · Wenqian Zhang, Yangyi Huang, Zigeng Xu  ·  📅 2026-10-19  ·  📄 PDF",
+          "meta": "作者 · Yuxuan Kuang, Jiashun Wang, Yixuan Sun  ·  📅 2026-10-20  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
-          "url": "http://arxiv.org/abs/2610.26856v1",
-          "score_label": "",
-          "extra": "cs.CV",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "CV",
-            "AI"
-          ],
-          "meta": "作者 · Shiao Xie, Siyu Chen, Jianwei Lv  ·  📅 2026-10-19  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
-          "url": "http://arxiv.org/abs/2610.26852v1",
+          "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+          "url": "http://arxiv.org/abs/2610.28626v1",
           "score_label": "",
           "extra": "cs.RO",
           "source": "arxiv",
@@ -186,7 +168,25 @@
             "机器人",
             "AI"
           ],
-          "meta": "作者 · Zehao Wang, Jianpeng Yao, Yuping Wang  ·  📅 2026-10-19  ·  📄 PDF",
+          "meta": "作者 · Rahul Sajnani, Diego Romeres, Mingyuan Zhang  ·  📅 2026-10-20  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:5",
+          "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+          "url": "http://arxiv.org/abs/2610.28624v1",
+          "score_label": "",
+          "extra": "cs.RO",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "机器人",
+            "AI"
+          ],
+          "meta": "作者 · Jad Yammine, Malek Wahidi, Abrar Anwar  ·  📅 2026-10-20  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -201,7 +201,7 @@
           "key": "github:1",
           "title": "MadsLorentzen/ai-job-search",
           "url": "https://github.com/MadsLorentzen/ai-job-search",
-          "score_label": "★ 3,856 stars today · ★ 58,096 总",
+          "score_label": "★ 3,861 stars today · ★ 61,275 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -216,43 +216,9 @@
         },
         {
           "key": "github:2",
-          "title": "akitaonrails/ai-memory",
-          "url": "https://github.com/akitaonrails/ai-memory",
-          "score_label": "★ 666 stars today · ★ 11,539 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Rust"
-          ],
-          "meta": "语言 · Rust",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:3",
-          "title": "Comfy-Org/ComfyUI",
-          "url": "https://github.com/Comfy-Org/ComfyUI",
-          "score_label": "★ 1,011 stars today · ★ 140,006 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
-          "title": "ruvnet/ruflo",
-          "url": "https://github.com/ruvnet/ruflo",
-          "score_label": "★ 564 stars today · ★ 77,354 总",
+          "title": "stablyai/orca",
+          "url": "https://github.com/stablyai/orca",
+          "score_label": "★ 1,565 stars today · ★ 100,091 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -266,10 +232,44 @@
           "domain": "github.com"
         },
         {
+          "key": "github:3",
+          "title": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "score_label": "★ 1,208 stars today · ★ 170,186 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "JavaScript"
+          ],
+          "meta": "语言 · JavaScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:4",
+          "title": "Comfy-Org/ComfyUI",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "score_label": "★ 1,206 stars today · ★ 140,984 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Python"
+          ],
+          "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
           "key": "github:5",
-          "title": "stablyai/orca",
-          "url": "https://github.com/stablyai/orca",
-          "score_label": "★ 1,590 stars today · ★ 98,621 总",
+          "title": "ruvnet/ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "score_label": "★ 684 stars today · ★ 77,966 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -291,9 +291,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-          "url": "https://news.ycombinator.com/item?id=50151036",
-          "score_label": "▲ 362 · 💬 498",
+          "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "score_label": "▲ 2200 · 💬 849",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,13 +303,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "news.ycombinator.com"
+          "domain": "github.com"
         },
         {
           "key": "hackernews:2",
-          "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-          "score_label": "▲ 234 · 💬 39",
+          "title": "Good type against all odds",
+          "url": "https://unsung.aresluna.org/good-type-against-all-odds/",
+          "score_label": "▲ 74 · 💬 8",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -317,45 +317,27 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "redact.dev"
+          "domain": "unsung.aresluna.org"
         },
         {
           "key": "hackernews:3",
-          "title": "Ukraine claims first drone evacuation of wounded soldier",
-          "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
-          "score_label": "▲ 206 · 💬 149",
+          "title": "Alibaba hikes DeepSeek V4 Flash 0731 output prices by 230%",
+          "url": "https://www.stork.ai/newsletter/2026-10-20-alibaba-quietly-tripled-deepseek-prices#lead",
+          "score_label": "▲ 9 · 💬 3",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "nbcnews.com"
+          "domain": "stork.ai"
         },
         {
           "key": "hackernews:4",
-          "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
-          "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
-          "score_label": "▲ 130 · 💬 117",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "reuters.com"
-        },
-        {
-          "key": "hackernews:5",
-          "title": "Go will reject certificate chains containing eight distrusted SPKIs",
-          "url": "https://github.com/golang/go/issues/82345",
-          "score_label": "▲ 43 · 💬 17",
+          "title": "Nexus-CLI – Pure Go Bridge to DeepSeek R1/V3 with Claude Code and Ollama Support",
+          "url": "https://github.com/xamrayev/nexus-cli",
+          "score_label": "▲ 7 · 💬 1",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -374,24 +356,24 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "LinkedIn 清理其平台上的 AI slop",
-          "url": "https://www.solidot.org/story?sid=85650",
+          "title": "派早报：美国政府指示各机构停用 DeepSeek、理想发布「连山」自研三电体系等",
+          "url": "https://sspai.com/post/116887",
           "score_label": "",
-          "extra": "Solidot",
+          "extra": "少数派",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
           "summary": "",
           "tags": [
-            "Solidot"
+            "少数派"
           ],
-          "meta": "📅 2026-10-19",
+          "meta": "📅 2026-10-21",
           "trend": "",
-          "domain": "solidot.org"
+          "domain": "sspai.com"
         },
         {
           "key": "ai_zh:2",
-          "title": "网站对 AI 智能体关上大门",
-          "url": "https://www.solidot.org/story?sid=85649",
+          "title": "AI slop 游戏充斥着 Steam 新品节",
+          "url": "https://www.solidot.org/story?sid=85667",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -400,14 +382,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-19",
+          "meta": "📅 2026-10-20",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:3",
-          "title": "陶哲轩谈数学的生存危机",
-          "url": "https://www.solidot.org/story?sid=85648",
+          "title": "法国超市联网制冷设备存在漏洞长达数月之久",
+          "url": "https://www.solidot.org/story?sid=85664",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -416,14 +398,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-19",
+          "meta": "📅 2026-10-20",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:4",
-          "title": "SonicBoom发布：AI框架告别手工调优",
-          "url": "https://www.solidot.org/story?sid=85645",
+          "title": "涉嫌监听 OpenAI 高管的沙特籍工程师手机上有名为 Saudi Gov Docs 的文件夹",
+          "url": "https://www.solidot.org/story?sid=85662",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -432,14 +414,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-19",
+          "meta": "📅 2026-10-20",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:5",
-          "title": "Linux 7.3 释出",
-          "url": "https://www.solidot.org/story?sid=85644",
+          "title": "WhatsApp 帮助页面曾隐藏针对 AI 的秘密指令",
+          "url": "https://www.solidot.org/story?sid=85658",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -448,7 +430,7 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-19",
+          "meta": "📅 2026-10-20",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -477,7 +459,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 523",
+          "score_label": "👍 526",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -491,7 +473,7 @@
           "key": "juejin:3",
           "title": "2026编程圈很火的10个Skills",
           "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 189",
+          "score_label": "👍 192",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -505,7 +487,7 @@
           "key": "juejin:4",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 169",
+          "score_label": "👍 171",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -519,7 +501,7 @@
           "key": "juejin:5",
           "title": "AI会让程序员失业吗？200年前的手工织工已经给出了答案",
           "url": "https://juejin.cn/post/7685276242113019938",
-          "score_label": "👍 126",
+          "score_label": "👍 128",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -533,5 +515,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 29
 }
