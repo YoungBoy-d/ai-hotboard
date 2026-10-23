@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-22",
-  "weekday": "周四",
+  "date": "2026-10-23",
+  "weekday": "周五",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.7M · 👍 18.2k",
+          "score_label": "⬇ 7.8M · 👍 18.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 650.3k · 👍 15.7k",
+          "score_label": "⬇ 639.1k · 👍 15.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 988.7k · 👍 11.8k",
+          "score_label": "⬇ 954.8k · 👍 11.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.1M · 👍 8.8k",
+          "score_label": "⬇ 2.1M · 👍 8.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,91 +102,91 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
-          "url": "http://arxiv.org/abs/2610.30132v1",
+          "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+          "url": "http://arxiv.org/abs/2610.31670v1",
           "score_label": "",
-          "extra": "cs.CL",
+          "extra": "cs.CV",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "NLP",
+            "CV",
             "ML"
           ],
-          "meta": "作者 · Zhennan Wan, Jianfei Chen  ·  📅 2026-10-21  ·  📄 PDF",
+          "meta": "作者 · Yunfei Xie, Howard H. Qian, Shiyi Lan  ·  📅 2026-10-22  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
-          "url": "http://arxiv.org/abs/2610.30128v1",
+          "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+          "url": "http://arxiv.org/abs/2610.31667v1",
           "score_label": "",
-          "extra": "cs.IR",
+          "extra": "cs.AI",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "cs.IR",
-            "AI"
+            "AI",
+            "NLP"
           ],
-          "meta": "作者 · Zhanshuo Cao, Jiakai Tang, Yuqi Zhou  ·  📅 2026-10-21  ·  📄 PDF",
+          "meta": "作者 · Mahdi Salmani, Adel Javanmard, Devansh Gupta  ·  📅 2026-10-22  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "PhysiCalWorld: In-Context Physics Calibration for World Models",
-          "url": "http://arxiv.org/abs/2610.30125v1",
+          "title": "Phase Transition from Random Features to Fully Trainable Networks",
+          "url": "http://arxiv.org/abs/2610.31663v1",
           "score_label": "",
-          "extra": "cs.RO",
+          "extra": "math.NA",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "机器人",
-            "AI"
+            "math.NA",
+            "ML"
           ],
-          "meta": "作者 · Yunhao Luo, Wentao He, Yinpei Dai  ·  📅 2026-10-21  ·  📄 PDF",
+          "meta": "作者 · Xin He, Huan Lao, Xiliang Lu  ·  📅 2026-10-22  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions",
-          "url": "http://arxiv.org/abs/2610.30122v1",
+          "title": "Reliable AI-Assisted Decisions via Selective Auditing",
+          "url": "http://arxiv.org/abs/2610.31662v1",
           "score_label": "",
-          "extra": "cs.GT",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "cs.GT",
-            "cs.CC"
-          ],
-          "meta": "作者 · Ashkan Soleymani, Gabriele Farina  ·  📅 2026-10-21  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence",
-          "url": "http://arxiv.org/abs/2610.30119v1",
-          "score_label": "",
-          "extra": "cs.LG",
+          "extra": "stat.ML",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
             "ML",
-            "math.PR"
+            "ML"
           ],
-          "meta": "作者 · Imon Banerjee, Pierre Alquier  ·  📅 2026-10-21  ·  📄 PDF",
+          "meta": "作者 · Isaac Gibbs, Elise L. Han, Ryan J. Tibshirani  ·  📅 2026-10-22  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:5",
+          "title": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+          "url": "http://arxiv.org/abs/2610.31659v1",
+          "score_label": "",
+          "extra": "cs.CV",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "CV",
+            "ML"
+          ],
+          "meta": "作者 · Sy-Tuyen Ho, Anirudh Satheesh, Soham Chawathe  ·  📅 2026-10-22  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -199,9 +199,9 @@
       "items": [
         {
           "key": "github:1",
-          "title": "vllm-project/vllm",
-          "url": "https://github.com/vllm-project/vllm",
-          "score_label": "★ 441 stars today · ★ 94,993 总",
+          "title": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "score_label": "★ 303 stars today · ★ 31,759 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -216,26 +216,26 @@
         },
         {
           "key": "github:2",
-          "title": "stablyai/orca",
-          "url": "https://github.com/stablyai/orca",
-          "score_label": "★ 1,541 stars today · ★ 101,700 总",
+          "title": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "score_label": "★ 1,948 stars today · ★ 173,867 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "JavaScript"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · JavaScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:3",
-          "title": "headroomlabs-ai/headroom",
-          "url": "https://github.com/headroomlabs-ai/headroom",
-          "score_label": "★ 474 stars today · ★ 77,379 总",
+          "title": "Graphify-Labs/graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "score_label": "★ 1,408 stars today · ★ 133,241 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -250,26 +250,26 @@
         },
         {
           "key": "github:4",
-          "title": "DietrichGebert/ponytail",
-          "url": "https://github.com/DietrichGebert/ponytail",
-          "score_label": "★ 2,079 stars today · ★ 172,069 总",
+          "title": "supabase/supabase",
+          "url": "https://github.com/supabase/supabase",
+          "score_label": "★ 693 stars today · ★ 113,586 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "JavaScript"
+            "TypeScript"
           ],
-          "meta": "语言 · JavaScript",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:5",
-          "title": "Comfy-Org/ComfyUI",
-          "url": "https://github.com/Comfy-Org/ComfyUI",
-          "score_label": "★ 939 stars today · ★ 141,695 总",
+          "title": "luongnv89/claude-howto",
+          "url": "https://github.com/luongnv89/claude-howto",
+          "score_label": "★ 177 stars today · ★ 43,472 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -291,9 +291,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-          "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-          "score_label": "▲ 476 · 💬 161",
+          "title": "Jailbreaking the Switch 2",
+          "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+          "score_label": "▲ 768 · 💬 267",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,13 +303,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "safedep.io"
+          "domain": "pepsipu.com"
         },
         {
           "key": "hackernews:2",
-          "title": "OpenAI models are coming to Google Cloud",
-          "url": "https://openai.com/index/openai-models-google-cloud/",
-          "score_label": "▲ 275 · 💬 112",
+          "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+          "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+          "score_label": "▲ 515 · 💬 161",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -319,49 +319,55 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "openai.com"
+          "domain": "simedw.com"
         },
         {
           "key": "hackernews:3",
-          "title": "Chain of Thought for Humans",
-          "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/",
-          "score_label": "▲ 73 · 💬 32",
+          "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "score_label": "▲ 353 · 💬 185",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "boristhebrave.com"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
-          "url": "https://github.com/omnara-ai/omnara",
-          "score_label": "▲ 57 · 💬 15",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
           "domain": "github.com"
         },
         {
-          "key": "hackernews:5",
-          "title": "Using LLM for confidence scoring is a bad idea",
-          "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
-          "score_label": "▲ 48 · 💬 29",
+          "key": "hackernews:4",
+          "title": "Every AI model has the same \"controversial\" take on humans",
+          "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+          "score_label": "▲ 323 · 💬 358",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "rumple.github.io"
+          "domain": "modelcompare.ai"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "LLMs are making formal software verification feasible at a much larger scale",
+          "url": "https://www.anthropic.com/research/formal-verification",
+          "score_label": "▲ 243 · 💬 136",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "anthropic.com"
         }
       ]
     },
@@ -372,8 +378,56 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "Vitals：什么在拖慢你的 Mac？它比「活动监视器」更直观易用",
-          "url": "https://sspai.com/post/116445",
+          "title": "趋势科技在公开的内核邮件列表上披露内核漏洞",
+          "url": "https://www.solidot.org/story?sid=85688",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-23",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "逾半数美国人认为 AI 对社会有害",
+          "url": "https://www.solidot.org/story?sid=85686",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-23",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "OpenClaw 作者称他上个月花掉了千万美元的 Tokens",
+          "url": "https://www.solidot.org/story?sid=85682",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-23",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
+          "title": "派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等",
+          "url": "https://sspai.com/post/117104",
           "score_label": "",
           "extra": "少数派",
           "source": "ai_zh",
@@ -382,14 +436,14 @@
           "tags": [
             "少数派"
           ],
-          "meta": "📅 2026-10-21",
+          "meta": "📅 2026-10-23",
           "trend": "",
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
-          "title": "派早报：美国政府指示各机构停用 DeepSeek、理想发布「连山」自研三电体系等",
-          "url": "https://sspai.com/post/116887",
+          "key": "ai_zh:5",
+          "title": "把 Muse 装进 ESP-Mosaico：做一个没用的东西，证明 Vibe Coding 也在硬件领域快速成长",
+          "url": "https://sspai.com/post/115437",
           "score_label": "",
           "extra": "少数派",
           "source": "ai_zh",
@@ -398,7 +452,7 @@
           "tags": [
             "少数派"
           ],
-          "meta": "📅 2026-10-21",
+          "meta": "📅 2026-10-22",
           "trend": "",
           "domain": "sspai.com"
         }
@@ -413,7 +467,7 @@
           "key": "juejin:1",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 541",
+          "score_label": "👍 540",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -427,7 +481,7 @@
           "key": "juejin:2",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 532",
+          "score_label": "👍 534",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -441,7 +495,7 @@
           "key": "juejin:3",
           "title": "停更的这一年，All In AI、陪媳妇生娃、还考了个研",
           "url": "https://juejin.cn/post/7662691781214470180",
-          "score_label": "👍 354",
+          "score_label": "👍 357",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -455,7 +509,7 @@
           "key": "juejin:4",
           "title": "2026编程圈很火的10个Skills",
           "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 195",
+          "score_label": "👍 198",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -483,5 +537,5 @@
     }
   ],
   "source_count": 6,
-  "total": 27
+  "total": 30
 }
