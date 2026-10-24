@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-23",
-  "weekday": "周五",
+  "date": "2026-10-24",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.8M · 👍 18.2k",
+          "score_label": "⬇ 7.7M · 👍 18.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 639.1k · 👍 15.7k",
+          "score_label": "⬇ 626.5k · 👍 15.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 954.8k · 👍 11.8k",
+          "score_label": "⬇ 922.1k · 👍 11.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.1M · 👍 8.9k",
+          "score_label": "⬇ 2.0M · 👍 9.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -201,7 +201,7 @@
           "key": "github:1",
           "title": "anthropics/knowledge-work-plugins",
           "url": "https://github.com/anthropics/knowledge-work-plugins",
-          "score_label": "★ 303 stars today · ★ 31,759 总",
+          "score_label": "★ 635 stars today · ★ 32,344 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -216,43 +216,26 @@
         },
         {
           "key": "github:2",
-          "title": "DietrichGebert/ponytail",
-          "url": "https://github.com/DietrichGebert/ponytail",
-          "score_label": "★ 1,948 stars today · ★ 173,867 总",
+          "title": "NVIDIA/OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "score_label": "★ 1,119 stars today · ★ 18,934 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "JavaScript"
+            "Rust"
           ],
-          "meta": "语言 · JavaScript",
+          "meta": "语言 · Rust",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:3",
-          "title": "Graphify-Labs/graphify",
-          "url": "https://github.com/Graphify-Labs/graphify",
-          "score_label": "★ 1,408 stars today · ★ 133,241 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
-          "title": "supabase/supabase",
-          "url": "https://github.com/supabase/supabase",
-          "score_label": "★ 693 stars today · ★ 113,586 总",
+          "title": "Renhuai123/ziwei-doushu",
+          "url": "https://github.com/Renhuai123/ziwei-doushu",
+          "score_label": "★ 546 stars today · ★ 7,018 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -266,10 +249,10 @@
           "domain": "github.com"
         },
         {
-          "key": "github:5",
-          "title": "luongnv89/claude-howto",
-          "url": "https://github.com/luongnv89/claude-howto",
-          "score_label": "★ 177 stars today · ★ 43,472 总",
+          "key": "github:4",
+          "title": "SnailSploit/Claude-Red",
+          "url": "https://github.com/SnailSploit/Claude-Red",
+          "score_label": "★ 226 stars today · ★ 8,623 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -291,9 +274,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Jailbreaking the Switch 2",
-          "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-          "score_label": "▲ 768 · 💬 267",
+          "title": "Dessa: Conversation Model trained only on speech",
+          "url": "https://block.xyz/dessa",
+          "score_label": "▲ 325 · 💬 127",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,13 +286,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "pepsipu.com"
+          "domain": "block.xyz"
         },
         {
           "key": "hackernews:2",
-          "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-          "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-          "score_label": "▲ 515 · 💬 161",
+          "title": "Air Purifiers as White Noise Machines",
+          "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+          "score_label": "▲ 101 · 💬 105",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -319,55 +302,49 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "simedw.com"
+          "domain": "jefftk.com"
         },
         {
           "key": "hackernews:3",
-          "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-          "url": "https://github.com/NVIDIA/OpenShell",
-          "score_label": "▲ 353 · 💬 185",
+          "title": "Alzheimer's breakthrough: 2 hrs of sleep restored without clearing brain plaques",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm",
+          "score_label": "▲ 64 · 💬 18",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "sciencedaily.com"
         },
         {
           "key": "hackernews:4",
-          "title": "Every AI model has the same \"controversial\" take on humans",
-          "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-          "score_label": "▲ 323 · 💬 358",
+          "title": "A whirlwind tour of systemd-nspawn containers (2025)",
+          "url": "https://quantum5.ca/2025/03/22/whirlwind-tour-of-systemd-nspawn-containers/",
+          "score_label": "▲ 42 · 💬 7",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "modelcompare.ai"
+          "domain": "quantum5.ca"
         },
         {
           "key": "hackernews:5",
-          "title": "LLMs are making formal software verification feasible at a much larger scale",
-          "url": "https://www.anthropic.com/research/formal-verification",
-          "score_label": "▲ 243 · 💬 136",
+          "title": "Rise of collagen-eating microbes may help explain gaps in the fossil record",
+          "url": "https://www.cam.ac.uk/research/news/rise-of-collagen-eating-microbes-may-help-explain-gaps-in-the-fossil-record",
+          "score_label": "▲ 26 · 💬 0",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "anthropic.com"
+          "domain": "cam.ac.uk"
         }
       ]
     },
@@ -378,6 +355,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "浏览器 Arc 将于 12 月关闭",
+          "url": "https://www.solidot.org/story?sid=85692",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-23",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "Switch 2 越狱能运行自制程序",
+          "url": "https://www.solidot.org/story?sid=85691",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-23",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "趋势科技在公开的内核邮件列表上披露内核漏洞",
           "url": "https://www.solidot.org/story?sid=85688",
           "score_label": "",
@@ -393,7 +402,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "逾半数美国人认为 AI 对社会有害",
           "url": "https://www.solidot.org/story?sid=85686",
           "score_label": "",
@@ -409,7 +418,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:5",
           "title": "OpenClaw 作者称他上个月花掉了千万美元的 Tokens",
           "url": "https://www.solidot.org/story?sid=85682",
           "score_label": "",
@@ -423,38 +432,6 @@
           "meta": "📅 2026-10-23",
           "trend": "",
           "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "派早报：Insta360 发布 Insta360 Mic，Anthropic 推出 Claude Duet 等",
-          "url": "https://sspai.com/post/117104",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-10-23",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "把 Muse 装进 ESP-Mosaico：做一个没用的东西，证明 Vibe Coding 也在硬件领域快速成长",
-          "url": "https://sspai.com/post/115437",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-10-22",
-          "trend": "",
-          "domain": "sspai.com"
         }
       ]
     },
@@ -465,9 +442,9 @@
       "items": [
         {
           "key": "juejin:1",
-          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
-          "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 540",
+          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
+          "url": "https://juejin.cn/post/7620060655607857178",
+          "score_label": "👍 877",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -479,9 +456,9 @@
         },
         {
           "key": "juejin:2",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 534",
+          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
+          "url": "https://juejin.cn/post/7637856870833635343",
+          "score_label": "👍 541",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -493,9 +470,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "停更的这一年，All In AI、陪媳妇生娃、还考了个研",
-          "url": "https://juejin.cn/post/7662691781214470180",
-          "score_label": "👍 357",
+          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
+          "url": "https://juejin.cn/post/7655245911811784750",
+          "score_label": "👍 539",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -507,9 +484,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "2026编程圈很火的10个Skills",
-          "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 198",
+          "title": "停更的这一年，All In AI、陪媳妇生娃、还考了个研",
+          "url": "https://juejin.cn/post/7662691781214470180",
+          "score_label": "👍 358",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -521,9 +498,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "从codex转战workbuddy使用一周的感受",
-          "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 174",
+          "title": "2026编程圈很火的10个Skills",
+          "url": "https://juejin.cn/post/7660712622825144374",
+          "score_label": "👍 198",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -537,5 +514,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 29
 }
