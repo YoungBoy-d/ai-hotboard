@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-26",
-  "weekday": "周一",
+  "date": "2026-10-27",
+  "weekday": "周二",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.8M · 👍 18.4k",
+          "score_label": "⬇ 7.6M · 👍 18.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 628.5k · 👍 15.8k",
+          "score_label": "⬇ 622.3k · 👍 15.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 874.5k · 👍 11.8k",
+          "score_label": "⬇ 856.2k · 👍 11.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.1M · 👍 9.4k",
+          "score_label": "⬇ 2.1M · 👍 9.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,44 +102,43 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "The Language of Instruction: Genre and Generative AI",
-          "url": "http://arxiv.org/abs/2610.32982v1",
+          "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+          "url": "http://arxiv.org/abs/2610.35868v1",
           "score_label": "",
-          "extra": "cs.CL",
+          "extra": "cs.AI",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "NLP",
-            "cs.CY"
+            "AI"
           ],
-          "meta": "作者 · James E. Dobson  ·  📅 2026-10-23  ·  📄 PDF",
+          "meta": "作者 · Chao Wan, Paul Jünger, Beixi Du  ·  📅 2026-10-26  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-          "url": "http://arxiv.org/abs/2610.32978v1",
+          "title": "Center-of-Mass Interpretation of Evolution Strategies",
+          "url": "http://arxiv.org/abs/2610.35865v1",
           "score_label": "",
-          "extra": "cs.CV",
+          "extra": "cs.AI",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "CV",
-            "AI"
+            "AI",
+            "NLP"
           ],
-          "meta": "作者 · Yuhan Liu, Lianhui Qin, Shenji Wan  ·  📅 2026-10-23  ·  📄 PDF",
+          "meta": "作者 · Akshat Gupta  ·  📅 2026-10-26  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-          "url": "http://arxiv.org/abs/2610.32971v1",
+          "title": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+          "url": "http://arxiv.org/abs/2610.35866v1",
           "score_label": "",
           "extra": "cs.LG",
           "source": "arxiv",
@@ -147,17 +146,16 @@
           "summary": "",
           "tags": [
             "论文",
-            "ML",
-            "AI"
+            "ML"
           ],
-          "meta": "作者 · Xi Chen, Fengqi Hu, Zeyu Shen  ·  📅 2026-10-23  ·  📄 PDF",
+          "meta": "作者 · Xi Chen, Chongjian Ge, Yiran Xu  ·  📅 2026-10-26  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-          "url": "http://arxiv.org/abs/2610.32969v1",
+          "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+          "url": "http://arxiv.org/abs/2610.35862v1",
           "score_label": "",
           "extra": "cs.RO",
           "source": "arxiv",
@@ -168,25 +166,25 @@
             "机器人",
             "AI"
           ],
-          "meta": "作者 · Amber Xie, Jiawei Fu, Xiaofeng Guo  ·  📅 2026-10-23  ·  📄 PDF",
+          "meta": "作者 · Sihang Li, Xiaofeng Guo, Jinkun Cao  ·  📅 2026-10-26  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "Flownomaly: Single-Step Conditional-Mean Recovery for Few-Shot Anomaly Detection",
-          "url": "http://arxiv.org/abs/2610.32964v1",
+          "title": "On the stability of learning",
+          "url": "http://arxiv.org/abs/2610.35856v1",
           "score_label": "",
-          "extra": "cs.CV",
+          "extra": "q-bio.NC",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "CV",
+            "q-bio.NC",
             "ML"
           ],
-          "meta": "作者 · Bernardo Perrone Ribeiro, Erkut Akdag, Egor Bondarev  ·  📅 2026-10-23  ·  📄 PDF",
+          "meta": "作者 · John J. Vastola  ·  📅 2026-10-26  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -199,26 +197,9 @@
       "items": [
         {
           "key": "github:1",
-          "title": "makecindy/cindy",
-          "url": "https://github.com/makecindy/cindy",
-          "score_label": "★ 675 stars today · ★ 5,262 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "TypeScript"
-          ],
-          "meta": "语言 · TypeScript",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:2",
           "title": "Nutlope/hallmark",
           "url": "https://github.com/Nutlope/hallmark",
-          "score_label": "★ 1,317 stars today · ★ 34,421 总",
+          "score_label": "★ 2,244 stars today · ★ 37,081 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -232,27 +213,10 @@
           "domain": "github.com"
         },
         {
-          "key": "github:3",
-          "title": "pbakaus/impeccable",
-          "url": "https://github.com/pbakaus/impeccable",
-          "score_label": "★ 1,092 stars today · ★ 88,062 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Rust"
-          ],
-          "meta": "语言 · Rust",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
+          "key": "github:2",
           "title": "TauricResearch/TradingAgents",
           "url": "https://github.com/TauricResearch/TradingAgents",
-          "score_label": "★ 381 stars today · ★ 114,920 总",
+          "score_label": "★ 1,395 stars today · ★ 116,531 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -266,10 +230,10 @@
           "domain": "github.com"
         },
         {
-          "key": "github:5",
-          "title": "Renhuai123/ziwei-doushu",
-          "url": "https://github.com/Renhuai123/ziwei-doushu",
-          "score_label": "★ 199 stars today · ★ 7,923 总",
+          "key": "github:3",
+          "title": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "score_label": "★ 1,173 stars today · ★ 3,208 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -279,6 +243,40 @@
             "TypeScript"
           ],
           "meta": "语言 · TypeScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:4",
+          "title": "makecindy/cindy",
+          "url": "https://github.com/makecindy/cindy",
+          "score_label": "★ 1,296 stars today · ★ 6,829 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "TypeScript"
+          ],
+          "meta": "语言 · TypeScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:5",
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "score_label": "★ 896 stars today · ★ 290,075 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "JavaScript"
+          ],
+          "meta": "语言 · JavaScript",
           "trend": "",
           "domain": "github.com"
         }
@@ -291,9 +289,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-          "url": "https://lynchlab.net/llm-skin-cancer",
-          "score_label": "▲ 508 · 💬 228",
+          "title": "Anthropic S-1",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "score_label": "▲ 1565 · 💬 1504",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,41 +301,45 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "lynchlab.net"
+          "domain": "sec.gov"
         },
         {
           "key": "hackernews:2",
-          "title": "Dolly Parton's Imagination Library",
-          "url": "https://imaginationlibrary.com/",
-          "score_label": "▲ 491 · 💬 88",
+          "title": "GPT-6.1 Terra",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "score_label": "▲ 568 · 💬 354",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "imaginationlibrary.com"
+          "domain": "openai.com"
         },
         {
           "key": "hackernews:3",
-          "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-          "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-          "score_label": "▲ 64 · 💬 9",
+          "title": "Blaise Pascal invented fixed route public transport (2024)",
+          "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
+          "score_label": "▲ 278 · 💬 145",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "humantransit.org"
         },
         {
           "key": "hackernews:4",
-          "title": "Making the Buddha Head from Merv Whole Again",
-          "url": "https://www.getty.edu/news/buddha-head-of-merv-turkmenistan-conservation/",
-          "score_label": "▲ 40 · 💬 0",
+          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "score_label": "▲ 116 · 💬 38",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -345,13 +347,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "getty.edu"
+          "domain": "blog.cloudflare.com"
         },
         {
           "key": "hackernews:5",
-          "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
-          "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-          "score_label": "▲ 30 · 💬 4",
+          "title": "There are now 5 inference providers for abliterated DeepSeek",
+          "url": "https://allmodels.io/llm/abliterated",
+          "score_label": "▲ 48 · 💬 42",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -359,7 +361,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "contraptions.venkateshrao.com"
+          "domain": "allmodels.io"
         }
       ]
     },
@@ -415,38 +417,6 @@
           "meta": "📅 2026-10-24",
           "trend": "",
           "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "浏览器 Arc 将于 12 月关闭",
-          "url": "https://www.solidot.org/story?sid=85692",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-23",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "Switch 2 越狱能运行自制程序",
-          "url": "https://www.solidot.org/story?sid=85691",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-23",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -459,7 +429,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 544",
+          "score_label": "👍 551",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -473,7 +443,7 @@
           "key": "juejin:2",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 542",
+          "score_label": "👍 548",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -487,7 +457,7 @@
           "key": "juejin:3",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 178",
+          "score_label": "👍 181",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -499,9 +469,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "AI会让程序员失业吗？200年前的手工织工已经给出了答案",
-          "url": "https://juejin.cn/post/7685276242113019938",
-          "score_label": "👍 143",
+          "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
+          "url": "https://juejin.cn/post/7696894428150300682",
+          "score_label": "👍 117",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -513,9 +483,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
-          "url": "https://juejin.cn/post/7696894428150300682",
-          "score_label": "👍 112",
+          "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
+          "url": "https://juejin.cn/post/7694835192107860009",
+          "score_label": "👍 116",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -529,5 +499,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 28
 }
