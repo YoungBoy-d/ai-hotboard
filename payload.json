@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-28",
-  "weekday": "周三",
+  "date": "2026-10-29",
+  "weekday": "周四",
   "editorial": [],
   "sources": [
     {
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 615.8k · 👍 15.8k",
+          "score_label": "⬇ 606.3k · 👍 15.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 852.1k · 👍 11.9k",
+          "score_label": "⬇ 854.8k · 👍 11.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.2M · 👍 9.6k",
+          "score_label": "⬇ 2.2M · 👍 9.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -198,42 +198,9 @@
       "items": [
         {
           "key": "github:1",
-          "title": "elayadesign/ai-design-skills",
-          "url": "https://github.com/elayadesign/ai-design-skills",
-          "score_label": "★ 1,395 stars today · ★ 9,985 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:2",
-          "title": "Nutlope/hallmark",
-          "url": "https://github.com/Nutlope/hallmark",
-          "score_label": "★ 2,830 stars today · ★ 39,468 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "CSS"
-          ],
-          "meta": "语言 · CSS",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:3",
-          "title": "nightly-labs/openbot",
-          "url": "https://github.com/nightly-labs/openbot",
-          "score_label": "★ 777 stars today · ★ 2,682 总",
+          "title": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "score_label": "★ 1,068 stars today · ★ 5,419 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -247,10 +214,26 @@
           "domain": "github.com"
         },
         {
-          "key": "github:4",
-          "title": "pbakaus/impeccable",
-          "url": "https://github.com/pbakaus/impeccable",
-          "score_label": "★ 1,449 stars today · ★ 90,994 总",
+          "key": "github:2",
+          "title": "elayadesign/ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills",
+          "score_label": "★ 2,139 stars today · ★ 11,462 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
+          "title": "macro-inc/macro",
+          "url": "https://github.com/macro-inc/macro",
+          "score_label": "★ 117 stars today · ★ 5,561 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -264,19 +247,36 @@
           "domain": "github.com"
         },
         {
-          "key": "github:5",
-          "title": "makecindy/cindy",
-          "url": "https://github.com/makecindy/cindy",
-          "score_label": "★ 1,465 stars today · ★ 7,690 总",
+          "key": "github:4",
+          "title": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "score_label": "★ 2,110 stars today · ★ 41,109 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "CSS"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · CSS",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:5",
+          "title": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "score_label": "★ 1,472 stars today · ★ 93,529 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Rust"
+          ],
+          "meta": "语言 · Rust",
           "trend": "",
           "domain": "github.com"
         }
@@ -289,9 +289,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-          "url": "https://www.brangus.io/survival-llm",
-          "score_label": "▲ 291 · 💬 125",
+          "title": "Gemini 4 Carbon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "score_label": "▲ 887 · 💬 733",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -301,29 +301,41 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "brangus.io"
+          "domain": "blog.google"
         },
         {
           "key": "hackernews:2",
-          "title": "Tailscale SSH: Investigation and remediation update",
-          "url": "https://tailscale.com/ssh-investigation-update",
-          "score_label": "▲ 256 · 💬 130",
+          "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+          "url": "https://divagr.com/blog/qwenputer",
+          "score_label": "▲ 326 · 💬 76",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "tailscale.com"
+          "domain": "divagr.com"
         },
         {
           "key": "hackernews:3",
-          "title": "Early progress on accelerating drug development with Claude",
-          "url": "https://www.anthropic.com/research/early-progress-drug-development",
-          "score_label": "▲ 199 · 💬 177",
+          "title": "Claude Code regularly sends each background agent’s transcript to its model",
+          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "score_label": "▲ 266 · 💬 81",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "gist.github.com"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+          "url": "https://surgehq.ai/blog/dayjob-tax",
+          "score_label": "▲ 224 · 💬 145",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -333,7 +345,21 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "anthropic.com"
+          "domain": "surgehq.ai"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "OpenAI's agents talked to each other through the CPU Cache",
+          "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+          "score_label": "▲ 70 · 💬 18",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "the-decoder.com"
         }
       ]
     },
@@ -344,6 +370,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "女子信任 ChatGPT 的用药决策，结果因此猝死",
+          "url": "https://www.solidot.org/story?sid=85737",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-28",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "加州亿万富翁投入逾 2.93 亿美元反对亿万富翁税",
+          "url": "https://www.solidot.org/story?sid=85736",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-28",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "维基百科如何清理 AI 生成文本",
           "url": "https://www.solidot.org/story?sid=85727",
           "score_label": "",
@@ -359,7 +417,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "数据中心搅动世界",
           "url": "https://www.solidot.org/story?sid=85726",
           "score_label": "",
@@ -375,25 +433,9 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:5",
           "title": "Reddit 开源社区争议是否禁止 AI",
           "url": "https://www.solidot.org/story?sid=85722",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-27",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "Anthropic 公布了 S1 文件",
-          "url": "https://www.solidot.org/story?sid=85717",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -415,9 +457,9 @@
       "items": [
         {
           "key": "juejin:1",
-          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
-          "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 877",
+          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
+          "url": "https://juejin.cn/post/7655245911811784750",
+          "score_label": "👍 562",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -429,9 +471,9 @@
         },
         {
           "key": "juejin:2",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 556",
+          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
+          "url": "https://juejin.cn/post/7637856870833635343",
+          "score_label": "👍 552",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -443,20 +485,6 @@
         },
         {
           "key": "juejin:3",
-          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
-          "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 550",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:4",
           "title": "2026编程圈很火的10个Skills",
           "url": "https://juejin.cn/post/7660712622825144374",
           "score_label": "👍 198",
@@ -470,10 +498,24 @@
           "domain": "juejin.cn"
         },
         {
+          "key": "juejin:4",
+          "title": "🍉 我把《天龙八部》喂给了 AI，问它\"段誉会什么武功？\"答案让我惊呆了",
+          "url": "https://juejin.cn/post/7671078538116546575",
+          "score_label": "👍 114",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
           "key": "juejin:5",
-          "title": "从codex转战workbuddy使用一周的感受",
-          "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 186",
+          "title": "AI写长篇小说为什么30章必崩",
+          "url": "https://juejin.cn/post/7674372498315460658",
+          "score_label": "👍 106",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -487,5 +529,5 @@
     }
   ],
   "source_count": 6,
-  "total": 27
+  "total": 30
 }
