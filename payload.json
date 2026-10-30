@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "weekday": "周四",
+  "date": "2026-10-30",
+  "weekday": "周五",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.5M · 👍 18.6k",
+          "score_label": "⬇ 7.5M · 👍 18.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 606.3k · 👍 15.8k",
+          "score_label": "⬇ 593.1k · 👍 15.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 1.6M · 👍 14.4k",
+          "score_label": "⬇ 1.7M · 👍 14.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 854.8k · 👍 11.9k",
+          "score_label": "⬇ 862.1k · 👍 11.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.2M · 👍 9.8k",
+          "score_label": "⬇ 2.3M · 👍 9.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,8 +102,60 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
-          "url": "http://arxiv.org/abs/2610.37668v1",
+          "title": "Elucidating the Design Space of LM Data Attribution",
+          "url": "http://arxiv.org/abs/2610.40655v1",
+          "score_label": "",
+          "extra": "cs.CL",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "NLP"
+          ],
+          "meta": "作者 · Steven Yu, Sheng-Yu Wang, Kimia Hamidieh  ·  📅 2026-10-29  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:2",
+          "title": "Propose-Filter-Release: Scaling Noise to Typical Sensitivity via Private Filtering",
+          "url": "http://arxiv.org/abs/2610.40654v1",
+          "score_label": "",
+          "extra": "cs.LG",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "ML"
+          ],
+          "meta": "作者 · Moshe Shenfeld, Eliad Tsfadia, Katrina Ligett  ·  📅 2026-10-29  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:3",
+          "title": "Rethinking Neural Thickets Without Weight Perturbations",
+          "url": "http://arxiv.org/abs/2610.40649v1",
+          "score_label": "",
+          "extra": "cs.LG",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "ML",
+            "AI"
+          ],
+          "meta": "作者 · Nicolas Dufour, Elouan Gardès, Amil Dravid  ·  📅 2026-10-29  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:4",
+          "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+          "url": "http://arxiv.org/abs/2610.40647v1",
           "score_label": "",
           "extra": "cs.CV",
           "source": "arxiv",
@@ -114,78 +166,25 @@
             "CV",
             "AI"
           ],
-          "meta": "作者 · Prakhar Kaushik, Soumava Paul, Alan Yuille  ·  📅 2026-10-27  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:2",
-          "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-          "url": "http://arxiv.org/abs/2610.37666v1",
-          "score_label": "",
-          "extra": "cs.RO",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "机器人",
-            "AI"
-          ],
-          "meta": "作者 · Chaehyun Kim, Chi-Pin Huang, Jisoo Kim  ·  📅 2026-10-27  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:3",
-          "title": "When Should We Intervene at Test Time?",
-          "url": "http://arxiv.org/abs/2610.37658v1",
-          "score_label": "",
-          "extra": "cs.LG",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "ML"
-          ],
-          "meta": "作者 · Jiahao Zhang, Xinling Wen, Liangliang Li  ·  📅 2026-10-27  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:4",
-          "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
-          "url": "http://arxiv.org/abs/2610.37657v1",
-          "score_label": "",
-          "extra": "cs.LG",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "ML",
-            "NLP"
-          ],
-          "meta": "作者 · Igor Shilov, Xiaoxue Yang, Alexander Panfilov  ·  📅 2026-10-27  ·  📄 PDF",
+          "meta": "作者 · Jiongfan Yang, Weichen Fan, Haiwen Diao  ·  📅 2026-10-29  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
-          "url": "http://arxiv.org/abs/2610.37656v1",
+          "title": "Adaptive Scenario Generation for KL-DRO Around a Learned Density Model",
+          "url": "http://arxiv.org/abs/2610.40644v1",
           "score_label": "",
-          "extra": "cs.LG",
+          "extra": "eess.SY",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "ML",
-            "AI"
+            "eess.SY",
+            "ML"
           ],
-          "meta": "作者 · Aakash Sarkar, Ananya Mukherjee, Motoshige Sato  ·  📅 2026-10-27  ·  📄 PDF",
+          "meta": "作者 · Aron Brenner, Saurabh Amin  ·  📅 2026-10-29  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -198,9 +197,26 @@
       "items": [
         {
           "key": "github:1",
+          "title": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "score_label": "★ 2,870 stars today · ★ 95,944 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Rust"
+          ],
+          "meta": "语言 · Rust",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:2",
           "title": "JetBrains/thinkrail",
           "url": "https://github.com/JetBrains/thinkrail",
-          "score_label": "★ 1,068 stars today · ★ 5,419 总",
+          "score_label": "★ 1,117 stars today · ★ 6,205 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -214,10 +230,27 @@
           "domain": "github.com"
         },
         {
-          "key": "github:2",
+          "key": "github:3",
+          "title": "nightly-labs/openbot",
+          "url": "https://github.com/nightly-labs/openbot",
+          "score_label": "★ 709 stars today · ★ 4,045 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "TypeScript"
+          ],
+          "meta": "语言 · TypeScript",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:4",
           "title": "elayadesign/ai-design-skills",
           "url": "https://github.com/elayadesign/ai-design-skills",
-          "score_label": "★ 2,139 stars today · ★ 11,462 总",
+          "score_label": "★ 1,187 stars today · ★ 12,503 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -230,53 +263,19 @@
           "domain": "github.com"
         },
         {
-          "key": "github:3",
-          "title": "macro-inc/macro",
-          "url": "https://github.com/macro-inc/macro",
-          "score_label": "★ 117 stars today · ★ 5,561 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Rust"
-          ],
-          "meta": "语言 · Rust",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
-          "title": "Nutlope/hallmark",
-          "url": "https://github.com/Nutlope/hallmark",
-          "score_label": "★ 2,110 stars today · ★ 41,109 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "CSS"
-          ],
-          "meta": "语言 · CSS",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
           "key": "github:5",
-          "title": "pbakaus/impeccable",
-          "url": "https://github.com/pbakaus/impeccable",
-          "score_label": "★ 1,472 stars today · ★ 93,529 总",
+          "title": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "score_label": "★ 336 stars today · ★ 105,082 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Rust"
+            "TypeScript"
           ],
-          "meta": "语言 · Rust",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         }
@@ -289,9 +288,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Gemini 4 Carbon",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-          "score_label": "▲ 887 · 💬 733",
+          "title": "We're releasing the weights of Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "score_label": "▲ 1362 · 💬 366",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -301,41 +300,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "blog.google"
+          "domain": "mistral.ai"
         },
         {
           "key": "hackernews:2",
-          "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
-          "url": "https://divagr.com/blog/qwenputer",
-          "score_label": "▲ 326 · 💬 76",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "divagr.com"
-        },
-        {
-          "key": "hackernews:3",
-          "title": "Claude Code regularly sends each background agent’s transcript to its model",
-          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
-          "score_label": "▲ 266 · 💬 81",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "gist.github.com"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-          "url": "https://surgehq.ai/blog/dayjob-tax",
-          "score_label": "▲ 224 · 💬 145",
+          "title": "LLM Voice",
+          "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+          "score_label": "▲ 434 · 💬 227",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -345,13 +316,29 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "surgehq.ai"
+          "domain": "martinfowler.com"
         },
         {
-          "key": "hackernews:5",
-          "title": "OpenAI's agents talked to each other through the CPU Cache",
-          "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-          "score_label": "▲ 70 · 💬 18",
+          "key": "hackernews:3",
+          "title": "H.264 Is Magic (2016)",
+          "url": "https://sidbala.com/h-264-is-magic/",
+          "score_label": "▲ 389 · 💬 144",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "sidbala.com"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "We ran AI agent swarms in Minecraft and Mindustry",
+          "url": "https://labs.ycombinator.com/projects/games/index.html",
+          "score_label": "▲ 249 · 💬 82",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -359,7 +346,23 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "the-decoder.com"
+          "domain": "labs.ycombinator.com"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "What we know so far about Spain train crash",
+          "url": "https://www.bbc.com/news/articles/cm8xz7pkd0jjo",
+          "score_label": "▲ 179 · 💬 347",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "bbc.com"
         }
       ]
     },
@@ -370,8 +373,8 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "女子信任 ChatGPT 的用药决策，结果因此猝死",
-          "url": "https://www.solidot.org/story?sid=85737",
+          "title": "Google AI 搜索产生的收入低于传统搜索",
+          "url": "https://www.solidot.org/story?sid=85748",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -380,14 +383,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-28",
+          "meta": "📅 2026-10-29",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:2",
-          "title": "加州亿万富翁投入逾 2.93 亿美元反对亿万富翁税",
-          "url": "https://www.solidot.org/story?sid=85736",
+          "title": "研究发现非英语的 token 成本更高",
+          "url": "https://www.solidot.org/story?sid=85747",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -396,14 +399,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-28",
+          "meta": "📅 2026-10-29",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:3",
-          "title": "维基百科如何清理 AI 生成文本",
-          "url": "https://www.solidot.org/story?sid=85727",
+          "title": "美国肯塔基男子成为首位以宗教理由豁免使用 AI 的人文主义者",
+          "url": "https://www.solidot.org/story?sid=85743",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -412,14 +415,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-27",
+          "meta": "📅 2026-10-29",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:4",
-          "title": "数据中心搅动世界",
-          "url": "https://www.solidot.org/story?sid=85726",
+          "title": "美银建议客户不要与 AI 助手共享银行账号密码",
+          "url": "https://www.solidot.org/story?sid=85742",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -428,14 +431,14 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-27",
+          "meta": "📅 2026-10-29",
           "trend": "",
           "domain": "solidot.org"
         },
         {
           "key": "ai_zh:5",
-          "title": "Reddit 开源社区争议是否禁止 AI",
-          "url": "https://www.solidot.org/story?sid=85722",
+          "title": "Valve 无意对 AI Slop 和克隆游戏采取行动",
+          "url": "https://www.solidot.org/story?sid=85741",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -444,7 +447,7 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-10-27",
+          "meta": "📅 2026-10-29",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -459,7 +462,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 562",
+          "score_label": "👍 567",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -485,9 +488,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "2026编程圈很火的10个Skills",
-          "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 198",
+          "title": "从codex转战workbuddy使用一周的感受",
+          "url": "https://juejin.cn/post/7684460980934049807",
+          "score_label": "👍 189",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -499,9 +502,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "🍉 我把《天龙八部》喂给了 AI，问它\"段誉会什么武功？\"答案让我惊呆了",
-          "url": "https://juejin.cn/post/7671078538116546575",
-          "score_label": "👍 114",
+          "title": "AI写长篇小说为什么30章必崩",
+          "url": "https://juejin.cn/post/7674372498315460658",
+          "score_label": "👍 107",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -513,9 +516,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "AI写长篇小说为什么30章必崩",
-          "url": "https://juejin.cn/post/7674372498315460658",
-          "score_label": "👍 106",
+          "title": "一个人+AI做情侣食谱小程序，30天纯赚",
+          "url": "https://juejin.cn/post/7691030977348108351",
+          "score_label": "👍 84",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
