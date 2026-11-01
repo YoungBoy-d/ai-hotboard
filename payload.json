@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "weekday": "周六",
+  "date": "2026-11-01",
+  "weekday": "周日",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.6M · 👍 18.8k",
+          "score_label": "⬇ 7.6M · 👍 18.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 578.8k · 👍 15.8k",
+          "score_label": "⬇ 558.3k · 👍 15.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 861.5k · 👍 11.9k",
+          "score_label": "⬇ 866.0k · 👍 11.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.3M · 👍 10.0k",
+          "score_label": "⬇ 2.4M · 👍 10.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -199,7 +199,7 @@
           "key": "github:1",
           "title": "thedotmack/claude-mem",
           "url": "https://github.com/thedotmack/claude-mem",
-          "score_label": "★ 1,140 stars today · ★ 106,690 总",
+          "score_label": "★ 1,723 stars today · ★ 108,214 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -214,35 +214,35 @@
         },
         {
           "key": "github:2",
-          "title": "pbakaus/impeccable",
-          "url": "https://github.com/pbakaus/impeccable",
-          "score_label": "★ 2,300 stars today · ★ 97,406 总",
+          "title": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "score_label": "★ 883 stars today · ★ 308,666 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Rust"
+            "Shell"
           ],
-          "meta": "语言 · Rust",
+          "meta": "语言 · Shell",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:3",
-          "title": "CopilotKit/OpenBot",
-          "url": "https://github.com/CopilotKit/OpenBot",
-          "score_label": "★ 706 stars today · ★ 8,940 总",
+          "title": "Donchitos/Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "score_label": "★ 742 stars today · ★ 31,414 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "Shell"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · Shell",
           "trend": "",
           "domain": "github.com"
         },
@@ -250,7 +250,7 @@
           "key": "github:4",
           "title": "Renhuai123/ziwei-doushu",
           "url": "https://github.com/Renhuai123/ziwei-doushu",
-          "score_label": "★ 1,126 stars today · ★ 11,581 总",
+          "score_label": "★ 1,092 stars today · ★ 12,561 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -265,18 +265,18 @@
         },
         {
           "key": "github:5",
-          "title": "expo/skills",
-          "url": "https://github.com/expo/skills",
-          "score_label": "★ 38 stars today · ★ 3,940 总",
+          "title": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "score_label": "★ 1,338 stars today · ★ 98,592 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Shell"
+            "Rust"
           ],
-          "meta": "语言 · Shell",
+          "meta": "语言 · Rust",
           "trend": "",
           "domain": "github.com"
         }
@@ -289,9 +289,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "We're releasing the weights of Mistral Large 4",
-          "url": "https://mistral.ai/news/mistral-large-4-oss/",
-          "score_label": "▲ 1689 · 💬 436",
+          "title": "Do the math: How we took over ChatGPT accounts",
+          "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+          "score_label": "▲ 322 · 💬 159",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -301,13 +301,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "mistral.ai"
+          "domain": "parameter.ai"
         },
         {
           "key": "hackernews:2",
-          "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-          "score_label": "▲ 871 · 💬 513",
+          "title": "Anthropic blocks users for anything touching training larger models",
+          "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+          "score_label": "▲ 319 · 💬 180",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -317,55 +317,49 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "phorion.io"
+          "domain": "twitter.com"
         },
         {
           "key": "hackernews:3",
-          "title": "AI isn't replacing SREs, it's deskilling them",
-          "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-          "score_label": "▲ 567 · 💬 413",
+          "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+          "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+          "score_label": "▲ 194 · 💬 95",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "newsletter.signoz.io"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-          "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
-          "score_label": "▲ 284 · 💬 156",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "bostonglobe.com"
-        },
-        {
-          "key": "hackernews:5",
-          "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-          "url": "https://github.com/dbreunig/nesformer",
-          "score_label": "▲ 234 · 💬 119",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
           "domain": "github.com"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+          "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+          "score_label": "▲ 88 · 💬 35",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "jetstream.security"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "ChatGPT and Codex usage limits merging",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "score_label": "▲ 82 · 💬 30",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "help.openai.com"
         }
       ]
     },
@@ -376,6 +370,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "Sam Altman 认为 PC 内存闲置太糟糕",
+          "url": "https://www.solidot.org/story?sid=85763",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-31",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "Kogui 族人谈 AI",
+          "url": "https://www.solidot.org/story?sid=85760",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-10-31",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "英特尔股价暴跌 29%",
           "url": "https://www.solidot.org/story?sid=85757",
           "score_label": "",
@@ -391,7 +417,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "Claude Code for VS Code 官方扩展被植入后门",
           "url": "https://www.solidot.org/story?sid=85756",
           "score_label": "",
@@ -407,7 +433,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:5",
           "title": "LibreOffice 项目递交的代码发现使用LLM 的明确标记",
           "url": "https://www.solidot.org/story?sid=85755",
           "score_label": "",
@@ -421,38 +447,6 @@
           "meta": "📅 2026-10-30",
           "trend": "",
           "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "Google 创上市至今最大跌幅，市值蒸发逾 5000 亿美元",
-          "url": "https://www.solidot.org/story?sid=85752",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-30",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "Google AI 搜索产生的收入低于传统搜索",
-          "url": "https://www.solidot.org/story?sid=85748",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-10-29",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -463,9 +457,9 @@
       "items": [
         {
           "key": "juejin:1",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 572",
+          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
+          "url": "https://juejin.cn/post/7620060655607857178",
+          "score_label": "👍 877",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -477,6 +471,20 @@
         },
         {
           "key": "juejin:2",
+          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
+          "url": "https://juejin.cn/post/7655245911811784750",
+          "score_label": "👍 575",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:3",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
           "score_label": "👍 552",
@@ -490,24 +498,10 @@
           "domain": "juejin.cn"
         },
         {
-          "key": "juejin:3",
-          "title": "2026编程圈很火的10个Skills",
-          "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 201",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
           "key": "juejin:4",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 193",
+          "score_label": "👍 195",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
