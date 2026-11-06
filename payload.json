@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-05",
-  "weekday": "周四",
+  "date": "2026-11-06",
+  "weekday": "周五",
   "editorial": [],
   "sources": [
     {
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 518.0k · 👍 16.0k",
+          "score_label": "⬇ 502.3k · 👍 16.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 768.7k · 👍 11.9k",
+          "score_label": "⬇ 777.9k · 👍 11.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.5M · 👍 10.6k",
+          "score_label": "⬇ 2.6M · 👍 10.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,44 +102,43 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
-          "url": "http://arxiv.org/abs/2611.06914v1",
+          "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+          "url": "http://arxiv.org/abs/2611.08487v1",
           "score_label": "",
-          "extra": "cs.MA",
+          "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "多智能体",
-            "NLP"
+            "ML"
           ],
-          "meta": "作者 · Mattia Greiche, Reihaneh Rabbany, Maximilian Puelma Touzel  ·  📅 2026-11-04  ·  📄 PDF",
+          "meta": "作者 · Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen  ·  📅 2026-11-05  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "FlowReconBench: Accuracy, calibration and cost of learned and classical flow reconstruction from sparse sensors",
-          "url": "http://arxiv.org/abs/2611.06912v1",
+          "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+          "url": "http://arxiv.org/abs/2611.08483v1",
           "score_label": "",
-          "extra": "physics.flu-dyn",
+          "extra": "cs.AI",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "physics.flu-dyn",
-            "ML"
+            "AI",
+            "cs.NE"
           ],
-          "meta": "作者 · Nicolas Tricard, Linzheng Wang, Jason Chen  ·  📅 2026-11-04  ·  📄 PDF",
+          "meta": "作者 · Qile Jiang, George Em Karniadakis  ·  📅 2026-11-05  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-          "url": "http://arxiv.org/abs/2611.06911v1",
+          "title": "Scientist World: Grow a Research World for AI-Scientists",
+          "url": "http://arxiv.org/abs/2611.08478v1",
           "score_label": "",
           "extra": "cs.AI",
           "source": "arxiv",
@@ -147,44 +146,46 @@
           "summary": "",
           "tags": [
             "论文",
-            "AI"
+            "AI",
+            "NLP"
           ],
-          "meta": "作者 · Fei Lin, Tengchao Zhang, Ziyang Gong  ·  📅 2026-11-04  ·  📄 PDF",
+          "meta": "作者 · Taiming Lu, Sachin Konan, Zhuang Liu  ·  📅 2026-11-05  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-          "url": "http://arxiv.org/abs/2611.06910v1",
+          "title": "XStack: A Benchmark for ML Repo Migration",
+          "url": "http://arxiv.org/abs/2611.08472v1",
           "score_label": "",
-          "extra": "cs.AI",
+          "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
+            "ML",
             "AI"
           ],
-          "meta": "作者 · Bingran You, Wenjun Ke, Ria Rosenauer  ·  📅 2026-11-04  ·  📄 PDF",
+          "meta": "作者 · Linrong Cai, Taiming Lu, Haozhe Chen  ·  📅 2026-11-05  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "Perceptive Humanoid Motion from Simulation",
-          "url": "http://arxiv.org/abs/2611.06908v1",
+          "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
+          "url": "http://arxiv.org/abs/2611.08469v1",
           "score_label": "",
-          "extra": "cs.RO",
+          "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "机器人",
+            "ML",
             "AI"
           ],
-          "meta": "作者 · Siyuan Hu, Abulikemu Abuduweili, Yue Meng  ·  📅 2026-11-04  ·  📄 PDF",
+          "meta": "作者 · Linqian Wu, Diaoxuan He  ·  📅 2026-11-05  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -199,7 +200,7 @@
           "key": "github:1",
           "title": "NVIDIA/auto-ontology",
           "url": "https://github.com/NVIDIA/auto-ontology",
-          "score_label": "★ 2,050 stars today · ★ 5,896 总",
+          "score_label": "★ 2,679 stars today · ★ 7,965 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -214,26 +215,9 @@
         },
         {
           "key": "github:2",
-          "title": "max-sixty/worktrunk",
-          "url": "https://github.com/max-sixty/worktrunk",
-          "score_label": "★ 531 stars today · ★ 11,219 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Rust"
-          ],
-          "meta": "语言 · Rust",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:3",
           "title": "mattpocock/skills",
           "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 1,379 stars today · ★ 313,807 总",
+          "score_label": "★ 2,071 stars today · ★ 315,805 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -247,10 +231,10 @@
           "domain": "github.com"
         },
         {
-          "key": "github:4",
-          "title": "thedotmack/claude-mem",
-          "url": "https://github.com/thedotmack/claude-mem",
-          "score_label": "★ 1,172 stars today · ★ 113,132 总",
+          "key": "github:3",
+          "title": "garrytan/gstack",
+          "url": "https://github.com/garrytan/gstack",
+          "score_label": "★ 612 stars today · ★ 140,189 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -264,19 +248,36 @@
           "domain": "github.com"
         },
         {
-          "key": "github:5",
-          "title": "vercel-labs/agent-desktop",
-          "url": "https://github.com/vercel-labs/agent-desktop",
-          "score_label": "★ 2,470 stars today · ★ 15,817 总",
+          "key": "github:4",
+          "title": "Usagi-org/ai-goofish-monitor",
+          "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+          "score_label": "★ 240 stars today · ★ 17,988 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Rust"
+            "Python"
           ],
-          "meta": "语言 · Rust",
+          "meta": "语言 · Python",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:5",
+          "title": "D4Vinci/Scrapling",
+          "url": "https://github.com/D4Vinci/Scrapling",
+          "score_label": "★ 1,655 stars today · ★ 98,387 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Python"
+          ],
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         }
@@ -289,9 +290,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "AI is forcing us to pay off 40 years of technical debt",
-          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-          "score_label": "▲ 1165 · 💬 670",
+          "title": "Claude Code sends your email address to websites",
+          "url": "https://github.com/anthropics/claude-code/issues/107757",
+          "score_label": "▲ 978 · 💬 318",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -301,13 +302,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "spectrum.ieee.org"
+          "domain": "github.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Ask HN: What's your current AI agentic setup?",
-          "url": "https://news.ycombinator.com/item?id=50366117",
-          "score_label": "▲ 287 · 💬 284",
+          "title": "MS Paint Remote Code Execution Vulnerability",
+          "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
+          "score_label": "▲ 488 · 💬 178",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -317,41 +318,45 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "news.ycombinator.com"
+          "domain": "cve.org"
         },
         {
           "key": "hackernews:3",
-          "title": "OpenAI to acquire Pierre Computer Company",
-          "url": "https://openai.com/index/openai-to-acquire-pierre/",
-          "score_label": "▲ 230 · 💬 69",
+          "title": "MCP Explained",
+          "url": "https://mcp-explained.com/",
+          "score_label": "▲ 289 · 💬 123",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "openai.com"
+          "domain": "mcp-explained.com"
         },
         {
           "key": "hackernews:4",
-          "title": "Progress on provable inference for large language models",
-          "url": "https://www.anthropic.com/research/provable-inference",
-          "score_label": "▲ 209 · 💬 98",
+          "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+          "score_label": "▲ 284 · 💬 130",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "anthropic.com"
+          "domain": "finance.yahoo.com"
         },
         {
           "key": "hackernews:5",
-          "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-          "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-          "score_label": "▲ 140 · 💬 54",
+          "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+          "url": "https://www.linum.ai/field-notes/pjit-21k",
+          "score_label": "▲ 210 · 💬 19",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -359,7 +364,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "qualcomm.com"
+          "domain": "linum.ai"
         }
       ]
     },
@@ -370,24 +375,40 @@
       "items": [
         {
           "key": "ai_zh:1",
-          "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
-          "url": "https://sspai.com/post/118498",
+          "title": "微软画图应用曝出远程代码执行漏洞",
+          "url": "https://www.solidot.org/story?sid=85813",
           "score_label": "",
-          "extra": "少数派",
+          "extra": "Solidot",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
           "summary": "",
           "tags": [
-            "少数派"
+            "Solidot"
           ],
-          "meta": "📅 2026-11-05",
+          "meta": "📅 2026-11-06",
           "trend": "",
-          "domain": "sspai.com"
+          "domain": "solidot.org"
         },
         {
           "key": "ai_zh:2",
-          "title": "你不知道的客户端开发：AI 时代下的选型、原生与借力",
-          "url": "https://sspai.com/post/117713",
+          "title": "Kagi 开放搜索",
+          "url": "https://www.solidot.org/story?sid=85812",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-06",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
+          "url": "https://sspai.com/post/118570",
           "score_label": "",
           "extra": "少数派",
           "source": "ai_zh",
@@ -396,46 +417,30 @@
           "tags": [
             "少数派"
           ],
-          "meta": "📅 2026-11-04",
+          "meta": "📅 2026-11-06",
           "trend": "",
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:3",
-          "title": "富士胶片因 AI 热加大磁带产能",
-          "url": "https://www.solidot.org/story?sid=85795",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-04",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
           "key": "ai_zh:4",
-          "title": "Nexus Mods 公布 AI 生成内容政策",
-          "url": "https://www.solidot.org/story?sid=85794",
+          "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
+          "url": "https://sspai.com/post/118587",
           "score_label": "",
-          "extra": "Solidot",
+          "extra": "少数派",
           "source": "ai_zh",
           "source_label": "中文 AI 资讯",
           "summary": "",
           "tags": [
-            "Solidot"
+            "少数派"
           ],
-          "meta": "📅 2026-11-04",
+          "meta": "📅 2026-11-06",
           "trend": "",
-          "domain": "solidot.org"
+          "domain": "sspai.com"
         },
         {
           "key": "ai_zh:5",
-          "title": "苹果开始在中国推出 Apple Intelligence",
-          "url": "https://www.solidot.org/story?sid=85793",
+          "title": "印度金融机构遭黑客利用 AI 工具发动的网络攻击",
+          "url": "https://www.solidot.org/story?sid=85809",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -444,7 +449,7 @@
           "tags": [
             "Solidot"
           ],
-          "meta": "📅 2026-11-04",
+          "meta": "📅 2026-11-05",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -457,9 +462,9 @@
       "items": [
         {
           "key": "juejin:1",
-          "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
-          "url": "https://juejin.cn/post/7620060655607857178",
-          "score_label": "👍 878",
+          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
+          "url": "https://juejin.cn/post/7655245911811784750",
+          "score_label": "👍 608",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -471,20 +476,6 @@
         },
         {
           "key": "juejin:2",
-          "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-          "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 603",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
-          "key": "juejin:3",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
           "score_label": "👍 560",
@@ -498,10 +489,24 @@
           "domain": "juejin.cn"
         },
         {
+          "key": "juejin:3",
+          "title": "从codex转战workbuddy使用一周的感受",
+          "url": "https://juejin.cn/post/7684460980934049807",
+          "score_label": "👍 207",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
           "key": "juejin:4",
-          "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
-          "url": "https://juejin.cn/post/7694835192107860009",
-          "score_label": "👍 143",
+          "title": "2026编程圈很火的10个Skills",
+          "url": "https://juejin.cn/post/7660712622825144374",
+          "score_label": "👍 205",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -515,7 +520,7 @@
           "key": "juejin:5",
           "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
           "url": "https://juejin.cn/post/7696894428150300682",
-          "score_label": "👍 142",
+          "score_label": "👍 146",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
