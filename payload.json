@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-06",
-  "weekday": "周五",
+  "date": "2026-11-07",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 8.0M · 👍 19.2k",
+          "score_label": "⬇ 7.8M · 👍 19.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 1.7M · 👍 14.4k",
+          "score_label": "⬇ 1.6M · 👍 14.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 777.9k · 👍 11.9k",
+          "score_label": "⬇ 771.9k · 👍 11.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.6M · 👍 10.8k",
+          "score_label": "⬇ 2.6M · 👍 10.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -200,7 +200,7 @@
           "key": "github:1",
           "title": "NVIDIA/auto-ontology",
           "url": "https://github.com/NVIDIA/auto-ontology",
-          "score_label": "★ 2,679 stars today · ★ 7,965 总",
+          "score_label": "★ 2,015 stars today · ★ 9,375 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -215,9 +215,26 @@
         },
         {
           "key": "github:2",
+          "title": "rails/rails",
+          "url": "https://github.com/rails/rails",
+          "score_label": "★ 142 stars today · ★ 59,060 总",
+          "extra": "",
+          "source": "github",
+          "source_label": "GitHub AI 仓库",
+          "summary": "",
+          "tags": [
+            "开源",
+            "Ruby"
+          ],
+          "meta": "语言 · Ruby",
+          "trend": "",
+          "domain": "github.com"
+        },
+        {
+          "key": "github:3",
           "title": "mattpocock/skills",
           "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 2,071 stars today · ★ 315,805 总",
+          "score_label": "★ 2,070 stars today · ★ 316,968 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -227,57 +244,6 @@
             "Shell"
           ],
           "meta": "语言 · Shell",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:3",
-          "title": "garrytan/gstack",
-          "url": "https://github.com/garrytan/gstack",
-          "score_label": "★ 612 stars today · ★ 140,189 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "TypeScript"
-          ],
-          "meta": "语言 · TypeScript",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
-          "title": "Usagi-org/ai-goofish-monitor",
-          "url": "https://github.com/Usagi-org/ai-goofish-monitor",
-          "score_label": "★ 240 stars today · ★ 17,988 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:5",
-          "title": "D4Vinci/Scrapling",
-          "url": "https://github.com/D4Vinci/Scrapling",
-          "score_label": "★ 1,655 stars today · ★ 98,387 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         }
@@ -290,9 +256,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Claude Code sends your email address to websites",
-          "url": "https://github.com/anthropics/claude-code/issues/107757",
-          "score_label": "▲ 978 · 💬 318",
+          "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+          "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+          "score_label": "▲ 325 · 💬 261",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -302,13 +268,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "reuters.com"
         },
         {
           "key": "hackernews:2",
-          "title": "MS Paint Remote Code Execution Vulnerability",
-          "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-          "score_label": "▲ 488 · 💬 178",
+          "title": "Gemini Omni 1.2 Flash",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "score_label": "▲ 320 · 💬 227",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -318,13 +284,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "cve.org"
+          "domain": "blog.google"
         },
         {
           "key": "hackernews:3",
-          "title": "MCP Explained",
-          "url": "https://mcp-explained.com/",
-          "score_label": "▲ 289 · 💬 123",
+          "title": "AI is dramatically accelerating AI research",
+          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+          "score_label": "▲ 277 · 💬 212",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -334,29 +300,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "mcp-explained.com"
+          "domain": "planned-obsolescence.org"
         },
         {
           "key": "hackernews:4",
-          "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-          "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-          "score_label": "▲ 284 · 💬 130",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "finance.yahoo.com"
-        },
-        {
-          "key": "hackernews:5",
-          "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
-          "url": "https://www.linum.ai/field-notes/pjit-21k",
-          "score_label": "▲ 210 · 💬 19",
+          "title": "GitHub's new Git storage architecture",
+          "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+          "score_label": "▲ 121 · 💬 20",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -364,7 +314,21 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "linum.ai"
+          "domain": "github.blog"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "Restaurant Delivery Payment-Skimming Campaign",
+          "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+          "score_label": "▲ 115 · 💬 60",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "infohawk.com"
         }
       ]
     },
@@ -375,6 +339,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "从 Linux 到维基百科：志愿者如何构建互联网",
+          "url": "https://www.solidot.org/story?sid=85820",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-06",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "NASA 通过 AI 生成图像宣布 X-70 试验机",
+          "url": "https://www.solidot.org/story?sid=85818",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-06",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "微软画图应用曝出远程代码执行漏洞",
           "url": "https://www.solidot.org/story?sid=85813",
           "score_label": "",
@@ -390,7 +386,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "Kagi 开放搜索",
           "url": "https://www.solidot.org/story?sid=85812",
           "score_label": "",
@@ -406,7 +402,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:5",
           "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
           "url": "https://sspai.com/post/118570",
           "score_label": "",
@@ -420,38 +416,6 @@
           "meta": "📅 2026-11-06",
           "trend": "",
           "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
-          "url": "https://sspai.com/post/118587",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-11-06",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "印度金融机构遭黑客利用 AI 工具发动的网络攻击",
-          "url": "https://www.solidot.org/story?sid=85809",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-05",
-          "trend": "",
-          "domain": "solidot.org"
         }
       ]
     },
@@ -464,7 +428,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 608",
+          "score_label": "👍 613",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -490,8 +454,8 @@
         },
         {
           "key": "juejin:3",
-          "title": "从codex转战workbuddy使用一周的感受",
-          "url": "https://juejin.cn/post/7684460980934049807",
+          "title": "2026编程圈很火的10个Skills",
+          "url": "https://juejin.cn/post/7660712622825144374",
           "score_label": "👍 207",
           "extra": "",
           "source": "juejin",
@@ -504,9 +468,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "2026编程圈很火的10个Skills",
-          "url": "https://juejin.cn/post/7660712622825144374",
-          "score_label": "👍 205",
+          "title": "天天 AI Coding 的你，如果出去面试，你的竞争力是什么？",
+          "url": "https://juejin.cn/post/7670094721701445672",
+          "score_label": "👍 155",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -518,8 +482,8 @@
         },
         {
           "key": "juejin:5",
-          "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
-          "url": "https://juejin.cn/post/7696894428150300682",
+          "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
+          "url": "https://juejin.cn/post/7694835192107860009",
           "score_label": "👍 146",
           "extra": "",
           "source": "juejin",
@@ -534,5 +498,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 28
 }
