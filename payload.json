@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "weekday": "周日",
+  "date": "2026-11-09",
+  "weekday": "周一",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.8M · 👍 19.4k",
+          "score_label": "⬇ 7.7M · 👍 19.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 504.2k · 👍 16.0k",
+          "score_label": "⬇ 495.6k · 👍 16.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 771.6k · 👍 11.9k",
+          "score_label": "⬇ 753.0k · 👍 12.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.6M · 👍 11.0k",
+          "score_label": "⬇ 2.7M · 👍 11.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,25 +102,26 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
-          "url": "http://arxiv.org/abs/2611.08487v1",
+          "title": "On Agentic Manipulation Policies",
+          "url": "http://arxiv.org/abs/2611.09892v1",
           "score_label": "",
-          "extra": "cs.LG",
+          "extra": "cs.RO",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "ML"
+            "机器人",
+            "AI"
           ],
-          "meta": "作者 · Jonathan Kozaczuk, Zheng Dong, Noyan Evirgen  ·  📅 2026-11-05  ·  📄 PDF",
+          "meta": "作者 · Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji  ·  📅 2026-11-06  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-          "url": "http://arxiv.org/abs/2611.08483v1",
+          "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+          "url": "http://arxiv.org/abs/2611.09891v1",
           "score_label": "",
           "extra": "cs.AI",
           "source": "arxiv",
@@ -128,64 +129,63 @@
           "summary": "",
           "tags": [
             "论文",
-            "AI",
-            "cs.NE"
+            "AI"
           ],
-          "meta": "作者 · Qile Jiang, George Em Karniadakis  ·  📅 2026-11-05  ·  📄 PDF",
+          "meta": "作者 · Peter Belcak, Greg Heinrich, Saurav Muralidharan  ·  📅 2026-11-06  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "Scientist World: Grow a Research World for AI-Scientists",
-          "url": "http://arxiv.org/abs/2611.08478v1",
+          "title": "On the (non-)closedness of the set of ReLU networks",
+          "url": "http://arxiv.org/abs/2611.09887v1",
           "score_label": "",
-          "extra": "cs.AI",
+          "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "AI",
-            "NLP"
+            "ML",
+            "math.CA"
           ],
-          "meta": "作者 · Taiming Lu, Sachin Konan, Zhuang Liu  ·  📅 2026-11-05  ·  📄 PDF",
+          "meta": "作者 · Eloi Martinet, Leon Bungert  ·  📅 2026-11-06  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "XStack: A Benchmark for ML Repo Migration",
-          "url": "http://arxiv.org/abs/2611.08472v1",
+          "title": "FlowMoP: Stochastic Multi-Person Motion Prediction",
+          "url": "http://arxiv.org/abs/2611.09882v1",
           "score_label": "",
-          "extra": "cs.LG",
+          "extra": "cs.CV",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "ML",
-            "AI"
+            "CV",
+            "ML"
           ],
-          "meta": "作者 · Linrong Cai, Taiming Lu, Haozhe Chen  ·  📅 2026-11-05  ·  📄 PDF",
+          "meta": "作者 · Aadya Agrawal, Ho Kei Cheng, Alexander Schwing  ·  📅 2026-11-06  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:5",
-          "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-          "url": "http://arxiv.org/abs/2611.08469v1",
+          "title": "Graded convolutional networks: scale invariance without the scale and robustness to unknown blur",
+          "url": "http://arxiv.org/abs/2611.09878v1",
           "score_label": "",
-          "extra": "cs.LG",
+          "extra": "cs.CV",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "ML",
-            "AI"
+            "CV",
+            "ML"
           ],
-          "meta": "作者 · Linqian Wu, Diaoxuan He  ·  📅 2026-11-05  ·  📄 PDF",
+          "meta": "作者 · Tanush Shaska  ·  📅 2026-11-06  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -195,93 +195,7 @@
       "key": "github",
       "label": "GitHub AI 仓库",
       "icon": "🐙",
-      "items": [
-        {
-          "key": "github:1",
-          "title": "vercel-labs/agent-browser",
-          "url": "https://github.com/vercel-labs/agent-browser",
-          "score_label": "★ 190 stars today · ★ 47,046 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Rust"
-          ],
-          "meta": "语言 · Rust",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:2",
-          "title": "mattpocock/skills",
-          "url": "https://github.com/mattpocock/skills",
-          "score_label": "★ 1,100 stars today · ★ 317,976 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Shell"
-          ],
-          "meta": "语言 · Shell",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:3",
-          "title": "anthropics/skills",
-          "url": "https://github.com/anthropics/skills",
-          "score_label": "★ 390 stars today · ★ 188,973 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Python"
-          ],
-          "meta": "语言 · Python",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:4",
-          "title": "tailwindlabs/tailwindcss",
-          "url": "https://github.com/tailwindlabs/tailwindcss",
-          "score_label": "★ 122 stars today · ★ 98,582 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "TypeScript"
-          ],
-          "meta": "语言 · TypeScript",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "github:5",
-          "title": "dsx-ai-factory/nvke",
-          "url": "https://github.com/dsx-ai-factory/nvke",
-          "score_label": "★ 123 stars today · ★ 623 总",
-          "extra": "",
-          "source": "github",
-          "source_label": "GitHub AI 仓库",
-          "summary": "",
-          "tags": [
-            "开源",
-            "Go"
-          ],
-          "meta": "语言 · Go",
-          "trend": "",
-          "domain": "github.com"
-        }
-      ]
+      "items": []
     },
     {
       "key": "hackernews",
@@ -290,55 +204,57 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "The end of Microsoft Research's AI Frontiers group",
-          "url": "https://hunch.net/?p=13764006",
-          "score_label": "▲ 439 · 💬 264",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "hunch.net"
-        },
-        {
-          "key": "hackernews:2",
-          "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
-          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-          "score_label": "▲ 333 · 💬 228",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "apiiro.com"
-        },
-        {
-          "key": "hackernews:3",
-          "title": "Goodbye Claude, Hello Pi",
+          "title": "Goodbye Claude, hello Pi",
           "url": "https://caleb.software/posts/claude-to-pi.html",
-          "score_label": "▲ 172 · 💬 96",
+          "score_label": "▲ 754 · 💬 459",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
           "domain": "caleb.software"
         },
         {
+          "key": "hackernews:2",
+          "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+          "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+          "score_label": "▲ 739 · 💬 399",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "thestateofai.com"
+        },
+        {
+          "key": "hackernews:3",
+          "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+          "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+          "score_label": "▲ 593 · 💬 612",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "nvidianews.nvidia.com"
+        },
+        {
           "key": "hackernews:4",
-          "title": "Uranium cubes reveal why the German nuclear project failed",
-          "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
-          "score_label": "▲ 112 · 💬 77",
+          "title": "Declarative Dragging",
+          "url": "https://declarative-dragging.github.io/",
+          "score_label": "▲ 501 · 💬 63",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -346,21 +262,23 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "arstechnica.com"
+          "domain": "declarative-dragging.github.io"
         },
         {
           "key": "hackernews:5",
-          "title": "Consumer brain wave headsets threaten privacy",
-          "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
-          "score_label": "▲ 26 · 💬 7",
+          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "url": "https://github.com/synchopate/llama-modchip",
+          "score_label": "▲ 412 · 💬 185",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [],
+          "tags": [
+            "热议"
+          ],
           "meta": "",
           "trend": "",
-          "domain": "science.org"
+          "domain": "github.com"
         }
       ]
     },
@@ -371,6 +289,54 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "脚本 Ram Altman 监视 PC 闲置内存然后发邮件给 Sam Altman",
+          "url": "https://www.solidot.org/story?sid=85834",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-09",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "苹果将工程师的每日 AI 预算限制在 200 美元",
+          "url": "https://www.solidot.org/story?sid=85833",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-09",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
+          "title": "Asahi Linux 从 MIT 许可证切换到 GPL 许可证",
+          "url": "https://www.solidot.org/story?sid=85832",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-09",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:4",
           "title": "抗议者闯入微软在欧洲的一处数据中心工地",
           "url": "https://www.solidot.org/story?sid=85823",
           "score_label": "",
@@ -386,7 +352,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:5",
           "title": "广电总局整治 AI 低俗微短剧",
           "url": "https://www.solidot.org/story?sid=85821",
           "score_label": "",
@@ -398,54 +364,6 @@
             "Solidot"
           ],
           "meta": "📅 2026-11-07",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "从 Linux 到维基百科：志愿者如何构建互联网",
-          "url": "https://www.solidot.org/story?sid=85820",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-06",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "NASA 通过 AI 生成图像宣布 X-70 试验机",
-          "url": "https://www.solidot.org/story?sid=85818",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-06",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "微软画图应用曝出远程代码执行漏洞",
-          "url": "https://www.solidot.org/story?sid=85813",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-06",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -460,7 +378,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 618",
+          "score_label": "👍 621",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -486,9 +404,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
-          "url": "https://juejin.cn/post/7696894428150300682",
-          "score_label": "👍 153",
+          "title": "2026 了，前端转 AI 全栈我是这么学的 😍😍😍",
+          "url": "https://juejin.cn/post/7667503991685857290",
+          "score_label": "👍 432",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -500,9 +418,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
-          "url": "https://juejin.cn/post/7694835192107860009",
-          "score_label": "👍 147",
+          "title": "停更的这一年，All In AI、陪媳妇生娃、还考了个研",
+          "url": "https://juejin.cn/post/7662691781214470180",
+          "score_label": "👍 394",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -514,9 +432,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "如何设计一个优秀的 Skills",
-          "url": "https://juejin.cn/post/7664905579035410441",
-          "score_label": "👍 144",
+          "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
+          "url": "https://juejin.cn/post/7696894428150300682",
+          "score_label": "👍 155",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -530,5 +448,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 25
 }
