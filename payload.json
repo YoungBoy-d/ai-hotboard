@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-11",
-  "weekday": "周三",
+  "date": "2026-11-12",
+  "weekday": "周四",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.4M · 👍 19.6k",
+          "score_label": "⬇ 7.2M · 👍 19.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 498.5k · 👍 16.1k",
+          "score_label": "⬇ 495.0k · 👍 16.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 752.0k · 👍 12.0k",
+          "score_label": "⬇ 752.5k · 👍 12.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.8M · 👍 11.4k",
+          "score_label": "⬇ 2.8M · 👍 11.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -199,9 +199,9 @@
       "items": [
         {
           "key": "github:1",
-          "title": "anthropics/skills",
-          "url": "https://github.com/anthropics/skills",
-          "score_label": "★ 1,679 stars today · ★ 192,652 总",
+          "title": "ZhuLinsen/daily_stock_analysis",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "score_label": "★ 278 stars today · ★ 70,804 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -218,7 +218,7 @@
           "key": "github:2",
           "title": "addyosmani/agent-skills",
           "url": "https://github.com/addyosmani/agent-skills",
-          "score_label": "★ 465 stars today · ★ 115,408 总",
+          "score_label": "★ 787 stars today · ★ 116,204 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -233,18 +233,18 @@
         },
         {
           "key": "github:3",
-          "title": "anthropics/claude-quickstarts",
-          "url": "https://github.com/anthropics/claude-quickstarts",
-          "score_label": "★ 531 stars today · ★ 20,652 总",
+          "title": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "score_label": "★ 708 stars today · ★ 50,083 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Python"
+            "Rust"
           ],
-          "meta": "语言 · Python",
+          "meta": "语言 · Rust",
           "trend": "",
           "domain": "github.com"
         },
@@ -252,7 +252,7 @@
           "key": "github:4",
           "title": "homeassistant-ai/ha-mcp",
           "url": "https://github.com/homeassistant-ai/ha-mcp",
-          "score_label": "★ 790 stars today · ★ 6,847 总",
+          "score_label": "★ 645 stars today · ★ 7,577 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -267,18 +267,18 @@
         },
         {
           "key": "github:5",
-          "title": "vercel-labs/agent-browser",
-          "url": "https://github.com/vercel-labs/agent-browser",
-          "score_label": "★ 780 stars today · ★ 49,461 总",
+          "title": "openai/codex-security",
+          "url": "https://github.com/openai/codex-security",
+          "score_label": "★ 52 stars today · ★ 11,962 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Rust"
+            "TypeScript"
           ],
-          "meta": "语言 · Rust",
+          "meta": "语言 · TypeScript",
           "trend": "",
           "domain": "github.com"
         }
@@ -291,9 +291,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "AI usage generates a fragile codebase",
-          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-          "score_label": "▲ 504 · 💬 482",
+          "title": "My AI agents found an unmapped Maya site?",
+          "url": "https://pietromiotti.com/latest/maya-site",
+          "score_label": "▲ 978 · 💬 356",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,13 +303,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "evanxmerz.com"
+          "domain": "pietromiotti.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Tracking Anthropic-discovered vulnerabilities",
-          "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
-          "score_label": "▲ 391 · 💬 180",
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "score_label": "▲ 531 · 💬 519",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -319,13 +319,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "vulncheck.com"
+          "domain": "cbsnews.com"
         },
         {
           "key": "hackernews:3",
-          "title": "Synaptics patent claims stop work on DisplayLink drivers",
-          "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
-          "score_label": "▲ 375 · 💬 218",
+          "title": "Gemini Decisions API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "score_label": "▲ 409 · 💬 124",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -335,39 +335,35 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "lwn.net"
+          "domain": "blog.google"
         },
         {
           "key": "hackernews:4",
-          "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
-          "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-          "score_label": "▲ 194 · 💬 146",
+          "title": "93% of paint splatters are valid Perl programs (2019)",
+          "url": "https://www.mcmillen.dev/sigbovik/",
+          "score_label": "▲ 394 · 💬 52",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "claude.com"
+          "domain": "mcmillen.dev"
         },
         {
           "key": "hackernews:5",
-          "title": "Apple has new Mac app coming to make running local AI models easy",
-          "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-          "score_label": "▲ 180 · 💬 141",
+          "title": "Emacs in the Age of Magic",
+          "url": "https://commandlinesystems.com/magic.txt",
+          "score_label": "▲ 216 · 💬 91",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "9to5mac.com"
+          "domain": "commandlinesystems.com"
         }
       ]
     },
@@ -378,6 +374,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "腾讯计划将半数员工部署到 AI 原生业务",
+          "url": "https://www.solidot.org/story?sid=85865",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-12",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "AI 生成的代码并不可靠",
+          "url": "https://www.solidot.org/story?sid=85857",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-11",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等",
           "url": "https://sspai.com/post/118905",
           "score_label": "",
@@ -393,7 +421,7 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "生成式 AI 过度美化现实",
           "url": "https://www.solidot.org/story?sid=85847",
           "score_label": "",
@@ -405,54 +433,6 @@
             "Solidot"
           ],
           "meta": "📅 2026-11-10",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:3",
-          "title": "FDA 警告 GLP-1 减肥药可能增加突然失明风险",
-          "url": "https://www.solidot.org/story?sid=85843",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-10",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "高盛限制交易员和银行家使用第三方 AI 智能体",
-          "url": "https://www.solidot.org/story?sid=85838",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-09",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "脚本 Ram Altman 监视 PC 闲置内存然后发邮件给 Sam Altman",
-          "url": "https://www.solidot.org/story?sid=85834",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-09",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -467,7 +447,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 638",
+          "score_label": "👍 644",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -481,7 +461,7 @@
           "key": "juejin:2",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 560",
+          "score_label": "👍 562",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -495,7 +475,7 @@
           "key": "juejin:3",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 211",
+          "score_label": "👍 214",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -509,7 +489,7 @@
           "key": "juejin:4",
           "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
           "url": "https://juejin.cn/post/7696894428150300682",
-          "score_label": "👍 163",
+          "score_label": "👍 164",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -537,5 +517,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 29
 }
