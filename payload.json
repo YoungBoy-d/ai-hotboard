@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-13",
-  "weekday": "周五",
+  "date": "2026-11-14",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 7.1M · 👍 19.8k",
+          "score_label": "⬇ 7.0M · 👍 19.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 482.2k · 👍 16.1k",
+          "score_label": "⬇ 482.2k · 👍 16.2k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 772.9k · 👍 12.0k",
+          "score_label": "⬇ 790.5k · 👍 12.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.8M · 👍 11.7k",
+          "score_label": "⬇ 2.8M · 👍 11.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -197,26 +197,26 @@
       "items": [
         {
           "key": "github:1",
-          "title": "openai/codex-security",
-          "url": "https://github.com/openai/codex-security",
-          "score_label": "★ 643 stars today · ★ 12,696 总",
+          "title": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "score_label": "★ 215 stars today · ★ 50,873 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "Go"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · Go",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:2",
-          "title": "QwenLM/qwen-code",
-          "url": "https://github.com/QwenLM/qwen-code",
-          "score_label": "★ 151 stars today · ★ 30,017 总",
+          "title": "openai/codex-security",
+          "url": "https://github.com/openai/codex-security",
+          "score_label": "★ 751 stars today · ★ 13,289 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -231,52 +231,52 @@
         },
         {
           "key": "github:3",
-          "title": "ashhart/TensorFold",
-          "url": "https://github.com/ashhart/TensorFold",
-          "score_label": "★ 54 stars today · ★ 2,029 总",
+          "title": "ZhuLinsen/daily_stock_analysis",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "score_label": "★ 256 stars today · ★ 71,895 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "Zig"
+            "Python"
           ],
-          "meta": "语言 · Zig",
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:4",
-          "title": "addyosmani/agent-skills",
-          "url": "https://github.com/addyosmani/agent-skills",
-          "score_label": "★ 816 stars today · ★ 116,887 总",
+          "title": "tradermonty/claude-trading-skills",
+          "url": "https://github.com/tradermonty/claude-trading-skills",
+          "score_label": "★ 69 stars today · ★ 4,320 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "JavaScript"
+            "Python"
           ],
-          "meta": "语言 · JavaScript",
+          "meta": "语言 · Python",
           "trend": "",
           "domain": "github.com"
         },
         {
           "key": "github:5",
-          "title": "CopilotKit/OpenBot",
-          "url": "https://github.com/CopilotKit/OpenBot",
-          "score_label": "★ 298 stars today · ★ 11,890 总",
+          "title": "tailscale/tailcat",
+          "url": "https://github.com/tailscale/tailcat",
+          "score_label": "★ 256 stars today · ★ 9,586 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
           "summary": "",
           "tags": [
             "开源",
-            "TypeScript"
+            "Go"
           ],
-          "meta": "语言 · TypeScript",
+          "meta": "语言 · Go",
           "trend": "",
           "domain": "github.com"
         }
@@ -289,9 +289,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Anthropic IPO",
-          "url": "https://ipo.anthropic.com/us/",
-          "score_label": "▲ 910 · 💬 855",
+          "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+          "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+          "score_label": "▲ 736 · 💬 211",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -301,13 +301,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "ipo.anthropic.com"
+          "domain": "scottjg.com"
         },
         {
           "key": "hackernews:2",
-          "title": "Gemini 4 Hydrogen",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-          "score_label": "▲ 519 · 💬 327",
+          "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+          "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+          "score_label": "▲ 410 · 💬 215",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -317,45 +317,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "blog.google"
+          "domain": "techpowerup.com"
         },
         {
           "key": "hackernews:3",
-          "title": "Gemini 4 Hydrogen and Orchestrator",
-          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-          "score_label": "▲ 401 · 💬 108",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "antigravity.google"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "I'm making LLMs work on small and old devices",
-          "url": "https://github.com/hyperionaidev/smolmaxxing/",
-          "score_label": "▲ 347 · 💬 127",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "github.com"
-        },
-        {
-          "key": "hackernews:5",
-          "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-          "score_label": "▲ 220 · 💬 59",
+          "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+          "url": "https://orcasairband.com/",
+          "score_label": "▲ 255 · 💬 59",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -363,7 +331,37 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "edge0.ai"
+          "domain": "orcasairband.com"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+          "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+          "score_label": "▲ 253 · 💬 261",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "youtube.com"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+          "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+          "score_label": "▲ 121 · 💬 21",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "perplexity.ai"
         }
       ]
     },
@@ -374,6 +372,22 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "《幻兽帕鲁》开发商给员工五天假期畅玩 GTA 6",
+          "url": "https://www.solidot.org/story?sid=85879",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-13",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
           "title": "研究生如何用 AI 辅助完成一篇综述：我的科研写作工具与实践经验",
           "url": "https://sspai.com/post/118153",
           "score_label": "",
@@ -389,7 +403,7 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:3",
           "title": "美国扣押了从币安盗走的逾 12 亿美元加密货币",
           "url": "https://www.solidot.org/story?sid=85876",
           "score_label": "",
@@ -405,7 +419,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:4",
           "title": "微软云服务全球宕机",
           "url": "https://www.solidot.org/story?sid=85875",
           "score_label": "",
@@ -421,25 +435,9 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:4",
+          "key": "ai_zh:5",
           "title": "在快 AI 时代，我是怎么把 Mole 做成一款「慢产品」的？",
           "url": "https://sspai.com/post/118512",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-11-13",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等",
-          "url": "https://sspai.com/post/118966",
           "score_label": "",
           "extra": "少数派",
           "source": "ai_zh",
@@ -463,7 +461,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 651",
+          "score_label": "👍 652",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -477,7 +475,7 @@
           "key": "juejin:2",
           "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
           "url": "https://juejin.cn/post/7637856870833635343",
-          "score_label": "👍 563",
+          "score_label": "👍 564",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -491,7 +489,7 @@
           "key": "juejin:3",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 215",
+          "score_label": "👍 216",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -503,9 +501,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
-          "url": "https://juejin.cn/post/7696894428150300682",
-          "score_label": "👍 167",
+          "title": "如何设计一个优秀的 Skills",
+          "url": "https://juejin.cn/post/7664905579035410441",
+          "score_label": "👍 146",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
