@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-20",
-  "weekday": "周五",
+  "date": "2026-11-21",
+  "weekday": "周六",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.6M · 👍 20.7k",
+          "score_label": "⬇ 6.5M · 👍 20.7k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 427.1k · 👍 16.3k",
+          "score_label": "⬇ 419.0k · 👍 16.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 2.9M · 👍 12.8k",
+          "score_label": "⬇ 3.0M · 👍 12.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 734.2k · 👍 12.0k",
+          "score_label": "⬇ 734.8k · 👍 12.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -201,7 +201,7 @@
           "key": "github:1",
           "title": "elementalsouls/Claude-BugHunter",
           "url": "https://github.com/elementalsouls/Claude-BugHunter",
-          "score_label": "★ 1,349 stars today · ★ 13,101 总",
+          "score_label": "★ 1,622 stars today · ★ 14,817 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -218,7 +218,7 @@
           "key": "github:2",
           "title": "jingyaogong/minimind",
           "url": "https://github.com/jingyaogong/minimind",
-          "score_label": "★ 238 stars today · ★ 67,313 总",
+          "score_label": "★ 847 stars today · ★ 67,858 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -235,7 +235,7 @@
           "key": "github:3",
           "title": "openvinotoolkit/openvino",
           "url": "https://github.com/openvinotoolkit/openvino",
-          "score_label": "★ 246 stars today · ★ 11,636 总",
+          "score_label": "★ 217 stars today · ★ 11,844 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -252,7 +252,7 @@
           "key": "github:4",
           "title": "cathrynlavery/diagram-design",
           "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 271 stars today · ★ 68,887 总",
+          "score_label": "★ 636 stars today · ★ 69,473 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -269,7 +269,7 @@
           "key": "github:5",
           "title": "mvanhorn/last30days-skill",
           "url": "https://github.com/mvanhorn/last30days-skill",
-          "score_label": "★ 954 stars today · ★ 71,061 总",
+          "score_label": "★ 681 stars today · ★ 71,618 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -291,9 +291,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Anthropic’s Nasdaq debut",
-          "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-          "score_label": "▲ 1066 · 💬 2092",
+          "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+          "url": "https://alpo.ge/remark.pdf",
+          "score_label": "▲ 2567 · 💬 1777",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,13 +303,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "reuters.com"
+          "domain": "alpo.ge"
         },
         {
           "key": "hackernews:2",
-          "title": "Garage Door Spam",
-          "url": "https://blog.harrison.page/garage-door-spam/",
-          "score_label": "▲ 849 · 💬 353",
+          "title": "Language Models Can Rewrite Their Own Weights",
+          "url": "https://arxiv.org/abs/2611.21885",
+          "score_label": "▲ 394 · 💬 117",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -319,13 +319,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "blog.harrison.page"
+          "domain": "arxiv.org"
         },
         {
           "key": "hackernews:3",
-          "title": "Claude solves two open problems in the physics of black holes",
-          "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-          "score_label": "▲ 488 · 💬 222",
+          "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "score_label": "▲ 276 · 💬 545",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -335,39 +335,35 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "anthropic.com"
+          "domain": "theguardian.com"
         },
         {
           "key": "hackernews:4",
-          "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
-          "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
-          "score_label": "▲ 270 · 💬 144",
+          "title": "NINLIVE: The Nine Inch Nails live archive",
+          "url": "https://ninlive.com/",
+          "score_label": "▲ 232 · 💬 59",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "globalcommercegraph.com"
+          "domain": "ninlive.com"
         },
         {
           "key": "hackernews:5",
-          "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
-          "url": "https://thedataexchange.media/pete-warden-moonshine/",
-          "score_label": "▲ 233 · 💬 211",
+          "title": "Vibecoding an inference chip",
+          "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+          "score_label": "▲ 139 · 💬 58",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "thedataexchange.media"
+          "domain": "ankitg.me"
         }
       ]
     },
@@ -378,6 +374,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "Anthropic 的数论学家声称证明黎曼猜想",
+          "url": "https://www.solidot.org/story?sid=85949",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-20",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "阿里巴巴警告未来两年算力紧缺",
+          "url": "https://www.solidot.org/story?sid=85947",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-20",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
           "url": "https://sspai.com/post/119311",
           "score_label": "",
@@ -393,7 +421,7 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "IEA 警告称到 2030 年数据中心碳排放量将增加七成",
           "url": "https://www.solidot.org/story?sid=85937",
           "score_label": "",
@@ -409,41 +437,9 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:5",
           "title": "全球专利申请量创新高",
           "url": "https://www.solidot.org/story?sid=85933",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-19",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "黄仁勋的下台可能削弱开放权重模型让闭源模型受益",
-          "url": "https://www.solidot.org/story?sid=85932",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-19",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "微软官方 agent-framework 软件包被黑客劫持安装恶意程序",
-          "url": "https://www.solidot.org/story?sid=85931",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -467,7 +463,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 671",
+          "score_label": "👍 670",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -481,7 +477,7 @@
           "key": "juejin:2",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 224",
+          "score_label": "👍 227",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -493,9 +489,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
-          "url": "https://juejin.cn/post/7696894428150300682",
-          "score_label": "👍 179",
+          "title": "DeepSeek Harness 值得安装的 15 款插件",
+          "url": "https://juejin.cn/post/7675273747710001206",
+          "score_label": "👍 123",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -507,9 +503,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "🍉 我把《天龙八部》喂给了 AI，问它\"段誉会什么武功？\"答案让我惊呆了",
-          "url": "https://juejin.cn/post/7671078538116546575",
-          "score_label": "👍 126",
+          "title": "一个人+AI做情侣食谱小程序，30天纯赚",
+          "url": "https://juejin.cn/post/7691030977348108351",
+          "score_label": "👍 101",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -521,9 +517,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "一个人+AI做情侣食谱小程序，30天纯赚",
-          "url": "https://juejin.cn/post/7691030977348108351",
-          "score_label": "👍 103",
+          "title": "Spring AI Alibaba已停更了，Java还有希望吗？",
+          "url": "https://juejin.cn/post/7693821701955567670",
+          "score_label": "👍 93",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
