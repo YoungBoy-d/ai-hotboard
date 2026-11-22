@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-21",
-  "weekday": "周六",
+  "date": "2026-11-22",
+  "weekday": "周日",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.5M · 👍 20.7k",
+          "score_label": "⬇ 6.3M · 👍 20.8k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 419.0k · 👍 16.3k",
+          "score_label": "⬇ 407.3k · 👍 16.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 3.0M · 👍 12.8k",
+          "score_label": "⬇ 3.0M · 👍 13.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 734.8k · 👍 12.0k",
+          "score_label": "⬇ 731.0k · 👍 12.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -201,7 +201,7 @@
           "key": "github:1",
           "title": "elementalsouls/Claude-BugHunter",
           "url": "https://github.com/elementalsouls/Claude-BugHunter",
-          "score_label": "★ 1,622 stars today · ★ 14,817 总",
+          "score_label": "★ 1,803 stars today · ★ 16,528 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -218,7 +218,7 @@
           "key": "github:2",
           "title": "jingyaogong/minimind",
           "url": "https://github.com/jingyaogong/minimind",
-          "score_label": "★ 847 stars today · ★ 67,858 总",
+          "score_label": "★ 488 stars today · ★ 68,302 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -235,7 +235,7 @@
           "key": "github:3",
           "title": "openvinotoolkit/openvino",
           "url": "https://github.com/openvinotoolkit/openvino",
-          "score_label": "★ 217 stars today · ★ 11,844 总",
+          "score_label": "★ 200 stars today · ★ 11,991 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -252,7 +252,7 @@
           "key": "github:4",
           "title": "cathrynlavery/diagram-design",
           "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 636 stars today · ★ 69,473 总",
+          "score_label": "★ 583 stars today · ★ 69,959 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -269,7 +269,7 @@
           "key": "github:5",
           "title": "mvanhorn/last30days-skill",
           "url": "https://github.com/mvanhorn/last30days-skill",
-          "score_label": "★ 681 stars today · ★ 71,618 总",
+          "score_label": "★ 560 stars today · ★ 72,225 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -291,41 +291,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-          "url": "https://alpo.ge/remark.pdf",
-          "score_label": "▲ 2567 · 💬 1777",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "alpo.ge"
-        },
-        {
-          "key": "hackernews:2",
-          "title": "Language Models Can Rewrite Their Own Weights",
-          "url": "https://arxiv.org/abs/2611.21885",
-          "score_label": "▲ 394 · 💬 117",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "hackernews:3",
-          "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-          "score_label": "▲ 276 · 💬 545",
+          "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+          "score_label": "▲ 914 · 💬 207",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -338,10 +306,26 @@
           "domain": "theguardian.com"
         },
         {
-          "key": "hackernews:4",
-          "title": "NINLIVE: The Nine Inch Nails live archive",
-          "url": "https://ninlive.com/",
-          "score_label": "▲ 232 · 💬 59",
+          "key": "hackernews:2",
+          "title": "LLMs can read and write executables byte by byte from a hex dump",
+          "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+          "score_label": "▲ 232 · 💬 149",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "sgiannopoulos.github.io"
+        },
+        {
+          "key": "hackernews:3",
+          "title": "Data Processing Incidents on Inference Providers",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "score_label": "▲ 118 · 💬 47",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -349,13 +333,27 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "ninlive.com"
+          "domain": "openrouter.ai"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "Pandex – Official European Law for AI Agents, over MCP",
+          "url": "https://www.pandex.io",
+          "score_label": "▲ 75 · 💬 14",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "pandex.io"
         },
         {
           "key": "hackernews:5",
-          "title": "Vibecoding an inference chip",
-          "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
-          "score_label": "▲ 139 · 💬 58",
+          "title": "AI Supply Chain Security: What Canary Tokens Found",
+          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "score_label": "▲ 64 · 💬 8",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -363,7 +361,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "ankitg.me"
+          "domain": "dragos.com"
         }
       ]
     },
@@ -374,6 +372,22 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "人类数学家匆忙发布广义黎曼猜想的证明手稿",
+          "url": "https://www.solidot.org/story?sid=85952",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-21",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:2",
           "title": "Anthropic 的数论学家声称证明黎曼猜想",
           "url": "https://www.solidot.org/story?sid=85949",
           "score_label": "",
@@ -389,7 +403,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:3",
           "title": "阿里巴巴警告未来两年算力紧缺",
           "url": "https://www.solidot.org/story?sid=85947",
           "score_label": "",
@@ -405,7 +419,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:4",
           "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
           "url": "https://sspai.com/post/119311",
           "score_label": "",
@@ -421,25 +435,9 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:4",
+          "key": "ai_zh:5",
           "title": "IEA 警告称到 2030 年数据中心碳排放量将增加七成",
           "url": "https://www.solidot.org/story?sid=85937",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-19",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "全球专利申请量创新高",
-          "url": "https://www.solidot.org/story?sid=85933",
           "score_label": "",
           "extra": "Solidot",
           "source": "ai_zh",
@@ -463,7 +461,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 670",
+          "score_label": "👍 671",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -475,6 +473,20 @@
         },
         {
           "key": "juejin:2",
+          "title": "AI会让程序员失业吗？200年前的手工织工已经给出了答案",
+          "url": "https://juejin.cn/post/7685276242113019938",
+          "score_label": "👍 242",
+          "extra": "",
+          "source": "juejin",
+          "source_label": "掘金 AI",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "juejin.cn"
+        },
+        {
+          "key": "juejin:3",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
           "score_label": "👍 227",
@@ -488,24 +500,10 @@
           "domain": "juejin.cn"
         },
         {
-          "key": "juejin:3",
-          "title": "DeepSeek Harness 值得安装的 15 款插件",
-          "url": "https://juejin.cn/post/7675273747710001206",
-          "score_label": "👍 123",
-          "extra": "",
-          "source": "juejin",
-          "source_label": "掘金 AI",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "juejin.cn"
-        },
-        {
           "key": "juejin:4",
           "title": "一个人+AI做情侣食谱小程序，30天纯赚",
           "url": "https://juejin.cn/post/7691030977348108351",
-          "score_label": "👍 101",
+          "score_label": "👍 103",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
