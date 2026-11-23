@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-22",
-  "weekday": "周日",
+  "date": "2026-11-23",
+  "weekday": "周一",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.3M · 👍 20.8k",
+          "score_label": "⬇ 6.3M · 👍 21.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 407.3k · 👍 16.3k",
+          "score_label": "⬇ 395.9k · 👍 16.3k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 1.6M · 👍 14.5k",
+          "score_label": "⬇ 1.5M · 👍 14.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 3.0M · 👍 13.0k",
+          "score_label": "⬇ 3.0M · 👍 13.1k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -80,7 +80,7 @@
           "key": "hf:5",
           "title": "moonshotai/Kimi-K3",
           "url": "https://huggingface.co/moonshotai/Kimi-K3",
-          "score_label": "⬇ 731.0k · 👍 12.0k",
+          "score_label": "⬇ 718.5k · 👍 12.0k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -102,62 +102,78 @@
       "items": [
         {
           "key": "arxiv:1",
-          "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
-          "url": "http://arxiv.org/abs/2611.26627v1",
+          "title": "Optimal Linear Regression Without a Variance",
+          "url": "http://arxiv.org/abs/2611.27983v1",
           "score_label": "",
-          "extra": "cs.CV",
+          "extra": "stat.ML",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "CV",
-            "ML"
+            "ML",
+            "AI"
           ],
-          "meta": "作者 · Tuna Han Salih Meral, Kaan Oktay, Alec Helbling  ·  📅 2026-11-19  ·  📄 PDF",
+          "meta": "作者 · Artin Tajdini, Jasper C. H. Lee, Jonathan Scarlett  ·  📅 2026-11-20  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:2",
-          "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
-          "url": "http://arxiv.org/abs/2611.26624v1",
+          "title": "A Methodologically Rigorous Benchmark of Linear Regression,RNN, and LSTM for S&P 500 Forecasting:Identifying Sources of Performance Inflation in Financial DeepLearning",
+          "url": "http://arxiv.org/abs/2611.27978v1",
           "score_label": "",
-          "extra": "cs.AI",
+          "extra": "cs.LG",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "AI",
-            "CV"
+            "ML"
           ],
-          "meta": "作者 · Weihao Cheng  ·  📅 2026-11-19  ·  📄 PDF",
+          "meta": "作者 · Hari Sitaula, Joseph Opitz  ·  📅 2026-11-20  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:3",
-          "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
-          "url": "http://arxiv.org/abs/2611.26619v1",
+          "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+          "url": "http://arxiv.org/abs/2611.27973v1",
           "score_label": "",
-          "extra": "cs.DC",
+          "extra": "cs.CL",
           "source": "arxiv",
           "source_label": "arXiv 论文",
           "summary": "",
           "tags": [
             "论文",
-            "cs.DC",
-            "ML"
+            "NLP"
           ],
-          "meta": "作者 · Jinbin Luo, Xiaozhe Yao, Shang Yang  ·  📅 2026-11-19  ·  📄 PDF",
+          "meta": "作者 · Chang Nie, Chaoyou Fu, Songlin Liu  ·  📅 2026-11-20  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         },
         {
           "key": "arxiv:4",
-          "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-          "url": "http://arxiv.org/abs/2611.26617v1",
+          "title": "On the Complete Feature Set for ADHD Classification in Children and Adolescents Based on EEG Signals",
+          "url": "http://arxiv.org/abs/2611.27970v1",
+          "score_label": "",
+          "extra": "cs.LG",
+          "source": "arxiv",
+          "source_label": "arXiv 论文",
+          "summary": "",
+          "tags": [
+            "论文",
+            "ML",
+            "eess.SP"
+          ],
+          "meta": "作者 · Javier Sanchis, Álvaro Navarro, Jorge García-Carrasco  ·  📅 2026-11-20  ·  📄 PDF",
+          "trend": "",
+          "domain": "arxiv.org"
+        },
+        {
+          "key": "arxiv:5",
+          "title": "Non-penetrating World Models",
+          "url": "http://arxiv.org/abs/2611.27963v1",
           "score_label": "",
           "extra": "cs.CV",
           "source": "arxiv",
@@ -168,25 +184,7 @@
             "CV",
             "AI"
           ],
-          "meta": "作者 · Yuxin Jiang, Wenqiang Sun, Jiaqi Li  ·  📅 2026-11-19  ·  📄 PDF",
-          "trend": "",
-          "domain": "arxiv.org"
-        },
-        {
-          "key": "arxiv:5",
-          "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
-          "url": "http://arxiv.org/abs/2611.26613v1",
-          "score_label": "",
-          "extra": "cs.RO",
-          "source": "arxiv",
-          "source_label": "arXiv 论文",
-          "summary": "",
-          "tags": [
-            "论文",
-            "机器人",
-            "NLP"
-          ],
-          "meta": "作者 · Yiyang Du, Yuxuan Kuang, Qitao Zhao  ·  📅 2026-11-19  ·  📄 PDF",
+          "meta": "作者 · Yuhang Dai, Yinwei Wu, Ziyue Lin  ·  📅 2026-11-20  ·  📄 PDF",
           "trend": "",
           "domain": "arxiv.org"
         }
@@ -201,7 +199,7 @@
           "key": "github:1",
           "title": "elementalsouls/Claude-BugHunter",
           "url": "https://github.com/elementalsouls/Claude-BugHunter",
-          "score_label": "★ 1,803 stars today · ★ 16,528 总",
+          "score_label": "★ 1,716 stars today · ★ 18,592 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -218,7 +216,7 @@
           "key": "github:2",
           "title": "jingyaogong/minimind",
           "url": "https://github.com/jingyaogong/minimind",
-          "score_label": "★ 488 stars today · ★ 68,302 总",
+          "score_label": "★ 473 stars today · ★ 69,107 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -235,7 +233,7 @@
           "key": "github:3",
           "title": "openvinotoolkit/openvino",
           "url": "https://github.com/openvinotoolkit/openvino",
-          "score_label": "★ 200 stars today · ★ 11,991 总",
+          "score_label": "★ 158 stars today · ★ 12,172 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -252,7 +250,7 @@
           "key": "github:4",
           "title": "cathrynlavery/diagram-design",
           "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 583 stars today · ★ 69,959 总",
+          "score_label": "★ 518 stars today · ★ 70,575 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -269,7 +267,7 @@
           "key": "github:5",
           "title": "mvanhorn/last30days-skill",
           "url": "https://github.com/mvanhorn/last30days-skill",
-          "score_label": "★ 560 stars today · ★ 72,225 总",
+          "score_label": "★ 668 stars today · ★ 73,038 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -291,9 +289,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-          "score_label": "▲ 914 · 💬 207",
+          "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "score_label": "▲ 487 · 💬 201",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -303,29 +301,27 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "theguardian.com"
+          "domain": "gpupartner.com"
         },
         {
           "key": "hackernews:2",
-          "title": "LLMs can read and write executables byte by byte from a hex dump",
-          "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
-          "score_label": "▲ 232 · 💬 149",
+          "title": "Show HN: I built a game where you are an LLM's subagent",
+          "url": "https://github.com/gulivan/worker755",
+          "score_label": "▲ 314 · 💬 77",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
           "summary": "",
-          "tags": [
-            "热议"
-          ],
+          "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "sgiannopoulos.github.io"
+          "domain": "github.com"
         },
         {
           "key": "hackernews:3",
-          "title": "Data Processing Incidents on Inference Providers",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-          "score_label": "▲ 118 · 💬 47",
+          "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+          "url": "https://0rwx.com/",
+          "score_label": "▲ 52 · 💬 13",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -333,13 +329,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "openrouter.ai"
+          "domain": "0rwx.com"
         },
         {
           "key": "hackernews:4",
-          "title": "Pandex – Official European Law for AI Agents, over MCP",
-          "url": "https://www.pandex.io",
-          "score_label": "▲ 75 · 💬 14",
+          "title": "Brake Check: Hijacking Trailer Brakes over Bluetooth",
+          "url": "https://elementdigital.com.au/blog/brake-check-trailer-brakes-over-bluetooth/",
+          "score_label": "▲ 16 · 💬 3",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -347,21 +343,7 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "pandex.io"
-        },
-        {
-          "key": "hackernews:5",
-          "title": "AI Supply Chain Security: What Canary Tokens Found",
-          "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
-          "score_label": "▲ 64 · 💬 8",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [],
-          "meta": "",
-          "trend": "",
-          "domain": "dragos.com"
+          "domain": "elementdigital.com.au"
         }
       ]
     },
@@ -372,6 +354,38 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "派早报：Anthropic 研究员宣称用 Claude 证明黎曼猜想",
+          "url": "https://sspai.com/post/119418",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-11-22",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
+          "title": "Anthropic 到 2028 年使用的电力 98% 来自化石燃料",
+          "url": "https://www.solidot.org/story?sid=85959",
+          "score_label": "",
+          "extra": "Solidot",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "Solidot"
+          ],
+          "meta": "📅 2026-11-22",
+          "trend": "",
+          "domain": "solidot.org"
+        },
+        {
+          "key": "ai_zh:3",
           "title": "人类数学家匆忙发布广义黎曼猜想的证明手稿",
           "url": "https://www.solidot.org/story?sid=85952",
           "score_label": "",
@@ -387,7 +401,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:4",
           "title": "Anthropic 的数论学家声称证明黎曼猜想",
           "url": "https://www.solidot.org/story?sid=85949",
           "score_label": "",
@@ -403,7 +417,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:5",
           "title": "阿里巴巴警告未来两年算力紧缺",
           "url": "https://www.solidot.org/story?sid=85947",
           "score_label": "",
@@ -415,38 +429,6 @@
             "Solidot"
           ],
           "meta": "📅 2026-11-20",
-          "trend": "",
-          "domain": "solidot.org"
-        },
-        {
-          "key": "ai_zh:4",
-          "title": "派早报：Google 推出 Gemini 4 Neon 模型，网易 UU 远程将于 12 月推出付费会员等",
-          "url": "https://sspai.com/post/119311",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-11-20",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "IEA 警告称到 2030 年数据中心碳排放量将增加七成",
-          "url": "https://www.solidot.org/story?sid=85937",
-          "score_label": "",
-          "extra": "Solidot",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "Solidot"
-          ],
-          "meta": "📅 2026-11-19",
           "trend": "",
           "domain": "solidot.org"
         }
@@ -461,7 +443,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 671",
+          "score_label": "👍 677",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -475,7 +457,7 @@
           "key": "juejin:2",
           "title": "AI会让程序员失业吗？200年前的手工织工已经给出了答案",
           "url": "https://juejin.cn/post/7685276242113019938",
-          "score_label": "👍 242",
+          "score_label": "👍 245",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -489,7 +471,7 @@
           "key": "juejin:3",
           "title": "从codex转战workbuddy使用一周的感受",
           "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 227",
+          "score_label": "👍 228",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -501,9 +483,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "一个人+AI做情侣食谱小程序，30天纯赚",
-          "url": "https://juejin.cn/post/7691030977348108351",
-          "score_label": "👍 103",
+          "title": "为什么不推荐走Agent开发？",
+          "url": "https://juejin.cn/post/7683457864929329204",
+          "score_label": "👍 157",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -515,9 +497,9 @@
         },
         {
           "key": "juejin:5",
-          "title": "Spring AI Alibaba已停更了，Java还有希望吗？",
-          "url": "https://juejin.cn/post/7693821701955567670",
-          "score_label": "👍 93",
+          "title": "一个人+AI做情侣食谱小程序，30天纯赚",
+          "url": "https://juejin.cn/post/7691030977348108351",
+          "score_label": "👍 104",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -531,5 +513,5 @@
     }
   ],
   "source_count": 6,
-  "total": 30
+  "total": 29
 }
