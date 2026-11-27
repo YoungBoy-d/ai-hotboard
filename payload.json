@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-26",
-  "weekday": "周四",
+  "date": "2026-11-27",
+  "weekday": "周五",
   "editorial": [],
   "sources": [
     {
@@ -12,7 +12,7 @@
           "key": "hf:1",
           "title": "Qwen/Qwen3.8-27B",
           "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
-          "score_label": "⬇ 6.0M · 👍 21.8k",
+          "score_label": "⬇ 6.0M · 👍 21.9k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -29,7 +29,7 @@
           "key": "hf:2",
           "title": "black-forest-labs/FLUX.1-dev",
           "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-          "score_label": "⬇ 408.8k · 👍 16.4k",
+          "score_label": "⬇ 400.4k · 👍 16.4k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -46,7 +46,7 @@
           "key": "hf:3",
           "title": "deepseek-ai/DeepSeek-R1",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
-          "score_label": "⬇ 1.5M · 👍 14.5k",
+          "score_label": "⬇ 1.4M · 👍 14.5k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -63,7 +63,7 @@
           "key": "hf:4",
           "title": "Lightricks/LTX-2.5",
           "url": "https://huggingface.co/Lightricks/LTX-2.5",
-          "score_label": "⬇ 3.0M · 👍 13.5k",
+          "score_label": "⬇ 3.0M · 👍 13.6k",
           "extra": "",
           "source": "hf",
           "source_label": "HuggingFace 模型",
@@ -200,7 +200,7 @@
           "key": "github:1",
           "title": "elementalsouls/Claude-BugHunter",
           "url": "https://github.com/elementalsouls/Claude-BugHunter",
-          "score_label": "★ 1,652 stars today · ★ 23,616 总",
+          "score_label": "★ 1,597 stars today · ★ 25,213 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -217,7 +217,7 @@
           "key": "github:2",
           "title": "jingyaogong/minimind",
           "url": "https://github.com/jingyaogong/minimind",
-          "score_label": "★ 826 stars today · ★ 71,327 总",
+          "score_label": "★ 702 stars today · ★ 71,977 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -234,7 +234,7 @@
           "key": "github:3",
           "title": "openvinotoolkit/openvino",
           "url": "https://github.com/openvinotoolkit/openvino",
-          "score_label": "★ 191 stars today · ★ 12,723 总",
+          "score_label": "★ 176 stars today · ★ 12,874 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -251,7 +251,7 @@
           "key": "github:4",
           "title": "cathrynlavery/diagram-design",
           "url": "https://github.com/cathrynlavery/diagram-design",
-          "score_label": "★ 1,141 stars today · ★ 73,425 总",
+          "score_label": "★ 955 stars today · ★ 74,156 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -268,7 +268,7 @@
           "key": "github:5",
           "title": "mvanhorn/last30days-skill",
           "url": "https://github.com/mvanhorn/last30days-skill",
-          "score_label": "★ 945 stars today · ★ 75,389 总",
+          "score_label": "★ 759 stars today · ★ 76,034 总",
           "extra": "",
           "source": "github",
           "source_label": "GitHub AI 仓库",
@@ -290,9 +290,9 @@
       "items": [
         {
           "key": "hackernews:1",
-          "title": "Much shorter version of GRH Lean verification from Anthropic",
-          "url": "https://github.com/lsernau/grh-lean",
-          "score_label": "▲ 452 · 💬 230",
+          "title": "AI made self-hosting fun again",
+          "url": "https://janlukas.blog/posts/ai-self-hosting",
+          "score_label": "▲ 681 · 💬 341",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -302,45 +302,13 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "github.com"
+          "domain": "janlukas.blog"
         },
         {
           "key": "hackernews:2",
-          "title": "The New York Times warns photographers not to update Photoshop over AI features",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-          "score_label": "▲ 380 · 💬 321",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "theverge.com"
-        },
-        {
-          "key": "hackernews:3",
-          "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-          "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
-          "score_label": "▲ 369 · 💬 105",
-          "extra": "",
-          "source": "hackernews",
-          "source_label": "Hacker News",
-          "summary": "",
-          "tags": [
-            "热议"
-          ],
-          "meta": "",
-          "trend": "",
-          "domain": "bjin.github.io"
-        },
-        {
-          "key": "hackernews:4",
-          "title": "Tell HN: Lots of Ask HNs again",
-          "url": "https://news.ycombinator.com/item?id=50649864",
-          "score_label": "▲ 260 · 💬 98",
+          "title": "AMD-specific fork of llama.cpp",
+          "url": "https://devnull.land/amd-specific-llama-cpp",
+          "score_label": "▲ 356 · 💬 85",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -348,13 +316,13 @@
           "tags": [],
           "meta": "",
           "trend": "",
-          "domain": "news.ycombinator.com"
+          "domain": "devnull.land"
         },
         {
-          "key": "hackernews:5",
-          "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-          "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-          "score_label": "▲ 234 · 💬 118",
+          "key": "hackernews:3",
+          "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+          "score_label": "▲ 328 · 💬 295",
           "extra": "",
           "source": "hackernews",
           "source_label": "Hacker News",
@@ -364,7 +332,37 @@
           ],
           "meta": "",
           "trend": "",
-          "domain": "twitter.com"
+          "domain": "techstackups.com"
+        },
+        {
+          "key": "hackernews:4",
+          "title": "The USAID Files",
+          "url": "https://reclaimthenet.org/usaid-files",
+          "score_label": "▲ 254 · 💬 322",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [
+            "热议"
+          ],
+          "meta": "",
+          "trend": "",
+          "domain": "reclaimthenet.org"
+        },
+        {
+          "key": "hackernews:5",
+          "title": "An algebraic quantization of gravity from the null cone",
+          "url": "https://arxiv.org/abs/2611.34924",
+          "score_label": "▲ 239 · 💬 95",
+          "extra": "",
+          "source": "hackernews",
+          "source_label": "Hacker News",
+          "summary": "",
+          "tags": [],
+          "meta": "",
+          "trend": "",
+          "domain": "arxiv.org"
         }
       ]
     },
@@ -375,6 +373,22 @@
       "items": [
         {
           "key": "ai_zh:1",
+          "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
+          "url": "https://sspai.com/post/116773",
+          "score_label": "",
+          "extra": "少数派",
+          "source": "ai_zh",
+          "source_label": "中文 AI 资讯",
+          "summary": "",
+          "tags": [
+            "少数派"
+          ],
+          "meta": "📅 2026-11-26",
+          "trend": "",
+          "domain": "sspai.com"
+        },
+        {
+          "key": "ai_zh:2",
           "title": "图库平台充斥着生成式 AI 图像",
           "url": "https://www.solidot.org/story?sid=85999",
           "score_label": "",
@@ -390,7 +404,7 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:2",
+          "key": "ai_zh:3",
           "title": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图",
           "url": "https://sspai.com/post/119563",
           "score_label": "",
@@ -406,7 +420,7 @@
           "domain": "sspai.com"
         },
         {
-          "key": "ai_zh:3",
+          "key": "ai_zh:4",
           "title": "纽约时报警告摄影师不要升级到内置 AI 功能的 Photoshop",
           "url": "https://www.solidot.org/story?sid=85994",
           "score_label": "",
@@ -422,25 +436,9 @@
           "domain": "solidot.org"
         },
         {
-          "key": "ai_zh:4",
+          "key": "ai_zh:5",
           "title": "我用AI做了一张两千年的中国历史地图",
           "url": "https://sspai.com/post/117510",
-          "score_label": "",
-          "extra": "少数派",
-          "source": "ai_zh",
-          "source_label": "中文 AI 资讯",
-          "summary": "",
-          "tags": [
-            "少数派"
-          ],
-          "meta": "📅 2026-11-26",
-          "trend": "",
-          "domain": "sspai.com"
-        },
-        {
-          "key": "ai_zh:5",
-          "title": "派早报：蔚来举办 2026 创新科技日、Tidal 将拒绝 AI 音乐等",
-          "url": "https://sspai.com/post/119560",
           "score_label": "",
           "extra": "少数派",
           "source": "ai_zh",
@@ -464,7 +462,7 @@
           "key": "juejin:1",
           "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
           "url": "https://juejin.cn/post/7655245911811784750",
-          "score_label": "👍 688",
+          "score_label": "👍 691",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -476,9 +474,9 @@
         },
         {
           "key": "juejin:2",
-          "title": "AI会让程序员失业吗？200年前的手工织工已经给出了答案",
-          "url": "https://juejin.cn/post/7685276242113019938",
-          "score_label": "👍 251",
+          "title": "Cursor 转 Codex 大半个月，聊聊我的真实感受",
+          "url": "https://juejin.cn/post/7637856870833635343",
+          "score_label": "👍 570",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -490,9 +488,9 @@
         },
         {
           "key": "juejin:3",
-          "title": "从codex转战workbuddy使用一周的感受",
-          "url": "https://juejin.cn/post/7684460980934049807",
-          "score_label": "👍 230",
+          "title": "AI会让程序员失业吗？200年前的手工织工已经给出了答案",
+          "url": "https://juejin.cn/post/7685276242113019938",
+          "score_label": "👍 252",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -504,9 +502,9 @@
         },
         {
           "key": "juejin:4",
-          "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
-          "url": "https://juejin.cn/post/7694835192107860009",
-          "score_label": "👍 181",
+          "title": "从codex转战workbuddy使用一周的感受",
+          "url": "https://juejin.cn/post/7684460980934049807",
+          "score_label": "👍 231",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
@@ -518,9 +516,9 @@
         },
         {
           "key": "juejin:5",
-          "title": " 2028编程圈很火的10个Skills",
-          "url": "https://juejin.cn/post/7695999629460029466",
-          "score_label": "👍 93",
+          "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
+          "url": "https://juejin.cn/post/7694835192107860009",
+          "score_label": "👍 183",
           "extra": "",
           "source": "juejin",
           "source_label": "掘金 AI",
